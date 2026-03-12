@@ -3,7 +3,6 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.5 }}>
-      {/* Hero */}
       <section
         style={{
           position: "relative",
@@ -51,7 +50,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Core Curriculum */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div
           style={{
@@ -119,7 +117,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Novels */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
         <div
           style={{
@@ -181,7 +178,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Pathways */}
       <section id="pathways" style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
@@ -228,7 +224,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Why AI Literacy Matters */}
       <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
@@ -254,7 +249,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* About */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <h2 style={{ fontSize: 40 }}>About the Program</h2>
