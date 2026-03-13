@@ -151,7 +151,7 @@ export default function Page() {
   style={{
     display: "flex",
     justifyContent: "center",
-    gap: 30,
+    gap: 35,
     flexWrap: "wrap",
   }}
 >
@@ -159,7 +159,7 @@ export default function Page() {
     src="/images/neolithic.jpg"
     alt="The Neolithic novel"
     style={{
-      width: 150,
+      width: 180,
       borderRadius: 12,
       boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
     }}
@@ -169,7 +169,7 @@ export default function Page() {
     src="/images/threshold.jpg"
     alt="The Threshold novel"
     style={{
-      width: 150,
+      width: 180,
       borderRadius: 12,
       boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
     }}
