@@ -151,7 +151,7 @@ export default function Page() {
   style={{
     display: "flex",
     justifyContent: "center",
-    gap: 24,
+    gap: 30,
     flexWrap: "wrap",
   }}
 >
