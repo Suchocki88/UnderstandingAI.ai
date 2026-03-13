@@ -147,28 +147,34 @@ export default function Page() {
             alignItems: "center",
           }}
         >
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <div
-              style={{
-                width: "100%",
-                maxWidth: 380,
-                minHeight: 280,
-                borderRadius: 16,
-                border: "1px solid #d1d5db",
-                background: "#ffffff",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                color: "#6b7280",
-                textAlign: "center",
-                padding: 20,
-              }}
-            >
-              Novel image placeholder
-              <br />
-              /public/images/novels-illustration.png
-            </div>
-          </div>
+          <div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: 24,
+    flexWrap: "wrap",
+  }}
+>
+  <img
+    src="/images/neolithic.jpg"
+    alt="The Neolithic novel"
+    style={{
+      width: 220,
+      borderRadius: 12,
+      boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+    }}
+  />
+
+  <img
+    src="/images/threshold.jpg"
+    alt="The Threshold novel"
+    style={{
+      width: 220,
+      borderRadius: 12,
+      boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+    }}
+  />
+</div>
 
           <div>
             <p
