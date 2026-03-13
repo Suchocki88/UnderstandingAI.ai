@@ -4,51 +4,43 @@ export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.5 }}>
       <section
-        style={{
-          position: "relative",
-          overflow: "hidden",
-          background: "linear-gradient(135deg, #0f172a, #1e3a8a)",
-          color: "white",
-          padding: "96px 24px",
-        }}
-      >
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <h1 style={{ fontSize: 56, lineHeight: 1.05, margin: 0 }}>
-            Understanding and Working with AI
-          </h1>
-          <p style={{ marginTop: 24, fontSize: 22, maxWidth: 760, opacity: 0.9 }}>
-            A cross-disciplinary approach to learning how artificial intelligence works and how to work thoughtfully with AI.
-          </p>
-          <div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginTop: 32 }}>
-            <Link
-              href="/curriculum"
-              style={{
-                background: "#f59e0b",
-                color: "#111827",
-                padding: "14px 22px",
-                borderRadius: 10,
-                textDecoration: "none",
-                fontWeight: 700,
-              }}
-            >
-              Explore the Curriculum
-            </Link>
-            <a
-              href="#pathways"
-              style={{
-                border: "2px solid rgba(255,255,255,0.4)",
-                color: "white",
-                padding: "12px 22px",
-                borderRadius: 10,
-                textDecoration: "none",
-                fontWeight: 700,
-              }}
-            >
-              Choose Your Pathway
-            </a>
-          </div>
-        </div>
-      </section>
+  style={{
+    position: "relative",
+    backgroundImage: "url('/images/hero-ai.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    padding: "160px 24px",
+    color: "white"
+  }}
+>
+
+<div
+  style={{
+    position: "absolute",
+    inset: 0,
+    background: "rgba(0,0,0,0.45)"
+  }}
+/>
+
+<div
+  style={{
+    maxWidth: 1100,
+    margin: "0 auto",
+    position: "relative",
+    zIndex: 1
+  }}
+>
+
+<h1 style={{ fontSize: 56, lineHeight: 1.05, margin: 0 }}>
+  Understanding and Working with AI
+</h1>
+
+<p style={{ marginTop: 24, fontSize: 22, maxWidth: 760, opacity: 0.9 }}>
+  A cross-disciplinary approach to learning how artificial intelligence works
+</p>
+
+</div>
+</section>
 
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div
