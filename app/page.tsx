@@ -148,33 +148,33 @@ export default function Page() {
           }}
         >
           <div
-  style={{
-    display: "flex",
-    justifyContent: "center",
-    gap: 35,
-    flexWrap: "wrap",
-  }}
->
-  <img
-    src="/images/neolithic.jpg"
-    alt="The Neolithic novel"
-    style={{
-      width: 185,
-      borderRadius: 12,
-      boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-    }}
-  />
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              gap: 35,
+              flexWrap: "wrap",
+            }}
+          >
+            <img
+              src="/images/neolithic.jpg"
+              alt="The Neolithic novel"
+              style={{
+                width: 185,
+                borderRadius: 12,
+                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+              }}
+            />
 
-  <img
-    src="/images/threshold.jpg"
-    alt="The Threshold novel"
-    style={{
-      width: 185,
-      borderRadius: 12,
-      boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-    }}
-  />
-</div>
+            <img
+              src="/images/threshold.jpg"
+              alt="The Threshold novel"
+              style={{
+                width: 185,
+                borderRadius: 12,
+                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
+              }}
+            />
+          </div>
 
           <div>
             <p
@@ -260,6 +260,15 @@ export default function Page() {
                 padding: 24,
               }}
             >
+              <img
+                src="/images/pocketlab-logo.png"
+                alt="PocketLab"
+                style={{
+                  height: 44,
+                  marginBottom: 16,
+                  display: "block",
+                }}
+              />
               <h3>PocketLab</h3>
               <p style={{ color: "#4b5563" }}>
                 A structured program for K–12 classrooms — ideal for STEM, CTE, and social studies teachers bringing AI literacy to their students.
@@ -300,6 +309,15 @@ export default function Page() {
                 padding: 24,
               }}
             >
+              <img
+                src="/images/ca-flower-logo.png"
+                alt="Conceptual Academy"
+                style={{
+                  height: 44,
+                  marginBottom: 16,
+                  display: "block",
+                }}
+              />
               <h3>Conceptual Academy</h3>
               <p style={{ color: "#4b5563" }}>
                 An online learning platform for teachers, professionals, and independent learners who want to explore AI literacy more deeply.
