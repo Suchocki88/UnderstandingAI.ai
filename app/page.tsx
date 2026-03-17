@@ -309,7 +309,7 @@ export default function Page() {
               }}
             >
               <img
-                src="/images/conceptual-academy-logo.png"
+                src="/images/CALogo590.png"
                 alt="Conceptual Academy"
                 style={{
                   height: 44,
