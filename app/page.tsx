@@ -269,7 +269,6 @@ export default function Page() {
                   display: "block",
                 }}
               />
-              <h3>PocketLab</h3>
               <p style={{ color: "#4b5563" }}>
                 A structured program for K–12 classrooms — ideal for STEM, CTE, and social studies teachers bringing AI literacy to their students.
               </p>
@@ -318,7 +317,6 @@ export default function Page() {
                   display: "block",
                 }}
               />
-              <h3>Conceptual Academy</h3>
               <p style={{ color: "#4b5563" }}>
                 An online learning platform for teachers, professionals, and independent learners who want to explore AI literacy more deeply.
               </p>
