@@ -135,13 +135,13 @@ export default function Page() {
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
                 <h3 style={{ margin: 0 }}>The Neolithic</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  A story that connects the origins of human creativity to the emergence of AI.
+                  Set 7,000 years ago, this epic prehistoric saga asks what it means to be human — a question as urgent now as it was at the dawn of civilization.
                 </p>
               </div>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
                 <h3 style={{ margin: 0 }}>The Threshold</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  A novel exploring what it means to stand at the frontier of human and machine intelligence.
+                  A near-future sci-fi thriller about what happens when AI crosses a line no one saw coming . . . and the humans who must decide what comes next.
                 </p>
               </div>
             </div>
