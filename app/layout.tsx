@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const metadata = {
   title: "Understanding AI Learning Pathways",
@@ -10,6 +12,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const pathname = usePathname();
+
   return (
     <html lang="en">
       <body style={{ margin: 0, padding: 0 }}>
@@ -39,22 +43,55 @@ export default function RootLayout({
               style={{
                 color: "white",
                 textDecoration: "none",
-fontWeight: 700,
-fontSize: 18,
-letterSpacing: "-0.3px",
-fontFamily: "Arial, sans-serif",
+                fontWeight: pathname === "/" ? 700 : 600,
+                fontSize: 18,
+                letterSpacing: "-0.3px",
+                fontFamily: "Arial, sans-serif",
               }}
             >
-              UnderstandingAI.ai
+              Home
             </Link>
 
             <div style={{ display: "flex", gap: 32, alignItems: "center" }}>
-              <Link href="/curriculum" style={navLink}>
+              <Link
+                href="/curriculum"
+                style={{
+                  ...navLink,
+                  fontWeight: pathname === "/curriculum" ? 700 : 500,
+                  color: pathname === "/curriculum" ? "white" : "rgba(255,255,255,0.85)",
+                  borderBottom: pathname === "/curriculum" ? "2px solid #f59e0b" : "2px solid transparent",
+                  paddingBottom: 4,
+                }}
+              >
                 Curriculum
               </Link>
 
               <div style={{ position: "relative" }} className="nav-dropdown">
-                <span style={{ ...navLink, cursor: "pointer" }}>
+                <span
+                  style={{
+                    ...navLink,
+                    cursor: "pointer",
+                    fontWeight:
+                      pathname.startsWith("/pocketlab") ||
+                      pathname.startsWith("/humanities") ||
+                      pathname.startsWith("/academy")
+                        ? 700
+                        : 500,
+                    color:
+                      pathname.startsWith("/pocketlab") ||
+                      pathname.startsWith("/humanities") ||
+                      pathname.startsWith("/academy")
+                        ? "white"
+                        : "rgba(255,255,255,0.85)",
+                    borderBottom:
+                      pathname.startsWith("/pocketlab") ||
+                      pathname.startsWith("/humanities") ||
+                      pathname.startsWith("/academy")
+                        ? "2px solid #f59e0b"
+                        : "2px solid transparent",
+                    paddingBottom: 4,
+                  }}
+                >
                   Pathways ▾
                 </span>
                 <div className="dropdown-menu">
@@ -70,11 +107,29 @@ fontFamily: "Arial, sans-serif",
                 </div>
               </div>
 
-              <Link href="/novels" style={navLink}>
+              <Link
+                href="/novels"
+                style={{
+                  ...navLink,
+                  fontWeight: pathname === "/novels" ? 700 : 500,
+                  color: pathname === "/novels" ? "white" : "rgba(255,255,255,0.85)",
+                  borderBottom: pathname === "/novels" ? "2px solid #f59e0b" : "2px solid transparent",
+                  paddingBottom: 4,
+                }}
+              >
                 Novels
               </Link>
 
-              <Link href="/about" style={navLink}>
+              <Link
+                href="/about"
+                style={{
+                  ...navLink,
+                  fontWeight: pathname === "/about" ? 700 : 500,
+                  color: pathname === "/about" ? "white" : "rgba(255,255,255,0.85)",
+                  borderBottom: pathname === "/about" ? "2px solid #f59e0b" : "2px solid transparent",
+                  paddingBottom: 4,
+                }}
+              >
                 About
               </Link>
             </div>
@@ -90,6 +145,7 @@ fontFamily: "Arial, sans-serif",
             padding: "40px 24px",
             textAlign: "center",
             fontSize: 14,
+            fontFamily: "Arial, sans-serif",
           }}
         >
           <p style={{ margin: 0 }}>
