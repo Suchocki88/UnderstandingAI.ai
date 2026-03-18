@@ -179,8 +179,6 @@ export default function Page() {
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
                 <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
                 <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer" style={buyButton}>The Neolithic — $17.95</a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=Va0WiVxgr0pbIejltajiU2dWCVLTTUMKzfs6H3Bn8DR" target="_blank" rel="noopener noreferrer" style={buyButton}>The Threshold — $14.95</a>
               </div>
             </div>
 
