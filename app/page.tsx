@@ -189,7 +189,7 @@ export default function Page() {
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and Alia AI built in.
+                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and Alia AI built in. AI is reshaping most every field — yet most students have no idea how it actually works. This program changes that.
               </p>
               <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about PocketLab →
@@ -201,7 +201,7 @@ export default function Page() {
               <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Humanities &amp; English</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                Teaching English, writing, or an interdisciplinary course? Use the books as course texts — exploring AI through creativity, ethics, and cultural analysis.
+                Teaching literature or creative writing? Our two young-adult novels model what thoughtful human-AI collaboration looks like—perfect for sparking discussion about authorship, creativity, and voice in the age of AI.
               </p>
               <Link href="/humanities" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about the Humanities pathway →
