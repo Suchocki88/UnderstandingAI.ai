@@ -128,49 +128,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* THREE PATHWAYS */}
-      <section id="pathways" style={{ background: "#ffffff", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
-              Choose Your Path
-            </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>Three Learning Pathways</h2>
-            <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              The core curriculum branches into three pathways, each designed for a different audience and context.
-            </p>
-          </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
-            <div style={{ border: "2px solid #f59e0b", background: "#fff7ed", borderRadius: 16, padding: 24 }}>
-              <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ height: 44, marginBottom: 16, display: "block" }} />
-              <p style={{ color: "#4b5563" }}>
-                A structured program for K–12 classrooms — ideal for STEM, CTE, and social studies teachers bringing AI literacy to their students.
-              </p>
-              <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none" }}>
-                Learn more →
-              </Link>
-            </div>
-            <div style={{ border: "2px solid #8b5cf6", background: "#f5f3ff", borderRadius: 16, padding: 24 }}>
-              <h3>Humanities Pathway</h3>
-              <p style={{ color: "#4b5563" }}>
-                Designed for English, writing, and interdisciplinary courses — exploring AI through creativity, ethics, and cultural analysis.
-              </p>
-              <Link href="/humanities" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none" }}>
-                Learn more →
-              </Link>
-            </div>
-            <div style={{ border: "2px solid #ec4899", background: "#fdf2f8", borderRadius: 16, padding: 24 }}>
-              <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ height: 74, marginBottom: 16, display: "block" }} />
-              <p style={{ color: "#4b5563" }}>
-                An online learning platform for teachers, professionals, and independent learners who want to explore AI literacy more deeply.
-              </p>
-              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none" }}>
-                Learn more →
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* WHY IT MATTERS */}
       <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
@@ -214,7 +171,7 @@ export default function Page() {
 
             {/* Print */}
             <div style={{ border: "2px solid #e5e7eb", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
-              <div style={{ fontSize: 32 }}>📚</div>
+              <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Buy the Books</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
                 The most affordable entry point. Order print-on-demand volumes individually — QR codes to all videos are included. Always up-to-date via IngramSpark.
@@ -235,7 +192,7 @@ export default function Page() {
 
             {/* PocketLab */}
             <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 28, background: "#fff7ed", display: "flex", flexDirection: "column", gap: 12 }}>
-              <div style={{ fontSize: 32 }}>🏫</div>
+              <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
                 Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and Alia AI built in.
@@ -247,7 +204,7 @@ export default function Page() {
 
             {/* Humanities */}
             <div style={{ border: "2px solid #8b5cf6", borderRadius: 16, padding: 28, background: "#f5f3ff", display: "flex", flexDirection: "column", gap: 12 }}>
-              <div style={{ fontSize: 32 }}>✍️</div>
+              <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Humanities &amp; English</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
                 Teaching English, writing, or an interdisciplinary course? Use the books as course texts — exploring AI through creativity, ethics, and cultural analysis.
@@ -259,7 +216,7 @@ export default function Page() {
 
             {/* Conceptual Academy */}
             <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
-              <div style={{ fontSize: 32 }}>🎓</div>
+              <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
                 A professional, independent learner, or teacher seeking credentials? Conceptual Academy offers a structured online program with CEUs, PD hours, and full AI tools — available in 5-hour increments.
