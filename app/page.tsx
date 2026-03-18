@@ -1,8 +1,18 @@
 import Link from "next/link";
 
 export default function Page() {
+
+  const buyButton: React.CSSProperties = {
+    color: "#1d4ed8",
+    fontWeight: 600,
+    textDecoration: "none",
+    fontSize: 14,
+  };
+
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.5 }}>
+
+      {/* HERO */}
       <section
         style={{
           position: "relative",
@@ -13,32 +23,18 @@ export default function Page() {
           color: "white",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "rgba(0,0,0,0.45)",
-          }}
-        />
-
-        <div
-          style={{
-            maxWidth: 1100,
-            margin: "0 auto",
-            position: "relative",
-            zIndex: 1,
-          }}
-        >
+        <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.45)" }} />
+        <div style={{ maxWidth: 1100, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <h1 style={{ fontSize: 56, lineHeight: 1.05, margin: 0 }}>
             Understanding and Working with AI
           </h1>
-
           <p style={{ marginTop: 24, fontSize: 22, maxWidth: 760, opacity: 0.9 }}>
             A cross-disciplinary approach to learning how artificial intelligence works
           </p>
         </div>
       </section>
 
+      {/* CORE CURRICULUM */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div
           style={{
@@ -51,91 +47,41 @@ export default function Page() {
           }}
         >
           <div>
-            <p
-              style={{
-                fontSize: 13,
-                fontWeight: 700,
-                textTransform: "uppercase",
-                letterSpacing: 2,
-                color: "#f59e0b",
-              }}
-            >
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
               The Foundation
             </p>
             <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>The Core Curriculum</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
               At the heart of this ecosystem are two comprehensive volumes that provide a conceptual and experiential approach to AI literacy.
             </p>
-
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
-              <div
-                style={{
-                  border: "1px solid #e5e7eb",
-                  borderRadius: 12,
-                  padding: 18,
-                  background: "#f8fafc",
-                }}
-              >
+              <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 1: Foundations &amp; Practice</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
                   Core concepts of AI — what it is, how it works, and how to use it responsibly.
                 </p>
               </div>
-              <div
-                style={{
-                  border: "1px solid #e5e7eb",
-                  borderRadius: 12,
-                  padding: 18,
-                  background: "#f8fafc",
-                }}
-              >
+              <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 2: Society &amp; the Future</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
                   The societal, ethical, and creative implications of living and working alongside AI.
                 </p>
               </div>
             </div>
-
             <div style={{ marginTop: 28 }}>
-              <Link
-                href="/curriculum"
-                style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}
-              >
+              <Link href="/curriculum" style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}>
                 Learn more about the curriculum →
               </Link>
             </div>
           </div>
-
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              gap: 24,
-              flexWrap: "wrap",
-            }}
-          >
-            <img
-              src="/images/volume1.jpg"
-              alt="Understanding and Working with AI Volume 1"
-              style={{
-                width: 220,
-                borderRadius: 12,
-                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-              }}
-            />
-            <img
-              src="/images/volume2.jpg"
-              alt="Understanding and Working with AI Volume 2"
-              style={{
-                width: 220,
-                borderRadius: 12,
-                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-              }}
-            />
+          <div style={{ display: "flex", justifyContent: "center", gap: 24, flexWrap: "wrap" }}>
+            <img src="/images/volume1.jpg" alt="Volume 1" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
+            <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
           </div>
         </div>
       </section>
 
+      {/* NOVELS */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
         <div
           style={{
@@ -147,96 +93,46 @@ export default function Page() {
             alignItems: "center",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              gap: 35,
-              flexWrap: "wrap",
-            }}
-          >
-            <img
-              src="/images/neolithic.jpg"
-              alt="The Neolithic novel"
-              style={{
-                width: 185,
-                borderRadius: 12,
-                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-              }}
-            />
-
-            <img
-              src="/images/threshold.jpg"
-              alt="The Threshold novel"
-              style={{
-                width: 185,
-                borderRadius: 12,
-                boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-              }}
-            />
+          <div style={{ display: "flex", justifyContent: "center", gap: 35, flexWrap: "wrap" }}>
+            <img src="/images/neolithic.jpg" alt="The Neolithic" style={{ width: 185, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
+            <img src="/images/threshold.jpg" alt="The Threshold" style={{ width: 185, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
           </div>
-
           <div>
-            <p
-              style={{
-                fontSize: 13,
-                fontWeight: 700,
-                textTransform: "uppercase",
-                letterSpacing: 2,
-                color: "#7c3aed",
-              }}
-            >
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#7c3aed" }}>
               Fiction as a Lens
             </p>
             <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>Stories That Bring AI to Life</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
               Two novels explore the human meaning of artificial intelligence — one set at the dawn of civilization, one at the threshold of a new era.
             </p>
-
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
-              <div
-                style={{
-                  border: "1px solid #e5e7eb",
-                  borderRadius: 12,
-                  padding: 18,
-                  background: "#ffffff",
-                }}
-              >
+              <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
                 <h3 style={{ margin: 0 }}>The Neolithic</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
                   A story that connects the origins of human creativity to the emergence of AI.
                 </p>
               </div>
-              <div
-                style={{
-                  border: "1px solid #e5e7eb",
-                  borderRadius: 12,
-                  padding: 18,
-                  background: "#ffffff",
-                }}
-              >
-                <h3 style={{ margin: 0 }}>Threshold</h3>
+              <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
+                <h3 style={{ margin: 0 }}>The Threshold</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
                   A novel exploring what it means to stand at the frontier of human and machine intelligence.
                 </p>
               </div>
             </div>
+            <div style={{ marginTop: 28 }}>
+              <Link href="/novels" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none" }}>
+                Learn more about the novels →
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
+      {/* THREE PATHWAYS */}
       <section id="pathways" style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
-            <p
-              style={{
-                fontSize: 13,
-                fontWeight: 700,
-                textTransform: "uppercase",
-                letterSpacing: 2,
-                color: "#f59e0b",
-              }}
-            >
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
               Choose Your Path
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>Three Learning Pathways</h2>
@@ -244,86 +140,31 @@ export default function Page() {
               The core curriculum branches into three pathways, each designed for a different audience and context.
             </p>
           </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-              gap: 24,
-            }}
-          >
-            <div
-              style={{
-                border: "2px solid #f59e0b",
-                background: "#fff7ed",
-                borderRadius: 16,
-                padding: 24,
-              }}
-            >
-              <img
-                src="/images/pocketlab-logo.png"
-                alt="PocketLab"
-                style={{
-                  height: 44,
-                  marginBottom: 16,
-                  display: "block",
-                }}
-              />
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
+            <div style={{ border: "2px solid #f59e0b", background: "#fff7ed", borderRadius: 16, padding: 24 }}>
+              <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ height: 44, marginBottom: 16, display: "block" }} />
               <p style={{ color: "#4b5563" }}>
                 A structured program for K–12 classrooms — ideal for STEM, CTE, and social studies teachers bringing AI literacy to their students.
               </p>
-              <Link
-                href="/pocketlab"
-                style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none" }}
-              >
+              <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none" }}>
                 Learn more →
               </Link>
             </div>
-
-            <div
-              style={{
-                border: "2px solid #8b5cf6",
-                background: "#f5f3ff",
-                borderRadius: 16,
-                padding: 24,
-              }}
-            >
+            <div style={{ border: "2px solid #8b5cf6", background: "#f5f3ff", borderRadius: 16, padding: 24 }}>
               <h3>Humanities Pathway</h3>
               <p style={{ color: "#4b5563" }}>
                 Designed for English, writing, and interdisciplinary courses — exploring AI through creativity, ethics, and cultural analysis.
               </p>
-              <Link
-                href="/humanities"
-                style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none" }}
-              >
+              <Link href="/humanities" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none" }}>
                 Learn more →
               </Link>
             </div>
-
-            <div
-              style={{
-                border: "2px solid #ec4899",
-                background: "#fdf2f8",
-                borderRadius: 16,
-                padding: 24,
-              }}
-            >
-              <img
-                src="/images/CALogo590.png"
-                alt="Conceptual Academy"
-                style={{
-                  height: 74,
-                  marginBottom: 16,
-                  display: "block",
-                }}
-              />
+            <div style={{ border: "2px solid #ec4899", background: "#fdf2f8", borderRadius: 16, padding: 24 }}>
+              <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ height: 74, marginBottom: 16, display: "block" }} />
               <p style={{ color: "#4b5563" }}>
                 An online learning platform for teachers, professionals, and independent learners who want to explore AI literacy more deeply.
               </p>
-              <Link
-                href="/academy"
-                style={{ color: "#be185d", fontWeight: 700, textDecoration: "none" }}
-              >
+              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none" }}>
                 Learn more →
               </Link>
             </div>
@@ -331,17 +172,10 @@ export default function Page() {
         </div>
       </section>
 
+      {/* WHY IT MATTERS */}
       <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
-          <p
-            style={{
-              fontSize: 13,
-              fontWeight: 700,
-              textTransform: "uppercase",
-              letterSpacing: 2,
-              color: "#f59e0b",
-            }}
-          >
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
             The Stakes
           </p>
           <h2 style={{ fontSize: 40, marginTop: 12 }}>Why AI Literacy Matters</h2>
@@ -359,11 +193,87 @@ export default function Page() {
               color: "rgba(255,255,255,0.92)",
             }}
           >
-            “We are the first generation of people creating with AI. The standards we set now — for originality, for voice, for the expectation that human authorship means something — will shape what fills our bookstores, our libraries, our classrooms, and our screens for decades to come.”
+            "We are the first generation of people creating with AI. The standards we set now — for originality, for voice, for the expectation that human authorship means something — will shape what fills our bookstores, our libraries, our classrooms, and our screens for decades to come."
           </blockquote>
         </div>
       </section>
 
+      {/* HOW TO ACCESS */}
+      <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
+              Get Started
+            </p>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>How to Access the Program</h2>
+            <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
+              Whether you&apos;re an independent learner, a teacher, or a professional — there&apos;s a path designed for you.
+            </p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
+
+            {/* Print */}
+            <div style={{ border: "2px solid #e5e7eb", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
+              <div style={{ fontSize: 32 }}>📚</div>
+              <h3 style={{ margin: 0, fontSize: 20 }}>Buy the Books</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                The most affordable entry point. Order print-on-demand volumes individually — QR codes to all videos are included. Always up-to-date via IngramSpark.
+              </p>
+              <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 1.8 }}>
+                Volume 1 — $19.99<br />
+                Volume 2 — $19.99<br />
+                The Neolithic — $17.95<br />
+                The Threshold — $14.95
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: 8 }}>
+                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Order Volume 1 →</a>
+                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Order Volume 2 →</a>
+                <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer" style={buyButton}>Order The Neolithic →</a>
+                <a href="https://shop.ingramspark.com/b/084?params=Va0WiVxgr0pbIejltajiU2dWCVLTTUMKzfs6H3Bn8DR" target="_blank" rel="noopener noreferrer" style={buyButton}>Order The Threshold →</a>
+              </div>
+            </div>
+
+            {/* PocketLab */}
+            <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 28, background: "#fff7ed", display: "flex", flexDirection: "column", gap: 12 }}>
+              <div style={{ fontSize: 32 }}>🏫</div>
+              <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and Alia AI built in.
+              </p>
+              <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about PocketLab →
+              </Link>
+            </div>
+
+            {/* Humanities */}
+            <div style={{ border: "2px solid #8b5cf6", borderRadius: 16, padding: 28, background: "#f5f3ff", display: "flex", flexDirection: "column", gap: 12 }}>
+              <div style={{ fontSize: 32 }}>✍️</div>
+              <h3 style={{ margin: 0, fontSize: 20 }}>Humanities &amp; English</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                Teaching English, writing, or an interdisciplinary course? Use the books as course texts — exploring AI through creativity, ethics, and cultural analysis.
+              </p>
+              <Link href="/humanities" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about the Humanities pathway →
+              </Link>
+            </div>
+
+            {/* Conceptual Academy */}
+            <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
+              <div style={{ fontSize: 32 }}>🎓</div>
+              <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                A professional, independent learner, or teacher seeking credentials? Conceptual Academy offers a structured online program with CEUs, PD hours, and full AI tools — available in 5-hour increments.
+              </p>
+              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about Conceptual Academy →
+              </Link>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <h2 style={{ fontSize: 40 }}>About the Program</h2>
@@ -388,6 +298,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
     </main>
   );
 }
