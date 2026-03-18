@@ -65,9 +65,9 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
               Proven Track Record
             </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>Conceptual Academy Has Cred</h2>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>Conceptual Academy</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              We are best known for our high school science programs in physics, chemistry, biology, and Earth and Space Science. Our approach is now applied to AI literacy.
+              We are best known for our high school science programs in physics, chemistry, physical science, biology, and Earth and Space Science. Our approach is now applied to AI literacy.
             </p>
           </div>
 
@@ -76,21 +76,21 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "1px solid #e5e7eb", borderTop: "4px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Texas SBOE Approved</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Our programs are among a select few — roughly five publishers — approved by the Texas State Board of Education. That is a credibility signal that opens doors across the country.
+                Our programs are among a select few approved by the Texas State Board of Education.
               </p>
             </div>
 
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "1px solid #e5e7eb", borderTop: "4px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Fully NGSS Aligned</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Our science programs are fully aligned with Next Generation Science Standards and have been approved by multiple states. The same rigorous approach guides our AI curriculum.
+                Our science programs are fully aligned with multiple state standards. The same rigorous approach guides our AI curriculum.
               </p>
             </div>
 
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "1px solid #e5e7eb", borderTop: "4px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Used Across the Country</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Conceptual Academy programs are taught in classrooms nationwide. Our conceptual approach — clear, accessible, and experiential — is what we bring to AI literacy.
+                Our conceptual approach — clear, accessible, and experiential — is what we bring to AI literacy.
               </p>
             </div>
 
