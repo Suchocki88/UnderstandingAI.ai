@@ -150,7 +150,8 @@ export default function Page() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
+          {/* Three boxes */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginBottom: 32 }}>
 
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Teacher Guides</h3>
@@ -189,14 +190,43 @@ export default function Page() {
               </p>
             </div>
 
-            <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
-              <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Learn It Before You Teach It</h3>
-              <p style={{ color: "#4b5563", margin: 0 }}>
+          </div>
+
+          {/* Full-width Learn It Before You Teach It banner */}
+          <div style={{
+            background: "#0f172a",
+            borderRadius: 16,
+            padding: "40px 48px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            gap: 24,
+          }}>
+            <div style={{ maxWidth: 680 }}>
+              <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "white" }}>Learn It Before You Teach It</h3>
+              <p style={{ color: "rgba(255,255,255,0.8)", margin: 0, fontSize: 18 }}>
                 Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach it, having lived the experience your students are about to have.
               </p>
             </div>
-
+            <Link
+              href="/academy"
+              style={{
+                background: "#f59e0b",
+                color: "#0f172a",
+                padding: "14px 28px",
+                borderRadius: 10,
+                textDecoration: "none",
+                fontWeight: 700,
+                fontSize: 16,
+                whiteSpace: "nowrap",
+                display: "inline-block",
+              }}
+            >
+              Explore Conceptual Academy →
+            </Link>
           </div>
+
         </div>
       </section>
 
