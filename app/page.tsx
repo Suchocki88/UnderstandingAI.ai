@@ -170,7 +170,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
 
             {/* Print */}
-            <div style={{ border: "2px solid #e5e7eb", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
+            <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Buy the Books</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
@@ -198,7 +198,7 @@ export default function Page() {
 
             {/* Humanities */}
             <div style={{ border: "2px solid #8b5cf6", borderRadius: 16, padding: 28, background: "#f5f3ff", display: "flex", flexDirection: "column", gap: 12 }}>
-              <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
+              <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Humanities &amp; English</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
                 Teaching English, writing, or an interdisciplinary course? Use the books as course texts — exploring AI through creativity, ethics, and cultural analysis.
