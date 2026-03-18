@@ -2,11 +2,6 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export const metadata = {
-  title: "Understanding AI Learning Pathways",
-  description: "A cross-disciplinary approach to AI literacy",
-};
-
 export default function RootLayout({
   children,
 }: {
