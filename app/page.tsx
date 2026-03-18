@@ -127,9 +127,9 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#7c3aed" }}>
               Fiction as a Lens
             </p>
-            <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>Stories That Bring AI to Life</h2>
+            <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>Partnering with AI to Write</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-              Two novels explore the human meaning of artificial intelligence — one set at the dawn of civilization, one at the threshold of a new era.
+              Two novels, one set at the dawn of civilization, the other at the threshold of an AI infused future. Both written as examples of what is possible when AI tools are used effectively.
             </p>
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
