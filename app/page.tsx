@@ -125,7 +125,7 @@ export default function Page() {
           </div>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#7c3aed" }}>
-              Fiction as a Lens
+              The Origin Story
             </p>
             <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>Born from Fiction</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
@@ -154,7 +154,6 @@ export default function Page() {
         </div>
       </section>
 
-
       {/* HOW TO ACCESS */}
       <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
@@ -172,13 +171,13 @@ export default function Page() {
             {/* Print */}
             <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
-              <h3 style={{ margin: 0, fontSize: 20 }}>Expore the Books</h3>
+              <h3 style={{ margin: 0, fontSize: 20 }}>Explore the Books</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                AI literacy shouldn't be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping the world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to vidoes are included.
+                AI literacy shouldn&apos;t be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping the world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to videos are included.
               </p>
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
                 <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a>
               </div>
             </div>
 
