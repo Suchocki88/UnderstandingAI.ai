@@ -127,7 +127,7 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#7c3aed" }}>
               Fiction as a Lens
             </p>
-            <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>A Program Born from Fiction</h2>
+            <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>Born from Fiction</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
               These two novels, one prehistoric and one near-future, were written in deep collaboration with AI. The best practices learned became the seeds of this entire program.
             </p>
