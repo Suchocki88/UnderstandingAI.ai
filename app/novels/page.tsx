@@ -25,7 +25,7 @@ export default function Page() {
             Born from Fiction
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto" }}>
-            These two novels, one prehistoric and one near-future, were written in deep collaboration with AI. The best practices learned became the seeds of this entire program.
+            These two novels, one prehistoric and one near-future, were conceived by a human and produced in collaboration with AI. The best practices learned became the seeds of this entire program.
           </p>
         </div>
       </section>
@@ -223,7 +223,7 @@ export default function Page() {
             They also model something important. Both novels were written in genuine collaboration with AI, using the same best practices the program teaches. The process of creating them was the original classroom.
           </p>
           <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto 48px" }}>
-            For English and literature teachers, they offer a powerful lens into questions of authorship, voice, and creativity in the age of AI. For everyone else, they are simply good reads.
+            For English, literature, and creative writing teachers, they offer a powerful lens into questions of authorship, voice, and creativity in the age of AI. They help to answer the honest question students are asking: “Why should I learn to write when AI can write for me?” Of course, the answer is that AI cannot write for anyone. But it can write with you, provided you have a story to tell and good communication skills to tell it. 
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <Link
