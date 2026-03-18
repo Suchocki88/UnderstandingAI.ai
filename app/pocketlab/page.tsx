@@ -155,7 +155,7 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Teacher Guides</h3>
               <p style={{ color: "#4b5563", margin: "0 0 16px" }}>
-                Detailed lesson-by-lesson guides with suggested scripts, facilitation tips, discussion prompts, and assessment rubrics. Built on cognitive science best practices.
+                Detailed lesson-by-lesson guides with suggested scripts, facilitation tips, discussion prompts, and assessment rubrics. Built on cognitive science best practices, these guides give both new and experienced teachers the confidence to lead every lesson — even with no prior AI background required.
               </p>
               <a
                 href="https://suchocki88.github.io/UAI0405TG/"
@@ -170,7 +170,7 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Standards Alignment</h3>
               <p style={{ color: "#4b5563", margin: "0 0 16px" }}>
-                Complete standards alignment documentation to help administrators and curriculum coordinators place this program within existing graduation requirements and course frameworks.
+                Complete standards alignment documentation to help administrators and curriculum coordinators place this program within existing graduation requirements and course frameworks. Whether your district follows NGSS, state-specific standards, or CTE pathways, we have done the alignment work so you don't have to.
               </p>
               <a
                 href="https://suchocki88.github.io/UAI0405Standards/"
@@ -185,14 +185,14 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Alia AI Built In</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Students have access to Alia, the AI learning assistant trained specifically on this curriculum. Alia guides students Socratically, never giving away answers, always building understanding.
+                Students have access to Alia, the AI learning assistant trained specifically on this curriculum. Unlike general-purpose AI, Alia operates with guardrails — she stays within the course content, never completes assignments for students, and guides them Socratically toward understanding rather than just giving answers. Teachers and administrators can feel confident this is a safe, focused AI experience.
               </p>
             </div>
 
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Learn It Before You Teach It</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                The Conceptual Academy online program is the ideal way for teachers to experience this curriculum themselves before bringing it to students. Professional development hours and CEUs available.
+                Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach it, having lived the experience your students are about to have.
               </p>
             </div>
 
