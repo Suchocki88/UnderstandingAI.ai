@@ -52,7 +52,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>The Core Curriculum</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-              At the heart of this ecosystem are two comprehensive volumes that provide a conceptual and experiential approach to AI literacy.
+              This is a comprehensive, integrated program for AI literacy — and at its core are two volumes that provide a conceptual and experiential approach anyone can learn from.
             </p>
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
@@ -174,11 +174,13 @@ export default function Page() {
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Buy the Books</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                AI literacy shouldn't be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping our world — colleagues, friends, or yourself. Always up-to-date via print-on-demand. Videos included via QR codes.
+                The most affordable entry point. Order print-on-demand volumes individually — QR codes to all videos are included. Always up-to-date via IngramSpark.
               </p>
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
                 <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
                 <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer" style={buyButton}>The Neolithic — $17.95</a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=Va0WiVxgr0pbIejltajiU2dWCVLTTUMKzfs6H3Bn8DR" target="_blank" rel="noopener noreferrer" style={buyButton}>The Threshold — $14.95</a>
               </div>
             </div>
 
