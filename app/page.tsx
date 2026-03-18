@@ -58,7 +58,7 @@ export default function Page() {
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 1: Foundations &amp; Practice</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  Core concepts of AI — what it is, how it works, and how to use it responsibly.
+                  Core concepts of AI including what it is, how it works, and how to use it responsibly.
                 </p>
               </div>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
@@ -89,7 +89,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, marginTop: 12 }}>Why AI Literacy Matters</h2>
           <p style={{ marginTop: 24, fontSize: 21, color: "rgba(255,255,255,0.8)" }}>
-            AI is quickly reshaping work, education, creativity, and society. People from all walks of life need to understand how it works and what it means for the world today and tomorrow.
+            AI is quickly reshaping work, education, creativity, and society. People from all walks of life need to understand how it works and what it means for the world of today and tomorrow.
           </p>
           <blockquote
             style={{
