@@ -80,16 +80,16 @@ export default function Page() {
                 Before kings. Before armies. Before gods demanded obedience. There was another way.
               </p>
               <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-                Four survivors flee the burning of their village — a hunter, a wrestler, a smith, and a maker of marks. They carry nothing but each other and a belief that people are born good and eager to contribute. That power can be shared. That there is enough for all, if we share it.
+                Four survivors flee the burning of their village: a hunter, a wrestler, a smith, and a maker of marks. They carry nothing but each other and a belief that people are born good and eager to contribute. That power can be shared. That there is enough for all, if we share it.
               </p>
               <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
                 In a hidden valley ringed by mountains, they find a civilization that has lived this belief for centuries. They build new lives. They forge steel, invent writing, fall in love, bury children. They discover that the tools meant to protect what they love may one day destroy it.
               </p>
               <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-                And when the armies come — because the armies always come — they must answer the question that has haunted every peaceful people since the beginning of time: How do you defend what you believe without becoming what you fight?
+                And when the armies come, because the armies always come, they must answer the question that has haunted every peaceful people since the beginning of time: How do you defend what you believe without becoming what you fight?
               </p>
               <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 32, fontStyle: "italic" }}>
-                The Neolithic doesn't offer a blueprint for how partnership wins over domination. It offers something rarer — the compass by which it endures.
+                The Neolithic doesn't offer a blueprint for how partnership wins over domination. It offers something rarer, the compass by which it endures.
               </p>
               <div style={{ display: "flex", gap: 20, flexWrap: "wrap", alignItems: "center" }}>
                 <a
@@ -135,7 +135,7 @@ export default function Page() {
               }}
             />
             <p style={{ fontSize: 14, color: "#6b7280", fontStyle: "italic", marginTop: 12 }}>
-              The world of The Neolithic — map illustration by Evi Judge
+              The world of The Neolithic
             </p>
           </div>
 
