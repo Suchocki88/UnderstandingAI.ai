@@ -135,7 +135,7 @@ export default function Page() {
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
                 <h3 style={{ margin: 0 }}>The Neolithic</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  Set 7,000 years ago, this epic saga asks what it means to be human — a question as urgent now as it was at the dawn of civilization.
+                  Set 7,000 years ago, this epic saga asks what it means to be human, a question as urgent now as it was at the dawn of civilization.
                 </p>
               </div>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
