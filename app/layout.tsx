@@ -39,9 +39,10 @@ export default function RootLayout({
               style={{
                 color: "white",
                 textDecoration: "none",
-                fontWeight: 700,
-                fontSize: 18,
-                letterSpacing: "-0.3px",
+fontWeight: 700,
+fontSize: 18,
+letterSpacing: "-0.3px",
+fontFamily: "Arial, sans-serif",
               }}
             >
               UnderstandingAI.ai
