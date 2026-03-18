@@ -4,16 +4,20 @@ export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
 
-      {/* HERO */}
+{/* HERO */}
       <section
         style={{
-          background: "#0f172a",
-          color: "white",
+          position: "relative",
+          backgroundImage: "url('/images/hero-ai.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
           padding: "80px 24px",
+          color: "white",
           textAlign: "center",
         }}
       >
-        <div style={{ maxWidth: 860, margin: "0 auto" }}>
+        <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.65)" }} />
+      <div style={{ maxWidth: 860, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
             The Core Curriculum
           </p>
