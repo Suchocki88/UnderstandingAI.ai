@@ -1,7 +1,20 @@
+"use client";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 
 export default function Page() {
-  return (
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+
+  useEffect(() => {
+    const iframe = iframeRef.current;
+    if (!iframe) return;
+    const handleLoad = () => {
+      window.scrollTo(0, 0);
+    };
+    iframe.addEventListener("load", handleLoad);
+    return () => iframe.removeEventListener("load", handleLoad);
+  }, []);
+   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
 
 {/* HERO */}
@@ -254,6 +267,7 @@ export default function Page() {
             </p>
           </div>
           <iframe
+            ref={iframeRef}
             src="https://ai-pathways-hub.vercel.app"
             width="100%"
             height="700px"
