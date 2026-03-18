@@ -130,6 +130,7 @@ const navLink: React.CSSProperties = {
   textDecoration: "none",
   fontSize: 15,
   fontWeight: 500,
+  fontFamily: "Arial, sans-serif",
 };
 
 const dropdownItem: React.CSSProperties = {
@@ -139,4 +140,5 @@ const dropdownItem: React.CSSProperties = {
   textDecoration: "none",
   fontSize: 14,
   whiteSpace: "nowrap",
+  fontFamily: "Arial, sans-serif",
 };
