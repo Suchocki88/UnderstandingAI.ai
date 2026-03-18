@@ -52,7 +52,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>The Core Curriculum</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-              This is a comprehensive, integrated program for AI literacy — and at its core are two volumes that provide a conceptual and experiential approach anyone can learn from.
+              This is a comprehensive, integrated program for AI literacy. At its core are two volumes that provide a conceptual and experiential approach from which anyone can learn.
             </p>
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
@@ -78,6 +78,32 @@ export default function Page() {
             <img src="/images/volume1.jpg" alt="Volume 1" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
             <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
           </div>
+        </div>
+      </section>
+
+      {/* WHY IT MATTERS */}
+      <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
+            The Stakes
+          </p>
+          <h2 style={{ fontSize: 40, marginTop: 12 }}>Why AI Literacy Matters</h2>
+          <p style={{ marginTop: 24, fontSize: 21, color: "rgba(255,255,255,0.8)" }}>
+            AI is quickly reshaping work, education, creativity, and society. People from all walks of life need to understand how it works and what it means for the world today and tomorrow.
+          </p>
+          <blockquote
+            style={{
+              marginTop: 36,
+              borderLeft: "4px solid #f59e0b",
+              paddingLeft: 20,
+              textAlign: "left",
+              fontStyle: "italic",
+              fontSize: 24,
+              color: "rgba(255,255,255,0.92)",
+            }}
+          >
+            "We are the first generation of people creating with AI. The standards we set now — for originality, for voice, for the expectation that human authorship means something — will shape what fills our bookstores, our libraries, our classrooms, and our screens for decades to come."
+          </blockquote>
         </div>
       </section>
 
@@ -128,32 +154,6 @@ export default function Page() {
         </div>
       </section>
 
-
-      {/* WHY IT MATTERS */}
-      <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
-          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
-            The Stakes
-          </p>
-          <h2 style={{ fontSize: 40, marginTop: 12 }}>Why AI Literacy Matters</h2>
-          <p style={{ marginTop: 24, fontSize: 21, color: "rgba(255,255,255,0.8)" }}>
-            AI is reshaping work, education, creativity, and society. People from every field — not just technologists — need to understand how it works and what it means for their disciplines.
-          </p>
-          <blockquote
-            style={{
-              marginTop: 36,
-              borderLeft: "4px solid #f59e0b",
-              paddingLeft: 20,
-              textAlign: "left",
-              fontStyle: "italic",
-              fontSize: 24,
-              color: "rgba(255,255,255,0.92)",
-            }}
-          >
-            "We are the first generation of people creating with AI. The standards we set now — for originality, for voice, for the expectation that human authorship means something — will shape what fills our bookstores, our libraries, our classrooms, and our screens for decades to come."
-          </blockquote>
-        </div>
-      </section>
 
       {/* HOW TO ACCESS */}
       <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
