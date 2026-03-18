@@ -71,7 +71,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: "12px 0 16px" }}>Lesson 1.1 — Three Kinds of Intelligence</h2>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              Every core lesson is accompanied by a video from the author. This is the opening lesson of the program — a great place to get a feel for the approach, the pacing, and the voice of the curriculum.
+              Every core lesson is accompanied by a video from the author. This is the opening lesson of the program, a great place to get a feel for the approach, the pacing, and the voice of the curriculum.
             </p>
             <p style={{ marginTop: 16, fontSize: 16, color: "#6b7280" }}>
               The curriculum spans eight chapters across two volumes, moving from the foundations of how AI works to its societal, ethical, and creative implications.
@@ -115,28 +115,28 @@ export default function Page() {
             <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #8b5cf6" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>🔦 Spotlight</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Essays and case studies that extend core ideas into the real world. AI in warfare, AI and Bitcoin, algorithmic justice, deepfakes — these are the lessons that make people stop and think.
+                Essays and case studies that extend core ideas into the real world. AI in warfare, AI and Bitcoin, algorithmic justice, deepfakes. These are the lessons that make people stop and think.
               </p>
             </div>
 
             <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #06b6d4" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>🔬 Lab</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Guided experiments with AI conducted in a methodical, scientific manner. It&apos;s one thing to be told how AI behaves. It&apos;s another to discover it yourself — including its biases, its limits, and its surprises.
+                Guided experiments with AI conducted in a methodical, scientific manner. It&apos;s one thing to be told how AI behaves. It&apos;s another to discover it yourself, including its biases, its limits, and its surprises.
               </p>
             </div>
 
             <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #ec4899" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>✍️ Creative Project</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                A sustained creative writing project — a novel, short story collection, poetry, memoir, or screenplay — developed in collaboration with AI. These lessons replace writer&apos;s block with writer&apos;s joy, guiding you toward what we call the immersive experience.
+                A sustained creative writing project such as a novel, short story collection, poetry, memoir, or screenplay, developed in collaboration with AI. These lessons replace writer&apos;s block with writer&apos;s joy, guiding you toward what we call the immersive experience.
               </p>
             </div>
 
             <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #10b981" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>💭 Reflection</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                The joy of any journey is reflecting on where you&apos;ve been and where you&apos;re going. Reflection lessons help you internalize what you&apos;ve experienced — moving this beyond information and into genuine understanding. In the high school program, these become Discussion Days.
+                The joy of any journey is reflecting on where you&apos;re going and where you&apos;ve been. Reflection lessons help you internalize what you&apos;ve experienced — moving this beyond information and into genuine understanding. In the high school program, these become Discussion Days.
               </p>
             </div>
 
@@ -155,7 +155,7 @@ export default function Page() {
             This program treats AI literacy as an expedition, not a lecture. As with any expedition, the most valuable asset becomes the notes you take along the journey.
           </p>
           <p style={{ marginTop: 24, fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "24px auto 0" }}>
-            Throughout the program, learners maintain a field journal — recording observations from labs, insights from spotlights, and reflections on their creative work. It&apos;s through this active engagement that the concepts stop being abstract and start being real.
+            Throughout the program, learners maintain a field journal where they record observations from labs, insights from spotlights, and reflections on their creative work. It&apos;s through this active engagement that the concepts stop being abstract and start being real.
           </p>
           <blockquote style={{
             marginTop: 40,
@@ -182,7 +182,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>The Same Curriculum, Multiple Formats</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              Whether you prefer print, a structured online program, or a full classroom platform — the core curriculum is the same. What differs is the delivery and the tools around it.
+              Whether you prefer print, a structured online program, or a full classroom platform, the core curriculum is the same. What differs is the delivery and the tools around it.
             </p>
           </div>
 
@@ -193,7 +193,7 @@ export default function Page() {
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>📚 The Books</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The most direct path. Order Volume 1 and Volume 2 as print-on-demand books — beautifully designed, always up-to-date via IngramSpark. QR codes throughout connect you to the video lessons, so your smartphone becomes part of the experience. Simple, affordable, and complete.
+                  The most direct path. Order Volume 1 and Volume 2 as print-on-demand books, which are beautifully human designed and always up-to-date via IngramSpark. QR codes throughout connect you to the video lessons, so your smartphone becomes part of the experience. Simple, affordable, and complete.
                 </p>
                 <div style={{ marginTop: 16, display: "flex", gap: 16, flexWrap: "wrap" }}>
                   <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}>Order Volume 1 — $19.99 →</a>
@@ -211,7 +211,7 @@ export default function Page() {
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>🎓 Conceptual Academy</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The full online experience. The same curriculum pages — in color — are embedded directly into the platform alongside three AI instances: Alia-Tutor, Alia-Creative, and Alia-Lab. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour continuing education certificate with your name and date. Available in 5-hour increments — perfect for professionals seeking CEUs, PD hours, or simply a structured path through the material.
+                  The full online experience. The same curriculum pages, in color, are embedded directly into the platform alongside three AI instances: Alia-Tutor, Alia-Creative, and Alia-Lab. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour continuing education certificate with your name and date. Available in 5-hour increments — perfect for professionals seeking CEUs, PD hours, or simply a structured path through the material.
                 </p>
                 <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none" }}>
                   Learn more about Conceptual Academy →
@@ -227,7 +227,7 @@ export default function Page() {
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>🏫 PocketLab — K–12 Classroom</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The complete high school classroom program, delivered through the PocketLab Notebook platform. Teachers get a full semester of structured lessons — Core, Spotlight, Lab, Project, and Discussion Days — with teacher guides, assessment tools, and Alia AI built in. The Conceptual Academy program is the ideal preparation for teachers who want to experience the curriculum themselves before bringing it to students.
+                  The complete high school classroom program, delivered through the PocketLab Notebook platform. Teachers get a full semester of structured lessons — Core, Spotlight, Lab, Project, and Discussion Days — with teacher guides, assessment tools, and Alia AI built in. The Conceptual Academy program is the ideal preparation for teachers who want to experience the curriculum themselves before bringing it to students on the PocketLab Notebook platform designed specifically for high schools.
                 </p>
                 <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none" }}>
                   Learn more about the PocketLab pathway →
