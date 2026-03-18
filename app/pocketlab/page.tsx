@@ -156,7 +156,7 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Teacher Guides</h3>
               <p style={{ color: "#4b5563", margin: "0 0 16px" }}>
-                Detailed lesson-by-lesson guides with suggested scripts, facilitation tips, discussion prompts, and assessment rubrics. Built on cognitive science best practices, these guides give both new and experienced teachers the confidence to lead every lesson — even with no prior AI background required.
+                Detailed lesson-by-lesson guides with suggested scripts, facilitation tips, discussion prompts, and assessment rubrics. Built on cognitive science best practices, these guides give both new and experienced teachers the confidence to lead every lesson — even with no prior AI background required. Includes assessment strategies.
               </p>
               <a
                 href="https://suchocki88.github.io/UAI0405TG/"
