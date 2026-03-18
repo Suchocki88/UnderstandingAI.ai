@@ -174,7 +174,7 @@ export default function Page() {
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Buy the Books</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                AI literacy shouldn't be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping our world — students, colleagues, kids, or yourself. Always up-to-date. Videos included via QR codes.
+                AI literacy shouldn't be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping our world — colleagues, friends, or yourself. Always up-to-date via print-on-demand. Videos included via QR codes.
               </p>
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
                 <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
