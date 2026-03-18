@@ -105,35 +105,35 @@ export default function Page() {
 
           <div style={{ display: "flex", flexWrap: "wrap", gap: 24, justifyContent: "center" }}>
 
-            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(33% - 16px)", minWidth: 280 }}>
+            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(30% - 16px)", minWidth: 280 }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>📖 Core Lesson</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
                 The conceptual foundation of each topic. Clear, accessible writing paired with a video lesson from the author. This is where the big ideas land — what AI is, how it works, and what it means.
               </p>
             </div>
 
-            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(33% - 16px)", minWidth: 280 }}>
+            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(30% - 16px)", minWidth: 280 }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>🔦 Spotlight</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
                 Essays and case studies that extend core ideas into the real world. AI in warfare, AI and Bitcoin, algorithmic justice, deepfakes. These are the lessons that make people stop and think.
               </p>
             </div>
 
-            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(33% - 16px)", minWidth: 280 }}>
+            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(30% - 16px)", minWidth: 280 }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>🔬 Lab</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
                 Guided experiments with AI conducted in a methodical, scientific manner. It&apos;s one thing to be told how AI behaves. It&apos;s another to discover it yourself, including its biases, its limits, and its surprises.
               </p>
             </div>
 
-            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(33% - 16px)", minWidth: 280 }}>
+            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(30% - 16px)", minWidth: 280 }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>✍️ Creative Project</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
                 A sustained creative writing project such as a novel, short story collection, poetry, memoir, or screenplay, developed in collaboration with AI. These lessons replace writer&apos;s block with writer&apos;s joy, guiding you toward what we call the immersive experience.
               </p>
             </div>
 
-            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(33% - 16px)", minWidth: 280 }}>
+            <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b", width: "calc(30% - 16px)", minWidth: 280 }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>💭 Reflection</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
                 The joy of any journey is reflecting on where you&apos;re going and where you&apos;ve been. Reflection lessons help you internalize what you&apos;ve experienced — moving this beyond information and into genuine understanding. In the high school program, these become Discussion Days.
@@ -261,6 +261,7 @@ export default function Page() {
             style={{ border: "none", borderRadius: 12, boxShadow: "0 4px 20px rgba(0,0,0,0.1)" }}
             allow="clipboard-write"
             tabIndex={-1}
+            scrolling="no"
           />
         </div>
       </section>
