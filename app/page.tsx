@@ -127,15 +127,15 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#7c3aed" }}>
               Fiction as a Lens
             </p>
-            <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>Partnering with AI to Write</h2>
+            <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>A Program Born from Fiction</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-              Two novels, one set at the dawn of civilization, the other at the threshold of an AI infused future. Both written as examples of what is possible when AI tools are used effectively.
+              These two novels, one prehistoric and one near-future, were written in deep collaboration with AI. The best practices learned became the seeds of this entire program.
             </p>
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
                 <h3 style={{ margin: 0 }}>The Neolithic</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  Set 7,000 years ago, this epic prehistoric saga asks what it means to be human — a question as urgent now as it was at the dawn of civilization.
+                  Set 7,000 years ago, this epic saga asks what it means to be human — a question as urgent now as it was at the dawn of civilization.
                 </p>
               </div>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#ffffff" }}>
