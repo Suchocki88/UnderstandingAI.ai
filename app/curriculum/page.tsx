@@ -260,6 +260,7 @@ export default function Page() {
             height="700px"
             style={{ border: "none", borderRadius: 12, boxShadow: "0 4px 20px rgba(0,0,0,0.1)" }}
             allow="clipboard-write"
+            tabIndex={-1}
           />
         </div>
       </section>
