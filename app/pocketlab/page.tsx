@@ -192,7 +192,7 @@ export default function Page() {
 
           </div>
 
-          {/* Full-width Learn It Before You Teach It banner */}
+{/* Full-width Learn It Before You Teach It banner */}
           <div style={{
             background: "#0f172a",
             borderRadius: 16,
@@ -203,7 +203,7 @@ export default function Page() {
             flexWrap: "wrap",
             gap: 24,
           }}>
-            <div style={{ maxWidth: 680 }}>
+            <div style={{ maxWidth: 560 }}>
               <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "white" }}>Learn It Before You Teach It</h3>
               <p style={{ color: "rgba(255,255,255,0.8)", margin: 0, fontSize: 18 }}>
                 Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach it, having lived the experience your students are about to have.
@@ -225,6 +225,11 @@ export default function Page() {
             >
               Explore Conceptual Academy →
             </Link>
+            <img
+              src="/images/CAFlowerBright.png"
+              alt="Conceptual Academy"
+              style={{ width: 120, opacity: 0.9 }}
+            />
           </div>
 
         </div>
