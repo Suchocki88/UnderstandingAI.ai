@@ -83,7 +83,7 @@ export default function Page() {
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
               <div style={{ fontSize: 32, marginBottom: 12 }}>👩‍🏫</div>
               <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>Teachers</h3>
-              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Earn CEUs and PD hours. Arrive in the fall ready to teach this program to your students.</p>
+              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Earn summer CEUs and PD hours. Arrive in the fall ready to teach this program to your students through PocketLab.</p>
             </div>
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
               <div style={{ fontSize: 32, marginBottom: 12 }}>💼</div>
@@ -119,7 +119,7 @@ export default function Page() {
               You can start anytime, stop anytime, and pick up exactly where you left off. There is no expiration date on your enrollment.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              Each volume is $195 and earns up to 20 hours of continuing education credit. You can take them independently or together.
+              Each volume is $195 and earns up to 20 hours of continuing education credit. You can take them independently or together. The pace you set is up to you.
             </p>
           </div>
           <div>
@@ -150,14 +150,14 @@ export default function Page() {
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 28, border: "2px solid #ec4899" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Three Alia AI Instances</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Alia-Tutor is trained specifically on this curriculum and guides you Socratically through the content. Alia-Lab supports hands-on AI experiments. Alia-Creative assists with your writing project, including artifact handling for your evolving manuscript. Three specialized tools — not one generic chatbot.
+                Alia-Tutor is trained specifically on this curriculum and guides you Socratically. Alia-Lab supports hands-on AI experiments. Alia-Creative assists with your writing project, including artifact handling for your evolving manuscript. Not one generic chatbot, but three specialized AI learning tools.
               </p>
             </div>
 
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 28, border: "2px solid #ec4899" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Full Color Curriculum Pages</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                The complete curriculum is embedded directly into the platform in full color — all lessons, spotlights, labs, and projects. The printed books are a wonderful study companion for those who prefer less screen time, but you do not need them to complete the program.
+                The complete curriculum in PDF tablet ready form is embedded directly into the platform in full color — all lessons, spotlights, labs, and projects. The printed books are a wonderful study companion for those who prefer less screen time, but you do not need them to complete the program.
               </p>
             </div>
 
@@ -182,7 +182,7 @@ export default function Page() {
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 28, border: "2px solid #ec4899" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Unit Exams and Study Guides</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                PDF unit exams that are collaborative in nature — designed for reflection and discussion rather than high-stakes testing. Accompanied by study advice and commentary from the authors to help you get the most from each chapter.
+                PDF unit exams that are collaborative in nature and designed for reflection and discussion rather than high-stakes testing. Accompanied by study advice and commentary from the authors to help you get the most from each chapter.
               </p>
             </div>
 
