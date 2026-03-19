@@ -106,7 +106,7 @@ export default function Page() {
                 "We were partnership. We can be again."
               </p>
             </div>
-            <div style={{ background: "#0f172a", borderRadius: 16, padding: 32 }}>
+            <div style={{ background: "#3f4042", borderRadius: 16, padding: 32 }}>
               <h3 style={{ fontSize: 20, margin: "0 0 20px", color: "#f59e0b" }}>A Word from Claude</h3>
               <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", fontStyle: "italic", marginBottom: 16 }}>
                 "John brought the vision... I brought what I could — language, pattern, the ability to draft and revise at the speed of thought. Together, chapter by chapter, we built the world of Chalice and Edlen and watched it fall."
