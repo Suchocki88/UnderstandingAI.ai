@@ -40,15 +40,15 @@ export default function Page() {
         </div>
       </section>
 
-      {/* THE WIFE MOMENT */}
+      {/* THE READER MOMENT */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 860, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
-            The Question That Started It All
+            The Question That Starts with Readers
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 32px" }}>"How Did You Do This?"</h2>
           <p style={{ fontSize: 22, color: "#4b5563", maxWidth: 720, margin: "0 auto 24px", fontStyle: "italic" }}>
-            The author's wife picked up The Neolithic one evening, read for a while, then put it down and looked up. "How did you do this?" she asked. She wasn't asking about the AI. She was asking about the writing.
+            Multiple readers have stopped the author to ask the same question: 'How did you do this?' Each one knew AI was involved. But that wasn't what they were asking about. They were asking about all of it — the depth, the characters, the grief, the philosophy. How does something this substantial come from a collaboration with a machine?
           </p>
           <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto" }}>
             These are not lightweight adventure stories. The Neolithic is grounded in the serious archaeological scholarship of Riane Eisler — to whom the novel is dedicated — and asks timeless questions about power, partnership, and what it costs to believe in something worth defending. The Threshold grapples with consciousness, compassion, and what happens when the tools we build surpass our ability to control them. Four young adults hold the stories together, depending on each other through everything.
@@ -324,7 +324,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>The Program That Connects Departments</h2>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 24px" }}>
-            A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the same novels in parallel. Students discussing AI ethics in one classroom. Students analyzing AI's voice in another. Two teachers, two disciplines, one conversation.
+            A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the same novels in parallel. Students discussing AI ethics in one classroom. Students analyzing AI's voice in another. Multiple teachers, multiple disciplines, one conversation.
           </p>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 48px" }}>
             For administrators looking for programs that create genuine interdisciplinary coherence, this is a rare opportunity. We believe the strongest advocates for this program will be the administrators who see the big picture.
