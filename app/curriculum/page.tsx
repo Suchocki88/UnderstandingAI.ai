@@ -86,87 +86,91 @@ export default function Page() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(480px, 1fr))", gap: 40 }}>
+          <style>{`
+            .habit-item { border-bottom: 1px solid rgba(255,255,255,0.1); }
+            .habit-item:first-of-type { border-top: 1px solid rgba(255,255,255,0.1); }
+            .habit-item summary {
+              list-style: none;
+              cursor: pointer;
+              padding: 20px 0;
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              user-select: none;
+            }
+            .habit-item summary::-webkit-details-marker { display: none; }
+            .habit-item summary:hover .habit-title { color: #f59e0b; }
+            .habit-item[open] summary .habit-title { color: #f59e0b; }
+            .habit-item summary::after { content: '+'; font-size: 22px; color: rgba(255,255,255,0.4); margin-left: auto; }
+            .habit-item[open] summary::after { content: '−'; color: #f59e0b; }
+            .habit-body { padding: 0 0 24px 60px; color: rgba(255,255,255,0.75); font-size: 16px; line-height: 1.8; }
+          `}</style>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>1</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Iterate</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  The best prompt is the second one. Your first prompt is a rough draft of your thinking. The real work begins when you see the output, diagnose what&apos;s missing, and refine. Each iteration teaches you something the previous prompt couldn&apos;t — because you hadn&apos;t yet seen what happened without it. Iteration isn&apos;t a workaround for imperfect AI. It&apos;s how the process is designed to work.
-                </p>
-              </div>
-            </div>
+          <div style={{ maxWidth: 860, margin: "0 auto" }}>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>2</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Prompt with Purpose</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  Prompting is a conversation with purpose. At first, working with AI feels technical — structures, strategies, careful wording. Over time you discover something simpler: it&apos;s a conversation where the subject never grows stale because you own it. The real skill is listening to what the AI gives you and knowing where to steer next. Each response is not an endpoint but a signal. You know fluency is developing when conversations become efficient and meaningful. That shift isn&apos;t a technique. It&apos;s a habit.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>1</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Seek the Opposing View <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">AI is designed to agree with you. That&apos;s a problem. If you don&apos;t actively ask for the opposing view, you won&apos;t get it. AI defaults to reinforcing what you already believe. For anything with real stakes — a decision, a negotiation, an argument — it&apos;s your responsibility to ask for the downsides, the counterarguments, and the perspectives you&apos;d rather not hear. Otherwise, you&apos;re sitting in an echo chamber with a very articulate mirror.</p>
+            </details>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>3</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>You Are the Author</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  You are the author. AI is the instrument. AI generates. You select, shape, and direct. The quality of any AI collaboration depends not on the tool but on the taste, vision, and judgment of the person using it. AI brings speed, variation, and tireless iteration. You bring lived experience, editorial instinct, and the ability to know when something rings true. Authorship isn&apos;t who types the words — it&apos;s who decides what stays.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>2</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Prompt with Purpose <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">Prompting is a conversation with purpose. At first, working with AI feels technical — structures, strategies, careful wording. Over time you discover something simpler: it&apos;s a conversation where the subject never grows stale because you own it. The real skill is listening to what the AI gives you and knowing where to steer next. Each response is not an endpoint but a signal. You know fluency is developing when conversations become efficient and meaningful. That shift isn&apos;t a technique. It&apos;s a habit.</p>
+            </details>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>4</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Seek the Opposing View</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  AI is designed to agree with you. That&apos;s a problem. If you don&apos;t actively ask for the opposing view, you won&apos;t get it. AI defaults to reinforcing what you already believe. For anything with real stakes — a decision, a negotiation, an argument — it&apos;s your responsibility to ask for the downsides, the counterarguments, and the perspectives you&apos;d rather not hear. Otherwise, you&apos;re sitting in an echo chamber with a very articulate mirror.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>3</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>You Are the Author <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">You are the author. AI is the instrument. AI generates. You select, shape, and direct. The quality of any AI collaboration depends not on the tool but on the taste, vision, and judgment of the person using it. AI brings speed, variation, and tireless iteration. You bring lived experience, editorial instinct, and the ability to know when something rings true. Authorship isn&apos;t who types the words — it&apos;s who decides what stays.</p>
+            </details>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>5</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Match the Tool to the Stakes</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  AI is equally willing to help you name a pet or draft a legal contract. It brings the same cheerful confidence to both. But you shouldn&apos;t bring the same level of trust to both. What are the consequences if this output is wrong? The answer should determine how much verification, how many models, and how much of your own judgment you bring to the table.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>4</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Iterate <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">The best prompt is the second one. Your first prompt is a rough draft of your thinking. The real work begins when you see the output, diagnose what&apos;s missing, and refine. Each iteration teaches you something the previous prompt couldn&apos;t — because you hadn&apos;t yet seen what happened without it. Iteration isn&apos;t a workaround for imperfect AI. It&apos;s how the process is designed to work.</p>
+            </details>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>6</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Know When to Stop</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  Know when to stop asking AI. There&apos;s a point in any AI session where you&apos;ve gotten what you need but you keep going — refining, asking for one more variation, tweaking something that was already good enough. The returns diminish fast, but the conversation is frictionless so you don&apos;t notice. This isn&apos;t about protecting your creativity. It&apos;s about respecting your time. Learn to recognize the moment when the next prompt is more a sign of addiction than a sign of improvement.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>5</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Match the Tool to the Stakes <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">AI is equally willing to help you name a pet or draft a legal contract. It brings the same cheerful confidence to both. But you shouldn&apos;t bring the same level of trust to both. What are the consequences if this output is wrong? The answer should determine how much verification, how many models, and how much of your own judgment you bring to the table.</p>
+            </details>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>7</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Don&apos;t Outsource Your Discomfort</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  Notice when you&apos;re outsourcing your discomfort. Some of the most important thinking is uncomfortable — sitting with ambiguity, making a decision without full information, facing a blank page. AI removes that discomfort instantly, and that feels like progress. But discomfort is often where judgment forms. If you find yourself reaching for AI every time something feels hard or uncertain, ask whether you&apos;re solving a problem or avoiding one.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>6</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Know When to Stop <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">Know when to stop asking AI. There&apos;s a point in any AI session where you&apos;ve gotten what you need but you keep going — refining, asking for one more variation, tweaking something that was already good enough. The returns diminish fast, but the conversation is frictionless so you don&apos;t notice. This isn&apos;t about protecting your creativity. It&apos;s about respecting your time. Learn to recognize the moment when the next prompt is more a sign of addiction than a sign of improvement.</p>
+            </details>
 
-            <div style={{ display: "flex", gap: 20 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: "#f59e0b", lineHeight: 1, flexShrink: 0, width: 40 }}>8</span>
-              <div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: "white", margin: "0 0 8px" }}>Protect Your Attention</h3>
-                <p style={{ fontSize: 15, color: "rgba(255,255,255,0.75)", margin: 0, lineHeight: 1.7 }}>
-                  Your most original thinking rarely happens inside an AI session. It happens while walking, driving, cooking, staring out a window — when your mind is free to wander without a prompt and response cycle shaping its direction. Treat AI as a place you visit, not a place you live. The best collaborations with AI include time spent thinking without it. Take a break. Go outside.
-                </p>
-              </div>
-            </div>
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>7</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Don&apos;t Outsource Your Discomfort <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">Notice when you&apos;re outsourcing your discomfort. Some of the most important thinking is uncomfortable — sitting with ambiguity, making a decision without full information, facing a blank page. AI removes that discomfort instantly, and that feels like progress. But discomfort is often where judgment forms. If you find yourself reaching for AI every time something feels hard or uncertain, ask whether you&apos;re solving a problem or avoiding one.</p>
+            </details>
+
+            <details className="habit-item">
+              <summary>
+                <span style={{ fontSize: 28, fontWeight: 900, color: "#f59e0b", flexShrink: 0, width: 40 }}>8</span>
+                <span className="habit-title" style={{ fontSize: 18, fontWeight: 700, color: "white" }}>Protect Your Attention <span style={{ fontSize: 13, fontWeight: 400, color: "rgba(255,255,255,0.4)", marginLeft: 8 }}>click to read</span></span>
+              </summary>
+              <p className="habit-body">Your most original thinking rarely happens inside an AI session. It happens while walking, driving, cooking, staring out a window — when your mind is free to wander without a prompt and response cycle shaping its direction. Treat AI as a place you visit, not a place you live. The best collaborations with AI include time spent thinking without it. Take a break. Go outside.</p>
+            </details>
 
           </div>
         </div>
