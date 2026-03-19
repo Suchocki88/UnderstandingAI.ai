@@ -258,12 +258,13 @@ export default function Page() {
       </section>
 
       {/* FIELD JOURNAL */}
-      <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
+      <section style={{ background: "##0f172a", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
             The Learning Philosophy
           </p>
-          <h2 style={{ fontSize: 40, marginTop: 12 }}>The Field Journal Approach</h2>
+          <img src="/images/FieldJournal.png" alt="Field Journal" style={{ width: 100, marginBottom: 16, opacity: 0.9 }} />
+<h2 style={{ fontSize: 40, marginTop: 12 }}>The Field Journal Approach</h2>
           <p style={{ marginTop: 24, fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "24px auto 0" }}>
             This program treats AI literacy as an expedition, not a lecture. As with any expedition, the most valuable asset becomes the notes you take along the journey.
           </p>
@@ -301,7 +302,7 @@ export default function Page() {
           <div style={{ display: "grid", gap: 32 }}>
 
             {/* Books */}
-            <div style={{ border: "1px solid #e5e7eb", borderRadius: 16, padding: 32, background: "#f8fafc", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
+            <div style={{ border: "1px solid #6b7280", borderRadius: 16, padding: 32, background: "#f8fafc", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>📚 The Books</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
