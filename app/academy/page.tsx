@@ -245,8 +245,8 @@ export default function Page() {
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>10 points per correct answer</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Single Certificate</h3>
-              <p style={{ color: "#0f172a", margin: 0 }}>5 hours CE — download instantly</p>
+              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Certificate</h3>
+              <p style={{ color: "#0f172a", margin: 0 }}>5 hours CE — complete the chapter</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
               <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Volume Certificate</h3>
