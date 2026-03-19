@@ -69,7 +69,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>Author-Infused at Every Step</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The process began with freeform writing — the author's raw ideas for the plot, the world, the characters. Then came the harder step: working with AI to flesh out the storyboard, going over and over the table of contents before a single chapter paragraph was written.
+              The process began with freeform writing — the author's raw ideas for the plot, the world, the characters. Then came the harder step: working with AI to flesh out the storyboard, going over and over the table of contents.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               Meanwhile, the author drafted key passages himself — in his own voice — and fed these to the AI as training examples. This is why the voice feels consistent and clear. The AI was learning from a specific human mind: a science textbook author whose instinct is always subject, verb, object. Say what you mean, but trust the reader to figure out the 7/8th of the iceberg hidden underwater.
