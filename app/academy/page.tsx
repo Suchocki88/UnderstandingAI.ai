@@ -241,7 +241,7 @@ export default function Page() {
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>5 points per correct answer</p>
             </div>
             <div style={{ background: "rgba(255,255,255,0.08)", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Homework Practice</h3>
+              <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Homework</h3>
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>10 points per correct answer</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
