@@ -75,7 +75,7 @@ export default function Page() {
               Meanwhile, the author drafted key passages himself — in his own voice — and fed these to the AI as training examples. This is why the voice feels consistent and clear. The AI was learning from a specific human mind, who happens to be a science textbook author with an instinct for subject, verb, object. Speak the basic ideas while trusting the reader to figure out the 7/8th of the iceberg hidden underwater. <em>(Hemingway)</em>
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              Then chapter by chapter, the AI generated, the author read and edited, sent it back, refined, discussed, settled on a draft. At some point, a character would need to die — and that was genuine challenge. The author would spend the rest of the day in grief. That emotional investment is what distinguishes these novels from AI output.
+              Then chapter by chapter, the AI generated, the author read and edited, sent it back, refined, discussed, settled on a draft. At some point, a character would need to die — and that was a genuine challenge. The author would spend the rest of the day in grief. That emotional investment is what distinguishes these novels from AI output.
             </p>
           </div>
         </div>
