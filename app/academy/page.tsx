@@ -81,7 +81,7 @@ export default function Page() {
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
               <div style={{ fontSize: 32, marginBottom: 12 }}>🏠</div>
               <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>Independent Learners</h3>
-              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Homeschool families, curious adults, and anyone who wants a structured path through this material.</p>
+              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Homeschool families, life-long learners, and anyone who wants a structured path through this material.</p>
             </div>
           </div>
         </div>
