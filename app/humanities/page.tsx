@@ -100,7 +100,7 @@ export default function Page() {
                 "In my early years, I occasionally dreamed of writing a novel. One endeavor I started but never finished was a story called 'Cron.' It was to be a saga of the peoples of the Neolithic — an era that seemed to me full of mystery and possibility."
               </p>
               <p style={{ fontSize: 16, color: "#4b5563", marginBottom: 16 }}>
-                Decades later, his wife handed him Riane Eisler's The Chalice and the Blade — arguing that Neolithic societies achieved a level of social enlightenment beyond our own. At the same time, he was developing the AI literacy program and had just published The Threshold. The forces converged.
+                Decades later, his wife handed him Riane Eisler's The Chalice and the Blade, an academic work proposing that Neolithic societies achieved a level of social enlightenment beyond our own. At the same time, he was developing the AI literacy program and had just published The Threshold. The forces converged and he knew that Eisler's thesis needed to be told in story form.
               </p>
               <p style={{ fontSize: 16, color: "#4b5563", fontStyle: "italic" }}>
                 "We were partnership. We can be again."
@@ -132,7 +132,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Read a Page. Then Decide.</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
-              This passage, from Chapter 32 of The Neolithic, is human-authored. Notice the restraint at maximum violence. An AI on its own would go purple. This and similarly human-produced passages are identified to students as part of a lab activity within the program.
+              This passage, from Chapter 32 of The Neolithic, is human-authored. Notice the restraint at maximum violence. An AI on its own would go purple. This and other human-produced passages are identified to students as part of a lab activity within the program.
             </p>
           </div>
           <div style={{ background: "#ffffff", borderRadius: 16, padding: 40, border: "1px solid #e5e7eb", borderLeft: "4px solid #8b5cf6" }}>
