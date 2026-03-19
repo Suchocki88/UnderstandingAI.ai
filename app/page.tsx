@@ -185,8 +185,8 @@ export default function Page() {
                 These two volumes are for anyone who wants to understand the technology reshaping our world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to videos are included. <em>Now available in paperback.</em>
               </p>
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
-                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1</a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2</a>
+                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 1</a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 2</a>
               </div>
             </div>
 
