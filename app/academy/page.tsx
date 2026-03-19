@@ -304,7 +304,7 @@ export default function Page() {
             </p>
 
             <a
-              href="https://www.conceptualacademy.com/signup"
+              href="https://conceptualacademy.com/user/register"
               target="_blank"
               rel="noopener noreferrer"
               style={{
