@@ -33,23 +33,6 @@ export default function Page() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                background: "#f59e0b",
-                color: "#0f172a",
-                padding: "14px 28px",
-                borderRadius: 8,
-                textDecoration: "none",
-                fontWeight: 700,
-                fontSize: 16,
-                display: "inline-block",
-              }}
-            >
-              Enroll Now
-            </a>
-            <a
-              href="https://conceptualacademy.com/textbook/understanding-and-working-ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
                 border: "2px solid rgba(255,255,255,0.4)",
                 color: "white",
                 padding: "14px 28px",
