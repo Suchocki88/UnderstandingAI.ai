@@ -124,7 +124,7 @@ export default function Page() {
           </div>
           <div>
             <img
-              src="/images/CALandingPage.jpg"
+              src="/images/CALandingPageB.jpg"
               alt="Conceptual Academy platform"
               style={{ width: "100%", borderRadius: 12, boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}
             />
