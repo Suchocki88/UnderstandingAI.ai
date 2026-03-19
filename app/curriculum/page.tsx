@@ -258,7 +258,7 @@ export default function Page() {
       </section>
 
       {/* FIELD JOURNAL */}
-      <section style={{ background: "##0f172a", color: "white", padding: "80px 24px" }}>
+      <section style={{ background: "#0f172a", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
             The Learning Philosophy
