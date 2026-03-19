@@ -1,14 +1,11 @@
 import Link from "next/link";
-
 export default function Page() {
-
   const buyButton: React.CSSProperties = {
     color: "#1d4ed8",
     fontWeight: 600,
     textDecoration: "none",
     fontSize: 14,
   };
-
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.5 }}>
 
@@ -31,6 +28,45 @@ export default function Page() {
           <p style={{ marginTop: 24, fontSize: 22, maxWidth: 760, opacity: 0.9 }}>
             A cross-disciplinary approach to learning how artificial intelligence works
           </p>
+        </div>
+      </section>
+
+      {/* WHO ARE YOU */}
+      <section style={{ background: "#0f172a", padding: "0 24px" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))" }}>
+
+          <Link href="/pocketlab" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6, transition: "background 0.2s" }}
+            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
+            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
+            <span style={{ fontSize: 22 }}>👩‍🏫</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I&apos;m a Teacher</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>K–12 classroom programs →</span>
+          </Link>
+
+          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}
+            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
+            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
+            <span style={{ fontSize: 22 }}>💼</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I&apos;m a Professional</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>CEUs and PD credential →</span>
+          </Link>
+
+          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}
+            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
+            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
+            <span style={{ fontSize: 22 }}>🏠</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I&apos;m an Independent Learner</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-paced online program →</span>
+          </Link>
+
+          <Link href="/humanities" style={{ textDecoration: "none", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}
+            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
+            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
+            <span style={{ fontSize: 22 }}>📚</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I Teach English / Humanities</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>AI-authored novels for class →</span>
+          </Link>
+
         </div>
       </section>
 
@@ -167,7 +203,6 @@ export default function Page() {
             </p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
-
             {/* Print */}
             <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
@@ -180,7 +215,6 @@ export default function Page() {
                 <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a>
               </div>
             </div>
-
             {/* PocketLab */}
             <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 28, background: "#fff7ed", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
@@ -192,7 +226,6 @@ export default function Page() {
                 Learn more about PocketLab →
               </Link>
             </div>
-
             {/* Humanities */}
             <div style={{ border: "2px solid #8b5cf6", borderRadius: 16, padding: 28, background: "#f5f3ff", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", marginBottom: 4 }} />
@@ -204,7 +237,6 @@ export default function Page() {
                 Learn more about the Humanities pathway →
               </Link>
             </div>
-
             {/* Conceptual Academy */}
             <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
@@ -216,7 +248,6 @@ export default function Page() {
                 Learn more about Conceptual Academy →
               </Link>
             </div>
-
           </div>
         </div>
       </section>
