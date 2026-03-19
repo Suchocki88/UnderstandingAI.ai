@@ -92,7 +92,7 @@ export default function Page() {
             .habit-item summary {
               list-style: none;
               cursor: pointer;
-              padding: 13px 0;
+              padding: 10px 0;
               display: flex;
               align-items: center;
               gap: 20px;
