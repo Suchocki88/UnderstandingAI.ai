@@ -96,7 +96,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: "12px 0 20px" }}>A Guided Path Through the Curriculum</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              Join us on a guided journey through AI literacy. All in one place: video lessons, interactive labs, AI tools, quizzes, and study guides designed to take you from the foundations of how AI works to its societal and creative implications.
+              Join us on a guided journey through AI literacy. You'll find everything you'll need in one place: video lessons, interactive labs, AI tools, quizzes, and study guides designed to take you from the foundations of how AI works to its societal and creative implications.
             </p>
               <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               You can start anytime, stop anytime, and pick up exactly where you left off. There is no expiration date on your enrollment.
