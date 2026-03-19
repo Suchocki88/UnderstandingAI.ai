@@ -262,7 +262,7 @@ export default function Page() {
               We encourage you to open a teacher's account on PocketLab's Notebook plaform. Exploring our AI program on that platform is a genuinely good way to get familiar with the material before teaching it.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              However, CEUs and PD hours are only available on the Conceptual Academy platform.
+              However, for CEUs and PD hours you will need to sign up for the self-guided AI program on the Conceptual Academy platform.
             </p>
           </div>
         </div>
