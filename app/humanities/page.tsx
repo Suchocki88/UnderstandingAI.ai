@@ -317,16 +317,16 @@ export default function Page() {
       </section>
 
       {/* FOR ADMINS */}
-      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+      <section style={{ background: "#0f172a", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
             A Note for Administrators
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>The Program That Connects Departments</h2>
-          <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto 24px" }}>
+          <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 24px" }}>
             A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the same novels in parallel. Students discussing AI ethics in one classroom. Students analyzing AI's voice in another. Two teachers, two disciplines, one conversation.
           </p>
-          <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto 48px" }}>
+          <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 48px" }}>
             For administrators looking for programs that create genuine interdisciplinary coherence, this is a rare opportunity. We believe the strongest advocates for this program will be the administrators who see the big picture.
           </p>
           <Link href="/pocketlab" style={{ background: "#8b5cf6", color: "white", padding: "14px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
