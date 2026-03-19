@@ -344,7 +344,7 @@ export default function Page() {
         <div style={{ maxWidth: 900, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 40, alignItems: "center" }}>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
-              For English Teachers
+              For Language Arts Teachers
             </p>
             <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>Start with the Novels. Then Go Deeper.</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
