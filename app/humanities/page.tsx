@@ -331,7 +331,7 @@ export default function Page() {
             A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the associated novels in parallel. Students learning AI mechanics and best practices in one classroom. Students analyzing creative writing with AI in another. Multiple teachers, multiple disciplines, one conversation.
           </p>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 48px" }}>
-            For administrators looking for programs that create genuine interdisciplinary coherence, this is a rare opportunity. We believe the strongest advocates for this program will be the administrators who see the big picture.
+            For administrators looking for programs that create genuine interdisciplinary coherence, this is an important opportunity.
           </p>
           <Link href="/pocketlab" style={{ background: "#8b5cf6", color: "white", padding: "14px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
             Learn About the K–12 Program →
