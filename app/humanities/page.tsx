@@ -75,7 +75,7 @@ export default function Page() {
               Meanwhile, the author drafted key passages himself — in his own voice — and fed these to the AI as training examples. This is why the voice feels consistent and clear. The AI was learning from a specific human mind: a science textbook author whose instinct is always subject, verb, object. Say what you mean. Trust the reader.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              Then chapter by chapter: the AI generated, the author read and edited, sent it back, refined, discussed, settled on a draft. At some point, a character would need to die — and that was genuinely hard. The author would spend the rest of the day in tears. Family would find him crying on the stairwell. That emotional investment is what distinguishes these novels from AI output.
+              Then chapter by chapter: the AI generated, the author read and edited, sent it back, refined, discussed, settled on a draft. At some point, a character would need to die — and that was genuinely hard. The author would spend the rest of the day in grief. Family would find him crying on the stairwell. That emotional investment is what distinguishes these novels from AI output.
             </p>
           </div>
         </div>
