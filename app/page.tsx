@@ -165,7 +165,7 @@ export default function Page() {
               </Link>
             </div>
 
-            {/* PocketLab */}
+ {/* PocketLab */}
             <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 28, background: "#fff7ed", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
@@ -176,6 +176,7 @@ export default function Page() {
                 Learn more about PocketLab →
               </Link>
             </div>
+
             {/* Print */}
             <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
@@ -187,7 +188,9 @@ export default function Page() {
                 <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
                 <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a>
               </div>
-              {/* Humanities */}
+            </div>
+
+            {/* Humanities */}
             <div style={{ border: "2px solid #8b5cf6", borderRadius: 16, padding: 28, background: "#f5f3ff", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Language Arts</h3>
