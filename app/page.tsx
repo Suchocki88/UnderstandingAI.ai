@@ -153,18 +153,18 @@ export default function Page() {
             </p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
-            {/* Print */}
-            <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
-              <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
-              <h3 style={{ margin: 0, fontSize: 20 }}>Explore the Books</h3>
+                        {/* Conceptual Academy */}
+            <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
+              <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
+              <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                AI literacy shouldn&apos;t be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping the world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to videos are included.
+                A professional, independent learner, or teacher seeking credentials? Conceptual Academy offers a structured online program with CEUs, PD hours, and full AI tools — available in 5-hour increments.
               </p>
-              <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
-                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a>
-              </div>
+              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about Conceptual Academy →
+              </Link>
             </div>
+
             {/* PocketLab */}
             <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 28, background: "#fff7ed", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
@@ -187,16 +187,17 @@ export default function Page() {
                 Learn more about the Humanities pathway →
               </Link>
             </div>
-            {/* Conceptual Academy */}
-            <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
-              <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
-              <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
+            {/* Print */}
+            <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
+              <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
+              <h3 style={{ margin: 0, fontSize: 20 }}>Explore the Books</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                A professional, independent learner, or teacher seeking credentials? Conceptual Academy offers a structured online program with CEUs, PD hours, and full AI tools — available in 5-hour increments.
+                AI literacy shouldn&apos;t be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping the world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to videos are included.
               </p>
-              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
-                Learn more about Conceptual Academy →
-              </Link>
+              <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
+                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a>
+              </div>
             </div>
           </div>
         </div>
