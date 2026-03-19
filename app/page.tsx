@@ -36,32 +36,27 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))" }}>
 
           <Link href="/pocketlab" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Social Studies/CTE</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Social Studies / CTE</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>K–12 classroom programs →</span>
           </Link>
 
           <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 22 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Professional</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>CEUs and PD credential →</span>
           </Link>
 
           <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Independent Learner</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-paced online program →</span>
           </Link>
 
           <Link href="/humanities" style={{ textDecoration: "none", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Language Arts</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>AI-authored novels for class →</span>
           </Link>
 
         </div>
       </section>
-
       {/* CORE CURRICULUM */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div
