@@ -262,24 +262,21 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <img
-              src="/images/FrankBulbOrange.png"
+              src="/images/FrankBulbClear.png"
               alt="Frank with a lightbulb idea"
               style={{ width: 240 }}
             />
           </div>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899", marginBottom: 16 }}>
-              A Good Question
+              To Keep in Mind
             </p>
-            <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>Why Not Just Use PocketLab?</h2>
+            <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>A Note About PocketLab</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              PocketLab Notebook is designed for a classroom with a teacher and students. There are no self-study programs on that platform. A teacher could get a teacher account and explore the course, and that is a genuinely good way to get familiar with the material before teaching it.
+              We encourage you to open a teacher's account on PocketLab's Notebook plaform. Exploring our AI program on that platform is a genuinely good way to get familiar with the material before teaching it.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              But for credential? A teacher grading themselves is a conflict of interest. For CEUs and PD hours that hold up professionally, you need an independent assessment — which is exactly what Conceptual Academy provides.
-            </p>
-            <p style={{ fontSize: 18, color: "#4b5563" }}>
-              Beyond credential, there is a simpler reason: isn't it better to be guided through a new program than to wander through it alone? Conceptual Academy is that guide.
+              However, PocketLab Notebook is designed for a classroom with a teacher and students. There are no self-study programs on that platform, which is to say there is no way for you to enroll as a student yourself. For CEUs and PD hours that hold up professionally, you need an independent assessment system, which is the Conceptual Academy platform.
             </p>
           </div>
         </div>
