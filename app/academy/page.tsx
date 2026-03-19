@@ -206,7 +206,7 @@ export default function Page() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
               <img
-                src="/images/UAICertificate800.png"
+                src="/images/UAICertificateFZ.png"
                 alt="Certificate of Completion — Understanding and Working with AI"
                 style={{ width: "100%", maxWidth: 460, borderRadius: 12, boxShadow: "0 12px 40px rgba(0,0,0,0.5)" }}
               />
