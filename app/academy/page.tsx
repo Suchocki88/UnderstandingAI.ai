@@ -29,7 +29,7 @@ export default function Page() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="https://www.conceptualacademy.com/signup"
+              href="https://conceptualacademy.com/textbook/understanding-and-working-ai"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -43,10 +43,10 @@ export default function Page() {
                 display: "inline-block",
               }}
             >
-              Enroll Now →
+              Enroll Now
             </a>
             <a
-              href="https://www.conceptualacademy.com"
+              href="https://conceptualacademy.com/textbook/understanding-and-working-ai"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -73,9 +73,9 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
               Who It Is For
             </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>For Everyone Outside the K–12 Classroom</h2>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>For Every Learner Outside the traditional K–12 Classroom</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              While PocketLab serves institutional K–12, Conceptual Academy is for everyone else. That is a large and important group.
+              While PocketLab serves students within institutional K–12, Conceptual Academy is for everyone else.
             </p>
           </div>
 
