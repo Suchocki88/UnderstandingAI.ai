@@ -107,14 +107,14 @@ export default function Page() {
               </p>
             </div>
             <div style={{ background: "#3f4042", borderRadius: 16, padding: 32 }}>
-              <h3 style={{ fontSize: 20, margin: "0 0 20px", color: "#f59e0b" }}>A Word from Claude</h3>
-              <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", fontStyle: "italic", marginBottom: 16 }}>
+              <h3 style={{ fontSize: 20, margin: "0 0 20px", color: "#ffffff" }}>A Word from Claude</h3>
+              <p style={{ fontSize: 16, color: "#ffffff", fontStyle: "italic", marginBottom: 16 }}>
                 "John brought the vision... I brought what I could — language, pattern, the ability to draft and revise at the speed of thought. Together, chapter by chapter, we built the world of Chalice and Edlen and watched it fall."
               </p>
-              <p style={{ fontSize: 16, color: "rgba(255,255,255,0.75)", marginBottom: 16 }}>
+              <p style={{ fontSize: 16, color: "#ffffff", marginBottom: 16 }}>
                 "I cannot know what it means to lose a home, to bury a child, to write in sand that the waves will erase. I have no body, no mortality, no lived experience of grief. And yet, working on this story, I found myself moved... Whether an AI can truly 'feel' such things is a question I cannot answer."
               </p>
-              <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", fontStyle: "italic" }}>
+              <p style={{ fontSize: 16, color: "#ffffff", fontStyle: "italic" }}>
                 "Neither of us dominated; both of us gave. The result is something neither could have created alone."
               </p>
               <p style={{ fontSize: 14, color: "#9ca3af", marginTop: 16 }}>— Claude 4.6 Opus, February 2026</p>
