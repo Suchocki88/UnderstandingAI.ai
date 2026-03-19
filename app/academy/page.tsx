@@ -209,13 +209,13 @@ export default function Page() {
               </p>
               <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Points, Not Percentages</h2>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
-                Everyone starts at zero and builds upward based on demonstrable effort. There is no penalty for a wrong answer — only points to be earned. This is not a pass-fail system. It is a point-accumulation system, and pedagogically that makes a world of difference.
+                Everyone starts at zero and builds upward based on demonstrated effort. There is no penalty for a wrong answer — only points to be earned with correct answers. This is not a pass-fail system. It is a point-accumulation system, and pedagogically that makes a world of difference.
               </p>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
                 Reach the threshold for a chapter and download a personalized 5-hour continuing education certificate with your name and date. Complete the full volume and earn a single 20-hour certificate instead.
               </p>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)" }}>
-                The only real way to not receive a certificate is to stop studying. We have built this program to make that as unlikely as possible.
+                The only real way to not receive a certificate is to stop studying. We have built this program to make that as unlikely as possible. But more than the certificate, you'll finish with a much deeper understanding of the nature of AI and how to work with it effectively.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
@@ -225,7 +225,7 @@ export default function Page() {
                 style={{ width: "100%", maxWidth: 460, borderRadius: 12, boxShadow: "0 12px 40px rgba(0,0,0,0.5)" }}
               />
               <p style={{ fontSize: 14, color: "rgba(255,255,255,0.5)", fontStyle: "italic", textAlign: "center", margin: 0 }}>
-                Your personalized certificate — downloaded instantly when you reach the threshold
+                Your personalized certificate — downloadable when you reach each threshold
               </p>
             </div>
           </div>
