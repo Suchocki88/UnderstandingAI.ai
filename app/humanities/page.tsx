@@ -328,7 +328,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>The Program That Connects Departments</h2>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 24px" }}>
-            A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the same novels in parallel. Students discussing AI ethics in one classroom. Students analyzing AI's voice in another. Multiple teachers, multiple disciplines, one conversation.
+            A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the associated novels in parallel. Students learning AI mechanics and best practices in one classroom. Students analyzing creative writing with AI in another. Multiple teachers, multiple disciplines, one conversation.
           </p>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 48px" }}>
             For administrators looking for programs that create genuine interdisciplinary coherence, this is a rare opportunity. We believe the strongest advocates for this program will be the administrators who see the big picture.
@@ -339,7 +339,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* CTA FOR ENGLISH TEACHERS */}
+      {/* CTA FOR LANGUAGE ARTS TEACHERS */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 40, alignItems: "center" }}>
           <div>
