@@ -22,7 +22,7 @@ export default function Page() {
             Professional Development & Independent Learners
           </p>
           <h1 style={{ fontSize: 48, lineHeight: 1.1, margin: "0 0 24px" }}>
-            AI Literacy You Can Credential
+            AI Literacy Credential
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
             A structured, self-paced online program for teachers, professionals, and independent learners. Start anytime. No expiration. Earn continuing education certificates along the way.
