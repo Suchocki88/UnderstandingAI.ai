@@ -80,7 +80,7 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
               The Program&apos;s Guiding Principles
             </p>
-            <h2 style={{ fontSize: 40, margin: 0 }}>Eight Habits of Mind for Working with AI</h2>
+            <h2 style={{ fontSize: 28, margin: 0 }}>Eight Habits of Mind for Working with AI</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "rgba(255,255,255,0.7)" }}>
               Each chapter of the program opens with one of these habits. Together they form a practical philosophy for anyone who works with AI.
             </p>
@@ -92,7 +92,7 @@ export default function Page() {
             .habit-item summary {
               list-style: none;
               cursor: pointer;
-              padding: 20px 0;
+              padding: 13px 0;
               display: flex;
               align-items: center;
               gap: 20px;
