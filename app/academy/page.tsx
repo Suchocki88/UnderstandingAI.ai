@@ -129,7 +129,7 @@ export default function Page() {
               style={{ width: "100%", borderRadius: 12, boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}
             />
             <p style={{ fontSize: 14, color: "#6b7280", fontStyle: "italic", marginTop: 12 }}>
-  Screenshot of the Conceptual Academy platform
+  Screenshot from the Conceptual Academy platform
 </p>
           </div>
         </div>
