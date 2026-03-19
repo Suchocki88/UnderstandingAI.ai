@@ -25,7 +25,7 @@ export default function Page() {
             AI Literacy Credential
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
-            These credentials are aimed at professionals, educators, and students looking to develop essential skills for navigating an AI-driven modern world without needing deep technical programming expertise. Start anytime. No expiration.
+            An online program designed for professionals, educators, and students looking to develop essential skills for navigating an AI-driven modern world without needing deep technical programming expertise. Start anytime. No expiration.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
