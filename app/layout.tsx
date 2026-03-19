@@ -90,15 +90,16 @@ export default function RootLayout({
                   Pathways ▾
                 </span>
                 <div className="dropdown-menu">
+                                    <Link href="/academy" style={dropdownItem}>
+                    Conceptual Academy — Professional Development
+                  </Link>
                   <Link href="/pocketlab" style={dropdownItem}>
                     PocketLab — K–12 STEM &amp; Social Studies
                   </Link>
                   <Link href="/humanities" style={dropdownItem}>
                     Humanities — English &amp; Interdisciplinary
                   </Link>
-                  <Link href="/academy" style={dropdownItem}>
-                    Conceptual Academy — Professional Development
-                  </Link>
+
                 </div>
               </div>
 
