@@ -29,7 +29,7 @@ export default function Page() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="https://www.conceptualacademy.com/signup"
+              href="https://conceptualacademy.com/textbook/understanding-and-working-ai"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -304,7 +304,7 @@ export default function Page() {
             </p>
 
             <a
-              href="https://www.conceptualacademy.com/signup"
+              href="https://conceptualacademy.com/user/register"
               target="_blank"
               rel="noopener noreferrer"
               style={{
