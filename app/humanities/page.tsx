@@ -167,7 +167,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Post-Reading Reflections</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280", maxWidth: 680, margin: "16px auto 0" }}>
-              Each novel ends with optional essays for readers who want to go deeper. Click any reflection to read it. But, you'll probably be most interest in number ten.
+              Each novel ends with optional essays for readers who want to go deeper. Click any reflection to read it. You'll probably be most interested in number ten.
             </p>
           </div>
 
