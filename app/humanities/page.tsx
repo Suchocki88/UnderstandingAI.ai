@@ -25,7 +25,7 @@ export default function Page() {
             Two Novels Written with AI
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
-            Not just stories about AI. Stories co-created with AI — and the quality of that collaboration is precisely what makes them worth teaching.
+            Not just stories about AI. Stories co-created with AI — and the quality of that collaboration is precisely what makes them worth using as a resource within your teaching.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer"
