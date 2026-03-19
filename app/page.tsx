@@ -30,7 +30,17 @@ export default function Page() {
           </p>
         </div>
       </section>
-
+{/* HABIT OF MIND TEASER */}
+      <section style={{ background: "#451a03", padding: "24px 32px", borderLeft: "4px solid #f59e0b" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", gap: 20, alignItems: "baseline" }}>
+          <span style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", flexShrink: 0 }}>
+            Habit of Mind 1
+          </span>
+          <p style={{ margin: 0, fontSize: 16, color: "rgba(255,255,255,0.85)", fontStyle: "italic", lineHeight: 1.6 }}>
+            "AI is designed to agree with you. That&apos;s a problem. If you don&apos;t actively ask for the opposing view, you won&apos;t get it — otherwise you&apos;re sitting in an echo chamber with a very articulate mirror."
+          </p>
+        </div>
+      </section>
 {/* WHO ARE YOU */}
       <section style={{ background: "#0f172a", padding: "0 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))" }}>
