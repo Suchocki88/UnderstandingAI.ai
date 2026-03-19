@@ -19,13 +19,13 @@ export default function Page() {
         <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.65)" }} />
         <div style={{ maxWidth: 860, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
-            Humanities and English Pathway
+            Humanities Pathway
           </p>
           <h1 style={{ fontSize: 48, lineHeight: 1.1, margin: "0 0 24px" }}>
             Two Novels Written with AI
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
-            Not just stories about AI. Stories co-created with AI — and the quality of that collaboration is precisely what makes them worth using as a resource within your teaching.
+            Not just stories about AI. Stories co-created <em>with</em> AI — and the quality of that collaboration is precisely what makes them worth using as a resource within your teaching.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer"
