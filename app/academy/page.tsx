@@ -257,12 +257,12 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899", marginBottom: 16 }}>
               To Keep in Mind
             </p>
-            <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>A Note About PocketLab</h2>
+            <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>A Note For Teachers</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               We encourage you to open a teacher's account on PocketLab's Notebook plaform. Exploring our AI program on that platform is a genuinely good way to get familiar with the material before teaching it.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              However, PocketLab Notebook is designed for a classroom with a teacher and students. There are no self-study programs on that platform, which is to say there is no way for you to enroll as a student yourself. For CEUs and PD hours that hold up professionally, you need an independent assessment system, which is the Conceptual Academy platform.
+              However, CEUs and PD hours are only available on the Conceptual Academy platform.
             </p>
           </div>
         </div>
