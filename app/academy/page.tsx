@@ -184,7 +184,7 @@ export default function Page() {
       </section>
 
       {/* CREDENTIAL SYSTEM */}
-      <section style={{ background: "#2a59c7", color: "white", padding: "80px 24px" }}>
+      <section style={{ background: "#204aab", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
 
           {/* Top: text left, certificate right */}
