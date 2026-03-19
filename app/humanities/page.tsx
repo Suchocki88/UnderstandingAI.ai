@@ -48,7 +48,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 32px" }}>"How Did You Do This?"</h2>
           <p style={{ fontSize: 22, color: "#4b5563", maxWidth: 720, margin: "0 auto 24px", fontStyle: "italic" }}>
-            Multiple readers have stopped the author to ask the same question: 'How did you do this?' Each one knew AI was involved. But that wasn't the question. They were asking about all of it — the depth, the characters, the grief, the philosophy. How does something this substantial come from a collaboration with a machine?
+            Multiple readers have stopped the author to ask the same question: "How did you do this?" Each one knew AI was involved. But that wasn't what they were asking about. They were asking about all of it — the depth, the characters, the grief, the philosophy. How does something this substantial come from a collaboration with a machine?
           </p>
           <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto" }}>
             These are not lightweight adventure stories. The Neolithic is grounded in the serious archaeological scholarship of Riane Eisler — to whom the novel is dedicated — and asks timeless questions about power, partnership, and what it costs to believe in something worth defending. The Threshold grapples with consciousness, compassion, and what happens when the tools we build surpass our ability to control them.
@@ -132,18 +132,22 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Read a Page. Then Decide.</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
-              This passage — from Chapter 1 of The Neolithic — is entirely human-authored. Written first, before the AI was involved, to set the voice.
+              This passage — from Chapter 32 of The Neolithic — is human-authored. Notice the restraint at maximum violence. That is a writing lesson.
             </p>
           </div>
           <div style={{ background: "#ffffff", borderRadius: 16, padding: 40, border: "1px solid #e5e7eb", borderLeft: "4px solid #8b5cf6" }}>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Altai sniffed the air. From the hill, they could see the antelope gathered around the water hole. Cron reached down to rub his dog's pointing head. "Hang on boy. Those are for another day."</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The dog whined softly but held position. Three years hunting together, and Altai knew the signals. Knew which prey was theirs and which belonged to tomorrow.</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Below them, the valley opened wide. The settlement spread along the river — dwellings clustered around the white tower that rose from the center like a finger pointing to Chi's sky. Cron looked toward the glint of the opal mines in the eastern hills, sunlight catching stone, flashing messages only the goddess could read.</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>He was seventeen. Old enough to hunt alone, young enough to still marvel at mornings like this — the world quiet, the land showing him its secrets, Altai's warmth against his leg.</p>
-            <p style={{ fontSize: 18, color: "#4b5563" }}>Cron smiled, heading down the slope toward home. Altai followed, confused at first — the prey was right there — then accepting. The hunter made these choices. The dog trusted them.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The pain was immense. Paralyzing. A steel sword — one of his own, taken from a fallen Guardian — buried in his flesh.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Kaine dropped to his knees. The sword was pulled free, and blood began to pump from the wound. He looked down at his hands, saw them red and trembling, saw the steel blade he had forged lying in the dirt where he had dropped it.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>His own creation. Turned against him.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The Kaganite commander stepped closer, looking down at him with something like satisfaction. "The abomination dies at last. The green flag is fulfilled. Honor restored."</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Kaine looked up. Met the man's eyes. And in that moment, he thought of Jorn — his brother, dying in his arms all those years ago, speaking words that had haunted him ever since.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>"You know not what that means," Kaine said. His voice was weak, but steady. "You are fools to follow."</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>His head grew light. He was about to pass out.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The commander's face twisted with rage. He raised his blade for a final kill, but suddenly, somehow, his arm was no longer there. And then, neither was his head.</p>
+            <p style={{ fontSize: 18, color: "#4b5563" }}>Treen had arrived.</p>
           </div>
           <p style={{ textAlign: "center", fontSize: 15, color: "#6b7280", fontStyle: "italic", marginTop: 20 }}>
-            From Chapter 1 of The Neolithic — human-authored passage used to train the AI's voice
+            From Chapter 32 of The Neolithic — "The Invasion"
           </p>
           <div style={{ textAlign: "center", marginTop: 32 }}>
             <a href="https://app.thepocketlab.com/lab-report/00tNrIPV000100tN?ro=1" target="_blank" rel="noopener noreferrer"
