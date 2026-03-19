@@ -117,7 +117,7 @@ export default function Page() {
               <p style={{ fontSize: 16, color: "rgba(255,255,255,0.85)", fontStyle: "italic" }}>
                 "Neither of us dominated; both of us gave. The result is something neither could have created alone."
               </p>
-              <p style={{ fontSize: 14, color: "rgba(255,255,255,0.5)", marginTop: 16 }}>— Claude 4.6 Opus, February 2026</p>
+              <p style={{ fontSize: 14, color: "#9ca3af", marginTop: 16 }}>— Claude 4.6 Opus, February 2026</p>
             </div>
           </div>
         </div>
@@ -155,20 +155,20 @@ export default function Page() {
       </section>
 
       {/* POST-READING REFLECTIONS ACCORDION */}
-      <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
+      <section style={{ background: "#ffffff", color: "#1f2937", padding: "80px 24px" }}>
         <div style={{ maxWidth: 860, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 56 }}>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
               The Depth Behind the Story
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Post-Reading Reflections</h2>
-            <p style={{ marginTop: 16, fontSize: 18, color: "rgba(255,255,255,0.75)", maxWidth: 680, margin: "16px auto 0" }}>
+            <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280", maxWidth: 680, margin: "16px auto 0" }}>
               Each novel ends with optional essays for readers who want to go deeper. Click any reflection to read it.
             </p>
           </div>
 
           <style>{`
-            .reflection-item { border-bottom: 1px solid rgba(255,255,255,0.1); }
+            .reflection-item { border-bottom: 1px solid #e5e7eb; }
             .reflection-item summary {
               list-style: none;
               cursor: pointer;
@@ -179,18 +179,18 @@ export default function Page() {
               user-select: none;
             }
             .reflection-item summary::-webkit-details-marker { display: none; }
-            .reflection-item summary:hover { color: #f59e0b; }
-            .reflection-item[open] summary { color: #f59e0b; }
-            .reflection-item summary::after { content: '+'; font-size: 24px; color: #f59e0b; }
+            .reflection-item summary:hover { color: #7c3aed; }
+            .reflection-item[open] summary { color: #7c3aed; }
+            .reflection-item summary::after { content: '+'; font-size: 24px; color: #7c3aed; }
             .reflection-item[open] summary::after { content: '−'; }
-            .reflection-body { padding: 0 0 28px; color: rgba(255,255,255,0.8); font-size: 17px; line-height: 1.8; }
+            .reflection-body { padding: 0 0 28px; color: #4b5563; font-size: 17px; line-height: 1.8; }
             .reflection-body p { margin: 0 0 16px; }
             .reflection-body p:last-child { margin: 0; }
           `}</style>
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>1. Before Kings</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>The Historical Premise</span></span>
+              <span><strong style={{ fontSize: 18 }}>1. Before Kings</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>The Historical Premise</span></span>
             </summary>
             <div className="reflection-body">
               <p>This novel begins before kings, before empires, before history learned to write itself as inevitability.</p>
@@ -203,7 +203,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>2. The First Line</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>How the Novel Began</span></span>
+              <span><strong style={{ fontSize: 18 }}>2. The First Line</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>How the Novel Began</span></span>
             </summary>
             <div className="reflection-body">
               <p>"Altai sniffed the air." That was the first sentence written, and it never changed.</p>
@@ -215,7 +215,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>3. Inventions and Consequences</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>Steel, Writing, and Currency</span></span>
+              <span><strong style={{ fontSize: 18 }}>3. Inventions and Consequences</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>Steel, Writing, and Currency</span></span>
             </summary>
             <div className="reflection-body">
               <p>No tool in this novel is evil.</p>
@@ -228,7 +228,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>4. The Compass, Not the Blueprint</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>What the Novel Isn't Trying to Do</span></span>
+              <span><strong style={{ fontSize: 18 }}>4. The Compass, Not the Blueprint</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>What the Novel Isn't Trying to Do</span></span>
             </summary>
             <div className="reflection-body">
               <p>An early reader offered a criticism that proved more valuable than any praise: the book didn't deliver the answer to how partnership survives against domination. She was right. It doesn't. And that's deliberate.</p>
@@ -240,7 +240,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>5. Quon on Her Knees</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>How Institutions Absorb What They Can't Destroy</span></span>
+              <span><strong style={{ fontSize: 18 }}>5. Quon on Her Knees</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>How Institutions Absorb What They Can't Destroy</span></span>
             </summary>
             <div className="reflection-body">
               <p>There is a moment in the Epilogue when Quon kneels. That image carries the thesis of the book.</p>
@@ -252,7 +252,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>6. The Dog</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>Why Altai Matters</span></span>
+              <span><strong style={{ fontSize: 18 }}>6. The Dog</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>Why Altai Matters</span></span>
             </summary>
             <div className="reflection-body">
               <p>For many readers, Altai's death hits harder than Kaine's. That is not an accident.</p>
@@ -264,7 +264,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>7. Eve at the Graves</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>A Four-Year-Old and Theology</span></span>
+              <span><strong style={{ fontSize: 18 }}>7. Eve at the Graves</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>A Four-Year-Old and Theology</span></span>
             </summary>
             <div className="reflection-body">
               <p>The most important scene in the novel may be the quietest.</p>
@@ -276,7 +276,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>8. Writing in Sand</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>Impermanence as an Act of Faith</span></span>
+              <span><strong style={{ fontSize: 18 }}>8. Writing in Sand</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>Impermanence as an Act of Faith</span></span>
             </summary>
             <div className="reflection-body">
               <p>The novel ends with a girl writing symbols in wet sand while waves roll in to erase them. This could be read as despair. But Eve doesn't see futility. "Come on then," she says to the wave, fierce and joyful. "I'll just write it again."</p>
@@ -288,7 +288,7 @@ export default function Page() {
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>9. Partnership and Domination Today</strong> <span style={{ color: "rgba(255,255,255,0.5)", fontSize: 15, marginLeft: 12 }}>The Mirror in the Fiction</span></span>
+              <span><strong style={{ fontSize: 18 }}>9. Partnership and Domination Today</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>The Mirror in the Fiction</span></span>
             </summary>
             <div className="reflection-body">
               <p>The Neolithic is set approximately nine thousand years ago. It is about right now.</p>
