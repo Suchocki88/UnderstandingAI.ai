@@ -28,7 +28,7 @@ export default function Page() {
             A full semester program for STEM, CTE, and Social Studies teachers, delivered through the PocketLab Notebook platform. Built by the team behind award-winning high school science programs used across the country.
           </p>
           <a
-            href="https://www.thepocketlab.com/conceptual-academy"
+            href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -42,7 +42,7 @@ export default function Page() {
               display: "inline-block",
             }}
           >
-            Request Program Information →
+            Explore Sample Lesson →
           </a>
         </div>
       </section>
