@@ -56,7 +56,7 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
               Who It Is For
             </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>For You!/h2>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>For You!</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
         
             </p>
