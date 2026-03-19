@@ -51,7 +51,7 @@ export default function Page() {
             Multiple readers have stopped the author to ask the same question: "How did you do this?" Each one knew AI was involved. But that wasn't their question. They were asking about all of it — the depth, the characters, the grief, the philosophy. How does something this substantial come from a collaboration with a machine?
           </p>
           <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto" }}>
-            These are not lightweight adventure stories. The Neolithic is grounded in the serious archaeological scholarship of Riane Eisler — to whom the novel is dedicated — and asks timeless questions about power, partnership, and what it costs to believe in something worth defending. The Threshold grapples with consciousness, compassion, and what happens when the tools we build surpass our ability to control them.
+            These are not lightweight adventure stories. The Neolithic is grounded in the serious archaeological scholarship of Riane Eisler — to whom the novel is dedicated — and asks timeless questions about power, partnership, and what it costs to believe in something worth defending. The Threshold is a work of science fiction that grapples with consciousness, compassion, and what happens when the tools we build surpass our ability to control them.
           </p>
         </div>
       </section>
