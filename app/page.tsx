@@ -140,7 +140,67 @@ export default function Page() {
         </div>
       </section>
 
-    
+        {/* HOW TO ACCESS */}
+      <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
+              Get Started
+            </p>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>How to Access the Program</h2>
+            <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
+              Whether you&apos;re an independent learner, a teacher, or a professional — there&apos;s a path designed for you.
+            </p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
+            {/* Print */}
+            <div style={{ border: "2px solid #6b7280", borderRadius: 16, padding: 28, background: "#ffffff", display: "flex", flexDirection: "column", gap: 12 }}>
+              <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
+              <h3 style={{ margin: 0, fontSize: 20 }}>Explore the Books</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                AI literacy shouldn&apos;t be limited to the classroom. These two volumes are for anyone who wants to understand the technology reshaping the world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to videos are included.
+              </p>
+              <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
+                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 1 — $19.99</a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Volume 2 — $19.99</a>
+              </div>
+            </div>
+            {/* PocketLab */}
+            <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 28, background: "#fff7ed", display: "flex", flexDirection: "column", gap: 12 }}>
+              <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
+              <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and Alia AI built in. AI is reshaping most every field, yet most students have no idea how it actually works. This program changes that.
+              </p>
+              <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about PocketLab →
+              </Link>
+            </div>
+            {/* Humanities */}
+            <div style={{ border: "2px solid #8b5cf6", borderRadius: 16, padding: 28, background: "#f5f3ff", display: "flex", flexDirection: "column", gap: 12 }}>
+              <img src="/images/TwoNovels.png" alt="The Neolithic and The Threshold" style={{ width: "100%", marginBottom: 4 }} />
+              <h3 style={{ margin: 0, fontSize: 20 }}>Humanities &amp; English</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                Teaching literature or creative writing? Our two young-adult novels model what thoughtful human-AI collaboration looks like. Perfect for sparking discussions about authorship, creativity, and voice in the age of AI.
+              </p>
+              <Link href="/humanities" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about the Humanities pathway →
+              </Link>
+            </div>
+            {/* Conceptual Academy */}
+            <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
+              <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
+              <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
+              <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
+                A professional, independent learner, or teacher seeking credentials? Conceptual Academy offers a structured online program with CEUs, PD hours, and full AI tools — available in 5-hour increments.
+              </p>
+              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+                Learn more about Conceptual Academy →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ABOUT */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
