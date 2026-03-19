@@ -259,10 +259,10 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>A Note For Teachers</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              We encourage you to open a teacher's account on PocketLab's Notebook plaform. Exploring our AI program on that platform is a genuinely good way to get familiar with the material before teaching it.
+              CEU's and PD hours are only available through the self-guided AI program on the Conceptual Academy platform.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              However, for CEUs and PD hours you will need to sign up for the self-guided AI program on the Conceptual Academy platform.
+              If you are also interested in teaching this program to your high school students, we encourage you to open a teacher's account on PocketLab's Notebook platform.
             </p>
           </div>
         </div>
