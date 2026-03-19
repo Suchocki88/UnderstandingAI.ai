@@ -19,7 +19,7 @@ export default function Page() {
         <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.65)" }} />
         <div style={{ maxWidth: 860, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
-            Professional Development & Independent Learners
+            Professional Development
           </p>
           <h1 style={{ fontSize: 48, lineHeight: 1.1, margin: "0 0 24px" }}>
             AI Literacy You Can Credential
@@ -29,7 +29,7 @@ export default function Page() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="https://conceptualacademy.com/textbook/understanding-and-working-ai"
+              href="https://www.conceptualacademy.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -199,23 +199,39 @@ export default function Page() {
 
       {/* CREDENTIAL SYSTEM */}
       <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
-          <div>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
-              How Credentialing Works
-            </p>
-            <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Points, Not Percentages</h2>
-            <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
-              Everyone starts at zero and builds upward based on demonstrable effort. There is no penalty for a wrong answer — only points to be earned. This is not a pass-fail system. It is a point-accumulation system, and pedagogically that makes a world of difference.
-            </p>
-            <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
-              Reach the threshold for a chapter and download a personalized 5-hour continuing education certificate with your name and date. Complete the full volume and earn a single 20-hour certificate instead.
-            </p>
-            <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)" }}>
-              The only real way to not receive a certificate is to stop studying. We have built this program to make that as unlikely as possible.
-            </p>
+        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+
+          {/* Top: text left, certificate right */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center", marginBottom: 48 }}>
+            <div>
+              <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
+                How Credentialing Works
+              </p>
+              <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Points, Not Percentages</h2>
+              <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
+                Everyone starts at zero and builds upward based on demonstrable effort. There is no penalty for a wrong answer — only points to be earned. This is not a pass-fail system. It is a point-accumulation system, and pedagogically that makes a world of difference.
+              </p>
+              <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
+                Reach the threshold for a chapter and download a personalized 5-hour continuing education certificate with your name and date. Complete the full volume and earn a single 20-hour certificate instead.
+              </p>
+              <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)" }}>
+                The only real way to not receive a certificate is to stop studying. We have built this program to make that as unlikely as possible.
+              </p>
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
+              <img
+                src="/images/UAICertificate800.png"
+                alt="Certificate of Completion — Understanding and Working with AI"
+                style={{ width: "100%", maxWidth: 460, borderRadius: 12, boxShadow: "0 12px 40px rgba(0,0,0,0.5)" }}
+              />
+              <p style={{ fontSize: 14, color: "rgba(255,255,255,0.5)", fontStyle: "italic", textAlign: "center", margin: 0 }}>
+                Your personalized certificate — downloaded instantly when you reach the threshold
+              </p>
+            </div>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+
+          {/* Bottom: point breakdown cards full width */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 16 }}>
             <div style={{ background: "rgba(255,255,255,0.08)", borderRadius: 12, padding: 24 }}>
               <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Video Quizzes</h3>
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>5 points per correct answer</p>
@@ -225,18 +241,19 @@ export default function Page() {
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>5 points per correct answer</p>
             </div>
             <div style={{ background: "rgba(255,255,255,0.08)", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Homework Practice Sessions</h3>
+              <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Homework Practice</h3>
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>10 points per correct answer</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
               <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Chapter Certificate</h3>
-              <p style={{ color: "#0f172a", margin: 0 }}>5 hours CE — download with your name and date</p>
+              <p style={{ color: "#0f172a", margin: 0 }}>5 hours CE — download instantly</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
               <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Volume Certificate</h3>
-              <p style={{ color: "#0f172a", margin: 0 }}>20 hours CE — complete the full volume</p>
+              <p style={{ color: "#0f172a", margin: 0 }}>20 hours CE — complete the volume</p>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -304,7 +321,7 @@ export default function Page() {
             </p>
 
             <a
-              href="https://conceptualacademy.com/user/register"
+              href="https://www.conceptualacademy.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               style={{
