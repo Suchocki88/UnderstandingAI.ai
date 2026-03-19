@@ -44,24 +44,18 @@ export default function Page() {
           </Link>
 
           <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}
-            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
-            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
             <span style={{ fontSize: 22 }}>💼</span>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I&apos;m a Professional</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>CEUs and PD credential →</span>
           </Link>
 
           <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}
-            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
-            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
             <span style={{ fontSize: 22 }}>🏠</span>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I&apos;m an Independent Learner</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-paced online program →</span>
           </Link>
 
           <Link href="/humanities" style={{ textDecoration: "none", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}
-            onMouseEnter={e => (e.currentTarget.style.background = "rgba(255,255,255,0.05)")}
-            onMouseLeave={e => (e.currentTarget.style.background = "transparent")}>
             <span style={{ fontSize: 22 }}>📚</span>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>I Teach English / Humanities</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>AI-authored novels for class →</span>
