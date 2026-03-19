@@ -351,7 +351,7 @@ export default function Page() {
               The first step is simple: order the novels, read them, and see what you think. They are good reads on their own terms. But once you know how they were made, they become something else entirely.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 32 }}>
-              For English teachers, we recommend taking the Conceptual Academy program as summer professional development — not to teach the AI program yourself, but to understand what students are experiencing in the Social Studies department, and to arrive ready for the conversations these novels will spark.
+              For language arts teachers, we recommend taking the Conceptual Academy program as summer professional development — not to teach the AI program yourself, but to understand what students are experiencing in the Social Studies department, and to arrive ready for the conversations these novels will spark.
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
               <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
