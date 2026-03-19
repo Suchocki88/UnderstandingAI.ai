@@ -127,7 +127,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>Everything in One Place</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              For $195 per volume, you get the complete learning environment — no textbook required, though the printed books make a great companion.
+              For $195 per volume, you get the complete learning environment.
             </p>
           </div>
 
