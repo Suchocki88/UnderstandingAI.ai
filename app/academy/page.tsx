@@ -54,7 +54,7 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
-              Who It Is For
+              Who is Conceptual Academy for?
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>For You!</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
