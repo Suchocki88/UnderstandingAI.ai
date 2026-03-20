@@ -32,7 +32,7 @@ export default function Page() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="https://conceptualacademy.com/textbook/understanding-and-working-ai"
+              href="https://conceptualacademy.com/sites/default/files/2026-03/UAI_Users_Manual.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -46,7 +46,7 @@ export default function Page() {
                 display: "inline-block",
               }}
             >
-              Visit Conceptual Academy
+              Read the User Manual
             </a>
           </div>
         </div>
