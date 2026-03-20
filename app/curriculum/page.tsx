@@ -292,7 +292,7 @@ export default function Page() {
             {/* Books */}
             <div style={{ border: "1px solid #6b7280", borderRadius: 16, padding: 32, background: "#f8fafc", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
               <div>
-                <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>📚 The Books</h3>
+                <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>The Textbooks</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
                   The most direct path. Order Volume 1 and Volume 2 as print-on-demand books, which are beautifully human designed and always up-to-date via IngramSpark. QR codes throughout connect you to the video lessons, so your smartphone becomes part of the experience. Simple, affordable, and complete.
                 </p>
@@ -310,7 +310,7 @@ export default function Page() {
             {/* Conceptual Academy */}
             <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 32, background: "#fdf2f8", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
               <div>
-                <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>🎓 Conceptual Academy</h3>
+                <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>Conceptual Academy</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
                   The full online experience. The same curriculum pages, in color, are embedded directly into the platform alongside three AI instances: Alia-Tutor, Alia-Creative, and Alia-Lab. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour continuing education certificate with your name and date. Available in 5-hour increments — perfect for professionals seeking CEUs, PD hours, or simply a structured path through the material.
                 </p>
@@ -326,7 +326,7 @@ export default function Page() {
             {/* PocketLab */}
             <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 32, background: "#fff7ed", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
               <div>
-                <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>🏫 PocketLab — K–12 Classroom</h3>
+                <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>PocketLab — K–12 Classroom</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
                   The complete high school classroom program, delivered through the PocketLab Notebook platform. Teachers get a full semester of structured lessons — Core, Spotlight, Lab, Project, and Discussion Days — with teacher guides, assessment tools, and Alia AI built in. The Conceptual Academy program is the ideal preparation for teachers who want to experience the curriculum themselves before bringing it to students on the PocketLab Notebook platform designed specifically for high schools.
                 </p>
