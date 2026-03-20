@@ -89,7 +89,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: "12px 0 0" }}>The Core Curriculum</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-              This is a comprehensive and inviting program for AI literacy. At its core are two volumes that provide a conceptual and experiential approach from which anyone can learn.
+              An accessible and inviting program for AI literacy. At its core are two textbook volumes that provide a conceptual and experiential approach from which anyone can learn.
             </p>
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
