@@ -34,7 +34,7 @@ export default function Page() {
       </section>
 
       {/* UNBOXING PHOTO */}
-      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+      <section style={{ background: "#ffffff", padding: "80px 18px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <img
             src="/images/BooksUnboxing.jpg"
@@ -46,7 +46,7 @@ export default function Page() {
               display: "block",
             }}
           />
-          <p style={{ textAlign: "center", fontSize: 15, color: "#6b7280", fontStyle: "italic", marginTop: 16 }}>
+          <p style={{ textAlign: "center", fontSize: 15, color: "#6b7280", fontStyle: "italic", marginTop: 12 }}>
             Fresh from the printer — all four titles, ready to ship.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: 0 }}>The Immersive Experience</h2>
             <p style={{ marginTop: 12, fontSize: 18, color: "#6b7280" }}>
-              The process of writing these novels with AI was unlike anything the author had experienced before.
+              Learners are shown how to write their own high quality creative work through this program with the author's novels provided as examples of what is possible. In this video, the author explains his own experience, which he describes as immersive. Note: While the first drafts were measured in weeks, subsequent drafts were measured in months, which is still a remarkable timeframe. 
             </p>
           </div>
           <div style={{ position: "relative", display: "block", maxWidth: 700, margin: "0 auto" }}>
