@@ -1,5 +1,8 @@
 import Link from "next/link";
-
+export const metadata = {
+  title: "Professional Development & CEUs | Conceptual Academy",
+  description: "Earn continuing education credits studying AI literacy. Self-paced, no expiration. For teachers, professionals, and independent learners.",
+}
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
