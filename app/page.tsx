@@ -156,7 +156,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>How to Access the Program</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              Whether you&apos;re an independent learner, a teacher, or a professional — there&apos;s a path designed for you.
+              Whether you&apos;re a a teacher, a professional, or an independent learner, there&apos;s a path designed for you.
             </p>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
