@@ -30,7 +30,7 @@ export default function Page() {
             Understanding and Working with AI
           </h1>
           <p style={{ marginTop: 24, fontSize: 22, maxWidth: 760, opacity: 0.9 }}>
-            An engaging cross-disciplinary approach to learning how artificial intelligence works
+            An engaging cross-disciplinary approach
           </p>
         </div>
       </section>
