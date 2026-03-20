@@ -165,7 +165,7 @@ export default function Page() {
               <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                A teacher, professional, or independent learner seeking credentials? Conceptual Academy offers a structured online program with CEUs, PD hours — available in 5-hour increments. Access to automated assessment, customized AI tools, and more. Start anytime. Follow your own pace.
+                A teacher, professional, or independent learner? Conceptual Academy offers a structured online program with CEUs, PD hours — available in 5-hour increments. Access to automated assessment, customized AI tools, and more. Start anytime. Follow your own pace.
               </p>
               <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about Conceptual Academy →
