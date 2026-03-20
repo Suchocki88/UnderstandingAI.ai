@@ -1,4 +1,8 @@
 import Link from "next/link";
+export const metadata = {
+  title: "Understanding and Working with AI | Conceptual Academy",
+  description: "A comprehensive AI literacy curriculum for teachers, professionals, and independent learners. Eight chapters across two volumes.",
+}
 export default function Page() {
   const buyButton: React.CSSProperties = {
     color: "#1d4ed8",
