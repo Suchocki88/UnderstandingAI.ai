@@ -68,7 +68,7 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
               Proven Track Record
             </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>Conceptual Academy</h2>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>Conceptual Academy Powered by PocketLab</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
               We are best known for our high school science programs in physics, chemistry, physical science, biology, and Earth and Space Science. Our approach is now applied to AI literacy.
             </p>
