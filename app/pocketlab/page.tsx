@@ -207,9 +207,9 @@ export default function Page() {
             gap: 24,
           }}>
             <div style={{ maxWidth: 560 }}>
-              <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "white" }}>Learn It Before You Teach It</h3>
+              <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "white" }}>Learn AI Before You Teach AI</h3>
               <p style={{ color: "rgba(255,255,255,0.8)", margin: 0, fontSize: 18 }}>
-                Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach it, having lived the experience your students are about to have.
+                Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach it on the Notebook platform, having lived the experience your students are about to have.
               </p>
             </div>
             <Link
@@ -246,7 +246,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Ready to Bring AI Literacy to Your Classroom?</h2>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", marginBottom: 40 }}>
-            Pricing is handled through PocketLab. Fill out the inquiry form and the team will be in touch with everything you need to get your school started.
+            Pricing is handled through PocketLab. Fill out the inquiry form at the bottom of the PocketLab Page and the team will be in touch with everything you need to get your school started.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
