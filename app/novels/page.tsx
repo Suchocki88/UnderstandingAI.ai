@@ -60,7 +60,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: 0 }}>The Immersive Experience</h2>
             <p style={{ marginTop: 12, fontSize: 18, color: "#6b7280" }}>
-              Learners are shown how to write their own high quality creative work through this program with the author's novels provided as examples of what is possible. In this video, the author explains his own experience, which he describes as immersive. Note: While the first drafts were measured in weeks, subsequent drafts were measured in months, which is still a remarkable timeframe. 
+              Learners are shown how to write their own high quality creative work through this program with these novels provided as examples of what is possible. In this video, the author explains his own experience, which he describes as immersive. Note: While the first drafts were measured in weeks, subsequent drafts were measured in months, which is still a remarkable timeframe. 
             </p>
           </div>
           <div style={{ position: "relative", display: "block", maxWidth: 700, margin: "0 auto" }}>
