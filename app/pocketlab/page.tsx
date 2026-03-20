@@ -116,7 +116,7 @@ export default function Page() {
               The platform is also an authoring tool. Teachers can customize individual lessons for differentiated learning, adjust reading levels with a single click, and deliver content in any language. Use the program as is. Or customize it to your partiular needs.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 32 }}>
-              AI integration means auto-grading is built in. Alia, our AI learning assistant, is embedded with system prompt guardrails in place. Included are teacher guides, state standards alignments, and cognitive science-based teaching resources, such as novel classroom assessment techniques.
+              AI integration means auto-grading is built in. Alia, our AI learning assistant, is embedded with system prompt guardrails in place. Included are teacher guides, state standards alignments, and cognitive science-based teaching resources, such as engaging classroom assessment techniques.
             </p>
             <a
               href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
