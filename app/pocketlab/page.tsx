@@ -159,7 +159,7 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Teacher Guides</h3>
               <p style={{ color: "#4b5563", margin: "0 0 16px" }}>
-                Detailed lesson-by-lesson guides with suggested scripts, facilitation tips, discussion prompts, and assessment rubrics. Built on cognitive science best practices, these guides give both new and experienced teachers the confidence to lead every lesson — even with no prior AI background required. Includes assessment strategies.
+                Detailed lesson-by-lesson guides with suggested scripts, facilitation tips, discussion prompts, and assessment rubrics. Built on cognitive science best practices, these guides give both new and experienced teachers the confidence to lead every lesson — no prior AI background required. Includes assessment strategies.
               </p>
               <a
                 href="https://suchocki88.github.io/UAI0405TG/"
@@ -174,7 +174,7 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Standards Alignment</h3>
               <p style={{ color: "#4b5563", margin: "0 0 16px" }}>
-                Complete standards alignment documentation to help administrators and curriculum coordinators place this program within existing graduation requirements and course frameworks. Whether your district follows NGSS, state-specific standards, or CTE pathways, we have done the alignment work so you don't have to.
+                Complete standards alignment documentation to help administrators and curriculum coordinators place this program within existing graduation requirements and course frameworks. Whether your district follows NGSS, state-specific standards, or CTE pathways, the alignments are there to document the support this program provides.
               </p>
               <a
                 href="https://suchocki88.github.io/UAI0405Standards/"
@@ -189,7 +189,7 @@ export default function Page() {
             <div style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "2px solid #f59e0b" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Alia AI Built In</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
-                Students have access to Alia, the AI learning assistant trained specifically on this curriculum. Unlike general-purpose AI, Alia operates with guardrails — she stays within the course content, never completes assignments for students, and guides them Socratically toward understanding rather than just giving answers. Teachers and administrators can feel confident this is a safe, focused AI experience.
+                Students have access to Alia, our AI learning assistant trained specifically on this curriculum. Unlike general-purpose AI, Alia operates with guardrails — she stays within the course content, never completes assignments for students, and guides them Socratically toward understanding rather than just giving answers. Teachers and administrators will know this is a safe, focused, and effective AI experience.
               </p>
             </div>
 
@@ -209,7 +209,7 @@ export default function Page() {
             <div style={{ maxWidth: 560 }}>
               <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "white" }}>Learn AI Before You Teach AI</h3>
               <p style={{ color: "rgba(255,255,255,0.8)", margin: 0, fontSize: 18 }}>
-                Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach it on the Notebook platform, having lived the experience your students are about to have.
+                Looking for summer professional learning credits? The Conceptual Academy online program lets you experience this curriculum yourself before bringing it to students — earning CEUs or PD hours along the way. You will arrive in the fall primed to teach this AI program on the Notebook platform, having lived the experience your students are about to discover.
               </p>
             </div>
             <Link
@@ -246,7 +246,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Ready to Bring AI Literacy to Your Classroom?</h2>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", marginBottom: 40 }}>
-            Pricing is handled through PocketLab. Fill out the inquiry form at the bottom of the PocketLab page and the team will be in touch with everything you need to get your school started.
+            Pricing is handled through PocketLab. Fill out the inquiry form at the bottom of the PocketLab page and the team will be in touch to get your AI literacy program started as soon as possible.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
