@@ -34,7 +34,7 @@ export default function Page() {
       </section>
 
       {/* UNBOXING PHOTO */}
-      <section style={{ background: "#ffffff", padding: "80px 18px" }}>
+      <section style={{ background: "#ffffff", padding: "40px 18px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <img
             src="/images/BooksUnboxing.jpg"
@@ -52,7 +52,7 @@ export default function Page() {
         </div>
       </section>
 {/* IMMERSIVE EXPERIENCE VIDEO */}
-      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+      <section style={{ background: "#ffffff", padding: "40px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 32 }}>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 12 }}>
