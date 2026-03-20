@@ -135,7 +135,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Read a Page. Then Decide.</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
-              This passage, from Chapter 32 of The Neolithic, is human-authored. Notice the restraint at maximum violence. An AI on its own would go purple. This and other human-produced passages are identified to students as part of a lab activity within the program.
+              This passage, from Chapter 32 of The Neolithic, is human-authored. Notice the restraint at maximum violence. An AI on its own would go purple. This and other human-produced passages are identified to students as part of a <a href="https://app.thepocketlab.com/lab-report/00tNrIPV000100tN?ro=1" target="_blank" rel="noopener noreferrer" style={{ color: "#6d28d9", fontWeight: 700 }}>lab activity</a> within the program.
             </p>
           </div>
           <div style={{ background: "#ffffff", borderRadius: 16, padding: 40, border: "1px solid #e5e7eb", borderLeft: "4px solid #8b5cf6" }}>
