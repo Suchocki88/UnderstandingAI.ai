@@ -1,5 +1,8 @@
 import Link from "next/link";
-
+export const metadata = {
+  title: "AI Literacy for English & Humanities Teachers",
+  description: "Two AI-authored novels for classroom use. Spark discussions about authorship, voice, and creativity in the age of AI.",
+}
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
