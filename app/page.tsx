@@ -74,7 +74,7 @@ export default function Page() {
             maxWidth: 1100,
             margin: "0 auto",
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(480px, 1fr))",
             gap: 40,
             alignItems: "center",
           }}
