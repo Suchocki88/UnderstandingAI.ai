@@ -192,8 +192,8 @@ export default function Page() {
                 These two volumes are for anyone who wants to understand the technology reshaping our world. This includes friends, colleagues, and yourself. Always up-to-date via print on demand. QR codes to videos are included. <em>Now available in paperback.</em>
               </p>
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
-                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 1</a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 2</a>
+                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 1 <em>260 pages</em></a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 2 <em>284 pages</em></a>
               </div>
             </div>
 
@@ -205,7 +205,7 @@ export default function Page() {
                 Teaching literature or creative writing? Our two young-adult novels model what thoughtful human-AI collaboration looks like. Perfect for sparking discussions about authorship, creativity, and voice in the age of AI.
               </p>
               <Link href="/humanities" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
-                Learn more about the Humanities pathway →
+                Learn more about this literary pathway →
               </Link>
             </div>
             
