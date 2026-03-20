@@ -1,5 +1,8 @@
 import Link from "next/link";
-
+export const metadata = {
+  title: "The Neolithic & The Threshold | AI-Authored Novels",
+  description: "Two novels co-written with AI — one prehistoric epic, one near-future thriller. The origin story of the UAI curriculum.",
+}
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
