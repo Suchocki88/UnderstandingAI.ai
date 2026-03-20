@@ -142,7 +142,7 @@ export default function Page() {
               color: "rgba(255,255,255,0.92)",
             }}
           >
-            "We are the first generation of people creating with AI. The standards we set now — for originality, for voice, for the expectation that human authorship means something — will shape what fills our bookstores, our libraries, our classrooms, and our screens for decades to come."
+            "We are the first generation of people creating with AI. The standards we set now — for originality, for voice, for the expectation that human authorship means something — will shape what fills our bookstores, our libraries, our classrooms, our screens, and our professions for decades to come."
           </blockquote>
         </div>
       </section>
