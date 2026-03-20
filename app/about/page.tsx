@@ -1,5 +1,8 @@
 import Link from "next/link";
-
+export const metadata = {
+  title: "About | Understanding and Working with AI",
+  description: "Meet the team behind the Understanding and Working with AI program — John Suchocki and collaborators.",
+}
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
