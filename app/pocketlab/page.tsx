@@ -246,7 +246,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Ready to Bring AI Literacy to Your Classroom?</h2>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", marginBottom: 40 }}>
-            Pricing is handled through PocketLab. Fill out the inquiry form at the bottom of the PocketLab Page and the team will be in touch with everything you need to get your school started.
+            Pricing is handled through PocketLab. Fill out the inquiry form at the bottom of the PocketLab page and the team will be in touch with everything you need to get your school started.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
