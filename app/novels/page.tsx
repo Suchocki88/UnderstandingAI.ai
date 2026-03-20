@@ -51,7 +51,30 @@ export default function Page() {
           </p>
         </div>
       </section>
-
+{/* IMMERSIVE EXPERIENCE VIDEO */}
+      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: 32 }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 12 }}>
+              In the Author's Own Words
+            </p>
+            <h2 style={{ fontSize: 36, margin: 0 }}>The Immersive Experience</h2>
+            <p style={{ marginTop: 12, fontSize: 18, color: "#6b7280" }}>
+              The process of writing these novels with AI was unlike anything the author had experienced before.
+            </p>
+          </div>
+          <div style={{ position: "relative", display: "block", maxWidth: 700, margin: "0 auto" }}>
+            <div style={{ paddingTop: "56.25%", position: "relative" }}>
+              <iframe
+                src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=6385940752112"
+                allowFullScreen
+                allow="encrypted-media"
+                style={{ position: "absolute", top: 0, right: 0, bottom: 0, left: 0, width: "100%", height: "100%", borderRadius: 12 }}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* THE NEOLITHIC */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
