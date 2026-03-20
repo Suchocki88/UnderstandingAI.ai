@@ -1,5 +1,8 @@
 import Link from "next/link";
-
+export const metadata = {
+  title: "K–12 AI Literacy Program | PocketLab Pathway",
+  description: "A full semester AI literacy program for high school Social Studies, CTE, and STEM classrooms delivered through PocketLab Notebook.",
+}
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
