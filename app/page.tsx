@@ -177,7 +177,7 @@ export default function Page() {
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and Alia AI built in. AI is reshaping most every field, yet most students have no idea how it actually works. This program changes that.
+                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and our Alia AI safeguards built in. AI is reshaping most every field, yet most students have no idea how it actually works. This program changes that.
               </p>
               <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about PocketLab →
