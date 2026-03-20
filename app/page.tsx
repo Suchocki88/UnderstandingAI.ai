@@ -107,12 +107,13 @@ export default function Page() {
               </Link>
             </div>
           </div>
-          <div style={{ display: "flex", justifyContent: "center", gap: 24, flexWrap: "wrap" }}>
-            <img src="/images/volume1.jpg" alt="Volume 1" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
-            <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
+<div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 24 }}>
+            <div style={{ display: "flex", justifyContent: "center", gap: 24, flexWrap: "wrap" }}>
+              <img src="/images/volume1.jpg" alt="Volume 1" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
+              <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
+            </div>
+            <img src="/images/FrankHero.png" alt="Frank our mascot" style={{ width: 180 }} />
           </div>
-          <img src="/images/FrankHero.png" alt="Frank our mascot" style={{ width: 180 }} />
-        </div>
       </section>
 
       {/* WHY IT MATTERS */}
