@@ -269,21 +269,9 @@ export default function Page() {
             This program treats AI literacy as an expedition, not a lecture. As with any expedition, the most valuable asset becomes the notes you take along the journey.
           </p>
           <p style={{ marginTop: 24, fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "24px auto 0" }}>
-            Throughout the program, learners maintain a field journal where they record observations from labs, insights from spotlights, and reflections on their creative work. It&apos;s through this active engagement that the concepts stop being abstract and start being real.
+            Throughout the program, learners maintain a field journal where they record observations from labs, insights from spotlights, and reflections on their creative work. It&apos;s through this active engagement that the concepts stop being abstract and start to become real.
           </p>
-          <blockquote style={{
-            marginTop: 40,
-            borderLeft: "4px solid #f59e0b",
-            paddingLeft: 24,
-            textAlign: "left",
-            fontStyle: "italic",
-            fontSize: 22,
-            color: "rgba(255,255,255,0.9)",
-            maxWidth: 720,
-            margin: "40px auto 0",
-          }}>
-            "You&apos;ve been trying to explore all these years only by walking. This program gives you an electric bicycle."
-          </blockquote>
+          
         </div>
       </section>
 
