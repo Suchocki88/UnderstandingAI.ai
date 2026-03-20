@@ -95,13 +95,13 @@ export default function Page() {
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 1: Foundations &amp; Practice</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  Core concepts of AI including what it is, how it works, and how to use it responsibly. 260 pages
+                  Core concepts of AI including what it is, how it works, and how to use it responsibly. <em>260 pages</em>
                 </p>
               </div>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 2: Society &amp; the Future</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  The societal, ethical, and creative implications of living and working alongside AI. 284 pages
+                  The societal, ethical, and creative implications of living and working alongside AI. <em>284 pages</em>
                 </p>
               </div>
             </div>
