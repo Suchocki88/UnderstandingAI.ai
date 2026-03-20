@@ -113,10 +113,10 @@ export default function Page() {
               PocketLab Notebook is designed specifically for the high school environment. The program's eight chapters are delivered as a structured collection of lessons — Core, Spotlight, Lab, Project, and Discussion Days — ready to use from day one.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The platform is also an authoring tool. Teachers can customize individual lessons for differentiated learning, adjust reading levels with a single click, and deliver content in any language. Our program is the robust template from which they start.
+              The platform is also an authoring tool. Teachers can customize individual lessons for differentiated learning, adjust reading levels with a single click, and deliver content in any language. Use the program as is. Or customize it to your partiular needs. That's win-win.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 32 }}>
-              AI integration means auto-grading is built in. Alia, the AI learning assistant, is embedded directly into the program alongside teacher guides and cognitive science-based professional development resources.
+              AI integration means auto-grading is built in. Alia, the AI learning assistant, is embedded directly into the program with system prompt guardrais in place. Included are teacher guides, state standards alignments, and cognitive science-based teaching resources, such as novel classroom assessment techniques.
             </p>
             <a
               href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
