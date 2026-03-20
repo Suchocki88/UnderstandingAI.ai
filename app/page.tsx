@@ -114,6 +114,7 @@ export default function Page() {
             </div>
             <img src="/images/FrankHero.png" alt="Frank our mascot" style={{ width: 180 }} />
           </div>
+        </div>
       </section>
 
       {/* WHY IT MATTERS */}
