@@ -116,7 +116,7 @@ export default function Page() {
               <img src="/images/volume1.jpg" alt="Volume 1" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
               <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: 220, borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
             </div>
-            <img src="/images/FrankCoffee.jpg" alt="Frank our mascot" style={{ width: 320 }} />
+            <img src="/images/FrankCoffee.png" alt="Frank our mascot" style={{ width: 390 }} />
           </div>
         </div>
       </section>
