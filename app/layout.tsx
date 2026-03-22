@@ -1,5 +1,5 @@
+"use client";
 import Script from 'next/script'
-  "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
