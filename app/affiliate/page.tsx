@@ -309,6 +309,7 @@ export default function AffiliatePage() {
           grid-template-columns: repeat(3, 1fr);
           gap: 0.8rem;
           max-width: 500px;
+          margin: 0 auto;
         }
         .price-card {
           background: #fff;
