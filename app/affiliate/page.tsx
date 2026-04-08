@@ -96,8 +96,8 @@ export default function AffiliatePage() {
                   Complete the program and you're eligible. You'll receive
                   instructor-level account access on ConceptualAcademy.com and
                   a unique referral link. When someone enrolls through your
-                  link, you earn <strong>25% per volume</strong> — roughly{" "}
-                  <strong>$49 per volume enrolled</strong>. No customization
+                  link, you earn <strong>25% per book volume</strong> — roughly{" "}
+                  <strong>$49 for each enrollee per volume</strong>. No customization
                   required. Share the program as-is.
                 </p>
                 <p className="tier-earn">~$49 per volume · ~$98 for both volumes</p>
