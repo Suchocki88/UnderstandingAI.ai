@@ -41,22 +41,6 @@ export default function AffiliatePage() {
     </a>
   </div>
 </section>
-        <div className="container">
-          <p className="eyebrow">Affiliate Program</p>
-          <h1>
-            Teach it. Share it.<br />
-            <em>Leverage your knowledge to help others.</em>
-          </h1>
-          <p className="subtitle">
-            Once you've completed the program, you can share it with colleagues,
-            clients, or your professional community — and earn every time someone
-            enrolls, or provide a discount for them.
-          </p>
-          <a href="#get-started" className="btn-primary">
-            Get Started
-          </a>
-        </div>
-      </section>
 
       {/* ── Pricing ── */}
       <section className="pricing-band">
