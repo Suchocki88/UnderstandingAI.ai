@@ -11,7 +11,15 @@ export default function AffiliatePage() {
     <main className="affiliate-page">
 
       {/* ── Hero ── */}
-      <section className="hero">
+      <section style={{
+  position: "relative",
+  backgroundImage: "url('/images/hero-ai.jpg')",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  padding: "80px 24px",
+  color: "white",
+  textAlign: "center",
+}}>
         <div className="container">
           <p className="eyebrow">Affiliate Program</p>
           <h1>
