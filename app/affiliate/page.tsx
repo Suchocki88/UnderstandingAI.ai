@@ -26,11 +26,11 @@ export default function AffiliatePage() {
     background: "rgba(0, 0, 0, 0.45)",
   }} />
   <div style={{ position: "relative", zIndex: 1 }}>
-    <p className="eyebrow">Affiliate Program</p>
-    <h1>
-      Teach it. Share it.<br />
-      <em>Leverage your knowledge to help others.</em>
-    </h1>
+    <p className="eyebrow" style={{ fontFamily: "Arial, sans-serif" }}>Affiliate Program</p>
+<h1 style={{ fontFamily: "Arial, sans-serif", fontWeight: 700 }}>
+  Teach it. Share it.<br />
+  <em style={{ fontStyle: "italic", fontWeight: 700 }}>Leverage your knowledge to help others.</em>
+</h1>
     <p className="subtitle">
       Once you've completed the program, you can share it with colleagues,
       clients, or your professional community — and earn every time someone
