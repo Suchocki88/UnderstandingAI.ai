@@ -122,7 +122,7 @@ export default function AffiliatePage() {
                 <p>
                   A physical therapist teaching AI literacy to healthcare
                   workers. A paralegal building a legal-tech AI course. An HR
-                  specialist becoming the AI literacy expert for their industry.
+                  specialist becoming the AI literacy expert for their industry. A correctional officer having modified the program to be suitable for fellow officers and soon-to-be released inmates. A psychotherapist haivng modifed the program so that it receieves accreditation from the APA.
                   Certified Partners earn <strong>50% per volume</strong> and
                   gain professional recognition as domain experts.
                 </p>
