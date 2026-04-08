@@ -1,14 +1,10 @@
+"use client";
+
 // app/affiliate/page.tsx
-// Add this file to your GitHub repo at: app/affiliate/page.tsx
-// Then add "Affiliates" to your navigation bar linking to /affiliate
+// NOTE: metadata must be defined in a separate layout.tsx or head.tsx
+// for this route, since this is a Client Component.
 
 import Link from "next/link";
-
-export const metadata = {
-  title: "Affiliate Program | Understanding and Working with AI",
-  description:
-    "Leverage your knowledge to help others. The Understanding AI affiliate program rewards educators and professionals who bring AI literacy to their communities.",
-};
 
 export default function AffiliatePage() {
   return (
@@ -235,7 +231,6 @@ export default function AffiliatePage() {
         </div>
       </section>
 
-      {/* ── Styles ── */}
       <style jsx>{`
         .affiliate-page {
           font-family: Georgia, "Times New Roman", serif;
@@ -247,8 +242,6 @@ export default function AffiliatePage() {
           margin: 0 auto;
           padding: 0 1.5rem;
         }
-
-        /* Hero */
         .hero {
           background: #1a2e3b;
           color: #f5f1eb;
@@ -278,8 +271,6 @@ export default function AffiliatePage() {
           max-width: 500px;
           margin: 0 auto 2rem;
         }
-
-        /* Buttons */
         .btn-primary {
           display: inline-block;
           background: #2a7a5c;
@@ -304,8 +295,6 @@ export default function AffiliatePage() {
           transition: all 0.2s;
         }
         .btn-secondary:hover { background: #2a7a5c; color: #fff; }
-
-        /* Pricing */
         .pricing-band { background: #f0ece5; padding: 2.5rem 1.5rem; }
         .pricing-label {
           font-family: "Trebuchet MS", sans-serif;
@@ -343,8 +332,6 @@ export default function AffiliatePage() {
           color: #888;
         }
         .price-card .amount { font-size: 1.5rem; color: #1a2e3b; }
-
-        /* Tiers */
         .tiers { padding: 4rem 1.5rem; }
         .tiers h2 {
           font-size: 1.6rem;
@@ -422,9 +409,8 @@ export default function AffiliatePage() {
           border-radius: 50%;
           background: #009cde;
           flex-shrink: 0;
+          display: inline-block;
         }
-
-        /* Toggle */
         .toggle-section {
           background: #1a2e3b;
           color: #f5f1eb;
@@ -435,6 +421,8 @@ export default function AffiliatePage() {
           grid-template-columns: 1fr auto;
           gap: 3rem;
           align-items: start;
+          max-width: 760px;
+          margin: 0 auto;
         }
         .toggle-text h2 {
           font-size: 1.6rem;
@@ -463,8 +451,8 @@ export default function AffiliatePage() {
         .toggle-option p { margin: 0; font-size: 0.88rem; }
         .toggle-note {
           font-style: italic;
-          font-size: 0.85rem !important;
-          color: #a0b8c0 !important;
+          font-size: 0.85rem;
+          color: #a0b8c0;
         }
         .toggle-widget {
           background: #0f1e28;
@@ -490,22 +478,30 @@ export default function AffiliatePage() {
           border-radius: 50%;
           background: #8fb8c8;
           flex-shrink: 0;
+          display: inline-block;
         }
         .tw-dot.outline {
           background: transparent;
           border: 2px solid #4a8fa0;
         }
         .tw-divider { height: 1px; background: #2a4a5a; margin: 0.4rem 0; }
-
-        /* Use Cases */
         .use-cases { padding: 4rem 1.5rem; background: #f0ece5; }
         .use-cases h2 {
           font-size: 1.6rem;
           font-weight: normal;
           margin-bottom: 1.5rem;
           color: #1a2e3b;
+          max-width: 760px;
+          margin-left: auto;
+          margin-right: auto;
         }
-        .case-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+        .case-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1.2rem;
+          max-width: 760px;
+          margin: 0 auto;
+        }
         .case-card {
           background: #fff;
           border: 1px solid #ddd8d0;
@@ -524,8 +520,6 @@ export default function AffiliatePage() {
           color: #444;
           margin: 0;
         }
-
-        /* CTA */
         .cta-section {
           padding: 4rem 1.5rem;
           text-align: center;
@@ -555,8 +549,6 @@ export default function AffiliatePage() {
         .cta-note { font-size: 0.82rem; color: #888; }
         .cta-note a { color: #2a7a5c; text-decoration: none; }
         .cta-note a:hover { text-decoration: underline; }
-
-        /* Responsive */
         @media (max-width: 640px) {
           .toggle-inner { grid-template-columns: 1fr; }
           .toggle-visual { display: none; }
