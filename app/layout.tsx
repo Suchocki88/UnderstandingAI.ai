@@ -91,7 +91,7 @@ export default function RootLayout({
                   Pathways ▾
                 </span>
                 <div className="dropdown-menu">
-                                    <Link href="/academy" style={dropdownItem}>
+                  <Link href="/academy" style={dropdownItem}>
                     Conceptual Academy — Professional Development
                   </Link>
                   <Link href="/pocketlab" style={dropdownItem}>
@@ -100,7 +100,6 @@ export default function RootLayout({
                   <Link href="/humanities" style={dropdownItem}>
                     Humanities — English &amp; Interdisciplinary
                   </Link>
-
                 </div>
               </div>
 
@@ -116,18 +115,7 @@ export default function RootLayout({
               >
                 Novels
               </Link>
-<Link
-  href="/affiliate"
-  style={{
-    ...navLink,
-    fontWeight: pathname === "/affiliate" ? 700 : 500,
-    color: pathname === "/affiliate" ? "white" : "rgba(255,255,255,0.85)",
-    borderBottom: pathname === "/affiliate" ? "2px solid #f59e0b" : "2px solid transparent",
-    paddingBottom: 4,
-  }}
->
-  Affiliates
-</Link>
+
               <Link
                 href="/about"
                 style={{
@@ -176,8 +164,6 @@ export default function RootLayout({
             <Link href="/curriculum" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Curriculum</Link>
             {" · "}
             <Link href="/novels" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Novels</Link>
-            {" · "}
-<Link href="/affiliate" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Affiliates</Link>
           </p>
         </footer>
 
