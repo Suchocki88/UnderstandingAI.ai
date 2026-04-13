@@ -11,8 +11,11 @@ export default function RootLayout({
   const pathname = usePathname();
 
   return (
-    <html lang="en">
-      <body style={{ margin: 0, padding: 0 }}>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/images/CAFavicon.jpg" type="image/jpeg" />
+  </head>
+  <body style={{ margin: 0, padding: 0 }}>
         <nav
           style={{
             background: "#0f172a",
