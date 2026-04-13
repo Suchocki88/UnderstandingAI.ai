@@ -76,6 +76,44 @@ export default function Page() {
           color: white; padding: 14px 28px; border-radius: 10px;
           text-decoration: none; font-weight: 600; font-size: 16px; display: inline-block;
         }
+
+        /* ── EDITORIAL SECTION ── */
+        .editorial-section { background: #ffffff; padding: 80px 24px; }
+        .editorial-inner { max-width: 720px; margin: 0 auto; }
+        .editorial-inner p {
+          font-size: 19px; color: #374151; margin-bottom: 24px; line-height: 1.75;
+        }
+        .editorial-inner p.large {
+          font-size: 22px; font-weight: 700; color: #111827; line-height: 1.5;
+        }
+        .editorial-inner p.exists {
+          font-size: 24px; font-weight: 800; color: #111827;
+          border-left: 4px solid #f59e0b;
+          padding-left: 20px;
+          margin: 36px 0;
+        }
+        .editorial-inner ul {
+          margin: 0 0 24px 0;
+          padding: 0;
+          list-style: none;
+        }
+        .editorial-inner ul li {
+          font-size: 18px; color: #374151;
+          padding: 8px 0 8px 24px;
+          position: relative;
+          border-bottom: 1px solid #f3f4f6;
+          line-height: 1.5;
+        }
+        .editorial-inner ul li::before {
+          content: "→";
+          position: absolute; left: 0;
+          color: #f59e0b; font-weight: 700;
+        }
+        .editorial-inner p.closing {
+          font-size: 20px; font-weight: 700;
+          color: #111827; margin-top: 36px;
+        }
+
         .video-section { background: #0f172a; padding: 64px 24px; text-align: center; }
         .video-section .eyebrow { margin-bottom: 12px; }
         .video-section h2 { font-size: 34px; color: white; margin: 0 0 8px; }
@@ -108,7 +146,7 @@ export default function Page() {
         .volume-card h3 { font-size: 22px; margin: 0 0 6px; }
         .vol-subtitle { font-size: 15px; font-weight: 700; color: #374151; margin-bottom: 4px; }
         .vol-chapters { font-size: 13px; color: #6b7280; margin-bottom: 20px; line-height: 1.55; list-style: none; }
-        .vol-chapters li { margin-bottom: 3px; padding-left: 14px; position: relative; }
+        .vol-chapters li { margin-bottom: 3px; padding-left: 14px; position: relative; border-bottom: none; }
         .vol-chapters li::before { content: "·"; position: absolute; left: 0; color: #f59e0b; font-weight: 700; }
         .ceu-row {
           background: #f8fafc; border-radius: 10px; padding: 14px 16px;
@@ -215,6 +253,58 @@ export default function Page() {
               Explore a Sample Lesson
             </a>
           </div>
+
+        </div>
+      </section>
+
+      {/* ── EDITORIAL ── */}
+      <section className="editorial-section">
+        <div className="editorial-inner">
+
+          <p className="large">
+            With every new technology, the pattern is the same: kids embrace it first, adults scramble to catch up. With artificial intelligence, that pattern must reverse.
+          </p>
+
+          <p>
+            Effective AI use requires wisdom, judgment, and the kind of critical thinking that takes years to develop. It requires knowing when a confident-sounding answer is wrong. Knowing when flattery is manipulation. Knowing what questions to even ask.
+          </p>
+
+          <p>
+            These are adult skills. And right now, our students need adults to lead the way.
+          </p>
+
+          <p>
+            It&apos;s understandable that AI in education arrived first as a set of tools and tips for teachers. That conversation matters. But there&apos;s a larger question we haven&apos;t gotten to yet: when do we start teaching students about AI itself?
+          </p>
+
+          <p>
+            Not just how to use a particular tool, but what AI is and isn&apos;t, what it gets right and gets wrong, and how to think responsibly in a world that AI is reshaping around them.
+          </p>
+
+          <p className="exists">That program now exists.</p>
+
+          <p>
+            <em>Understanding and Working with AI</em> is a complete, semester-long course built specifically for high school students. Eight chapters across two volumes cover:
+          </p>
+
+          <ul>
+            <li>what AI actually is and how it learns</li>
+            <li>how to communicate with it effectively</li>
+            <li>where bias enters and why it matters</li>
+            <li>how algorithms make high-stakes decisions about real people</li>
+            <li>how to detect AI-generated misinformation</li>
+            <li>and what an AI-powered future might mean for your students&apos; lives, careers, and democracy</li>
+          </ul>
+
+          <p>
+            It&apos;s not a unit. It&apos;s not a module. It&apos;s a full course — rigorous enough to be meaningful, accessible enough that no prior AI background is required. It fits naturally within social studies, CTE, computer science, and language arts.
+          </p>
+
+          <p>
+            And because we believe teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 CEU hours. Start anytime. No expiration date.
+          </p>
+
+          <p className="closing">Your students are ready for this. So are you.</p>
 
         </div>
       </section>
