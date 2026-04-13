@@ -84,7 +84,7 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))" }}>
 
           <Link href="/pocketlab" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Social Studies / CTE</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Teachers / Admin</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>K–12 classroom programs →</span>
           </Link>
 
