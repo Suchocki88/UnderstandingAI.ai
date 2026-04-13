@@ -237,9 +237,7 @@ export default function Page() {
 
           <div className="btn-row">
             <a
-              href="https://conceptualacademy.com/user/register"
-              target="_blank"
-              rel="noopener noreferrer"
+href="#enroll"
               className="btn-primary"
             >
               Enroll Now — Volume 1 →
@@ -325,7 +323,7 @@ export default function Page() {
       </section>
 
       {/* ── SUMMER PD / VOLUMES ── */}
-      <section className="pd-section">
+<section className="pd-section" id="enroll">
         <div className="section-inner">
           <div className="section-header">
             <p className="eyebrow">Summer Professional Development</p>
