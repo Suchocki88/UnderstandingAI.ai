@@ -83,12 +83,12 @@ export default function Page() {
           font-size: 17px; color: rgba(255,255,255,0.65);
           max-width: 560px; margin: 0 auto 32px;
         }
-        .video-wrap {
-          position: relative; padding-bottom: 56.25%; height: 0;
-          overflow: hidden; border-radius: 12px;
-          box-shadow: 0 12px 40px rgba(0,0,0,0.5);
-          max-width: 960px; margin: 0 auto;
-        }
+.video-wrap {
+  position: relative; padding-bottom: calc(56.25% + 90px); height: 0;
+  overflow: hidden; border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  max-width: 960px; margin: 0 auto;
+}
         .video-wrap iframe {
           position: absolute; top: 0; left: 0;
           width: 100%; height: 100%; border: none;
