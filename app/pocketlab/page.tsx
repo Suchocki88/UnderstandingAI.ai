@@ -83,7 +83,6 @@ export default function Page() {
           font-size: 17px; color: rgba(255,255,255,0.65);
           max-width: 560px; margin: 0 auto 32px;
         }
-
         .pd-section { background: #fff7ed; padding: 80px 24px; }
         .cred-section { background: #f8fafc; padding: 80px 24px; }
         .platform-section { background: white; padding: 80px 24px; }
@@ -225,13 +224,13 @@ export default function Page() {
         <p className="eyebrow">Program Overview</p>
         <h2>See the Program in Action</h2>
         <p>A quick look at what teachers experience and what students gain from this curriculum.</p>
-        <div className="video-wrap">
-<iframe
-  src="https://players.brightcove.net/2505476419001/default_default/index.html?videoId=6385988897112"
-  allowFullScreen
-  allow="encrypted-media"
-  style={{ width: "100%", aspectRatio: "16/9", border: "none", borderRadius: 12 }}
-/>
+        <div style={{ maxWidth: 960, margin: "0 auto", borderRadius: 12, overflow: "hidden" }}>
+          <iframe
+            src="https://players.brightcove.net/2505476419001/default_default/index.html?videoId=6385988897112"
+            allowFullScreen
+            allow="encrypted-media"
+            style={{ width: "100%", aspectRatio: "16/9", border: "none", display: "block" }}
+          />
         </div>
       </section>
 
