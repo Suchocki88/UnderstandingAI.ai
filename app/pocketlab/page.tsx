@@ -316,7 +316,7 @@ export default function Page() {
         <p>A quick look at what teachers experience and what students gain from this curriculum.</p>
         <div style={{ maxWidth: 960, margin: "0 auto", borderRadius: 12, overflow: "hidden" }}>
           <iframe
-            src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=6393042105112"
+            src="https://players.brightcove.net/2505476419001/default_default/index.html?videoId=6393045525112"
             allowFullScreen
             allow="encrypted-media"
             style={{ width: "100%", aspectRatio: "16/9", border: "none", display: "block" }}
