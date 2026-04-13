@@ -29,10 +29,10 @@ export default function Page() {
           background: rgba(255,255,255,0.10);
           border: 1px solid rgba(255,255,255,0.22);
           border-radius: 12px;
-          padding: 12px 24px;
+          padding: 14px 28px;
           margin-bottom: 32px;
         }
-        .logo-badge img { height: 40px; width: auto; }
+        .logo-badge img { height: 58px; width: auto; }
         .eyebrow {
           font-size: 13px; font-weight: 700; text-transform: uppercase;
           letter-spacing: 2px; color: #f59e0b; margin-bottom: 16px;
