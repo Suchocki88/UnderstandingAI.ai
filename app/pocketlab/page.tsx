@@ -371,19 +371,21 @@ export default function Page() {
         </div>
 
         {/* ── ADOPTION BRIDGE ── */}
-        <div className="adoption-bridge">
-          <p>
-            For schools and districts interested in bringing this program to students,
-            teacher PD is a natural starting point.{" "}
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Reach out to learn more about what a full adoption looks like →
-            </a>
-          </p>
-        </div>
+<div className="adoption-bridge">
+  <p>
+    For schools and districts interested in bringing this program to students,
+    teacher PD is a natural starting point.
+  </p>
+  <p>
+    
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Reach out to learn more about what a full adoption looks like →
+    </a>
+  </p>
+</div>
 
       </section>
 
