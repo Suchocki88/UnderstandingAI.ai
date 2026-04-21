@@ -12,6 +12,7 @@ export default function Page() {
 
       {/* ── STYLES ── */}
       <style>{`
+        html { scroll-behavior: smooth; }
         .hero {
           position: relative;
           background-image: url('/images/hero-ai.jpg');
@@ -92,23 +93,6 @@ export default function Page() {
           padding-left: 20px;
           margin: 36px 0;
         }
-        .editorial-inner ul {
-          margin: 0 0 24px 0;
-          padding: 0;
-          list-style: none;
-        }
-        .editorial-inner ul li {
-          font-size: 18px; color: #374151;
-          padding: 8px 0 8px 24px;
-          position: relative;
-          border-bottom: 1px solid #f3f4f6;
-          line-height: 1.5;
-        }
-        .editorial-inner ul li::before {
-          content: "→";
-          position: absolute; left: 0;
-          color: #f59e0b; font-weight: 700;
-        }
         .editorial-inner p.closing {
           font-size: 20px; font-weight: 700;
           color: #111827; margin-top: 36px;
@@ -148,12 +132,12 @@ export default function Page() {
         .vol-chapters { font-size: 13px; color: #6b7280; margin-bottom: 20px; line-height: 1.55; list-style: none; }
         .vol-chapters li { margin-bottom: 3px; padding-left: 14px; position: relative; border-bottom: none; }
         .vol-chapters li::before { content: "·"; position: absolute; left: 0; color: #f59e0b; font-weight: 700; }
-        .ceu-row {
+        .pd-row {
           background: #f8fafc; border-radius: 10px; padding: 14px 16px;
           margin-bottom: 20px; display: flex; align-items: center; gap: 12px;
         }
-        .ceu-num { font-size: 32px; font-weight: 800; color: #f59e0b; line-height: 1; }
-        .ceu-label { font-size: 13px; color: #4b5563; line-height: 1.4; }
+        .pd-num { font-size: 32px; font-weight: 800; color: #f59e0b; line-height: 1; }
+        .pd-label { font-size: 13px; color: #4b5563; line-height: 1.4; }
         .price { font-size: 26px; font-weight: 800; margin-bottom: 6px; }
         .course-id { font-size: 13px; color: #6b7280; margin-bottom: 20px; }
         .course-id code {
@@ -236,11 +220,8 @@ export default function Page() {
           </div>
 
           <div className="btn-row">
-            <a
-href="#enroll"
-              className="btn-primary"
-            >
-              Enroll Now — Volume 1 →
+            <a href="#enroll" className="btn-primary">
+              See Enrollment Details →
             </a>
             <a
               href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
@@ -264,42 +245,21 @@ href="#enroll"
           </p>
 
           <p>
-            Effective AI use requires wisdom, judgment, and the kind of critical thinking that takes years to develop. It requires knowing when a confident-sounding answer is wrong. Knowing when flattery is manipulation. Knowing what questions to even ask.
+            Effective AI use requires wisdom, judgment, and the kind of critical thinking that takes years to develop. Knowing when a confident-sounding answer is wrong. Knowing when flattery is manipulation. Knowing what questions to even ask. These are adult skills. And right now, our students need adults to lead the way.
           </p>
 
           <p>
-            These are adult skills. And right now, our students need adults to lead the way.
-          </p>
-
-          <p>
-            It&apos;s understandable that AI in education arrived first as a set of tools and tips for teachers. That conversation matters. But there&apos;s a larger question we haven&apos;t gotten to yet: when do we start teaching students about AI itself?
-          </p>
-
-          <p>
-            Not just how to use a particular tool, but what AI is and isn&apos;t, what it gets right and gets wrong, and how to think responsibly in a world that AI is reshaping around them.
+            It&apos;s understandable that AI in education arrived first as a set of tools and tips for teachers. That conversation matters. But there&apos;s a larger question we haven&apos;t gotten to yet: when do we start teaching students about AI itself? Not just how to use a particular tool — but what AI is and isn&apos;t, what it gets right and gets wrong, and how to think responsibly in a world that AI is reshaping around them.
           </p>
 
           <p className="exists">That program now exists.</p>
 
           <p>
-            <em>Understanding and Working with AI</em> is a complete, semester-long course built specifically for high school students. Eight chapters across two volumes cover:
-          </p>
-
-          <ul>
-            <li>what AI actually is and how it learns</li>
-            <li>how to communicate with it effectively</li>
-            <li>where bias enters and why it matters</li>
-            <li>how algorithms make high-stakes decisions about real people</li>
-            <li>how to detect AI-generated misinformation</li>
-            <li>and what an AI-powered future might mean for your students&apos; lives, careers, and democracy</li>
-          </ul>
-
-          <p>
-            It&apos;s not a unit. It&apos;s not a module. It&apos;s a full course — rigorous enough to be meaningful, accessible enough that no prior AI background is required. It fits naturally within social studies, CTE, computer science, and language arts.
+            <em>Understanding and Working with AI</em> is a complete, semester-long course built specifically for high school students — covering what AI is and how it learns, how bias enters and why it matters, how algorithms make high-stakes decisions about real people, how to detect misinformation, and what an AI-powered future might mean for your students&apos; lives and democracy. It fits naturally within social studies, CTE, computer science, and language arts.
           </p>
 
           <p>
-            And because we believe teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours, subject to the approval of your district. Start anytime. No expiration date.
+            And because teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours, subject to district approval. Start anytime. No expiration date.
           </p>
 
           <p className="closing">Your students are ready for this. So are you.</p>
@@ -323,15 +283,16 @@ href="#enroll"
       </section>
 
       {/* ── SUMMER PD / VOLUMES ── */}
-<section className="pd-section" id="enroll">
+      <section className="pd-section" id="enroll">
         <div className="section-inner">
           <div className="section-header">
             <p className="eyebrow">Summer Professional Development</p>
-            <h2>Learn It Before You Teach It</h2>
+            <h2>The PD Program</h2>
             <p>
-              Teachers take the course on <strong style={{ color: "#1f2937" }}>Conceptual Academy</strong> —
-              the same eight chapters, same labs, same AI experiments your students will experience.
-              Earn a 5-PD certificate per chapter, subject to the approval of your district. No cohort, no schedule. Start whenever your summer opens up.
+              Teachers enroll on <strong style={{ color: "#1f2937" }}>Conceptual Academy</strong> and
+              take the same eight chapters, labs, and AI experiments their students will experience.
+              Each chapter completed earns a certificate for 5 PD hours, subject to district approval.
+              No cohort, no schedule — start whenever your summer opens up.
             </p>
           </div>
 
@@ -343,14 +304,14 @@ href="#enroll"
               <h3>Foundations &amp; Practice</h3>
               <p className="vol-subtitle">Chapters 1–4 · 20 PD Hours</p>
               <ul className="vol-chapters">
-                <li><strong>Ch. 1 — Intelligence:</strong> Three kinds of intelligence, types of AI, first lab experiments with Alia</li>
+                <li><strong>Ch. 1 — Intelligence:</strong> Three kinds of intelligence, types of AI, first lab experiments</li>
                 <li><strong>Ch. 2 — Teaching Machines:</strong> How AI learns by example, the knock-knock joke journey, creativity</li>
                 <li><strong>Ch. 3 — Prompt Engineering:</strong> Basic prompt structures, context &amp; clarity, building simulations</li>
                 <li><strong>Ch. 4 — AI Bias:</strong> What bias is, hidden patterns, cultural assumptions, the flattery problem</li>
               </ul>
-              <div className="ceu-row">
-                <span className="ceu-num">20</span>
-                <span className="ceu-label">PD hours<br />upon completion</span>
+              <div className="pd-row">
+                <span className="pd-num">20</span>
+                <span className="pd-label">PD hours<br />upon completion</span>
               </div>
               <div className="price">$195</div>
               <p className="course-id">Course ID: <code>UAIVolume1</code></p>
@@ -375,9 +336,9 @@ href="#enroll"
                 <li><strong>Ch. 7 — AI in Media:</strong> Real or fake, deepfakes, misinformation, democracy &amp; information quality</li>
                 <li><strong>Ch. 8 — An AI-Powered Future:</strong> The next 10 and 50 years, power, wealth, and control</li>
               </ul>
-              <div className="ceu-row">
-                <span className="ceu-num">20</span>
-                <span className="ceu-label">PD hours<br />upon completion</span>
+              <div className="pd-row">
+                <span className="pd-num">20</span>
+                <span className="pd-label">PD hours<br />upon completion</span>
               </div>
               <div className="price">$195</div>
               <p className="course-id">Course ID: <code>UAIVolume2</code></p>
@@ -392,7 +353,7 @@ href="#enroll"
             </div>
 
           </div>
-          <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a 5-PD certificate upon reaching the mastery threshold.</p>
+          <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a certificate for 5 PD hours upon reaching the mastery threshold.</p>
         </div>
       </section>
 
@@ -404,22 +365,23 @@ href="#enroll"
             <h2>Conceptual Academy Powered by PocketLab</h2>
             <p>
               Best known for award-winning high school science programs in physics, chemistry,
-              biology, and Earth science — now bringing that same rigorous, accessible approach to AI literacy.
+              biology, and Earth science — trusted by thousands of students across the country —
+              now bringing that same rigorous, accessible approach to AI literacy.
             </p>
           </div>
           <div className="cards-grid">
             {[
               {
                 title: "Texas SBOE Approved",
-                body: "Our programs are among a select few approved by the Texas State Board of Education.",
+                body: "Our programs are among a select few approved by the Texas State Board of Education — a rigorous review process that signals curricular quality.",
               },
               {
                 title: "Fully Standards Aligned",
                 body: "Complete alignment documentation for C3, NGSS, and state-specific CTE pathways — ready for curriculum coordinators and administrators.",
               },
               {
-                title: "Used Across the Country",
-                body: "A clear, accessible, and experiential approach that works for teachers without any prior AI background.",
+                title: "No AI Background Required",
+                body: "Clear, accessible, and experiential — designed so any teacher can pick this up and teach it confidently from day one.",
               },
             ].map((c) => (
               <div className="cred-card" key={c.title}>
@@ -439,17 +401,17 @@ href="#enroll"
               <p className="eyebrow">The Student Platform</p>
               <h2>Built for the High School Classroom</h2>
               <p>
-                PocketLab Notebook is designed specifically for the high school environment.
-                Eight chapters delivered as structured lesson collections — Core, Lab, Discussion,
-                and Project Days — ready to use from day one.
+                PocketLab Notebook delivers the program as structured lesson collections —
+                Core, Lab, Discussion, and Project Days — ready to use from day one.
               </p>
               <p>
                 Teachers can customize lessons, adjust reading levels with a single click,
-                and deliver content in any language. AI integration means auto-grading is built in.
+                and deliver content in any language. Auto-grading is built in.
               </p>
               <p>
-                Alia, the embedded AI learning assistant, operates with curriculum-specific guardrails —
-                staying within course content and guiding students Socratically rather than giving direct answers.
+                Students work directly with AI tools — learning to prompt effectively,
+                evaluate outputs critically, and collaborate with AI as a creative partner.
+                No prior AI background required for teachers or students.
               </p>
               <a
                 href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
@@ -474,7 +436,7 @@ href="#enroll"
           <div className="section-header">
             <p className="eyebrow">Teacher Support</p>
             <h2>Everything a Teacher Needs</h2>
-            <p>No prior AI background required. The program includes a full suite of instructor tools grounded in cognitive science.</p>
+            <p>The program includes a full suite of instructor tools grounded in cognitive science — no prior AI background required.</p>
           </div>
           <div className="resources-grid">
             <div className="resource-card">
@@ -508,11 +470,11 @@ href="#enroll"
               </a>
             </div>
             <div className="resource-card">
-              <h3>Alia AI Built In</h3>
+              <h3>Cognitive Science Based</h3>
               <p>
-                Alia operates with curriculum-specific guardrails — she stays within course content,
-                guides students Socratically, and never completes assignments for them.
-                A safe, focused, and effective AI experience for every classroom.
+                The program is built on proven learning principles — spaced practice, retrieval,
+                peer discussion, and project-based application. Students don&apos;t just learn about AI.
+                They think with it, argue about it, and create alongside it.
               </p>
             </div>
           </div>
@@ -525,16 +487,22 @@ href="#enroll"
           <p className="eyebrow">Get Started</p>
           <h2>Ready to Bring AI Literacy to Your School?</h2>
           <p>
-            Enroll directly — no waitlist, start anytime — or reach out if you&apos;d like
-            to talk through how this fits your school&apos;s needs.
+            Have questions? Reach out directly — we&apos;d love to talk through
+            how this fits your school&apos;s needs. Or enroll now and start this summer.
             Student program pricing is handled through PocketLab.
           </p>
           <div className="cta-btn-row">
             <a
-              href="https://conceptualacademy.com/user/register"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
+            >
+              Contact Us →
+            </a>
+            <a
+              href="#enroll"
+              className="btn-outline-amber"
             >
               Enroll in Teacher PD →
             </a>
@@ -545,14 +513,6 @@ href="#enroll"
               className="btn-dark"
             >
               Student Program Info →
-            </a>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-outline-amber"
-            >
-              Contact Us →
             </a>
           </div>
         </div>
