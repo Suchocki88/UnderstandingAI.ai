@@ -299,7 +299,7 @@ href="#enroll"
           </p>
 
           <p>
-            And because we believe teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours, subject to the approval of your distict. Start anytime. No expiration date.
+            And because we believe teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours, subject to the approval of your district. Start anytime. No expiration date.
           </p>
 
           <p className="closing">Your students are ready for this. So are you.</p>
@@ -331,7 +331,7 @@ href="#enroll"
             <p>
               Teachers take the course on <strong style={{ color: "#1f2937" }}>Conceptual Academy</strong> —
               the same eight chapters, same labs, same AI experiments your students will experience.
-              Earn a 5-PD certificate per chapter. No cohort, no schedule. Start whenever your summer opens up.
+              Earn a 5-PD certificate per chapter, subject to the approval of your district. No cohort, no schedule. Start whenever your summer opens up.
             </p>
           </div>
 
