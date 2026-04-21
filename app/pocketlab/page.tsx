@@ -218,7 +218,7 @@ export default function Page() {
             A complete semester-long AI literacy program for high school classrooms —
             delivered through <strong>PocketLab Notebook</strong>.
             Teachers take the same program this summer on Conceptual Academy,
-            earning up to <strong>40 CEU hours</strong>, then teach it to students in the fall.
+            earning up to <strong>40 PD hours</strong>, then teach it to students in the fall.
           </p>
 
           <div className="stats-row">
@@ -299,7 +299,7 @@ href="#enroll"
           </p>
 
           <p>
-            And because we believe teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 CEU hours. Start anytime. No expiration date.
+            And because we believe teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours, subject to the approval of your distict. Start anytime. No expiration date.
           </p>
 
           <p className="closing">Your students are ready for this. So are you.</p>
@@ -331,7 +331,7 @@ href="#enroll"
             <p>
               Teachers take the course on <strong style={{ color: "#1f2937" }}>Conceptual Academy</strong> —
               the same eight chapters, same labs, same AI experiments your students will experience.
-              Earn a 5-CEU certificate per chapter. No cohort, no schedule. Start whenever your summer opens up.
+              Earn a 5-PD certificate per chapter. No cohort, no schedule. Start whenever your summer opens up.
             </p>
           </div>
 
@@ -341,7 +341,7 @@ href="#enroll"
             <div className="volume-card featured">
               <span className="vol-tag">Volume 1</span>
               <h3>Foundations &amp; Practice</h3>
-              <p className="vol-subtitle">Chapters 1–4 · 20 CEU Hours</p>
+              <p className="vol-subtitle">Chapters 1–4 · 20 PD Hours</p>
               <ul className="vol-chapters">
                 <li><strong>Ch. 1 — Intelligence:</strong> Three kinds of intelligence, types of AI, first lab experiments with Alia</li>
                 <li><strong>Ch. 2 — Teaching Machines:</strong> How AI learns by example, the knock-knock joke journey, creativity</li>
@@ -350,7 +350,7 @@ href="#enroll"
               </ul>
               <div className="ceu-row">
                 <span className="ceu-num">20</span>
-                <span className="ceu-label">CEU hours<br />upon completion</span>
+                <span className="ceu-label">PD hours<br />upon completion</span>
               </div>
               <div className="price">$195</div>
               <p className="course-id">Course ID: <code>UAIVolume1</code></p>
@@ -368,7 +368,7 @@ href="#enroll"
             <div className="volume-card">
               <span className="vol-tag">Volume 2</span>
               <h3>Society &amp; the Future</h3>
-              <p className="vol-subtitle">Chapters 5–8 · 20 CEU Hours</p>
+              <p className="vol-subtitle">Chapters 5–8 · 20 PD Hours</p>
               <ul className="vol-chapters">
                 <li><strong>Ch. 5 — Magic from Math:</strong> Probability, AI&apos;s crystal ball, predictions, and sentience</li>
                 <li><strong>Ch. 6 — AI Algorithms &amp; People:</strong> High-stakes decisions, hiring algorithms, criminal justice, fairness</li>
@@ -377,7 +377,7 @@ href="#enroll"
               </ul>
               <div className="ceu-row">
                 <span className="ceu-num">20</span>
-                <span className="ceu-label">CEU hours<br />upon completion</span>
+                <span className="ceu-label">PD hours<br />upon completion</span>
               </div>
               <div className="price">$195</div>
               <p className="course-id">Course ID: <code>UAIVolume2</code></p>
@@ -392,7 +392,7 @@ href="#enroll"
             </div>
 
           </div>
-          <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a 5-CEU certificate upon reaching the mastery threshold.</p>
+          <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a 5-PD certificate upon reaching the mastery threshold.</p>
         </div>
       </section>
 
