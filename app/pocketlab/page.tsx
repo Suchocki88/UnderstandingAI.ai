@@ -259,7 +259,7 @@ export default function Page() {
           </p>
 
           <p>
-            And because teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours, subject to district approval. Start anytime. No expiration date.
+            And because teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours. Start anytime. No expiration date.
           </p>
 
           <p className="closing">Your students are ready for this. So are you.</p>
@@ -291,7 +291,7 @@ export default function Page() {
             <p>
               Teachers enroll on <strong style={{ color: "#1f2937" }}>Conceptual Academy</strong> and
               take the same eight chapters, labs, and AI experiments their students will experience.
-              Each chapter completed earns a certificate for 5 PD hours, subject to district approval.
+              Each chapter completed earns a certificate for 5 PD hours.
               No cohort, no schedule — start whenever your summer opens up.
             </p>
           </div>
