@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI Literacy Teacher PD | PocketLab × Conceptual Academy",
+  title: "AI Literacy for High School | PocketLab × Conceptual Academy",
   description:
-    "A full semester AI literacy program for high school classrooms — delivered through PocketLab Notebook, with summer PD for teachers on Conceptual Academy.",
+    "A complete semester-long AI literacy program for high school students, delivered through PocketLab Notebook. Summer PD available for teachers.",
 };
 
 export default function Page() {
@@ -78,7 +78,7 @@ export default function Page() {
           text-decoration: none; font-weight: 600; font-size: 16px; display: inline-block;
         }
 
-        /* ── EDITORIAL SECTION ── */
+        /* ── EDITORIAL ── */
         .editorial-section { background: #ffffff; padding: 80px 24px; }
         .editorial-inner { max-width: 720px; margin: 0 auto; }
         .editorial-inner p {
@@ -93,11 +93,34 @@ export default function Page() {
           padding-left: 20px;
           margin: 36px 0;
         }
-        .editorial-inner p.closing {
-          font-size: 20px; font-weight: 700;
-          color: #111827; margin-top: 36px;
+
+        /* ── WHO IT'S FOR ── */
+        .who-section { background: #f8fafc; padding: 80px 24px; }
+        .who-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 32px;
+          max-width: 1000px;
+          margin: 0 auto;
+        }
+        .who-card {
+          background: white;
+          border-radius: 16px;
+          padding: 36px;
+          border: 1px solid #e5e7eb;
+          border-top: 4px solid #f59e0b;
+        }
+        .who-card h3 {
+          font-size: 22px; margin: 0 0 16px; color: #111827;
+        }
+        .who-card p {
+          font-size: 16px; color: #4b5563; line-height: 1.7; margin-bottom: 16px;
+        }
+        .who-card .who-link {
+          color: #c2410c; font-weight: 700; text-decoration: none; font-size: 15px;
         }
 
+        /* ── VIDEO ── */
         .video-section { background: #0f172a; padding: 64px 24px; text-align: center; }
         .video-section .eyebrow { margin-bottom: 12px; }
         .video-section h2 { font-size: 34px; color: white; margin: 0 0 8px; }
@@ -105,7 +128,9 @@ export default function Page() {
           font-size: 17px; color: rgba(255,255,255,0.65);
           max-width: 560px; margin: 0 auto 32px;
         }
-        .pd-section { background: #fff7ed; padding: 80px 24px; }
+
+        /* ── PROGRAM ── */
+        .program-section { background: #fff7ed; padding: 80px 24px; }
         .cred-section { background: #f8fafc; padding: 80px 24px; }
         .platform-section { background: white; padding: 80px 24px; }
         .resources-section { background: #f8fafc; padding: 80px 24px; }
@@ -138,7 +163,7 @@ export default function Page() {
         }
         .pd-num { font-size: 32px; font-weight: 800; color: #f59e0b; line-height: 1; }
         .pd-label { font-size: 13px; color: #4b5563; line-height: 1.4; }
-        .price { font-size: 26px; font-weight: 800; margin-bottom: 6px; }
+        .price { font-size: 20px; font-weight: 700; color: #6b7280; margin-bottom: 6px; }
         .course-id { font-size: 13px; color: #6b7280; margin-bottom: 20px; }
         .course-id code {
           background: #f1f5f9; padding: 2px 7px; border-radius: 4px;
@@ -146,10 +171,11 @@ export default function Page() {
         }
         .vol-enroll {
           display: block; text-align: center; padding: 13px 20px;
-          border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 15px;
+          border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 14px;
+          border: 1px solid #e5e7eb; color: #6b7280; background: white;
+          transition: border-color 0.2s;
         }
-        .vol-enroll.primary { background: #f59e0b; color: #0f172a; }
-        .vol-enroll.secondary { background: #0f172a; color: white; }
+        .vol-enroll:hover { border-color: #f59e0b; color: #111827; }
         .pd-footnote { text-align: center; font-size: 14px; color: #9ca3af; margin-top: 8px; }
         .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
         .cred-card {
@@ -178,7 +204,7 @@ export default function Page() {
         @media (max-width: 600px) {
           .hero h1 { font-size: 28px; }
           .stats-row { gap: 12px 20px; }
-          .pd-section, .cred-section, .platform-section, .resources-section, .cta-section { padding: 56px 20px; }
+          .program-section, .cred-section, .platform-section, .resources-section, .cta-section { padding: 56px 20px; }
         }
       `}</style>
 
@@ -191,7 +217,7 @@ export default function Page() {
             <img src="/images/PLCALogo.jpg" alt="PocketLab and Conceptual Academy" />
           </div>
 
-          <p className="eyebrow">Summer PD · AI Literacy · High School</p>
+          <p className="eyebrow">AI Literacy · High School · PocketLab Notebook</p>
 
           <h1>
             Teach AI Literacy This Fall.<br />
@@ -201,15 +227,15 @@ export default function Page() {
           <p className="hero-sub">
             A complete semester-long AI literacy program for high school classrooms —
             delivered through <strong>PocketLab Notebook</strong>.
-            Teachers take the same program this summer on Conceptual Academy,
-            earning up to <strong>40 PD hours</strong>, then teach it to students in the fall.
+            Teachers can take the same program this summer as professional development,
+            then bring it to students in the fall.
           </p>
 
           <div className="stats-row">
             {[
-              ["40", "Max PD Hours"],
               ["8", "Chapters"],
-              ["$195", "Per Volume"],
+              ["2", "Volumes"],
+              ["40", "PD Hours"],
               ["Self-Paced", "Start Anytime"],
             ].map(([num, label]) => (
               <div className="stat" key={label}>
@@ -220,8 +246,13 @@ export default function Page() {
           </div>
 
           <div className="btn-row">
-            <a href="#enroll" className="btn-primary">
-              See Enrollment Details →
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Let&apos;s Talk →
             </a>
             <a
               href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
@@ -258,12 +289,54 @@ export default function Page() {
             <em>Understanding and Working with AI</em> is a complete, semester-long course built specifically for high school students — covering what AI is and how it learns, how bias enters and why it matters, how algorithms make high-stakes decisions about real people, how to detect misinformation, and what an AI-powered future might mean for your students&apos; lives and democracy. It fits naturally within social studies, CTE, computer science, and language arts.
           </p>
 
-          <p>
-            And because teachers should know this material from the inside — not from a workshop about it, but from living it — the same program is available this summer as a self-paced professional development course on Conceptual Academy. Up to 40 PD hours. Start anytime. No expiration date.
-          </p>
+        </div>
+      </section>
 
-          <p className="closing">Your students are ready for this. So are you.</p>
-
+      {/* ── WHO IT'S FOR ── */}
+      <section className="who-section">
+        <div className="section-header">
+          <p className="eyebrow">Who This Is For</p>
+          <h2>Administrators and Teachers</h2>
+          <p>Whether you&apos;re exploring adoption for your school or looking to deepen your own AI knowledge, there&apos;s a place for you here.</p>
+        </div>
+        <div className="who-grid">
+          <div className="who-card">
+            <h3>For Administrators</h3>
+            <p>
+              If you&apos;re thinking about AI literacy for your school or district,
+              this is a complete, ready-to-deploy program — not a pilot, not a module.
+              A full semester course with teacher guides, standards alignment,
+              and a platform your teachers already know.
+            </p>
+            <p>
+              We&apos;d love to walk you through it and answer your questions.
+              No commitment required.
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="who-link"
+            >
+              Reach out to start the conversation →
+            </a>
+          </div>
+          <div className="who-card">
+            <h3>For Teachers</h3>
+            <p>
+              If you want to understand AI deeply — not just use it, but genuinely
+              understand how it works, where it fails, and how to think critically
+              about it — this summer PD program was built for you.
+            </p>
+            <p>
+              Take the same course your students would take.
+              Complete chapters at your own pace.
+              Earn a certificate for every 5 PD hours completed, up to 40 hours total.
+            </p>
+            <a href="#program" className="who-link">
+              See the program details →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -282,17 +355,15 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── SUMMER PD / VOLUMES ── */}
-      <section className="pd-section" id="enroll">
+      {/* ── PROGRAM DETAILS ── */}
+      <section className="program-section" id="program">
         <div className="section-inner">
           <div className="section-header">
-            <p className="eyebrow">Summer Professional Development</p>
-            <h2>The PD Program</h2>
+            <p className="eyebrow">The Program</p>
+            <h2>Two Volumes. Eight Chapters.</h2>
             <p>
-              Teachers enroll on <strong style={{ color: "#1f2937" }}>Conceptual Academy</strong> and
-              take the same eight chapters, labs, and AI experiments their students will experience.
               Each chapter completed earns a certificate for 5 PD hours.
-              No cohort, no schedule — start whenever your summer opens up.
+              Work through one volume or both — at your own pace, on your own schedule.
             </p>
           </div>
 
@@ -313,15 +384,15 @@ export default function Page() {
                 <span className="pd-num">20</span>
                 <span className="pd-label">PD hours<br />upon completion</span>
               </div>
-              <div className="price">$195</div>
+              <p className="price">$195</p>
               <p className="course-id">Course ID: <code>UAIVolume1</code></p>
               <a
                 href="https://conceptualacademy.com/user/register"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="vol-enroll primary"
+                className="vol-enroll"
               >
-                Enroll in Volume 1 →
+                Enroll at Conceptual Academy →
               </a>
             </div>
 
@@ -340,15 +411,15 @@ export default function Page() {
                 <span className="pd-num">20</span>
                 <span className="pd-label">PD hours<br />upon completion</span>
               </div>
-              <div className="price">$195</div>
+              <p className="price">$195</p>
               <p className="course-id">Course ID: <code>UAIVolume2</code></p>
               <a
                 href="https://conceptualacademy.com/user/register"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="vol-enroll secondary"
+                className="vol-enroll"
               >
-                Enroll in Volume 2 →
+                Enroll at Conceptual Academy →
               </a>
             </div>
 
@@ -472,7 +543,7 @@ export default function Page() {
             <div className="resource-card">
               <h3>Cognitive Science Based</h3>
               <p>
-                The program is built on proven learning principles — spaced practice, retrieval,
+                Built on proven learning principles — spaced practice, retrieval,
                 peer discussion, and project-based application. Students don&apos;t just learn about AI.
                 They think with it, argue about it, and create alongside it.
               </p>
@@ -484,12 +555,12 @@ export default function Page() {
       {/* ── FINAL CTA ── */}
       <section className="cta-section">
         <div className="section-inner" style={{ maxWidth: 700 }}>
-          <p className="eyebrow">Get Started</p>
-          <h2>Ready to Bring AI Literacy to Your School?</h2>
+          <p className="eyebrow">Let&apos;s Talk</p>
+          <h2>Curious? We&apos;d Love to Hear From You.</h2>
           <p>
-            Have questions? Reach out directly — we&apos;d love to talk through
-            how this fits your school&apos;s needs. Or enroll now and start this summer.
-            Student program pricing is handled through PocketLab.
+            Whether you&apos;re an administrator exploring adoption, a teacher wanting to
+            understand AI more deeply, or just someone who saw this in the PocketLab newsletter
+            and wants to know more — reach out. No pressure, no pitch. Just a conversation.
           </p>
           <div className="cta-btn-row">
             <a
@@ -498,13 +569,7 @@ export default function Page() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Contact Us →
-            </a>
-            <a
-              href="#enroll"
-              className="btn-outline-amber"
-            >
-              Enroll in Teacher PD →
+              Get in Touch →
             </a>
             <a
               href="https://www.thepocketlab.com/conceptual-academy"
