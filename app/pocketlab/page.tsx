@@ -223,7 +223,7 @@ export default function Page() {
 
           <div className="stats-row">
             {[
-              ["40", "Max CEU Hours"],
+              ["40", "Max PD Hours"],
               ["8", "Chapters"],
               ["$195", "Per Volume"],
               ["Self-Paced", "Start Anytime"],
