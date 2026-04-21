@@ -378,7 +378,8 @@ export default function Page() {
   </p>
   <p>
     
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
       target="_blank"
       rel="noopener noreferrer"
     >
