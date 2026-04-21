@@ -101,7 +101,7 @@ export default function Page() {
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
           gap: 32px;
           max-width: 1000px;
-          margin: 0 auto;
+          margin: 0 auto 40px;
         }
         .who-card {
           background: white;
@@ -118,6 +118,28 @@ export default function Page() {
         }
         .who-card .who-link {
           color: #c2410c; font-weight: 700; text-decoration: none; font-size: 15px;
+        }
+        .adoption-bridge {
+          max-width: 1000px;
+          margin: 0 auto;
+          text-align: center;
+          padding: 24px 32px;
+          background: white;
+          border-radius: 12px;
+          border: 1px solid #e5e7eb;
+          border-left: 4px solid #f59e0b;
+        }
+        .adoption-bridge p {
+          font-size: 16px;
+          color: #6b7280;
+          line-height: 1.7;
+          margin: 0;
+          font-style: italic;
+        }
+        .adoption-bridge a {
+          color: #c2410c;
+          font-weight: 700;
+          text-decoration: none;
         }
 
         /* ── VIDEO ── */
@@ -299,6 +321,7 @@ export default function Page() {
           <h2>Administrators and Teachers</h2>
           <p>Whether you&apos;re exploring adoption for your school or looking to deepen your own understanding of AI, there&apos;s a place for you here.</p>
         </div>
+
         <div className="who-grid">
 
           <div className="who-card">
@@ -346,6 +369,22 @@ export default function Page() {
           </div>
 
         </div>
+
+        {/* ── ADOPTION BRIDGE ── */}
+        <div className="adoption-bridge">
+          <p>
+            For schools and districts interested in bringing this program to students,
+            teacher PD is a natural starting point.{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Reach out to learn more about what a full adoption looks like →
+            </a>
+          </p>
+        </div>
+
       </section>
 
       {/* ── VIDEO ── */}
