@@ -297,21 +297,26 @@ export default function Page() {
         <div className="section-header">
           <p className="eyebrow">Who This Is For</p>
           <h2>Administrators and Teachers</h2>
-          <p>Whether you&apos;re exploring adoption for your school or looking to deepen your own AI knowledge, there&apos;s a place for you here.</p>
+          <p>Whether you&apos;re exploring adoption for your school or looking to deepen your own understanding of AI, there&apos;s a place for you here.</p>
         </div>
         <div className="who-grid">
+
           <div className="who-card">
             <h3>For Administrators</h3>
             <p>
-              If you&apos;re thinking about AI literacy for your school or district,
-              this is a complete, ready-to-deploy program — not a pilot, not a module.
-              A full semester course with teacher guides, standards alignment,
-              and a platform your teachers already know.
+              Your students are already using AI — in their schoolwork, their creative
+              projects, their daily lives. You might question the degree to which your
+              district is already addressing AI literacy, not just for the teachers,
+              but for the students.
             </p>
             <p>
-              We&apos;d love to walk you through it and answer your questions.
-              No commitment required.
+              This is a complete, ready-to-deploy program. First as professional
+              development where teachers learn to teach the full semester course.
+              Second as a student-facing curriculum complete with teacher guides,
+              standards alignment, and a platform designed specifically for the
+              high school experience.
             </p>
+            <p>We&apos;d love to walk you through it.</p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
               target="_blank"
@@ -321,22 +326,25 @@ export default function Page() {
               Reach out to start the conversation →
             </a>
           </div>
+
           <div className="who-card">
             <h3>For Teachers</h3>
             <p>
               If you want to understand AI deeply — not just use it, but genuinely
               understand how it works, where it fails, and how to think critically
-              about it — this summer PD program was built for you.
+              about it — this summer PD program is built for you.
             </p>
             <p>
-              Take the same course your students would take.
-              Complete chapters at your own pace.
-              Earn a certificate for every 5 PD hours completed, up to 40 hours total.
+              You&apos;ll finish with a genuine understanding of AI and a certificate
+              documenting up to 40 PD hours of professional learning. That knowledge
+              puts you in a position to lead — to be part of your district&apos;s
+              conversation about AI literacy for students.
             </p>
             <a href="#program" className="who-link">
               See the program details →
             </a>
           </div>
+
         </div>
       </section>
 
