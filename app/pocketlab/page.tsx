@@ -45,6 +45,20 @@ export default function Page() {
           max-width: 660px; margin: 0 auto 20px; line-height: 1.65;
         }
         .hero-sub strong { color: white; }
+        .hero-free-nudge {
+          margin: 0 auto 28px; max-width: 500px;
+        }
+        .hero-free-nudge span {
+          display: inline-block;
+          background: rgba(245,158,11,0.18);
+          border: 1px solid rgba(245,158,11,0.4);
+          border-radius: 100px;
+          padding: 6px 18px;
+          color: #fcd34d;
+          font-weight: 600;
+          font-size: 14px;
+          letter-spacing: 0.3px;
+        }
         .stats-row {
           display: flex; justify-content: center;
           flex-wrap: wrap; gap: 8px 32px; margin-bottom: 36px;
@@ -62,14 +76,16 @@ export default function Page() {
           font-size: 16px; display: inline-block; transition: background 0.2s;
         }
         .btn-primary:hover { background: #d97706; }
+        .btn-ghost {
+          border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.7);
+          padding: 14px 28px; border-radius: 8px; text-decoration: none;
+          font-weight: 500; font-size: 15px; display: inline-block;
+          transition: border-color 0.2s, color 0.2s;
+        }
+        .btn-ghost:hover { border-color: rgba(255,255,255,0.5); color: white; }
         .btn-outline {
           border: 2px solid rgba(255,255,255,0.4); color: white;
           padding: 14px 28px; border-radius: 8px; text-decoration: none;
-          font-weight: 600; font-size: 16px; display: inline-block;
-        }
-        .btn-outline-amber {
-          border: 2px solid rgba(245,158,11,0.55); color: #f59e0b;
-          padding: 14px 28px; border-radius: 10px; text-decoration: none;
           font-weight: 600; font-size: 16px; display: inline-block;
         }
         .btn-dark {
@@ -110,36 +126,32 @@ export default function Page() {
           border: 1px solid #e5e7eb;
           border-top: 4px solid #f59e0b;
         }
-        .who-card h3 {
-          font-size: 22px; margin: 0 0 16px; color: #111827;
-        }
-        .who-card p {
-          font-size: 16px; color: #4b5563; line-height: 1.7; margin-bottom: 16px;
+        .who-card h3 { font-size: 22px; margin: 0 0 16px; color: #111827; }
+        .who-card p { font-size: 16px; color: #4b5563; line-height: 1.7; margin-bottom: 16px; }
+        .who-card .identity-line {
+          font-size: 17px; font-weight: 700; color: #111827;
+          border-left: 3px solid #f59e0b; padding-left: 14px;
+          margin: 20px 0; line-height: 1.5;
         }
         .who-card .who-link {
           color: #c2410c; font-weight: 700; text-decoration: none; font-size: 15px;
         }
         .adoption-bridge {
-          max-width: 1000px;
-          margin: 0 auto;
-          text-align: center;
-          padding: 24px 32px;
-          background: white;
-          border-radius: 12px;
-          border: 1px solid #e5e7eb;
-          border-left: 4px solid #f59e0b;
+          max-width: 1000px; margin: 0 auto;
+          padding: 28px 36px;
+          background: white; border-radius: 12px;
+          border: 1px solid #e5e7eb; border-left: 4px solid #f59e0b;
         }
         .adoption-bridge p {
-          font-size: 16px;
-          color: #6b7280;
-          line-height: 1.7;
-          margin: 0;
-          font-style: italic;
+          font-size: 16px; color: #6b7280;
+          line-height: 1.7; margin: 0 0 8px; font-style: italic;
         }
-        .adoption-bridge a {
-          color: #c2410c;
-          font-weight: 700;
-          text-decoration: none;
+        .adoption-bridge p:last-child { margin-bottom: 0; }
+        .adoption-bridge a { color: #c2410c; font-weight: 700; text-decoration: none; }
+        .movement-line {
+          font-size: 17px; font-weight: 700;
+          color: #111827; font-style: normal !important;
+          margin-top: 12px !important;
         }
 
         /* ── VIDEO ── */
@@ -161,35 +173,106 @@ export default function Page() {
         .section-header { text-align: center; max-width: 720px; margin: 0 auto 48px; }
         .section-header h2 { font-size: clamp(28px, 4vw, 38px); margin-top: 12px; }
         .section-header p { margin-top: 16px; font-size: 19px; color: #6b7280; }
+
+        /* ── FREE ENTRY BANNER ── */
+        .free-entry-banner {
+          max-width: 1100px; margin: 0 auto 32px;
+          background: white; border-radius: 16px;
+          border: 2px dashed #f59e0b;
+          padding: 28px 36px;
+          display: flex; align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap; gap: 20px;
+        }
+        .free-entry-badge {
+          display: inline-block;
+          background: #fef3c7; color: #92400e;
+          font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+          text-transform: uppercase; padding: 4px 12px;
+          border-radius: 100px; margin-bottom: 10px;
+        }
+        .free-entry-banner h3 { font-size: 22px; margin: 0 0 6px; color: #111827; }
+        .free-entry-banner p { font-size: 15px; color: #6b7280; margin: 0 0 4px; line-height: 1.5; }
+        .free-entry-banner .you-go-first {
+          font-size: 15px; font-weight: 700; color: #111827;
+          margin: 8px 0 0; line-height: 1.5;
+        }
+        .free-entry-banner .time-nudge {
+          font-size: 13px; color: #9ca3af; margin-top: 4px;
+        }
+        .free-entry-right { flex-shrink: 0; text-align: right; }
+        .free-label {
+          font-size: 36px; font-weight: 800; color: #f59e0b;
+          line-height: 1; display: block; margin-bottom: 4px;
+        }
+        .pd-sub { font-size: 13px; color: #6b7280; display: block; margin-bottom: 14px; }
+        .btn-free {
+          display: inline-block;
+          background: #111827; color: white;
+          padding: 11px 22px; border-radius: 8px;
+          text-decoration: none; font-weight: 700; font-size: 14px;
+          transition: background 0.2s;
+        }
+        .btn-free:hover { background: #374151; }
+
+        /* ── VOLUME CARDS ── */
         .volumes-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-          gap: 24px; margin-bottom: 20px;
+          gap: 24px; margin-bottom: 12px;
         }
-        .volume-card { background: white; border-radius: 16px; padding: 32px; border: 1px solid #e5e7eb; }
+        .volume-card {
+          background: white; border-radius: 16px;
+          padding: 32px; border: 1px solid #e5e7eb;
+        }
         .volume-card.featured { border: 2px solid #f59e0b; }
+        .volume-card.best-value {
+          border: 2px solid #0f172a; position: relative;
+        }
+        .best-value-ribbon {
+          position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+          background: #0f172a; color: #f59e0b;
+          font-size: 11px; font-weight: 700; letter-spacing: 1.5px;
+          text-transform: uppercase; padding: 4px 16px;
+          border-radius: 100px; white-space: nowrap;
+        }
         .vol-tag {
           display: inline-block; background: #fef3c7; color: #92400e;
           font-size: 11px; font-weight: 700; letter-spacing: 1px;
           text-transform: uppercase; padding: 4px 10px;
           border-radius: 100px; margin-bottom: 14px;
         }
+        .vol-tag.dark { background: #1e293b; color: #f59e0b; }
         .volume-card h3 { font-size: 22px; margin: 0 0 6px; }
         .vol-subtitle { font-size: 15px; font-weight: 700; color: #374151; margin-bottom: 4px; }
-        .vol-chapters { font-size: 13px; color: #6b7280; margin-bottom: 20px; line-height: 1.55; list-style: none; }
-        .vol-chapters li { margin-bottom: 3px; padding-left: 14px; position: relative; border-bottom: none; }
+        .vol-chapters {
+          font-size: 13px; color: #6b7280;
+          margin-bottom: 20px; line-height: 1.55;
+          list-style: none; padding: 0;
+        }
+        .vol-chapters li { margin-bottom: 3px; padding-left: 14px; position: relative; }
         .vol-chapters li::before { content: "·"; position: absolute; left: 0; color: #f59e0b; font-weight: 700; }
         .pd-row {
           background: #f8fafc; border-radius: 10px; padding: 14px 16px;
-          margin-bottom: 20px; display: flex; align-items: center; gap: 12px;
+          margin-bottom: 16px; display: flex; align-items: center; gap: 12px;
         }
         .pd-num { font-size: 32px; font-weight: 800; color: #f59e0b; line-height: 1; }
         .pd-label { font-size: 13px; color: #4b5563; line-height: 1.4; }
-        .price { font-size: 20px; font-weight: 700; color: #6b7280; margin-bottom: 6px; }
-        .course-id { font-size: 13px; color: #6b7280; margin-bottom: 20px; }
+        .price-block { margin-bottom: 6px; }
+        .price-main { font-size: 28px; font-weight: 800; color: #111827; line-height: 1; }
+        .price-per-hour {
+          display: inline-block; font-size: 13px; color: #6b7280;
+          background: #f1f5f9; border-radius: 6px;
+          padding: 3px 8px; margin-left: 8px; font-weight: 600;
+        }
+        .course-id { font-size: 13px; color: #6b7280; margin-bottom: 20px; margin-top: 6px; }
         .course-id code {
           background: #f1f5f9; padding: 2px 7px; border-radius: 4px;
           color: #c2410c; letter-spacing: 0.05em; font-family: monospace;
+        }
+        .continue-label {
+          font-size: 12px; font-weight: 700; text-transform: uppercase;
+          letter-spacing: 1px; color: #9ca3af; margin-bottom: 6px;
         }
         .vol-enroll {
           display: block; text-align: center; padding: 13px 20px;
@@ -198,7 +281,18 @@ export default function Page() {
           transition: border-color 0.2s;
         }
         .vol-enroll:hover { border-color: #f59e0b; color: #111827; }
+        .vol-enroll.dark-enroll {
+          background: #0f172a; color: white; border: none;
+        }
+        .vol-enroll.dark-enroll:hover { background: #1e293b; }
         .pd-footnote { text-align: center; font-size: 14px; color: #9ca3af; margin-top: 8px; }
+        .vol2-note {
+          max-width: 1100px; margin: 20px auto 0;
+          text-align: center; font-size: 14px; color: #9ca3af; padding: 0 24px;
+        }
+        .vol2-note a { color: #c2410c; font-weight: 600; text-decoration: none; }
+
+        /* ── OTHER ── */
         .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
         .cred-card {
           background: white; border-radius: 16px; padding: 28px;
@@ -223,10 +317,13 @@ export default function Page() {
         .cta-section h2 { font-size: clamp(28px, 4vw, 38px); margin: 0 0 20px; }
         .cta-section p { font-size: 19px; color: rgba(255,255,255,0.75); margin-bottom: 40px; line-height: 1.7; }
         .cta-btn-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
-        @media (max-width: 600px) {
+        @media (max-width: 700px) {
           .hero h1 { font-size: 28px; }
           .stats-row { gap: 12px 20px; }
-          .program-section, .cred-section, .platform-section, .resources-section, .cta-section { padding: 56px 20px; }
+          .program-section, .cred-section, .platform-section,
+          .resources-section, .cta-section { padding: 56px 20px; }
+          .free-entry-banner { flex-direction: column; text-align: center; }
+          .free-entry-right { text-align: center; }
         }
       `}</style>
 
@@ -253,12 +350,16 @@ export default function Page() {
             then bring it to students in the fall.
           </p>
 
+          <p className="hero-free-nudge">
+            <span>✦ Chapter 1 is free — start today, no commitment</span>
+          </p>
+
           <div className="stats-row">
             {[
               ["8", "Chapters"],
               ["2", "Volumes"],
               ["40", "PD Hours"],
-              ["Self-Paced", "Start Anytime"],
+              ["Free", "Chapter 1"],
             ].map(([num, label]) => (
               <div className="stat" key={label}>
                 <div className="stat-num">{num}</div>
@@ -267,20 +368,16 @@ export default function Page() {
             ))}
           </div>
 
+          {/* One dominant CTA + one quiet secondary */}
           <div className="btn-row">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              Let&apos;s Talk →
+            <a href="#program" className="btn-primary">
+              Start Chapter 1 Free →
             </a>
             <a
               href="https://app.thepocketlab.com/lab-report/yyAw0siq0001yyAw?ro=1"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-outline"
+              className="btn-ghost"
             >
               Explore a Sample Lesson
             </a>
@@ -298,7 +395,7 @@ export default function Page() {
           </p>
 
           <p>
-            Effective AI use requires wisdom, judgment, and the kind of critical thinking that takes years to develop. Knowing when a confident-sounding answer is wrong. Knowing when flattery is manipulation. Knowing what questions to even ask. These are adult skills. And right now, our students need adults to lead the way.
+            Effective AI use requires wisdom, judgment, and the kind of critical thinking that takes years to develop. Knowing when a confident-sounding answer is wrong. Knowing when the AI is just telling you what you want to hear. Knowing what questions to even ask. These are adult skills. And right now, our students need adults to lead the way.
           </p>
 
           <p>
@@ -357,36 +454,39 @@ export default function Page() {
               understand how it works, where it fails, and how to think critically
               about it — this summer PD program is built for you.
             </p>
+            <p className="identity-line">
+              AI literacy is the most important new subject in your school.
+              This program puts you in position to lead that conversation.
+            </p>
             <p>
               You&apos;ll finish with a genuine understanding of AI and a certificate
-              documenting up to 40 PD hours of professional learning. That knowledge
-              puts you in a position to lead — to be part of your district&apos;s
-              conversation about AI literacy for students.
+              documenting up to 40 PD hours. Start with Chapter 1 free —
+              no commitment, no credit card.
             </p>
             <a href="#program" className="who-link">
-              See the program details →
+              Start free — see the program details →
             </a>
           </div>
 
         </div>
 
-        {/* ── ADOPTION BRIDGE ── */}
-<div className="adoption-bridge">
-  <p>
-    For schools and districts interested in bringing this program to students,
-    teacher PD is a natural starting point.
-  </p>
-  <p>
-    
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Reach out to learn more about what a full adoption looks like →
-    </a>
-  </p>
-</div>
+        <div className="adoption-bridge">
+          <p>
+            For schools and districts interested in bringing this program to students,
+            teacher PD is a natural starting point. Schools typically start with a few
+            teachers — then expand to full student access.{" "}
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Reach out to learn more about what a full adoption looks like →
+            </a>
+          </p>
+          <p className="movement-line">
+            This isn&apos;t just PD. It&apos;s the beginning of AI literacy in your school.
+          </p>
+        </div>
 
       </section>
 
@@ -410,20 +510,53 @@ export default function Page() {
         <div className="section-inner">
           <div className="section-header">
             <p className="eyebrow">The Program</p>
-            <h2>Two Volumes. Eight Chapters.</h2>
+            <h2>Start Free. Continue Your PD.</h2>
             <p>
-              Each chapter completed earns a certificate for 5 PD hours.
-              Work through one volume or both — at your own pace, on your own schedule.
+              Chapter 1 is free — 5 PD hours, no obligation.
+              When you&apos;re ready to continue, choose a volume or the full program.
+              Every chapter earns a certificate for 5 PD hours.
             </p>
           </div>
 
+          {/* ── FREE ENTRY ── */}
+          <div className="free-entry-banner">
+            <div>
+              <div className="free-entry-badge">Start Here · No Commitment</div>
+              <h3>Chapter 1 — Intelligence</h3>
+              <p>
+                Three kinds of intelligence, types of AI, first lab experiments with a real AI model.
+              </p>
+              <p className="you-go-first">
+                Experience the same Chapter 1 your students will take — you go first.
+              </p>
+              <p className="time-nudge">Most teachers complete this in 2–3 hours. Continue seamlessly into Volume 1 if you choose.</p>
+            </div>
+            <div className="free-entry-right">
+              <span className="free-label">Free</span>
+              <span className="pd-sub">5 PD hours included</span>
+              <a
+                href="https://conceptualacademy.com/user/register"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-free"
+              >
+                Start Chapter 1 Free →
+              </a>
+              <p style={{ fontSize: 12, color: "#9ca3af", marginTop: 10, marginBottom: 0 }}>
+                Trusted classroom curriculum — not a demo
+              </p>
+            </div>
+          </div>
+
+          {/* ── VOLUME CARDS ── */}
           <div className="volumes-grid">
 
             {/* Volume 1 */}
             <div className="volume-card featured">
+              <p className="continue-label">Continue Your Certification</p>
               <span className="vol-tag">Volume 1</span>
               <h3>Foundations &amp; Practice</h3>
-              <p className="vol-subtitle">Chapters 1–4 · 20 PD Hours</p>
+              <p className="vol-subtitle">Chapters 1–4</p>
               <ul className="vol-chapters">
                 <li><strong>Ch. 1 — Intelligence:</strong> Three kinds of intelligence, types of AI, first lab experiments</li>
                 <li><strong>Ch. 2 — Teaching Machines:</strong> How AI learns by example, the knock-knock joke journey, creativity</li>
@@ -434,7 +567,10 @@ export default function Page() {
                 <span className="pd-num">20</span>
                 <span className="pd-label">PD hours<br />upon completion</span>
               </div>
-              <p className="price">$195</p>
+              <div className="price-block">
+                <span className="price-main">$195</span>
+                <span className="price-per-hour">≈ $9 / hr</span>
+              </div>
               <p className="course-id">Course ID: <code>UAIVolume1</code></p>
               <a
                 href="https://conceptualacademy.com/user/register"
@@ -446,35 +582,48 @@ export default function Page() {
               </a>
             </div>
 
-            {/* Volume 2 */}
-            <div className="volume-card">
-              <span className="vol-tag">Volume 2</span>
-              <h3>Society &amp; the Future</h3>
-              <p className="vol-subtitle">Chapters 5–8 · 20 PD Hours</p>
+            {/* Full Program */}
+            <div className="volume-card best-value">
+              <div className="best-value-ribbon">Best Value</div>
+              <span className="vol-tag dark">Full Program</span>
+              <h3>All 8 Chapters</h3>
+              <p className="vol-subtitle">Volumes 1 &amp; 2 · 40 PD Hours</p>
+              <p style={{ fontSize: 13, color: "#f59e0b", fontWeight: 700, marginBottom: 12, marginTop: 0 }}>Most teachers choose the full program</p>
               <ul className="vol-chapters">
+                <li><strong>Ch. 1–4 — Foundations &amp; Practice:</strong> Intelligence, teaching machines, prompt engineering, AI bias</li>
                 <li><strong>Ch. 5 — Magic from Math:</strong> Probability, AI&apos;s crystal ball, predictions, and sentience</li>
                 <li><strong>Ch. 6 — AI Algorithms &amp; People:</strong> High-stakes decisions, hiring algorithms, criminal justice, fairness</li>
                 <li><strong>Ch. 7 — AI in Media:</strong> Real or fake, deepfakes, misinformation, democracy &amp; information quality</li>
                 <li><strong>Ch. 8 — An AI-Powered Future:</strong> The next 10 and 50 years, power, wealth, and control</li>
               </ul>
               <div className="pd-row">
-                <span className="pd-num">20</span>
+                <span className="pd-num">40</span>
                 <span className="pd-label">PD hours<br />upon completion</span>
               </div>
-              <p className="price">$195</p>
-              <p className="course-id">Course ID: <code>UAIVolume2</code></p>
+              <div className="price-block">
+                <span className="price-main">$345</span>
+                <span className="price-per-hour">≈ $8 / hr</span>
+              </div>
+              <p className="course-id">Includes <code>UAIVolume1</code> + <code>UAIVolume2</code></p>
               <a
                 href="https://conceptualacademy.com/user/register"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="vol-enroll"
+                className="vol-enroll dark-enroll"
               >
-                Enroll at Conceptual Academy →
+                Enroll in Full Program →
               </a>
             </div>
 
           </div>
+
           <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a certificate for 5 PD hours upon reaching the mastery threshold.</p>
+          <p className="vol2-note">
+            Already completed Volume 1?{" "}
+            <a href="https://conceptualacademy.com/user/register" target="_blank" rel="noopener noreferrer">
+              Enroll in Volume 2 separately for $195 →
+            </a>
+          </p>
         </div>
       </section>
 
@@ -613,11 +762,14 @@ export default function Page() {
             and wants to know more — reach out. No pressure, no pitch. Just a conversation.
           </p>
           <div className="cta-btn-row">
+            <a href="#program" className="btn-primary">
+              Start Chapter 1 Free →
+            </a>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary"
+              className="btn-dark"
             >
               Get in Touch →
             </a>
