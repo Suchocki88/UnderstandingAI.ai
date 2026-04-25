@@ -50,7 +50,7 @@ export default function Page() {
             }}>
               For K–12 Classrooms →
             </Link>
-            <Link href="/academy" style={{
+            <Link href="/curriculum#pathways" style={{
               background: "rgba(255,255,255,0.15)",
               color: "white",
               border: "2px solid rgba(255,255,255,0.6)",
@@ -88,12 +88,12 @@ export default function Page() {
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>K–12 classroom programs →</span>
           </Link>
 
-          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+          <Link href="/curriculum#pathways" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Professional</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>CEUs and PD credential →</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>PD credential →</span>
           </Link>
 
-          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+          <Link href="/curriculum#pathways" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Independent Learner</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-paced online program →</span>
           </Link>
@@ -202,9 +202,9 @@ export default function Page() {
               <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                A teacher, professional, or independent learner? Conceptual Academy offers a structured online program with CEUs, PD hours — available in 5-hour increments. Access to automated assessment, customized AI tools, and more. Start anytime. Follow your own pace.
+                A teacher, professional, or independent learner? Conceptual Academy offers a structured online program with PD hours available in 5-hour increments. Includes automated assessment, video lessons, interactive labs, and AI experiments. Start anytime. Follow your own pace.
               </p>
-              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+              <Link href="/curriculum#pathways" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about Conceptual Academy →
               </Link>
             </div>
@@ -214,7 +214,7 @@ export default function Page() {
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and our Alia AI safeguards built in. AI is reshaping most every field, yet most students have no idea how it actually works. This program changes that.
+                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and AI experiments using Claude or your preferred platform. AI is reshaping most every field, yet most students have no idea how it actually works. This program changes that.
               </p>
               <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about PocketLab →
