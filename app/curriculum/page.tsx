@@ -264,14 +264,13 @@ export default function Page() {
             The Learning Philosophy
           </p>
           <img src="/images/FieldJournal.png" alt="Field Journal" style={{ width: 100, marginBottom: 16, opacity: 0.9 }} />
-<h2 style={{ fontSize: 40, marginTop: 12 }}>The Field Journal Approach</h2>
+          <h2 style={{ fontSize: 40, marginTop: 12 }}>The Field Journal Approach</h2>
           <p style={{ marginTop: 24, fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "24px auto 0" }}>
             This program treats AI literacy as an expedition, not a lecture. As with any expedition, the most valuable asset becomes the notes you take along the journey.
           </p>
           <p style={{ marginTop: 24, fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "24px auto 0" }}>
             Throughout the program, learners maintain a field journal where they record observations from labs, insights from spotlights, and reflections on their creative work. It&apos;s through this active engagement that the concepts stop being abstract and start to become real.
           </p>
-          
         </div>
       </section>
 
@@ -312,11 +311,16 @@ export default function Page() {
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>Conceptual Academy</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The full online experience. The same curriculum pages, in color, are embedded directly into the platform alongside three AI instances: Alia-Tutor, Alia-Creative, and Alia-Lab. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour continuing education certificate with your name and date. Available in 5-hour increments — perfect for professionals seeking CEUs, PD hours, or simply a structured path through the material for anyone.
+                  The full online experience. The same curriculum pages, in full color, are embedded directly into the platform alongside video lessons, interactive labs, and AI experiments using Claude or your preferred AI model. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour continuing education certificate with your name and date. Available in 5-hour increments — perfect for professionals seeking CEUs, PD hours, or simply a structured path through the material.
                 </p>
-                <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none" }}>
-                  Learn more about Conceptual Academy →
-                </Link>
+                <a
+                  href="https://conceptualacademy.com/user/register"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#be185d", fontWeight: 700, textDecoration: "none" }}
+                >
+                  Enroll at Conceptual Academy →
+                </a>
               </div>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: 220 }} />
@@ -328,7 +332,7 @@ export default function Page() {
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>PocketLab — K–12 Classroom</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The complete high school classroom program, delivered through the PocketLab Notebook platform. Teachers get a full semester of structured lessons — Core, Spotlight, Lab, Project, and Discussion Days — with teacher guides, assessment tools, and Alia AI built in. The Conceptual Academy program is the ideal preparation for teachers who want to experience the curriculum themselves before bringing it to students on the PocketLab Notebook platform designed specifically for high schools.
+                  The complete high school classroom program, delivered through the PocketLab Notebook platform. Teachers get a full semester of structured lessons — Core, Spotlight, Lab, Project, and Discussion Days — with teacher guides, assessment tools, and AI experiments using Claude or the platform of your choice. The Conceptual Academy program is the ideal preparation for teachers who want to experience the curriculum themselves before bringing it to students on the PocketLab Notebook platform designed specifically for high schools.
                 </p>
                 <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none" }}>
                   Learn more about the PocketLab pathway →
@@ -343,16 +347,16 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ALIA EMBED */}
+      {/* CURRICULUM ASSISTANT EMBED */}
       <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 40 }}>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
-              Ask Alia
+              Have Questions?
             </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>Questions About the Curriculum?</h2>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>Ask Our Curriculum Assistant</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280", maxWidth: 640, margin: "16px auto 0" }}>
-              Alia is the AI learning assistant built specifically for this program. Ask her anything about the curriculum, the lesson types, or what to expect.
+              Our AI assistant is trained specifically on this curriculum. Ask it anything about the program, the lesson types, the pathways, or what to expect.
             </p>
           </div>
           <iframe
