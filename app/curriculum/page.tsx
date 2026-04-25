@@ -311,7 +311,7 @@ export default function Page() {
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>Conceptual Academy</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The full online experience. The same curriculum pages, in full color, are embedded directly into the platform alongside video lessons, interactive labs, and AI experiments using Claude or your preferred AI model. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour continuing education certificate with your name and date. Available in 5-hour increments — perfect for professionals seeking CEUs, PD hours, or simply a structured path through the material.
+                  The full online experience. The same curriculum pages are embedded directly into the platform alongside video lessons, interactive labs, and AI experiments using Claude or your preferred AI model. Learners earn points through video quizzes (5 pts), reading checks (5 pts), and homework questions (10 pts). Reach the threshold for each chapter and download a 5-hour PD certificate with your name and date. Available in 5-hour increments — perfect for teachers seeking PD hours or anyone who wants a structured path through the material.
                 </p>
                 <a
                   href="https://conceptualacademy.com/user/register"
