@@ -265,10 +265,55 @@ export default function Page() {
           background: #f1f5f9; border-radius: 6px;
           padding: 3px 8px; margin-left: 8px; font-weight: 600;
         }
-        .course-id { font-size: 13px; color: #6b7280; margin-bottom: 20px; margin-top: 6px; }
+        .course-id-table {
+          max-width: 1100px; margin: 0 auto 32px;
+          background: white; border-radius: 12px;
+          border: 1px solid #e5e7eb;
+          overflow: hidden;
+        }
+        .course-id-table-header {
+          background: #1e293b; color: white;
+          padding: 14px 24px;
+          font-size: 14px; font-weight: 700;
+          display: flex; align-items: center; gap: 10px;
+        }
+        .course-id-table-header span { color: #f59e0b; }
+        .course-id-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 12px 24px;
+          border-bottom: 1px solid #f1f5f9;
+          align-items: center; gap: 12px;
+          font-size: 14px;
+        }
+        .course-id-row:last-child { border-bottom: none; }
+        .course-id-row:nth-child(even) { background: #f8fafc; }
+        .course-id-row .prog-name { font-weight: 600; color: #111827; }
+        .course-id-row .prog-detail { color: #6b7280; font-size: 13px; }
+        .course-id-row code {
+          background: #fef3c7; padding: 4px 10px; border-radius: 6px;
+          color: #92400e; font-family: monospace; font-weight: 700;
+          font-size: 13px; letter-spacing: 0.05em;
+          display: inline-block;
+        }
+        .course-id-row .note-it {
+          font-size: 12px; color: #9ca3af; font-style: italic;
+        }
+        .write-it-down {
+          font-size: 13px; color: #6b7280; padding: 10px 24px 14px;
+          border-top: 1px dashed #e5e7eb;
+          background: #fffbeb;
+        }
+        .write-it-down strong { color: #92400e; }
+        .course-id { font-size: 13px; color: #6b7280; margin-bottom: 8px; margin-top: 6px; }
         .course-id code {
-          background: #f1f5f9; padding: 2px 7px; border-radius: 4px;
-          color: #c2410c; letter-spacing: 0.05em; font-family: monospace;
+          background: #fef3c7; padding: 3px 9px; border-radius: 6px;
+          color: #92400e; letter-spacing: 0.05em; font-family: monospace;
+          font-weight: 700; font-size: 13px;
+        }
+        .note-before-click {
+          font-size: 12px; color: #9ca3af; font-style: italic;
+          margin-bottom: 16px; margin-top: 0;
         }
         .continue-label {
           font-size: 12px; font-weight: 700; text-transform: uppercase;
@@ -530,6 +575,7 @@ export default function Page() {
                 Experience the same Chapter 1 your students will take — you go first.
               </p>
               <p className="time-nudge">Most teachers complete this in 2–3 hours. Continue seamlessly into Volume 1 if you choose.</p>
+              <p className="course-id" style={{ marginTop: 10 }}>Course ID: <code>UAI01Free</code></p>
             </div>
             <div className="free-entry-right">
               <span className="free-label">Free</span>
@@ -545,6 +591,31 @@ export default function Page() {
               <p style={{ fontSize: 12, color: "#9ca3af", marginTop: 10, marginBottom: 0 }}>
                 Trusted classroom curriculum — not a demo
               </p>
+            </div>
+          </div>
+
+          {/* ── COURSE ID REFERENCE TABLE ── */}
+          <div className="course-id-table">
+            <div className="course-id-table-header">
+              <span>📋</span> Course IDs — <span>enter this on the enrollment page to select your program</span>
+            </div>
+            {[
+              { name: "Chapter 1 — Free", detail: "5 PD hours · no credit card", code: "UAI01Free" },
+              { name: "Volume 1", detail: "Chapters 1–4 · 20 PD hours · $195", code: "UAIVolume1" },
+              { name: "Volume 2", detail: "Chapters 5–8 · 20 PD hours · $195", code: "UAIVolume2" },
+              { name: "Full Program", detail: "All 8 chapters · 40 PD hours · $345", code: "UAIFull" },
+            ].map((row) => (
+              <div className="course-id-row" key={row.code}>
+                <div>
+                  <div className="prog-name">{row.name}</div>
+                  <div className="prog-detail">{row.detail}</div>
+                </div>
+                <div><code>{row.code}</code></div>
+                <div className="note-it">Write this down before clicking Enroll →</div>
+              </div>
+            ))}
+            <div className="write-it-down">
+              💡 <strong>Tip:</strong> Note your Course ID before clicking the enrollment button — you&apos;ll enter it on the sign-up page to activate the right program.
             </div>
           </div>
 
@@ -572,6 +643,7 @@ export default function Page() {
                 <span className="price-per-hour">≈ $9 / hr</span>
               </div>
               <p className="course-id">Course ID: <code>UAIVolume1</code></p>
+              <p className="note-before-click">Note this ID — you&apos;ll enter it on the next page</p>
               <a
                 href="https://conceptualacademy.com/user/register"
                 target="_blank"
@@ -604,7 +676,8 @@ export default function Page() {
                 <span className="price-main">$345</span>
                 <span className="price-per-hour">≈ $8 / hr</span>
               </div>
-              <p className="course-id">Includes <code>UAIVolume1</code> + <code>UAIVolume2</code></p>
+              <p className="course-id">Course ID: <code>UAIFull</code></p>
+              <p className="note-before-click">Note this ID — you&apos;ll enter it on the next page</p>
               <a
                 href="https://conceptualacademy.com/user/register"
                 target="_blank"
@@ -620,8 +693,10 @@ export default function Page() {
           <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a certificate for 5 PD hours upon reaching the mastery threshold.</p>
           <p className="vol2-note">
             Already completed Volume 1?{" "}
+            Note Course ID <code style={{ background: "#fef3c7", padding: "2px 8px", borderRadius: 5, color: "#92400e", fontWeight: 700 }}>UAIVolume2</code>{" "}
+            then{" "}
             <a href="https://conceptualacademy.com/user/register" target="_blank" rel="noopener noreferrer">
-              Enroll in Volume 2 separately for $195 →
+              enroll in Volume 2 separately for $195 →
             </a>
           </p>
         </div>
