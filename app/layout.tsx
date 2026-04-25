@@ -72,20 +72,17 @@ export default function RootLayout({
                     cursor: "pointer",
                     fontWeight:
                       pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/humanities") ||
-                      pathname.startsWith("/academy")
+                      pathname.startsWith("/humanities")
                         ? 700
                         : 500,
                     color:
                       pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/humanities") ||
-                      pathname.startsWith("/academy")
+                      pathname.startsWith("/humanities")
                         ? "white"
                         : "rgba(255,255,255,0.85)",
                     borderBottom:
                       pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/humanities") ||
-                      pathname.startsWith("/academy")
+                      pathname.startsWith("/humanities")
                         ? "2px solid #f59e0b"
                         : "2px solid transparent",
                     paddingBottom: 4,
@@ -94,9 +91,6 @@ export default function RootLayout({
                   Pathways ▾
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/academy" style={dropdownItem}>
-                    Conceptual Academy — Professional Development
-                  </Link>
                   <Link href="/pocketlab" style={dropdownItem}>
                     PocketLab — K–12 STEM &amp; Social Studies
                   </Link>
