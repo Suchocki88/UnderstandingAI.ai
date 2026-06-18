@@ -771,6 +771,25 @@ export default function Page() {
             </div>
           </div>
 
+          {/* ── WHAT THE SIGN-UP LOOKS LIKE ── */}
+          <div style={{ maxWidth: 640, margin: "32px auto 0", textAlign: "center" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#92400e", margin: "0 0 14px" }}>
+              What the sign-up looks like
+            </p>
+            <div style={{ borderRadius: 12, overflow: "hidden", boxShadow: "0 12px 36px rgba(0,0,0,0.16)", border: "1px solid #e5e7eb", background: "white" }}>
+              <div style={{ background: "#e5e7eb", padding: "10px 14px", display: "flex", gap: 7 }}>
+                <span style={{ width: 11, height: 11, borderRadius: 100, background: "#f87171" }} />
+                <span style={{ width: 11, height: 11, borderRadius: 100, background: "#fbbf24" }} />
+                <span style={{ width: 11, height: 11, borderRadius: 100, background: "#34d399" }} />
+              </div>
+              <img src="/images/UAI01Free.jpg" alt="Conceptual Academy sign-up page with Course ID UAI01Free entered" style={{ display: "block", width: "100%" }} />
+            </div>
+            <p style={{ marginTop: 14, fontSize: 14, color: "#6b7280", lineHeight: 1.6 }}>
+              Enter <strong style={{ color: "#c2410c" }}>UAI01Free</strong> in the Course ID field, then Sign Up.
+              You can leave the &ldquo;vendor code&rdquo; box unchecked.
+            </p>
+          </div>
+
           {/* ── PROGRAM CARD (single program) ── */}
           <div className="volumes-grid" style={{ maxWidth: 460, margin: "0 auto 12px", gridTemplateColumns: "1fr" }}>
 
