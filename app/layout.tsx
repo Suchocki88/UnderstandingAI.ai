@@ -101,6 +101,19 @@ export default function RootLayout({
               </div>
 
               <Link
+                href="/professionals"
+                style={{
+                  ...navLink,
+                  fontWeight: pathname.startsWith("/professionals") ? 700 : 500,
+                  color: pathname.startsWith("/professionals") ? "white" : "rgba(255,255,255,0.85)",
+                  borderBottom: pathname.startsWith("/professionals") ? "2px solid #f59e0b" : "2px solid transparent",
+                  paddingBottom: 4,
+                }}
+              >
+                Professionals
+              </Link>
+
+              <Link
                 href="/novels"
                 style={{
                   ...navLink,
@@ -159,6 +172,8 @@ export default function RootLayout({
             <Link href="/about" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>About</Link>
             {" · "}
             <Link href="/curriculum" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Curriculum</Link>
+            {" · "}
+            <Link href="/professionals" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Professionals</Link>
             {" · "}
             <Link href="/novels" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Novels</Link>
           </p>
