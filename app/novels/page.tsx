@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ForewordModal from "./ForewordModal";
 export const metadata = {
   title: "The Neolithic & The Threshold | AI-Authored Novels",
   description: "Two novels co-written with AI — one prehistoric epic, one near-future thriller. The origin story of the UAI curriculum.",
@@ -143,6 +144,8 @@ export default function Page() {
                   TheNeolithic.ai →
                 </a>
               </div>
+
+              <ForewordModal />
             </div>
           </div>
 
