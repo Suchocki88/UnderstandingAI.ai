@@ -138,6 +138,12 @@ export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
 
+      {/* SERIES ANNOUNCEMENT */}
+      <div style={{ background: "#fef3c7", color: "#92400e", textAlign: "center", padding: "11px 24px", fontSize: 14, fontWeight: 600, lineHeight: 1.5 }}>
+        Professional Continuing Education · a growing series — <strong>AI in Real Estate is live now.</strong>{" "}
+        AI in Law Practices and AI for the Professional arrive this fall.
+      </div>
+
       {/* HERO ART */}
       <section style={{ background: "#0b0b0f" }}>
         <img
