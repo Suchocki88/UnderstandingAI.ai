@@ -145,6 +145,16 @@ export default function Page() {
           padding-left: 20px;
           margin: 36px 0;
         }
+        .editorial-inner p.tagline {
+          font-size: clamp(24px, 3.5vw, 30px); font-weight: 800;
+          color: #111827; text-align: center; line-height: 1.25;
+          margin: 48px 0 6px;
+        }
+        .editorial-inner p.tagline span { color: #f59e0b; }
+        .editorial-inner p.tagline-sub {
+          text-align: center; font-size: 16px; color: #9ca3af;
+          font-style: italic; max-width: 560px; margin: 0 auto 28px;
+        }
 
         /* ── WHO IT'S FOR ── */
         .who-section { background: #f8fafc; padding: 80px 24px; }
@@ -574,6 +584,21 @@ export default function Page() {
 
           <p>
             <em>Understanding and Working with AI</em> is a complete, semester-long course built specifically for high school students — covering what AI is and how it learns, how bias enters and why it matters, how algorithms make high-stakes decisions about real people, how to detect misinformation, and what an AI-powered future might mean for your students&apos; lives and democracy. It fits naturally within social studies, CTE, computer science, and language arts.
+          </p>
+
+          <p className="tagline">
+            From AI Literacy to <span>Fluency</span>.
+          </p>
+          <p className="tagline-sub">
+            Getting it is the start. Working with it is the goal.
+          </p>
+          <p>
+            Most anyone can pick up AI literacy — a few sessions with a chatbot and you
+            start to get how it works. That&apos;s the floor, not the ceiling. What
+            students actually need is fluency: the ability to work with AI safely,
+            effectively, and creatively. Literacy is where you begin. Fluency is the
+            foundation we all need to stand on before anyone talks about mastery — and
+            this program is where students make that crossing.
           </p>
 
         </div>
