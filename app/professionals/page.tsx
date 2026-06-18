@@ -6,8 +6,8 @@ export const metadata = {
     "AI continuing education for real estate professionals — five programs that take agents from AI literacy to fluency, with a certificate aligned to NAR standards for Ethics and Fair Housing.",
 };
 
-const REVIEW_FORM =
-  "https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header";
+const REGISTER_URL = "https://conceptualacademy.com/user/register";
+const COURSE_ID = "AllFive";
 
 type Lesson = { code: string; name: string; sub?: string };
 type Program = { n: number; title: string; time: string; lessons: Lesson[]; sample?: string };
@@ -167,6 +167,9 @@ export default function Page() {
             takes agents from AI literacy to fluency — and toward a certificate aligned with NAR standards for
             Ethics and Fair Housing.
           </p>
+          <p style={{ marginTop: 16, fontSize: 18, color: "#fde68a", lineHeight: 1.7, fontWeight: 600 }}>
+            Right now, while the program is in review, all five courses are open free.
+          </p>
 
           <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "12px 32px", margin: "32px 0 0" }}>
             {[
@@ -186,19 +189,100 @@ export default function Page() {
 
           <div style={{ marginTop: 36, display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href="https://podcasts.apple.com/us/podcast/ai-in-real-estate/id1896924263"
+              href={REGISTER_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{ background: "#f59e0b", color: "#0f172a", padding: "14px 26px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
             >
-              Listen to the Podcast Previews →
+              Get Free Access →
             </a>
             <a
-              href="#programs"
+              href="https://podcasts.apple.com/us/podcast/ai-in-real-estate/id1896924263"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ background: "rgba(255,255,255,0.08)", border: "2px solid rgba(255,255,255,0.25)", color: "white", padding: "14px 26px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
             >
-              See the Five Programs ↓
+              Listen to the Previews →
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* FREE ACCESS / REVIEW OFFER */}
+      <section style={{ background: "#fff7ed", padding: "76px 24px" }}>
+        <div style={{ maxWidth: 1080, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
+            <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#92400e", background: "#fef3c7", display: "inline-block", padding: "5px 14px", borderRadius: 100, margin: 0 }}>
+              Now in Review · Open Free
+            </p>
+            <h2 style={{ fontSize: "clamp(26px, 4vw, 38px)", margin: "18px 0 0", color: "#111827" }}>
+              Take All Five Programs — Free, Right Now
+            </h2>
+            <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
+              While <em>AI in Real Estate</em> is in review, we&apos;re opening the entire program — all five
+              courses — at no cost. In return, we&apos;d love your honest feedback as a working agent. No
+              commitment, no credit card.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 44, alignItems: "center" }}>
+
+            {/* Left: steps + course ID + button */}
+            <div>
+              <ol style={{ margin: 0, padding: 0, listStyle: "none", counterReset: "step" }}>
+                {[
+                  ["Go to the Conceptual Academy sign-up page.", ""],
+                  [`Enter Course ID `, COURSE_ID],
+                  ["You're enrolled in all five programs — free.", ""],
+                ].map(([text, code], i) => (
+                  <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 16 }}>
+                    <span style={{ flexShrink: 0, width: 28, height: 28, borderRadius: 100, background: "#f59e0b", color: "#0f172a", fontWeight: 800, fontSize: 15, display: "flex", alignItems: "center", justifyContent: "center" }}>{i + 1}</span>
+                    <span style={{ fontSize: 17, color: "#1f2937", lineHeight: 1.5, paddingTop: 2 }}>
+                      {text}
+                      {code && (
+                        <code style={{ fontWeight: 800, color: "#c2410c", background: "#fff", border: "1px solid #fcd34d", borderRadius: 6, padding: "1px 8px", fontSize: 16 }}>{code}</code>
+                      )}
+                      {code && <span> in the Course ID field.</span>}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+
+              {/* Course ID highlight */}
+              <div style={{ marginTop: 22, display: "flex", alignItems: "center", gap: 16, background: "white", border: "2px dashed #f59e0b", borderRadius: 12, padding: "16px 20px", flexWrap: "wrap" }}>
+                <span style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#92400e" }}>Course ID</span>
+                <span style={{ fontFamily: "monospace", fontSize: 28, fontWeight: 800, color: "#0f172a", letterSpacing: 1 }}>{COURSE_ID}</span>
+              </div>
+
+              <a
+                href={REGISTER_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginTop: 24, display: "inline-block", background: "#0f172a", color: "white", padding: "15px 30px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
+              >
+                Register Free →
+              </a>
+              <p style={{ marginTop: 14, fontSize: 14, color: "#6b7280", lineHeight: 1.6 }}>
+                Registering creates your free account — that&apos;s all we need to stay in touch about the review.
+                You can leave the &ldquo;vendor code&rdquo; box unchecked.
+              </p>
+            </div>
+
+            {/* Right: sign-up screenshot in browser frame */}
+            <div>
+              <div style={{ borderRadius: 12, overflow: "hidden", boxShadow: "0 12px 36px rgba(0,0,0,0.16)", border: "1px solid #e5e7eb", background: "white" }}>
+                <div style={{ background: "#e5e7eb", padding: "10px 14px", display: "flex", gap: 7 }}>
+                  <span style={{ width: 11, height: 11, borderRadius: 100, background: "#f87171" }} />
+                  <span style={{ width: 11, height: 11, borderRadius: 100, background: "#fbbf24" }} />
+                  <span style={{ width: 11, height: 11, borderRadius: 100, background: "#34d399" }} />
+                </div>
+                <img src="/images/AllFive.jpg" alt="Conceptual Academy sign-up page with Course ID AllFive entered" style={{ display: "block", width: "100%" }} />
+              </div>
+              <p style={{ marginTop: 14, fontSize: 14, color: "#6b7280", textAlign: "center", lineHeight: 1.6 }}>
+                What to expect: enter <strong style={{ color: "#c2410c" }}>{COURSE_ID}</strong> in the Course ID field, then Sign Up.
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
@@ -388,51 +472,6 @@ export default function Page() {
         </div>
       </section>
 
-      {/* REVIEWERS CTA */}
-      <section style={{ background: "#fff7ed", padding: "72px 24px" }}>
-        <div
-          style={{
-            maxWidth: 900,
-            margin: "0 auto",
-            background: "white",
-            border: "2px dashed #f59e0b",
-            borderRadius: 16,
-            padding: "40px clamp(24px, 5vw, 48px)",
-            textAlign: "center",
-          }}
-        >
-          <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#92400e", background: "#fef3c7", display: "inline-block", padding: "5px 14px", borderRadius: 100, margin: 0 }}>
-            Now in Review · Agents Wanted
-          </p>
-          <h2 style={{ fontSize: "clamp(24px, 4vw, 34px)", margin: "18px 0 0", color: "#111827" }}>
-            Help Us Shape It
-          </h2>
-          <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7, maxWidth: 640, marginLeft: "auto", marginRight: "auto" }}>
-            We&apos;re inviting working real estate agents to review <em>AI in Real Estate</em> before its public
-            launch. Listen to the previews, work through a program, and tell us what lands and what&apos;s missing.
-            Your name goes on the program that results.
-          </p>
-          <div style={{ marginTop: 28, display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
-            <a
-              href={REVIEW_FORM}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ background: "#0f172a", color: "white", padding: "14px 28px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
-            >
-              Become a Reviewer →
-            </a>
-            <a
-              href="https://podcasts.apple.com/us/podcast/ai-in-real-estate/id1896924263"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ background: "white", border: "2px solid #f59e0b", color: "#c2410c", padding: "14px 28px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
-            >
-              Listen First →
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* COMING SOON */}
       <section style={{ background: "#f8fafc", padding: "72px 24px" }}>
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
@@ -475,12 +514,12 @@ export default function Page() {
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
             <a
-              href={REVIEW_FORM}
+              href={REGISTER_URL}
               target="_blank"
               rel="noopener noreferrer"
               style={{ background: "#f59e0b", color: "#0f172a", padding: "14px 28px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
             >
-              Become a Reviewer →
+              Get Free Access →
             </a>
             <a
               href="https://podcasts.apple.com/us/podcast/ai-in-real-estate/id1896924263"
