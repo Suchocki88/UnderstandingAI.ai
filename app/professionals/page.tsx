@@ -219,8 +219,8 @@ export default function Page() {
               Take All Five Programs — Free, Right Now
             </h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
-              While <em>AI in Real Estate</em> is in review, we&apos;re opening the entire program — all five
-              courses — at no cost. In return, we&apos;d love your honest feedback as a working agent. No
+              While <em>AI in Real Estate</em> is in review, we&apos;re opening the entire curriculum — all five
+              programs — at no cost. In return, we&apos;d love your honest feedback and suggestions as a working agent. No
               commitment, no credit card.
             </p>
           </div>
