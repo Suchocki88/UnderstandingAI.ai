@@ -1,7 +1,7 @@
 import Link from "next/link";
 export const metadata = {
   title: "Understanding and Working with AI | Conceptual Academy",
-  description: "A comprehensive AI literacy curriculum for teachers, professionals, and independent learners. Eight chapters across two volumes.",
+  description: "A comprehensive curriculum that takes teachers, professionals, and independent learners from AI literacy to fluency. Eight chapters across two volumes.",
 }
 export default function Page() {
   const buyButton: React.CSSProperties = {
@@ -35,7 +35,7 @@ export default function Page() {
             Understanding and Working with AI
           </h1>
           <p style={{ marginTop: 16, fontSize: "clamp(16px, 3vw, 22px)", maxWidth: 760, opacity: 0.9 }}>
-            Engaging, Cross-Disciplinary, Comprehensive, and Meaningful
+            From AI literacy to fluency — engaging, cross-disciplinary, and meaningful.
           </p>
           <div style={{ marginTop: 28, display: "flex", gap: 12, flexWrap: "wrap" }}>
             <Link href="/pocketlab" style={{
@@ -130,13 +130,13 @@ export default function Page() {
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 1: Foundations &amp; Practice</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  Core concepts of AI including what it is, how it works, and how to use it responsibly. <em>260 pages (Now available in paperback)</em>
+                  Core concepts of AI including what it is, how it works, and how to use it responsibly. <em>262 pages · now in its 2nd printing</em>
                 </p>
               </div>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
                 <h3 style={{ margin: 0 }}>Volume 2: Society &amp; the Future</h3>
                 <p style={{ marginTop: 8, color: "#6b7280" }}>
-                  The societal, ethical, and creative implications of living and working alongside AI. <em>284 pages (Now available in paperback)</em>
+                  The societal, ethical, and creative implications of living and working alongside AI. <em>292 pages · now in its 2nd printing</em>
                 </p>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function Page() {
               <img src="/images/pocketlab-logo.png" alt="PocketLab" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>K–12 Classroom</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and AI experiments using Claude or your preferred platform. AI is reshaping most every field, yet most students have no idea how it actually works. This program changes that.
+                Teaching high school students? The PocketLab pathway delivers a full semester program for STEM, CTE, and Social Studies classrooms — with teacher tools, labs, and AI experiments using Claude or your preferred platform. AI is reshaping most every field, yet most students have no idea how it actually works. Think of it as AI-Ed: the driver&apos;s ed for AI every student needs.
               </p>
               <Link href="/pocketlab" style={{ color: "#c2410c", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about PocketLab →
@@ -226,11 +226,11 @@ export default function Page() {
               <img src="/images/Volumes12.png" alt="Volumes 1 and 2" style={{ width: "100%", marginBottom: 4 }} />
               <h3 style={{ margin: 0, fontSize: 20 }}>AI Textbooks</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                These two volumes are for anyone who wants to understand the technology reshaping our world. Always up-to-date via print on demand. QR codes to videos are included. <em>Now available in paperback.</em>
+                These two volumes are for anyone who wants to understand the technology reshaping our world. Always up-to-date via print on demand, with QR codes linking to the full video lesson library. <em>Now in its 2nd printing — $24.95 each.</em>
               </p>
               <div style={{ fontSize: 14, color: "#6b7280", lineHeight: 2 }}>
-                <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 1, <em>260 pp</em></a><br />
-                <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 2, <em>284 pp</em></a>
+                <a href="https://shop.ingramspark.com/b/084?params=HYIdgSCn0BEBG6sdzaDavNmzKwzbKq2iEm0iVf7Bvzc" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 1, <em>262 pp · $24.95</em></a><br />
+                <a href="https://shop.ingramspark.com/b/084?params=KvE5ozT0IsH3MPDfWbMyP3M9EvvOKU5PVrFySqsSJT7" target="_blank" rel="noopener noreferrer" style={buyButton}>Purchase Volume 2, <em>292 pp · $24.95</em></a>
               </div>
             </div>
 
