@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI Literacy for High School | PocketLab × Conceptual Academy",
   description:
-    "A complete semester-long AI literacy program for high school students — the AI Ed every school needs. Delivered through PocketLab Notebook, with teacher PD and a free first chapter.",
+    "A complete semester-long AI-Ed program that brings high school students from AI literacy to fluency. Delivered through PocketLab Notebook, with college-level teacher PD and a free first chapter.",
 };
 
 export default function Page() {
@@ -45,6 +45,11 @@ export default function Page() {
           max-width: 660px; margin: 0 auto 20px; line-height: 1.65;
         }
         .hero-sub strong { color: white; }
+        .hero-prep {
+          font-size: 15px; color: rgba(255,255,255,0.7);
+          max-width: 640px; margin: 0 auto 30px; line-height: 1.6;
+        }
+        .hero-prep strong { color: rgba(255,255,255,0.92); }
         .hero-free-nudge {
           margin: 0 auto 28px; max-width: 500px;
         }
@@ -479,22 +484,23 @@ export default function Page() {
             <img src="/images/PLCALogo.jpg" alt="PocketLab and Conceptual Academy" />
           </div>
 
-          <p className="eyebrow">AI Literacy · High School · PocketLab Notebook</p>
+          <p className="eyebrow">High School AI-Ed · PocketLab Notebook</p>
 
           <h1>
-            Teach AI Literacy This Fall.<br />
-            <span>Take the Course Yourself This Summer.</span>
+            From AI Literacy<br />
+            to <span>Fluency</span>.
           </h1>
 
           <p className="hero-sub">
-            A complete semester-long AI literacy program for high school classrooms —
-            delivered through <strong>PocketLab Notebook</strong>.
-            Teachers can take the same program this summer as professional development,
-            then bring it to students in the fall.
+            A complete semester-long <strong>AI-Ed</strong> program for high school
+            classrooms — built to bring your students from AI literacy to fluency.
+            Delivered to your students online through <strong>PocketLab Notebook</strong>.
           </p>
 
-          <p className="hero-free-nudge">
-            <span>✦ Chapter 1 is free — start today, no commitment</span>
+          <p className="hero-prep">
+            <strong>For your own preparation:</strong> read the books, or take our online,
+            college-level Professional Development program — teaching insights, assessment
+            techniques, and lesson planning, with a downloadable 40-hour PD certificate on completion.
           </p>
 
           <div className="stats-row">
@@ -535,7 +541,7 @@ export default function Page() {
           <p className="eyebrow">The Analogy Everyone Gets</p>
           <h2 className="aied-headline">
             Every school teaches Driver&apos;s Ed.<br />
-            It&apos;s time for <span>AI&nbsp;Ed</span>.
+            It&apos;s time for <span>AI-Ed</span>.
           </h2>
           <p className="aied-body">
             We don&apos;t hand a teenager the keys to a car and wish them luck. We teach
@@ -544,10 +550,10 @@ export default function Page() {
             no instruction at all.
           </p>
           <p className="aied-body">
-            AI&nbsp;Ed is the course that&apos;s missing. It teaches students to drive the
+            AI-Ed is the course that&apos;s missing. It teaches students to drive the
             AI — before the AI starts driving them.
           </p>
-          <p className="aied-kicker">Does your school offer AI&nbsp;Ed yet?</p>
+          <p className="aied-kicker">Does your school offer AI-Ed yet?</p>
           <div className="aied-btn-row">
             <a href="#program" className="btn-aied-primary">
               Start Chapter 1 Free →
@@ -558,7 +564,7 @@ export default function Page() {
               rel="noopener noreferrer"
               className="btn-aied-secondary"
             >
-              Bring AI Ed to Your School →
+              Bring AI-Ed to Your School →
             </a>
           </div>
         </div>
