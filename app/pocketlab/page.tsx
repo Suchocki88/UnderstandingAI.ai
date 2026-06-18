@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI Literacy for High School | PocketLab × Conceptual Academy",
   description:
-    "A complete semester-long AI literacy program for high school students, delivered through PocketLab Notebook. Summer PD available for teachers.",
+    "A complete semester-long AI literacy program for high school students — the AI Ed every school needs. Delivered through PocketLab Notebook, with teacher PD and a free first chapter.",
 };
 
 export default function Page() {
@@ -93,6 +93,42 @@ export default function Page() {
           color: white; padding: 14px 28px; border-radius: 10px;
           text-decoration: none; font-weight: 600; font-size: 16px; display: inline-block;
         }
+
+        /* ── AI-ED HOOK ── */
+        .aied-section {
+          background: #fffaf0;
+          padding: 72px 24px;
+          border-top: 1px solid #fde9c8;
+          border-bottom: 1px solid #fde9c8;
+        }
+        .aied-inner { max-width: 820px; margin: 0 auto; text-align: center; }
+        .aied-inner .eyebrow { color: #c2410c; margin-bottom: 16px; }
+        .aied-headline {
+          font-size: clamp(30px, 4.5vw, 44px);
+          line-height: 1.15; margin: 0 0 28px; color: #111827; font-weight: 800;
+        }
+        .aied-headline span { color: #f59e0b; }
+        .aied-body {
+          font-size: 19px; color: #374151; line-height: 1.75;
+          max-width: 680px; margin: 0 auto 20px;
+        }
+        .aied-kicker {
+          font-size: 23px; font-weight: 800; color: #111827;
+          margin: 28px 0;
+        }
+        .aied-btn-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+        .btn-aied-primary {
+          background: #f59e0b; color: #0f172a; padding: 14px 28px;
+          border-radius: 8px; text-decoration: none; font-weight: 700;
+          font-size: 16px; display: inline-block; transition: background 0.2s;
+        }
+        .btn-aied-primary:hover { background: #d97706; }
+        .btn-aied-secondary {
+          background: #0f172a; color: white; padding: 14px 28px;
+          border-radius: 8px; text-decoration: none; font-weight: 700;
+          font-size: 16px; display: inline-block; transition: background 0.2s;
+        }
+        .btn-aied-secondary:hover { background: #1e293b; }
 
         /* ── EDITORIAL ── */
         .editorial-section { background: #ffffff; padding: 80px 24px; }
@@ -331,11 +367,62 @@ export default function Page() {
         }
         .vol-enroll.dark-enroll:hover { background: #1e293b; }
         .pd-footnote { text-align: center; font-size: 14px; color: #9ca3af; margin-top: 8px; }
-        .vol2-note {
-          max-width: 1100px; margin: 20px auto 0;
-          text-align: center; font-size: 14px; color: #9ca3af; padding: 0 24px;
+
+        /* ── THE BOOKS ── */
+        .books-section { background: #0f172a; color: white; padding: 80px 24px; }
+        .books-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 48px; align-items: center;
+          max-width: 1000px; margin: 0 auto;
         }
-        .vol2-note a { color: #c2410c; font-weight: 600; text-decoration: none; }
+        .books-grid .eyebrow { color: #f59e0b; }
+        .books-grid h2 { font-size: clamp(26px, 3.5vw, 36px); margin: 12px 0 20px; color: white; }
+        .books-grid p { font-size: 17px; color: rgba(255,255,255,0.75); margin-bottom: 16px; line-height: 1.7; }
+        .books-qr-line {
+          display: inline-block;
+          font-size: 17px; font-weight: 800; color: white !important;
+          letter-spacing: 0.3px; margin: 8px 0 0 !important;
+          background: rgba(245,158,11,0.12);
+          border: 1px solid rgba(245,158,11,0.32);
+          border-radius: 100px; padding: 8px 20px;
+        }
+        .books-buy-card {
+          background: rgba(255,255,255,0.06);
+          border: 1px solid rgba(255,255,255,0.14);
+          border-left: 4px solid #f59e0b;
+          border-radius: 14px; padding: 26px 28px;
+        }
+        .books-buy-badge {
+          display: inline-block;
+          background: rgba(245,158,11,0.18);
+          border: 1px solid rgba(245,158,11,0.4);
+          border-radius: 100px;
+          color: #fcd34d; font-size: 11px; font-weight: 700;
+          letter-spacing: 1px; text-transform: uppercase;
+          padding: 5px 14px; margin-bottom: 6px;
+        }
+        .book-row {
+          display: flex; align-items: center; justify-content: space-between;
+          gap: 16px; padding: 18px 0;
+          border-bottom: 1px solid rgba(255,255,255,0.10);
+        }
+        .book-row:last-of-type { border-bottom: none; }
+        .book-row .bk-title { font-size: 15px; font-weight: 700; color: white !important; margin: 0 0 3px !important; }
+        .book-row .bk-sub { font-size: 13px; color: rgba(255,255,255,0.55) !important; margin: 0 !important; }
+        .bk-right { text-align: right; flex-shrink: 0; }
+        .bk-price { font-size: 18px; font-weight: 800; color: #fcd34d; line-height: 1; margin-bottom: 8px; }
+        .bk-price s { color: rgba(255,255,255,0.4); font-weight: 600; font-size: 13px; margin-right: 6px; }
+        .bk-buy {
+          display: inline-block; background: #f59e0b; color: #0f172a;
+          padding: 9px 18px; border-radius: 8px; text-decoration: none;
+          font-weight: 700; font-size: 13px; white-space: nowrap; transition: background 0.2s;
+        }
+        .bk-buy:hover { background: #d97706; }
+        .books-buy-note {
+          font-size: 12px; color: rgba(255,255,255,0.45) !important;
+          margin: 16px 0 0 !important; text-align: center;
+        }
 
         /* ── OTHER ── */
         .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
@@ -365,6 +452,7 @@ export default function Page() {
         @media (max-width: 700px) {
           .hero h1 { font-size: 28px; }
           .stats-row { gap: 12px 20px; }
+          .aied-section, .books-section,
           .program-section, .cred-section, .platform-section,
           .resources-section, .cta-section { padding: 56px 20px; }
           .free-entry-banner { flex-direction: column; text-align: center; }
@@ -428,6 +516,41 @@ export default function Page() {
             </a>
           </div>
 
+        </div>
+      </section>
+
+      {/* ── AI-ED HOOK ── */}
+      <section className="aied-section">
+        <div className="aied-inner">
+          <p className="eyebrow">The Analogy Everyone Gets</p>
+          <h2 className="aied-headline">
+            Every school teaches Driver&apos;s Ed.<br />
+            It&apos;s time for <span>AI&nbsp;Ed</span>.
+          </h2>
+          <p className="aied-body">
+            We don&apos;t hand a teenager the keys to a car and wish them luck. We teach
+            the rules, the risks, and the responsibility first — then we let them drive.
+            AI is a far more powerful machine, and we&apos;ve handed it to students with
+            no instruction at all.
+          </p>
+          <p className="aied-body">
+            AI&nbsp;Ed is the course that&apos;s missing. It teaches students to drive the
+            AI — before the AI starts driving them.
+          </p>
+          <p className="aied-kicker">Does your school offer AI&nbsp;Ed yet?</p>
+          <div className="aied-btn-row">
+            <a href="#program" className="btn-aied-primary">
+              Start Chapter 1 Free →
+            </a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-aied-secondary"
+            >
+              Bring AI Ed to Your School →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -558,7 +681,7 @@ export default function Page() {
             <h2>Start Free. Continue Your PD.</h2>
             <p>
               Chapter 1 is free — 5 PD hours, no obligation.
-              When you&apos;re ready to continue, choose a volume or the full program.
+              When you&apos;re ready to continue, the complete program unlocks all eight chapters.
               Every chapter earns a certificate for 5 PD hours.
             </p>
           </div>
@@ -574,7 +697,7 @@ export default function Page() {
               <p className="you-go-first">
                 Experience the same Chapter 1 your students will take — you go first.
               </p>
-              <p className="time-nudge">Most teachers complete this in 2–3 hours. Continue seamlessly into Volume 1 if you choose.</p>
+              <p className="time-nudge">Most teachers complete this in 2–3 hours. Continue seamlessly into the full program if you choose.</p>
               <p className="course-id" style={{ marginTop: 10 }}>Course ID: <code>UAI01Free</code></p>
             </div>
             <div className="free-entry-right">
@@ -601,9 +724,7 @@ export default function Page() {
             </div>
             {[
               { name: "Chapter 1 — Free", detail: "5 PD hours · no credit card", code: "UAI01Free" },
-              { name: "Volume 1", detail: "Chapters 1–4 · 20 PD hours · $195", code: "UAIVolume1" },
-              { name: "Volume 2", detail: "Chapters 5–8 · 20 PD hours · $195", code: "UAIVolume2" },
-              { name: "Full Program", detail: "All 8 chapters · 40 PD hours · $345", code: "UAIFull" },
+              { name: "Full Program", detail: "All 8 chapters · 40 PD hours · $195", code: "UAIFull" },
             ].map((row) => (
               <div className="course-id-row" key={row.code}>
                 <div>
@@ -619,53 +740,23 @@ export default function Page() {
             </div>
           </div>
 
-          {/* ── VOLUME CARDS ── */}
-          <div className="volumes-grid">
+          {/* ── PROGRAM CARD (single program) ── */}
+          <div className="volumes-grid" style={{ maxWidth: 460, margin: "0 auto 12px", gridTemplateColumns: "1fr" }}>
 
-            {/* Volume 1 */}
-            <div className="volume-card featured">
-              <p className="continue-label">Continue Your Certification</p>
-              <span className="vol-tag">Volume 1</span>
-              <h3>Foundations &amp; Practice</h3>
-              <p className="vol-subtitle">Chapters 1–4</p>
-              <ul className="vol-chapters">
-                <li><strong>Ch. 1 — Intelligence:</strong> Three kinds of intelligence, types of AI, first lab experiments</li>
-                <li><strong>Ch. 2 — Teaching Machines:</strong> How AI learns by example, the knock-knock joke journey, creativity</li>
-                <li><strong>Ch. 3 — Prompt Engineering:</strong> Basic prompt structures, context &amp; clarity, building simulations</li>
-                <li><strong>Ch. 4 — AI Bias:</strong> What bias is, hidden patterns, cultural assumptions, the flattery problem</li>
-              </ul>
-              <div className="pd-row">
-                <span className="pd-num">20</span>
-                <span className="pd-label">PD hours<br />upon completion</span>
-              </div>
-              <div className="price-block">
-                <span className="price-main">$195</span>
-                <span className="price-per-hour">≈ $9 / hr</span>
-              </div>
-              <p className="course-id">Course ID: <code>UAIVolume1</code></p>
-              <p className="note-before-click">Note this ID — you&apos;ll enter it on the next page</p>
-              <a
-                href="https://conceptualacademy.com/user/register"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="vol-enroll"
-              >
-                Enroll at Conceptual Academy →
-              </a>
-            </div>
-
-            {/* Full Program */}
             <div className="volume-card best-value">
-              <div className="best-value-ribbon">Best Value</div>
+              <div className="best-value-ribbon">The Complete Program</div>
               <span className="vol-tag dark">Full Program</span>
               <h3>All 8 Chapters</h3>
               <p className="vol-subtitle">Volumes 1 &amp; 2 · 40 PD Hours</p>
-              <p style={{ fontSize: 13, color: "#f59e0b", fontWeight: 700, marginBottom: 12, marginTop: 0 }}>Most teachers choose the full program</p>
+              <p style={{ fontSize: 13, color: "#f59e0b", fontWeight: 700, marginBottom: 12, marginTop: 0 }}>One program. Every chapter. One price.</p>
               <ul className="vol-chapters">
-                <li><strong>Ch. 1–4 — Foundations &amp; Practice:</strong> Intelligence, teaching machines, prompt engineering, AI bias</li>
+                <li><strong>Ch. 1 — Intelligence:</strong> Three kinds of intelligence, types of AI, first lab experiments</li>
+                <li><strong>Ch. 2 — Teaching Machines:</strong> How AI learns by example, the knock-knock joke journey, creativity</li>
+                <li><strong>Ch. 3 — Prompt Engineering:</strong> Prompt structures, context &amp; clarity, building simulations</li>
+                <li><strong>Ch. 4 — AI Bias:</strong> What bias is, hidden patterns, cultural assumptions, the flattery problem</li>
                 <li><strong>Ch. 5 — Magic from Math:</strong> Probability, AI&apos;s crystal ball, predictions, and sentience</li>
-                <li><strong>Ch. 6 — AI Algorithms &amp; People:</strong> High-stakes decisions, hiring algorithms, criminal justice, fairness</li>
-                <li><strong>Ch. 7 — AI in Media:</strong> Real or fake, deepfakes, misinformation, democracy &amp; information quality</li>
+                <li><strong>Ch. 6 — AI Algorithms &amp; People:</strong> High-stakes decisions, hiring, criminal justice, fairness</li>
+                <li><strong>Ch. 7 — AI in Media:</strong> Real or fake, deepfakes, misinformation, democracy</li>
                 <li><strong>Ch. 8 — An AI-Powered Future:</strong> The next 10 and 50 years, power, wealth, and control</li>
               </ul>
               <div className="pd-row">
@@ -673,8 +764,8 @@ export default function Page() {
                 <span className="pd-label">PD hours<br />upon completion</span>
               </div>
               <div className="price-block">
-                <span className="price-main">$345</span>
-                <span className="price-per-hour">≈ $8 / hr</span>
+                <span className="price-main">$195</span>
+                <span className="price-per-hour">≈ $5 / hr</span>
               </div>
               <p className="course-id">Course ID: <code>UAIFull</code></p>
               <p className="note-before-click">Note this ID — you&apos;ll enter it on the next page</p>
@@ -684,21 +775,76 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className="vol-enroll dark-enroll"
               >
-                Enroll in Full Program →
+                Enroll in the Full Program →
               </a>
             </div>
 
           </div>
 
           <p className="pd-footnote">No expiration date — work at your own pace. Each chapter earns a certificate for 5 PD hours upon reaching the mastery threshold.</p>
-          <p className="vol2-note">
-            Already completed Volume 1?{" "}
-            Note Course ID <code style={{ background: "#fef3c7", padding: "2px 8px", borderRadius: 5, color: "#92400e", fontWeight: 700 }}>UAIVolume2</code>{" "}
-            then{" "}
-            <a href="https://conceptualacademy.com/user/register" target="_blank" rel="noopener noreferrer">
-              enroll in Volume 2 separately for $195 →
-            </a>
-          </p>
+        </div>
+      </section>
+
+      {/* ── THE BOOKS ── */}
+      <section className="books-section">
+        <div className="books-grid">
+          <div>
+            <p className="eyebrow">Start With the Books</p>
+            <h2>The Lowest-Cost Way In</h2>
+            <p>
+              One of the best ways to get familiar with the program is also the simplest:
+              pick up the books. <em>Understanding and Working with AI</em> comes in two
+              volumes — the complete curriculum in print, now in its second printing.
+            </p>
+            <p>
+              But these aren&apos;t ordinary textbooks. QR codes throughout each volume
+              open the full video lesson library — the same lessons your students watch,
+              taught by the authors. Read a section, scan the code, watch the lesson.
+            </p>
+            <p className="books-qr-line">📖 Read → 📲 Scan → ▶ Watch</p>
+          </div>
+
+          <div className="books-buy-card">
+            <span className="books-buy-badge">Now in its 2nd printing</span>
+
+            <div className="book-row">
+              <div>
+                <p className="bk-title">Volume 1 — Foundations &amp; Practice</p>
+                <p className="bk-sub">Paperback · 262 pages · Chapters 1–4</p>
+              </div>
+              <div className="bk-right">
+                <div className="bk-price"><s>$29.99</s> $24.95</div>
+                <a
+                  href="https://shop.ingramspark.com/b/084?params=HYIdgSCn0BEBG6sdzaDavNmzKwzbKq2iEm0iVf7Bvzc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bk-buy"
+                >
+                  Buy Volume 1 →
+                </a>
+              </div>
+            </div>
+
+            <div className="book-row">
+              <div>
+                <p className="bk-title">Volume 2 — Society &amp; the Future</p>
+                <p className="bk-sub">Paperback · 292 pages · Chapters 5–8</p>
+              </div>
+              <div className="bk-right">
+                <div className="bk-price"><s>$29.99</s> $24.95</div>
+                <a
+                  href="https://shop.ingramspark.com/b/084?params=KvE5ozT0IsH3MPDfWbMyP3M9EvvOKU5PVrFySqsSJT7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bk-buy"
+                >
+                  Buy Volume 2 →
+                </a>
+              </div>
+            </div>
+
+            <p className="books-buy-note">6 × 9 in · Ships to the US · Printed by IngramSpark</p>
+          </div>
         </div>
       </section>
 
