@@ -1,6 +1,7 @@
 "use client";
 import Script from 'next/script'
 import Link from "next/link";
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function RootLayout({
@@ -9,6 +10,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const closeMenu = () => setMenuOpen(false);
 
   return (
 <html lang="en">
@@ -39,6 +42,7 @@ export default function RootLayout({
           >
             <Link
               href="/"
+              onClick={closeMenu}
               style={{
                 color: "white",
                 textDecoration: "none",
@@ -51,7 +55,8 @@ export default function RootLayout({
               Home
             </Link>
 
-            <div style={{ display: "flex", gap: 32, alignItems: "center" }}>
+            {/* Desktop links */}
+            <div className="nav-desktop" style={{ display: "flex", gap: 32, alignItems: "center" }}>
               <Link
                 href="/curriculum"
                 style={{
@@ -139,7 +144,39 @@ export default function RootLayout({
                 About
               </Link>
             </div>
+
+            {/* Mobile hamburger */}
+            <button
+              className="nav-burger"
+              onClick={() => setMenuOpen((o) => !o)}
+              aria-label="Toggle menu"
+              aria-expanded={menuOpen}
+              style={{
+                background: "transparent",
+                border: "none",
+                color: "white",
+                fontSize: 24,
+                lineHeight: 1,
+                cursor: "pointer",
+                padding: 6,
+                fontFamily: "Arial, sans-serif",
+              }}
+            >
+              {menuOpen ? "✕" : "☰"}
+            </button>
           </div>
+
+          {/* Mobile menu panel */}
+          {menuOpen && (
+            <div className="nav-mobile-panel" style={{ margin: "0 -24px", borderTop: "1px solid rgba(255,255,255,0.1)", paddingBottom: 8 }}>
+              <Link href="/curriculum" onClick={closeMenu} style={mobileItem}>Curriculum</Link>
+              <Link href="/pocketlab" onClick={closeMenu} style={mobileItem}>PocketLab — K–12 STEM &amp; Social Studies</Link>
+              <Link href="/humanities" onClick={closeMenu} style={mobileItem}>Humanities — English &amp; Interdisciplinary</Link>
+              <Link href="/professionals" onClick={closeMenu} style={mobileItem}>Professionals</Link>
+              <Link href="/novels" onClick={closeMenu} style={mobileItem}>Novels</Link>
+              <Link href="/about" onClick={closeMenu} style={mobileItem}>About</Link>
+            </div>
+          )}
         </nav>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-0EQBLGVCRX"
@@ -180,6 +217,7 @@ export default function RootLayout({
         </footer>
 
         <style>{`
+          .nav-burger { display: none; }
           .nav-dropdown:hover .dropdown-menu {
             display: block;
           }
@@ -193,6 +231,13 @@ export default function RootLayout({
             padding: 8px 0;
             min-width: 280px;
             box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+          }
+          @media (max-width: 820px) {
+            .nav-desktop { display: none !important; }
+            .nav-burger { display: inline-flex !important; }
+          }
+          @media (min-width: 821px) {
+            .nav-mobile-panel { display: none !important; }
           }
         `}</style>
       </body>
@@ -215,5 +260,15 @@ const dropdownItem: React.CSSProperties = {
   textDecoration: "none",
   fontSize: 14,
   whiteSpace: "nowrap",
+  fontFamily: "Arial, sans-serif",
+};
+
+const mobileItem: React.CSSProperties = {
+  display: "block",
+  padding: "14px 24px",
+  color: "rgba(255,255,255,0.9)",
+  textDecoration: "none",
+  fontSize: 16,
+  borderTop: "1px solid rgba(255,255,255,0.08)",
   fontFamily: "Arial, sans-serif",
 };
