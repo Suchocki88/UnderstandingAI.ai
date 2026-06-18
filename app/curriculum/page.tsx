@@ -178,7 +178,7 @@ export default function Page() {
 
       {/* VIDEO */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 48, alignItems: "center" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 48, alignItems: "center" }}>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
               Sample Lesson
@@ -218,7 +218,7 @@ export default function Page() {
           </div>
 
           {/* Row 1 - three cards */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginBottom: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 24, marginBottom: 24 }}>
             <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>📖 Core Lesson</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
@@ -240,7 +240,7 @@ export default function Page() {
           </div>
 
           {/* Row 2 - two cards centered */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24, maxWidth: "66%", margin: "0 auto" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 24, maxWidth: 720, margin: "0 auto" }}>
             <div style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #ec4899" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>✍️ Creative Project</h3>
               <p style={{ color: "#4b5563", margin: 0 }}>
@@ -289,25 +289,25 @@ export default function Page() {
           <div style={{ display: "grid", gap: 32 }}>
 
             {/* Books */}
-            <div style={{ border: "1px solid #6b7280", borderRadius: 16, padding: 32, background: "#f8fafc", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
+            <div style={{ border: "1px solid #6b7280", borderRadius: 16, padding: 32, background: "#f8fafc", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))", gap: 24, alignItems: "center" }}>
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>The Textbooks</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
-                  The most direct path. Order Volume 1 and Volume 2 as print-on-demand books, which are beautifully human designed and always up-to-date via IngramSpark. QR codes throughout connect you to the video lessons, so your smartphone becomes part of the experience. Simple, affordable, and complete.
+                  The most direct path. Order Volume 1 and Volume 2 as print-on-demand books, which are beautifully human designed and always up-to-date via IngramSpark, now in their second printing. QR codes throughout connect you to the video lessons, so your smartphone becomes part of the experience. Simple, affordable, and complete.
                 </p>
                 <div style={{ marginTop: 16, display: "flex", gap: 16, flexWrap: "wrap" }}>
-                  <a href="https://shop.ingramspark.com/b/084?params=4Ubgowqn33dPkRQlH6Lc3HmeHl43roEnJHw4n0t9uEd" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}>Order Volume 1 — $19.99 →</a>
-                  <a href="https://shop.ingramspark.com/b/084?params=2SR8fnMJdGddfDPH5kQLrD6P0VrPHPof8SrYclByl9q" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}>Order Volume 2 — $19.99 →</a>
+                  <a href="https://shop.ingramspark.com/b/084?params=HYIdgSCn0BEBG6sdzaDavNmzKwzbKq2iEm0iVf7Bvzc" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}>Order Volume 1 — $24.95 →</a>
+                  <a href="https://shop.ingramspark.com/b/084?params=KvE5ozT0IsH3MPDfWbMyP3M9EvvOKU5PVrFySqsSJT7" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", fontWeight: 700, textDecoration: "none" }}>Order Volume 2 — $24.95 →</a>
                 </div>
               </div>
-              <div style={{ display: "flex", justifyContent: "center", gap: 20 }}>
+              <div style={{ display: "flex", justifyContent: "center", gap: 20, flexWrap: "wrap" }}>
                 <img src="/images/volume1.jpg" alt="Volume 1" style={{ width: 160, borderRadius: 8, boxShadow: "0 8px 20px rgba(0,0,0,0.2)" }} />
                 <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: 160, borderRadius: 8, boxShadow: "0 8px 20px rgba(0,0,0,0.2)" }} />
               </div>
             </div>
 
             {/* Conceptual Academy */}
-            <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 32, background: "#fdf2f8", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
+            <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 32, background: "#fdf2f8", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))", gap: 24, alignItems: "center" }}>
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>Conceptual Academy</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
@@ -328,7 +328,7 @@ export default function Page() {
             </div>
 
             {/* PocketLab */}
-            <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 32, background: "#fff7ed", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24, alignItems: "center" }}>
+            <div style={{ border: "2px solid #f59e0b", borderRadius: 16, padding: 32, background: "#fff7ed", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))", gap: 24, alignItems: "center" }}>
               <div>
                 <h3 style={{ fontSize: 24, margin: "0 0 12px", color: "#1f2937" }}>PocketLab — K–12 Classroom</h3>
                 <p style={{ color: "#4b5563", marginTop: 0 }}>
