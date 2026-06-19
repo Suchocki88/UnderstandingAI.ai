@@ -80,7 +80,7 @@ export default function Page() {
               The core program — <em>Understanding and Working with AI</em> — usually lives in a CTE, social studies, or computer science classroom. But it isn&apos;t only mechanics and ethics. One of its lesson types is a sustained creative project: students develop a literary work of their own, in collaboration with AI. Which raises a practical question — where, exactly, should that writing happen?
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", margin: 0 }}>
-              The natural answer is the language arts classroom, under a teacher who knows how to develop voice, structure, and craft. A language arts teacher familiar with the program — even just by having read these two novels — can run a creative-writing track in parallel with the AI course the same students are taking, or have already taken. The novels become a shared text. The students&apos; own creative project becomes a shared assignment, completed where writing is actually taught.
+              The natural answer is the language arts classroom, under a teacher who knows how to develop voice, structure, and craft. A language arts teacher familiar with the AI-ed program's two volumes can run a creative-writing track in parallel with the AI course the same students are taking, or have already taken. The novels become a shared text. The students&apos; own creative project becomes a shared assignment, completed where writing is actually taught.
             </p>
           </div>
 
