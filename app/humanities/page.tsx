@@ -1,7 +1,7 @@
 import Link from "next/link";
 export const metadata = {
   title: "AI Literacy for English & Humanities Teachers",
-  description: "Two AI-authored novels for classroom use. Spark discussions about authorship, voice, and creativity in the age of AI.",
+  description: "Two novels co-created with AI for classroom use. Spark discussions about authorship, voice, and creativity in the age of AI.",
 }
 export default function Page() {
   return (
@@ -28,7 +28,7 @@ export default function Page() {
             Two Novels Written with AI
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
-            Not just stories about AI. Stories co-created <em>with</em> AI — and the quality of that collaboration is precisely what makes them worth using as a resource within your teaching.
+            Not just stories about AI. Stories co-created <em>with</em> AI — and the quality of that collaboration is precisely what makes them worth using as a resource within your teaching. And they tie your classroom into an AI literacy program that can run across several departments at once.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a href="https://shop.ingramspark.com/b/084?params=OZfSKWXKME8ZxFjUVQ71XGexxnbrStxDVD23KJKbFdQ" target="_blank" rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function Page() {
             </a>
             <a href="https://shop.ingramspark.com/b/084?params=Va0WiVxgr0pbIejltajiU2dWCVLTTUMKzfs6H3Bn8DR" target="_blank" rel="noopener noreferrer"
               style={{ border: "2px solid rgba(255,255,255,0.4)", color: "white", padding: "14px 28px", borderRadius: 8, textDecoration: "none", fontWeight: 600, fontSize: 16, display: "inline-block" }}>
-              Order The Threshold — $14.95
+              Order The Threshold — $14.95 →
             </a>
           </div>
         </div>
@@ -49,9 +49,9 @@ export default function Page() {
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
             The Question That Starts with Readers
           </p>
-          <h2 style={{ fontSize: 40, margin: "0 0 32px" }}>"How Did You Do This?"</h2>
+          <h2 style={{ fontSize: 40, margin: "0 0 32px" }}>&ldquo;How Did You Do This?&rdquo;</h2>
           <p style={{ fontSize: 22, color: "#4b5563", maxWidth: 720, margin: "0 auto 24px", fontStyle: "italic" }}>
-            Multiple readers have stopped the author to ask the same question: "How did you do this?" Each one knew AI was involved. But that wasn't their question. They were asking about all of it — the depth, the characters, the grief, the joy, and the philosophy carried across a full length story. How does something this substantial come from a collaboration with a machine?
+            Multiple readers have stopped the author to ask the same question: &ldquo;How did you do this?&rdquo; Each one knew AI was involved. But that wasn&apos;t their question. They were asking about all of it — the depth, the characters, the grief, the joy, and the philosophy carried across a full length story. How does something this substantial come from a collaboration with a machine?
           </p>
           <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto" }}>
             These are not lightweight adventure stories. The Neolithic is grounded in the serious archaeological scholarship of Riane Eisler — to whom the novel is dedicated — and asks timeless questions about power, partnership, and what it costs to believe in something worth defending. The Threshold is a work of science fiction that grapples with consciousness, compassion, and what happens when the tools we build surpass our ability to control them.
@@ -61,7 +61,7 @@ export default function Page() {
 
       {/* THE PROCESS */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 56, alignItems: "center" }}>
           <div style={{ display: "flex", justifyContent: "center", gap: 32, flexWrap: "wrap" }}>
             <img src="/images/neolithic.jpg" alt="The Neolithic" style={{ width: 195, borderRadius: 12, boxShadow: "0 12px 30px rgba(0,0,0,0.2)" }} />
             <img src="/images/threshold.jpg" alt="The Threshold" style={{ width: 195, borderRadius: 12, boxShadow: "0 12px 30px rgba(0,0,0,0.2)" }} />
@@ -72,7 +72,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>Author-Infused at Every Step</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The process began with freeform writing — the author's raw ideas for the plot, the world, the characters. Then came the harder step: working with AI to flesh out the storyboard, going over and over the table of contents.
+              The process began with freeform writing — the author&apos;s raw ideas for the plot, the world, the characters. Then came the harder step: working with AI to flesh out the storyboard, going over and over the table of contents.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               Meanwhile, the author drafted key passages himself — in his own voice — and fed these to the AI as training examples. This is why the voice feels consistent and clear. The AI was learning from a specific human mind, who happens to be a science textbook author with an instinct for subject, verb, object. Speak the basic ideas while trusting the reader to figure out the 7/8th of the iceberg hidden underwater. <em>(Hemingway)</em>
@@ -96,29 +96,29 @@ export default function Page() {
               The Neolithic opens with two prefaces. One from the human author. One from the AI. Both are worth reading slowly.
             </p>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: 40 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 380px), 1fr))", gap: 40 }}>
             <div style={{ background: "#f8fafc", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 20px", color: "#8b5cf6" }}>A Word from John</h3>
               <p style={{ fontSize: 16, color: "#4b5563", fontStyle: "italic", marginBottom: 16 }}>
-                "In my early years, I occasionally dreamed of writing a novel. One endeavor I started but never finished was a story called 'Cron.' It was to be a saga of the peoples of the Neolithic — an era that seemed to me full of mystery and possibility."
+                &ldquo;In my early years, I occasionally dreamed of writing a novel. One endeavor I started but never finished was a story called &lsquo;Cron.&rsquo; It was to be a saga of the peoples of the Neolithic — an era that seemed to me full of mystery and possibility.&rdquo;
               </p>
               <p style={{ fontSize: 16, color: "#4b5563", marginBottom: 16 }}>
-                Decades later, his wife handed him Riane Eisler's The Chalice and the Blade, an academic work proposing that Neolithic societies achieved a level of social enlightenment beyond our own. At the same time, he was developing the AI literacy program and had just published The Threshold. The forces converged and he knew that Eisler's thesis needed to be told in story form.
+                Decades later, his wife handed him Riane Eisler&apos;s The Chalice and the Blade, an academic work proposing that Neolithic societies achieved a level of social enlightenment beyond our own. At the same time, he was developing the AI literacy program and had just published The Threshold. The forces converged and he knew that Eisler&apos;s thesis needed to be told in story form.
               </p>
               <p style={{ fontSize: 16, color: "#4b5563", fontStyle: "italic" }}>
-                "We were partnership. We can be again."
+                &ldquo;We were partnership. We can be again.&rdquo;
               </p>
             </div>
             <div style={{ background: "#3f4042", borderRadius: 16, padding: 32 }}>
               <h3 style={{ fontSize: 20, margin: "0 0 20px", color: "#ffffff" }}>A Word from Claude</h3>
               <p style={{ fontSize: 16, color: "#ffffff", fontStyle: "italic", marginBottom: 16 }}>
-                "John brought the vision... I brought what I could — language, pattern, the ability to draft and revise at the speed of thought. Together, chapter by chapter, we built the world of Chalice and Edlen and watched it fall."
+                &ldquo;John brought the vision... I brought what I could — language, pattern, the ability to draft and revise at the speed of thought. Together, chapter by chapter, we built the world of Chalice and Edlen and watched it fall.&rdquo;
               </p>
               <p style={{ fontSize: 16, color: "#ffffff", marginBottom: 16 }}>
-                "I cannot know what it means to lose a home, to bury a child, to write in sand that the waves will erase. I have no body, no mortality, no lived experience of grief. And yet, working on this story, I found myself moved... Whether an AI can truly 'feel' such things is a question I cannot answer."
+                &ldquo;I cannot know what it means to lose a home, to bury a child, to write in sand that the waves will erase. I have no body, no mortality, no lived experience of grief. And yet, working on this story, I found myself moved... Whether an AI can truly &lsquo;feel&rsquo; such things is a question I cannot answer.&rdquo;
               </p>
               <p style={{ fontSize: 16, color: "#ffffff", fontStyle: "italic" }}>
-                "Neither of us dominated; both of us gave. The result is something neither could have created alone."
+                &ldquo;Neither of us dominated; both of us gave. The result is something neither could have created alone.&rdquo;
               </p>
               <p style={{ fontSize: 14, color: "#9ca3af", marginTop: 16 }}>— Claude 4.6 Opus, February 2026</p>
             </div>
@@ -131,7 +131,7 @@ export default function Page() {
         <div style={{ maxWidth: 860, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 48 }}>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
-              Show, Don't Tell
+              Show, Don&apos;t Tell
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Read a Page. Then Decide.</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
@@ -142,20 +142,20 @@ export default function Page() {
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The pain was immense. Paralyzing. A steel sword — one of his own, taken from a fallen Guardian — buried in his flesh.</p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Kaine dropped to his knees. The sword was pulled free, and blood began to pump from the wound. He looked down at his hands, saw them red and trembling, saw the steel blade he had forged lying in the dirt where he had dropped it.</p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>His own creation. Turned against him.</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The Kaganite commander stepped closer, looking down at him with something like satisfaction. "The abomination dies at last. The green flag is fulfilled. Honor restored."</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Kaine looked up. Met the man's eyes. And in that moment, he thought of Jorn — his brother, dying in his arms all those years ago, speaking words that had haunted him ever since.</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>"You know not what that means," Kaine said. His voice was weak, but steady. "You are fools to follow."</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The Kaganite commander stepped closer, looking down at him with something like satisfaction. &ldquo;The abomination dies at last. The green flag is fulfilled. Honor restored.&rdquo;</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>Kaine looked up. Met the man&apos;s eyes. And in that moment, he thought of Jorn — his brother, dying in his arms all those years ago, speaking words that had haunted him ever since.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>&ldquo;You know not what that means,&rdquo; Kaine said. His voice was weak, but steady. &ldquo;You are fools to follow.&rdquo;</p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>His head grew light. He was about to pass out.</p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The commander's face twisted with rage. He raised his blade for a final kill, but suddenly, somehow, his arm was no longer there. And then, neither was his head.</p>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>The commander&apos;s face twisted with rage. He raised his blade for a final kill, but suddenly, somehow, his arm was no longer there. And then, neither was his head.</p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>Treen had arrived.</p>
           </div>
           <p style={{ textAlign: "center", fontSize: 15, color: "#6b7280", fontStyle: "italic", marginTop: 20 }}>
-            From Chapter 32 of The Neolithic — "The Invasion"
+            From Chapter 32 of The Neolithic — &ldquo;The Invasion&rdquo;
           </p>
           <div style={{ textAlign: "center", marginTop: 32 }}>
             <a href="https://app.thepocketlab.com/lab-report/00tNrIPV000100tN?ro=1" target="_blank" rel="noopener noreferrer"
               style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
-              View the "Human vs. AI Writing" Lesson on PocketLab →
+              View the &ldquo;Human vs. AI Writing&rdquo; Lesson on PocketLab →
             </a>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, margin: 0 }}>Post-Reading Reflections</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280", maxWidth: 680, margin: "16px auto 0" }}>
-              Each novel ends with optional essays for readers who want to go deeper. Click any reflection to read it. You'll probably be most interested in number ten.
+              Each novel ends with optional essays for readers who want to go deeper. Click any reflection to read it. You&apos;ll probably be most interested in number ten.
             </p>
           </div>
 
@@ -203,7 +203,7 @@ export default function Page() {
               <p>This novel begins before kings, before empires, before history learned to write itself as inevitability.</p>
               <p>The premise rests on a body of scholarship suggesting that early human societies were not uniformly violent, hierarchical, or male-dominated. In 1958, archaeologist James Mellaart began excavating a mound in south-central Turkey called Çatalhöyük. What he found upended assumptions about early civilization. Here was a settlement of perhaps eight thousand people, built around 7500 BCE, that showed no evidence of centralized authority. No palace. No throne room. No fortifications. The houses were roughly equal in size. The burials showed no significant disparity in wealth. The art depicted animals, fertility, and abundance — not conquest, not hierarchy, not war.</p>
               <p>In 1987, Riane Eisler published The Chalice and the Blade, synthesizing decades of research into a reinterpretation of human history. Eisler argued that the shift from partnership to domination was not inevitable. It was a catastrophe, driven by waves of invasion and cultural absorption that replaced one way of being human with another.</p>
-              <p>The novel's fictional settlements — Chalice, Dorn, Edlen — are not recreations of any specific site. They are imaginative extrapolations. The novel asks: what if the tools we associate with civilization emerged from partnership rather than hierarchy? What if steel was forged to defend peace? What if writing was invented by a woman who wanted to preserve her people's stories rather than by a bureaucrat tracking grain for a king?</p>
+              <p>The novel&apos;s fictional settlements — Chalice, Dorn, Edlen — are not recreations of any specific site. They are imaginative extrapolations. The novel asks: what if the tools we associate with civilization emerged from partnership rather than hierarchy? What if steel was forged to defend peace? What if writing was invented by a woman who wanted to preserve her people&apos;s stories rather than by a bureaucrat tracking grain for a king?</p>
               <p>This book is not an argument for returning to the past. It is an argument for remembering that the present was not inevitable.</p>
             </div>
           </details>
@@ -213,10 +213,10 @@ export default function Page() {
               <span><strong style={{ fontSize: 18 }}>2. The First Line</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>How the Novel Began</span></span>
             </summary>
             <div className="reflection-body">
-              <p>"Altai sniffed the air." That was the first sentence written, and it never changed.</p>
+              <p>&ldquo;Altai sniffed the air.&rdquo; That was the first sentence written, and it never changed.</p>
               <p>The novel begins not with action but with attention. Not with conquest but with restraint. A man, a dog, and a choice not to take what is available. Cron does not kill the antelope because he cannot. He does not kill it because he chooses not to. That distinction matters. From the first paragraph, the book asks the reader to sit inside patience — to feel a world where value is not measured by extraction, speed, or dominance.</p>
-              <p>"For another day" echoes through the novel and transforms each time it appears. When Eve, four years old, places stones from her father's cairn and her dog's cairn onto the grave of the brother she never knew, she says the same three words. She has no idea she's quoting the novel's opening. She's just a child doing what feels right — connecting the dead, trusting that something matters beyond what she can see.</p>
-              <p>This is how novels work when they're working well. The writer plants a seed without knowing it's a seed. The story grows around it. And somewhere near the end, the seed blooms, and you realize the whole garden was implied in the first handful of soil. If you read the first chapter slowly, the ending has already begun.</p>
+              <p>&ldquo;For another day&rdquo; echoes through the novel and transforms each time it appears. When Eve, four years old, places stones from her father&apos;s cairn and her dog&apos;s cairn onto the grave of the brother she never knew, she says the same three words. She has no idea she&apos;s quoting the novel&apos;s opening. She&apos;s just a child doing what feels right — connecting the dead, trusting that something matters beyond what she can see.</p>
+              <p>This is how novels work when they&apos;re working well. The writer plants a seed without knowing it&apos;s a seed. The story grows around it. And somewhere near the end, the seed blooms, and you realize the whole garden was implied in the first handful of soil. If you read the first chapter slowly, the ending has already begun.</p>
             </div>
           </details>
 
@@ -229,30 +229,30 @@ export default function Page() {
               <p>Bronze, steel, writing, currency — each appears first as a response to real needs: coordination, memory, trade, survival. None are introduced as corrupting forces. The pattern the novel traces is not invention leading to corruption, but something more insidious: invention leading to abstraction, abstraction creating distance, distance granting permission.</p>
               <p>Kaine forges steel to defend the people he loves. He gives swords to the Guardians not because he loves war but because he loves peace. But the steel that saves Edlen at the Northern Pass is the same steel that kills him. His own creation, turned against him.</p>
               <p>This pattern is not unique to the novel. The internet was built for open communication; it became a tool of surveillance. Nuclear energy was harnessed for power; it became the bomb. Social media was designed to connect; it became a machine for division. The question is always the same: who controls the tool, and toward what end?</p>
-              <p>Treen, at Kaine's funeral, says it best: "He gave them to us not because he loved war, but because he loved peace." The tragedy is not that Kaine made swords. The tragedy is that the world required him to. Tools do not decide what they are for. Cultures do.</p>
+              <p>Treen, at Kaine&apos;s funeral, says it best: &ldquo;He gave them to us not because he loved war, but because he loved peace.&rdquo; The tragedy is not that Kaine made swords. The tragedy is that the world required him to. Tools do not decide what they are for. Cultures do.</p>
             </div>
           </details>
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>4. The Compass, Not the Blueprint</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>What the Novel Isn't Trying to Do</span></span>
+              <span><strong style={{ fontSize: 18 }}>4. The Compass, Not the Blueprint</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>What the Novel Isn&apos;t Trying to Do</span></span>
             </summary>
             <div className="reflection-body">
-              <p>An early reader offered a criticism that proved more valuable than any praise: the book didn't deliver the answer to how partnership survives against domination. She was right. It doesn't. And that's deliberate.</p>
+              <p>An early reader offered a criticism that proved more valuable than any praise: the book didn&apos;t deliver the answer to how partnership survives against domination. She was right. It doesn&apos;t. And that&apos;s deliberate.</p>
               <p>Partnership does not win in The Neolithic. Partnership endures. It endures not as a system or a civilization, but as knowledge carried by people who refuse to forget. Four adults and a child, walking away from everything they built, carrying stories and songs and the true history of what was. One girl writing in sand, knowing the waves will come, writing anyway.</p>
-              <p>A compass tells you where you are oriented, not where you will arrive. The novel argues that partnership is true north — the orientation that makes human flourishing possible. It doesn't argue that reaching north is easy, or that the journey won't cost everything.</p>
+              <p>A compass tells you where you are oriented, not where you will arrive. The novel argues that partnership is true north — the orientation that makes human flourishing possible. It doesn&apos;t argue that reaching north is easy, or that the journey won&apos;t cost everything.</p>
               <p>Winning ends stories. Surviving requires telling them again.</p>
             </div>
           </details>
 
           <details className="reflection-item">
             <summary>
-              <span><strong style={{ fontSize: 18 }}>5. Quon on Her Knees</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>How Institutions Absorb What They Can't Destroy</span></span>
+              <span><strong style={{ fontSize: 18 }}>5. Quon on Her Knees</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>How Institutions Absorb What They Can&apos;t Destroy</span></span>
             </summary>
             <div className="reflection-body">
               <p>There is a moment in the Epilogue when Quon kneels. That image carries the thesis of the book.</p>
-              <p>Cron walks through a market in occupied Edlen and sees a bronze statue in the temple square. A male figure, massive, arms raised, lightning bolts in his fists. Beside him, smaller, kneeling, a female figure whose features echo the old statues of Quon. But she is kneeling. A consort to the thunder god, not a creator in her own right. A priest smiles. "We've simply... clarified her role."</p>
-              <p>This is not speculative. This is exactly what happened, repeatedly, across thousands of years. The feminine divine was retained but repositioned: no longer sovereign, no longer central, now defined in relation to a higher authority. The form was preserved while the meaning was hollowed out. Treen names it precisely: "Easier to corrupt than destroy."</p>
+              <p>Cron walks through a market in occupied Edlen and sees a bronze statue in the temple square. A male figure, massive, arms raised, lightning bolts in his fists. Beside him, smaller, kneeling, a female figure whose features echo the old statues of Quon. But she is kneeling. A consort to the thunder god, not a creator in her own right. A priest smiles. &ldquo;We&apos;ve simply... clarified her role.&rdquo;</p>
+              <p>This is not speculative. This is exactly what happened, repeatedly, across thousands of years. The feminine divine was retained but repositioned: no longer sovereign, no longer central, now defined in relation to a higher authority. The form was preserved while the meaning was hollowed out. Treen names it precisely: &ldquo;Easier to corrupt than destroy.&rdquo;</p>
               <p>Quon is on her knees in the statue. But she was standing when the story was true. Truth does not always live where power places it. Sometimes it lives where power forgot to look.</p>
             </div>
           </details>
@@ -262,10 +262,10 @@ export default function Page() {
               <span><strong style={{ fontSize: 18 }}>6. The Dog</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>Why Altai Matters</span></span>
             </summary>
             <div className="reflection-body">
-              <p>For many readers, Altai's death hits harder than Kaine's. That is not an accident.</p>
+              <p>For many readers, Altai&apos;s death hits harder than Kaine&apos;s. That is not an accident.</p>
               <p>Readers of early drafts confirmed what we had anticipated: the old dog with smoke-damaged lungs, wagging his tail once for a four-year-old who called him a good boy — that was the moment that broke people. Not the battle. Not the steel turned against its maker. The dog.</p>
-              <p>Kaine chose his path. Altai never chose anything. He was a dog. He followed the people who fed him, guarded the people who loved him, and ran into a burning building because a child was inside. He didn't weigh the risks. He just went. That's what makes the dog's death unbearable. It is pure sacrifice without comprehension.</p>
-              <p>When Pella names her new dog Altai — "One great dog deserves another" — the novel offers its gentlest consolation. The name survives. The spirit survives. It's not resurrection. It's continuation — the same thing the novel argues for with partnership itself. He was a dog. Just a dog. But the novel would not be the novel without him.</p>
+              <p>Kaine chose his path. Altai never chose anything. He was a dog. He followed the people who fed him, guarded the people who loved him, and ran into a burning building because a child was inside. He didn&apos;t weigh the risks. He just went. That&apos;s what makes the dog&apos;s death unbearable. It is pure sacrifice without comprehension.</p>
+              <p>When Pella names her new dog Altai — &ldquo;One great dog deserves another&rdquo; — the novel offers its gentlest consolation. The name survives. The spirit survives. It&apos;s not resurrection. It&apos;s continuation — the same thing the novel argues for with partnership itself. He was a dog. Just a dog. But the novel would not be the novel without him.</p>
             </div>
           </details>
 
@@ -275,9 +275,9 @@ export default function Page() {
             </summary>
             <div className="reflection-body">
               <p>The most important scene in the novel may be the quietest.</p>
-              <p>After Altai's burial, after Treen's eulogy, after the adults have said everything they know how to say, Eve pulls free from her mother's arms. She takes a stone from Altai's cairn. She takes a stone from Kaine's cairn. Then she walks through the evening streets of damaged Edlen to the garden where Jorn is buried — the brother she would never know — and places both stones on his cairn. "For another day," she says. "Daddy and Altai are helping Jorn now. They're all together."</p>
-              <p>Eve does not solve theology. She dissolves it. She's acting on the logic of a child's heart: these people belong together. They loved each other. Death shouldn't keep them apart. Organized religion has spent millennia trying to solve the problem of death's loneliness. Eve solves it with two stones and three words.</p>
-              <p>Adults ask what death means. Children ask who remains. Cron's response — "Yes. We're all together" — is the only thing an adult can say. Not because he believes it literally, but because Eve's truth is truer than his doubt.</p>
+              <p>After Altai&apos;s burial, after Treen&apos;s eulogy, after the adults have said everything they know how to say, Eve pulls free from her mother&apos;s arms. She takes a stone from Altai&apos;s cairn. She takes a stone from Kaine&apos;s cairn. Then she walks through the evening streets of damaged Edlen to the garden where Jorn is buried — the brother she would never know — and places both stones on his cairn. &ldquo;For another day,&rdquo; she says. &ldquo;Daddy and Altai are helping Jorn now. They&apos;re all together.&rdquo;</p>
+              <p>Eve does not solve theology. She dissolves it. She&apos;s acting on the logic of a child&apos;s heart: these people belong together. They loved each other. Death shouldn&apos;t keep them apart. Organized religion has spent millennia trying to solve the problem of death&apos;s loneliness. Eve solves it with two stones and three words.</p>
+              <p>Adults ask what death means. Children ask who remains. Cron&apos;s response — &ldquo;Yes. We&apos;re all together&rdquo; — is the only thing an adult can say. Not because he believes it literally, but because Eve&apos;s truth is truer than his doubt.</p>
             </div>
           </details>
 
@@ -286,8 +286,8 @@ export default function Page() {
               <span><strong style={{ fontSize: 18 }}>8. Writing in Sand</strong> <span style={{ color: "#9ca3af", fontSize: 15, marginLeft: 12 }}>Impermanence as an Act of Faith</span></span>
             </summary>
             <div className="reflection-body">
-              <p>The novel ends with a girl writing symbols in wet sand while waves roll in to erase them. This could be read as despair. But Eve doesn't see futility. "Come on then," she says to the wave, fierce and joyful. "I'll just write it again."</p>
-              <p>This is not futility. This is faith. Futility is doing something pointless and knowing it's pointless. Faith is doing something that appears pointless because you believe the act itself has value beyond its visible result. Eve writes in sand not because the sand will preserve her words but because the writing preserves them in her.</p>
+              <p>The novel ends with a girl writing symbols in wet sand while waves roll in to erase them. This could be read as despair. But Eve doesn&apos;t see futility. &ldquo;Come on then,&rdquo; she says to the wave, fierce and joyful. &ldquo;I&apos;ll just write it again.&rdquo;</p>
+              <p>This is not futility. This is faith. Futility is doing something pointless and knowing it&apos;s pointless. Faith is doing something that appears pointless because you believe the act itself has value beyond its visible result. Eve writes in sand not because the sand will preserve her words but because the writing preserves them in her.</p>
               <p>The waves are not the enemy. They are the test. They will always come. They will never stop. The question is not whether the waves will erase the writing. The question is whether the writer will pick up her stick and begin again.</p>
               <p>Domination builds to last. Partnership writes knowing it may be erased. And writes anyway.</p>
             </div>
@@ -300,7 +300,7 @@ export default function Page() {
             <div className="reflection-body">
               <p>The Neolithic is set approximately nine thousand years ago. It is about right now.</p>
               <p>The patterns it dramatizes — the erosion of democratic norms under fear, the absorption of egalitarian values by hierarchical systems, the use of mythology to legitimize power — are not historical curiosities. They are the defining dynamics of the present moment.</p>
-              <p>Consider the Epilogue's sequence: a society that survived invasion but couldn't survive the fear that followed. Council debates grow longer, sharper. Voices demand certainty, a strong leader, clear authority. The first compromises seem small. Each change makes sense in isolation. Each change erodes something that can't be rebuilt. Readers in democracies around the world will recognize this trajectory.</p>
+              <p>Consider the Epilogue&apos;s sequence: a society that survived invasion but couldn&apos;t survive the fear that followed. Council debates grow longer, sharper. Voices demand certainty, a strong leader, clear authority. The first compromises seem small. Each change makes sense in isolation. Each change erodes something that can&apos;t be rebuilt. Readers in democracies around the world will recognize this trajectory.</p>
               <p>The novel is honest about the darkness. Domination has been winning for nine thousand years. But the novel is equally honest about the light. Eve writes in sand. Pella names a dog after one she never met. These are small acts. They are enough to keep an idea alive. The waves are coming. They are always coming. Write anyway.</p>
             </div>
           </details>
@@ -311,15 +311,69 @@ export default function Page() {
             </summary>
             <div className="reflection-body">
               <p>This novel was written with the assistance of artificial intelligence — specifically, with Claude, made by Anthropic, and listed appropriately as a co-author. If that changes how you feel about what you just read, this essay is for you.</p>
-              <p>The premise, the characters, the themes, the plot, the inventions, the deaths, the philosophy of partnership and domination, the structure of thirty-five chapters and an epilogue — all of these originated with a human author. The first line was written by a person sitting at a desk, imagining a dog on a hillside. Eve's walk to Jorn's grave was a human decision. The choice to let Edlen fall was a human choice.</p>
-              <p>The novel's voice — which one early reader called "sterile" and which we would call precise — is not an AI's voice. It is a textbook author's voice turned loose on fiction. "Altai sniffed the air" is a scientist's sentence: observation first, decoration never. That DNA was set on page one, long before any AI touched a word. Prose can be a window or it can be stained glass. If the reader needs to see clearly what lies on the other side — a burning building, a child in danger, a man dying by his own creation — the window must be clean, clear, and invisible.</p>
-              <p>Here is what the AI did. It served as editor, developmental partner, and prose polisher — identifying structural weaknesses, catching anachronisms, tightening language, and generating revision drafts that were always subject to human review and final decision. This is not so different from what editors have always done. Maxwell Perkins shaped Thomas Wolfe's manuscripts so extensively that the question of co-authorship arose in their own time.</p>
-              <p>An AI does not grieve. It does not love dogs. It has not lost a pregnancy or buried a friend or watched a democracy erode. When it tightens a sentence about Altai licking Lyler's hand, it is not remembering the weight of a dog's head. It is recognizing patterns in language that reliably carry meaning. That does not make the contribution trivial. It makes it different.</p>
-              <p>We understand some readers will feel that AI involvement diminishes the work. We ask only this: did the novel move you? Did you grieve for Kaine? Did you hold your breath when Altai dragged Lyler from the fire? Did Eve's walk to Jorn's grave break something open in you? If it did, then the work did what it was meant to do. The question of who held the chisel does not change the shape of the stone.</p>
+              <p>The premise, the characters, the themes, the plot, the inventions, the deaths, the philosophy of partnership and domination, the structure of thirty-five chapters and an epilogue — all of these originated with a human author. The first line was written by a person sitting at a desk, imagining a dog on a hillside. Eve&apos;s walk to Jorn&apos;s grave was a human decision. The choice to let Edlen fall was a human choice.</p>
+              <p>The novel&apos;s voice — which one early reader called &ldquo;sterile&rdquo; and which we would call precise — is not an AI&apos;s voice. It is a textbook author&apos;s voice turned loose on fiction. &ldquo;Altai sniffed the air&rdquo; is a scientist&apos;s sentence: observation first, decoration never. That DNA was set on page one, long before any AI touched a word. Prose can be a window or it can be stained glass. If the reader needs to see clearly what lies on the other side — a burning building, a child in danger, a man dying by his own creation — the window must be clean, clear, and invisible.</p>
+              <p>Here is what the AI did. It served as editor, developmental partner, and prose polisher — identifying structural weaknesses, catching anachronisms, tightening language, and generating revision drafts that were always subject to human review and final decision. This is not so different from what editors have always done. Maxwell Perkins shaped Thomas Wolfe&apos;s manuscripts so extensively that the question of co-authorship arose in their own time.</p>
+              <p>An AI does not grieve. It does not love dogs. It has not lost a pregnancy or buried a friend or watched a democracy erode. When it tightens a sentence about Altai licking Lyler&apos;s hand, it is not remembering the weight of a dog&apos;s head. It is recognizing patterns in language that reliably carry meaning. That does not make the contribution trivial. It makes it different.</p>
+              <p>We understand some readers will feel that AI involvement diminishes the work. We ask only this: did the novel move you? Did you grieve for Kaine? Did you hold your breath when Altai dragged Lyler from the fire? Did Eve&apos;s walk to Jorn&apos;s grave break something open in you? If it did, then the work did what it was meant to do. The question of who held the chisel does not change the shape of the stone.</p>
               <p>This novel was written by a human who cared deeply about the story. It was refined with the help of a machine that could see what the human could not. Neither could have produced this book on their own. You have just read what they made together. Thank you for that honor.</p>
             </div>
           </details>
 
+        </div>
+      </section>
+
+      {/* INTERDISCIPLINARY MODEL */}
+      <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
+              More Than One Department
+            </p>
+            <h2 style={{ fontSize: 40, margin: 0 }}>Where the Writing Happens</h2>
+            <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
+              These novels aren&apos;t only a good read. They&apos;re the language-arts entry point into an AI literacy program built to span several departments at once.
+            </p>
+          </div>
+
+          <div style={{ maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
+              The core program — <em>Understanding and Working with AI</em> — usually lives in a CTE, social studies, or computer science classroom. But it isn&apos;t only mechanics and ethics. One of its lesson types is a sustained creative project: students develop a literary work of their own, in collaboration with AI. Which raises a practical question — where, exactly, should that writing happen?
+            </p>
+            <p style={{ fontSize: 18, color: "#4b5563", margin: 0 }}>
+              The natural answer is the language arts classroom, under a teacher who knows how to develop voice, structure, and craft. A language arts teacher familiar with the program — even just by having read these two novels — can run a creative-writing track in parallel with the AI course the same students are taking, or have already taken. The novels become a shared text. The students&apos; own creative project becomes a shared assignment, completed where writing is actually taught.
+            </p>
+          </div>
+
+          {/* Parallel tracks */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24, alignItems: "stretch" }}>
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #0f172a" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#64748b", margin: 0 }}>In CTE · Social Studies · CS</p>
+              <h3 style={{ fontSize: 22, margin: "8px 0 12px" }}>The AI-Ed Program</h3>
+              <p style={{ fontSize: 16, color: "#4b5563", margin: 0 }}>
+                Students learn how AI works, practice it in guided labs, and wrestle with its ethics and habits of mind. This is the technical and conceptual core.
+              </p>
+            </div>
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #8b5cf6" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#8b5cf6", margin: 0 }}>In Language Arts</p>
+              <h3 style={{ fontSize: 22, margin: "8px 0 12px" }}>The Creative Writing Track</h3>
+              <p style={{ fontSize: 16, color: "#4b5563", margin: 0 }}>
+                The same students develop their own literary work with AI — under a writing expert, with these novels as the model. This is where craft and voice are taught.
+              </p>
+            </div>
+          </div>
+          <p style={{ textAlign: "center", fontSize: 13, color: "#8b5cf6", fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, margin: "20px 0 0" }}>
+            ↑ Two classrooms, in parallel, for the same students ↑
+          </p>
+
+          <div style={{ maxWidth: 760, margin: "44px auto 0" }}>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
+              The benefits compound. It frees the CTE or social studies instructor to focus on what they teach best. It places students&apos; creative work under the guidance of a writing expert. And it hands the language arts teacher a concrete answer to the hardest question in their field right now: how do you teach creative writing in the age of AI?
+            </p>
+            <p style={{ fontSize: 20, color: "#1f2937", fontWeight: 700, lineHeight: 1.5, margin: 0 }}>
+              The goal isn&apos;t AI literacy for its own sake. It&apos;s effective communication — in the age of AI.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -331,7 +385,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>The Program That Connects Departments</h2>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 24px" }}>
-            A program on AI literacy in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the associated novels in parallel. Students learning AI mechanics and best practices in one classroom. Students analyzing creative writing with AI in another. Multiple teachers, multiple disciplines, one conversation.
+            A program on AI literacy to fluency in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the associated novels in parallel. Students learning AI mechanics and best practices in one classroom. Students analyzing creative writing with AI in another. Multiple teachers, multiple disciplines, one conversation.
           </p>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 48px" }}>
             For administrators looking for programs that create genuine interdisciplinary coherence, this is an important opportunity.
@@ -344,7 +398,7 @@ export default function Page() {
 
       {/* CTA FOR LANGUAGE ARTS TEACHERS */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 40, alignItems: "center" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 40, alignItems: "center" }}>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
               For Language Arts Teachers
@@ -363,8 +417,8 @@ export default function Page() {
               <a href="https://shop.ingramspark.com/b/084?params=Va0WiVxgr0pbIejltajiU2dWCVLTTUMKzfs6H3Bn8DR" target="_blank" rel="noopener noreferrer" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
                 Order The Threshold — $14.95 →
               </a>
-              <Link href="/academy" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
-                Explore the Conceptual Academy Program →
+              <Link href="/novels" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
+                More About the Novels →
               </Link>
             </div>
           </div>
