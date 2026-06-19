@@ -50,7 +50,7 @@ export default function Page() {
             }}>
               For K–12 Classrooms →
             </Link>
-            <Link href="/curriculum#pathways" style={{
+            <Link href="/professionals" style={{
               background: "rgba(255,255,255,0.15)",
               color: "white",
               border: "2px solid rgba(255,255,255,0.6)",
@@ -81,19 +81,19 @@ export default function Page() {
 
       {/* WHO ARE YOU */}
       <section style={{ background: "#0f172a", padding: "0 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 160px), 1fr))" }}>
 
           <Link href="/pocketlab" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Teachers / Admin</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>K–12 classroom programs →</span>
           </Link>
 
-          <Link href="/curriculum#pathways" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Professional</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>PD credential →</span>
           </Link>
 
-          <Link href="/curriculum#pathways" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Independent Learner</span>
             <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-paced online program →</span>
           </Link>
@@ -204,7 +204,7 @@ export default function Page() {
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
                 A teacher, professional, or independent learner? Conceptual Academy offers a structured online program with PD hours available in 5-hour increments. Includes automated assessment, video lessons, interactive labs, and AI experiments. Start anytime. Follow your own pace.
               </p>
-              <Link href="/curriculum#pathways" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
+              <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about Conceptual Academy →
               </Link>
             </div>
