@@ -43,6 +43,79 @@ export default function Page() {
         </div>
       </section>
 
+      {/* FOR ADMINS */}
+      <section style={{ background: "#ffffff", color: "#1f2937", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
+            A Note for Administrators and Teachers
+          </p>
+          <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>The Program That Connects Departments</h2>
+          <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto 24px" }}>
+            A program on AI literacy to fluency in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the associated novels in parallel. Students learning AI mechanics and best practices in one classroom. Students analyzing creative writing with AI in another. Multiple teachers, multiple disciplines, one conversation.
+          </p>
+          <p style={{ fontSize: 20, color: "#4b5563", maxWidth: 720, margin: "0 auto 48px" }}>
+            For administrators looking for programs that create genuine interdisciplinary coherence, this is an important opportunity.
+          </p>
+          <Link href="/pocketlab" style={{ background: "#8b5cf6", color: "white", padding: "14px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
+            Learn About the K–12 Program →
+          </Link>
+        </div>
+      </section>
+
+      {/* INTERDISCIPLINARY MODEL */}
+      <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
+              More Than One Department
+            </p>
+            <h2 style={{ fontSize: 40, margin: 0 }}>Where the Writing Happens</h2>
+            <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
+              These novels aren&apos;t only a good read. They&apos;re the language-arts entry point into an AI literacy program built to span several departments at once.
+            </p>
+          </div>
+
+          <div style={{ maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
+              The core program — <em>Understanding and Working with AI</em> — usually lives in a CTE, social studies, or computer science classroom. But it isn&apos;t only mechanics and ethics. One of its lesson types is a sustained creative project: students develop a literary work of their own, in collaboration with AI. Which raises a practical question — where, exactly, should that writing happen?
+            </p>
+            <p style={{ fontSize: 18, color: "#4b5563", margin: 0 }}>
+              The natural answer is the language arts classroom, under a teacher who knows how to develop voice, structure, and craft. A language arts teacher familiar with the program — even just by having read these two novels — can run a creative-writing track in parallel with the AI course the same students are taking, or have already taken. The novels become a shared text. The students&apos; own creative project becomes a shared assignment, completed where writing is actually taught.
+            </p>
+          </div>
+
+          {/* Parallel tracks */}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24, alignItems: "stretch" }}>
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #0f172a" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#64748b", margin: 0 }}>In CTE · Social Studies · CS</p>
+              <h3 style={{ fontSize: 22, margin: "8px 0 12px" }}>The AI-Ed Program</h3>
+              <p style={{ fontSize: 16, color: "#4b5563", margin: 0 }}>
+                Students learn how AI works, practice it in guided labs, and wrestle with its ethics and habits of mind. This is the technical and conceptual core.
+              </p>
+            </div>
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #8b5cf6" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#8b5cf6", margin: 0 }}>In Language Arts</p>
+              <h3 style={{ fontSize: 22, margin: "8px 0 12px" }}>The Creative Writing Track</h3>
+              <p style={{ fontSize: 16, color: "#4b5563", margin: 0 }}>
+                The same students develop their own literary work with AI — under a writing expert, with these novels as the model. This is where craft and voice are taught.
+              </p>
+            </div>
+          </div>
+          <p style={{ textAlign: "center", fontSize: 13, color: "#8b5cf6", fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, margin: "20px 0 0" }}>
+            ↑ Two classrooms, in parallel, for the same students ↑
+          </p>
+
+          <div style={{ maxWidth: 760, margin: "44px auto 0" }}>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
+              The benefits compound. It frees the CTE or social studies instructor to focus on what they teach best. It places students&apos; creative work under the guidance of a writing expert. And it hands the language arts teacher a concrete answer to the hardest question in their field right now: how do you teach creative writing in the age of AI?
+            </p>
+            <p style={{ fontSize: 20, color: "#1f2937", fontWeight: 700, lineHeight: 1.5, margin: 0 }}>
+              The goal isn&apos;t AI literacy for its own sake. It&apos;s effective communication — in the age of AI. This is what we mean by AI Fluency.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* THE READER MOMENT */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 860, margin: "0 auto", textAlign: "center" }}>
@@ -320,79 +393,6 @@ export default function Page() {
             </div>
           </details>
 
-        </div>
-      </section>
-
-      {/* INTERDISCIPLINARY MODEL */}
-      <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
-              More Than One Department
-            </p>
-            <h2 style={{ fontSize: 40, margin: 0 }}>Where the Writing Happens</h2>
-            <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
-              These novels aren&apos;t only a good read. They&apos;re the language-arts entry point into an AI literacy program built to span several departments at once.
-            </p>
-          </div>
-
-          <div style={{ maxWidth: 760, margin: "0 auto 44px" }}>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The core program — <em>Understanding and Working with AI</em> — usually lives in a CTE, social studies, or computer science classroom. But it isn&apos;t only mechanics and ethics. One of its lesson types is a sustained creative project: students develop a literary work of their own, in collaboration with AI. Which raises a practical question — where, exactly, should that writing happen?
-            </p>
-            <p style={{ fontSize: 18, color: "#4b5563", margin: 0 }}>
-              The natural answer is the language arts classroom, under a teacher who knows how to develop voice, structure, and craft. A language arts teacher familiar with the program — even just by having read these two novels — can run a creative-writing track in parallel with the AI course the same students are taking, or have already taken. The novels become a shared text. The students&apos; own creative project becomes a shared assignment, completed where writing is actually taught.
-            </p>
-          </div>
-
-          {/* Parallel tracks */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24, alignItems: "stretch" }}>
-            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #0f172a" }}>
-              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#64748b", margin: 0 }}>In CTE · Social Studies · CS</p>
-              <h3 style={{ fontSize: 22, margin: "8px 0 12px" }}>The AI-Ed Program</h3>
-              <p style={{ fontSize: 16, color: "#4b5563", margin: 0 }}>
-                Students learn how AI works, practice it in guided labs, and wrestle with its ethics and habits of mind. This is the technical and conceptual core.
-              </p>
-            </div>
-            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #8b5cf6" }}>
-              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#8b5cf6", margin: 0 }}>In Language Arts</p>
-              <h3 style={{ fontSize: 22, margin: "8px 0 12px" }}>The Creative Writing Track</h3>
-              <p style={{ fontSize: 16, color: "#4b5563", margin: 0 }}>
-                The same students develop their own literary work with AI — under a writing expert, with these novels as the model. This is where craft and voice are taught.
-              </p>
-            </div>
-          </div>
-          <p style={{ textAlign: "center", fontSize: 13, color: "#8b5cf6", fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, margin: "20px 0 0" }}>
-            ↑ Two classrooms, in parallel, for the same students ↑
-          </p>
-
-          <div style={{ maxWidth: 760, margin: "44px auto 0" }}>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The benefits compound. It frees the CTE or social studies instructor to focus on what they teach best. It places students&apos; creative work under the guidance of a writing expert. And it hands the language arts teacher a concrete answer to the hardest question in their field right now: how do you teach creative writing in the age of AI?
-            </p>
-            <p style={{ fontSize: 20, color: "#1f2937", fontWeight: 700, lineHeight: 1.5, margin: 0 }}>
-              The goal isn&apos;t AI literacy for its own sake. It&apos;s effective communication — in the age of AI.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* FOR ADMINS */}
-      <section style={{ background: "#0f172a", color: "white", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
-          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
-            A Note for Administrators
-          </p>
-          <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>The Program That Connects Departments</h2>
-          <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 24px" }}>
-            A program on AI literacy to fluency in the Social Studies or CTE department is genuinely exciting. But imagine what happens when the Language Arts department is reading the associated novels in parallel. Students learning AI mechanics and best practices in one classroom. Students analyzing creative writing with AI in another. Multiple teachers, multiple disciplines, one conversation.
-          </p>
-          <p style={{ fontSize: 20, color: "rgba(255,255,255,0.8)", maxWidth: 720, margin: "0 auto 48px" }}>
-            For administrators looking for programs that create genuine interdisciplinary coherence, this is an important opportunity.
-          </p>
-          <Link href="/pocketlab" style={{ background: "#8b5cf6", color: "white", padding: "14px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
-            Learn About the K–12 Program →
-          </Link>
         </div>
       </section>
 
