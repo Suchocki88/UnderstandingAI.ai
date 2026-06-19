@@ -25,7 +25,7 @@ export default function Page() {
             Independent Learners
           </p>
           <h1 style={{ fontSize: 48, lineHeight: 1.1, margin: "0 0 24px" }}>
-            AI Literacy Credential
+            AI Literacy to Fluency
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
             An online program designed for everyone, from independent to adult learners, providing essential skills for navigating an AI-driven modern world without needing deep technical programming expertise. Start anytime. No expiration.
