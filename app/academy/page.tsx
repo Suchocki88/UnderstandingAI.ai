@@ -1,7 +1,7 @@
 import Link from "next/link";
 export const metadata = {
   title: "Professional Development & CEUs | Conceptual Academy",
-  description: "Earn continuing education credits studying AI literacy. Self-paced, no expiration. For teachers, professionals, and independent learners.",
+  description: "Earn continuing education credits studying AI literacy. Self-paced, no expiration. For teachers, professionals, homeschoolers, and independent learners.",
 }
 export default function Page() {
   return (
@@ -32,6 +32,21 @@ export default function Page() {
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
+              href="#start"
+              style={{
+                background: "#ec4899",
+                color: "white",
+                padding: "14px 28px",
+                borderRadius: 8,
+                textDecoration: "none",
+                fontWeight: 700,
+                fontSize: 16,
+                display: "inline-block",
+              }}
+            >
+              How to Get Started ↓
+            </a>
+            <a
               href="https://conceptualacademy.com/sites/default/files/2026-03/UAI_Users_Manual.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -61,11 +76,11 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>Conceptual Academy</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-        
+              One program, many kinds of learners.
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 220px), 1fr))", gap: 24 }}>
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
               <div style={{ fontSize: 32, marginBottom: 12 }}>👩‍🏫</div>
               <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>Teachers</h3>
@@ -90,22 +105,93 @@ export default function Page() {
         </div>
       </section>
 
+      {/* FOR INDEPENDENT LEARNERS */}
+      <section id="start" style={{ background: "#fdf2f8", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
+              Start Here
+            </p>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>For Homeschoolers &amp; Independent Learners</h2>
+            <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
+              Two ways in, depending on how far you want to go. Begin with the books — then add the full platform when you&apos;re ready for Alia, assessments, and more.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24, alignItems: "stretch" }}>
+            {/* Step 1: Books */}
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #f59e0b", display: "flex", flexDirection: "column" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#b45309", margin: 0 }}>Step 1 · Lowest Cost</p>
+              <h3 style={{ fontSize: 24, margin: "8px 0 12px" }}>Start with the Books</h3>
+              <p style={{ fontSize: 16, color: "#4b5563", margin: "0 0 20px", flexGrow: 1 }}>
+                Order Volume 1 and Volume 2. They&apos;re affordable, beautifully designed, and the QR codes throughout connect you to the author&apos;s full video library — your phone becomes part of the experience. This is the simplest, lowest-cost way to begin.
+              </p>
+              <Link href="/curriculum" style={{ color: "#b45309", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
+                Get the Books →
+              </Link>
+            </div>
+
+            {/* Step 2: Full Program */}
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "2px solid #ec4899", borderTop: "4px solid #ec4899", display: "flex", flexDirection: "column" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#be185d", margin: 0 }}>Step 2 · The Full Experience</p>
+              <h3 style={{ fontSize: 24, margin: "8px 0 12px" }}>Add the Full Program</h3>
+              <p style={{ fontSize: 16, color: "#4b5563", margin: "0 0 20px", flexGrow: 1 }}>
+                To work with <strong>Alia</strong> — our customized AI learning assistant — and to unlock the assessment system, with its quiz types, a running gradebook, and your CE certificate, plus our podcast library, enroll in the full program. Not sure yet? You can try Chapter 1 free first.
+              </p>
+              <a href="#enroll" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
+                See Enrollment Options →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MEET ALIA */}
+      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 56, alignItems: "center" }}>
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <img
+              src="/images/AliaHiRezSmile.png"
+              alt="Alia, the AI learning assistant"
+              style={{ width: "100%", maxWidth: 320 }}
+            />
+          </div>
+          <div>
+            <img
+              src="/images/AliaCircle.jpg"
+              alt="ALIA — AI Learning Assistant"
+              style={{ width: 92, marginBottom: 16, borderRadius: 8 }}
+            />
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899", margin: 0 }}>
+              Your AI Learning Assistant
+            </p>
+            <h2 style={{ fontSize: 40, margin: "12px 0 20px" }}>Meet Alia</h2>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
+              Alia is built right into the program — and she&apos;s no generic chatbot. She&apos;s trained specifically on this curriculum, so she guides you Socratically through the very material you&apos;re studying, meeting you wherever you are.
+            </p>
+            <p style={{ fontSize: 18, color: "#4b5563" }}>
+              Across the program she takes three specialized forms — a tutor, a lab partner, and a creative collaborator — so the right kind of help is always within reach.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* PLATFORM SCREENSHOT */}
       <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 56, alignItems: "center" }}>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
               The Platform
             </p>
             <h2 style={{ fontSize: 36, margin: "12px 0 20px" }}>Join Us On a Guided Path Through the Curriculum</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              You'll find everything in one place: video lessons, interactive labs, AI tools, quizzes, and study guides designed to take you from the foundations of how AI works to its societal and creative implications.
+              You&apos;ll find everything in one place: video lessons, interactive labs, AI tools, quizzes, and study guides designed to take you from the foundations of how AI works to its societal and creative implications.
             </p>
-              <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
+            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               You can start anytime, stop anytime, and pick up exactly where you left off. There is no expiration date on your enrollment.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              Each volume is $195 and earns up to 20 hours of continuing education credit. You can take them independently or together. The pace you set is up to you.
+              The full program is $195 and earns up to 40 hours of continuing education credit across all eight chapters. The pace you set is up to you.
             </p>
           </div>
           <div>
@@ -115,8 +201,8 @@ export default function Page() {
               style={{ width: "100%", borderRadius: 12, boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}
             />
             <p style={{ fontSize: 14, color: "#6b7280", fontStyle: "italic", marginTop: 12 }}>
-  Screenshot from the Conceptual Academy platform
-</p>
+              Screenshot from the Conceptual Academy platform
+            </p>
           </div>
         </div>
       </section>
@@ -130,11 +216,11 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 40, marginTop: 12 }}>Everything in One Place</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              For $195 per volume, you get the complete learning environment.
+              For $195, you get the complete learning environment.
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24, marginBottom: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 24, marginBottom: 24 }}>
 
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 28, border: "2px solid #ec4899" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Three Alia AI Instances</h3>
@@ -159,7 +245,7 @@ export default function Page() {
 
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 24 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 24 }}>
 
             <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 28, border: "2px solid #ec4899" }}>
               <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>Automated Assessment</h3>
@@ -191,7 +277,7 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
 
           {/* Top: text left, certificate right */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center", marginBottom: 48 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 56, alignItems: "center", marginBottom: 48 }}>
             <div>
               <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
                 How Credentialing Works
@@ -201,10 +287,10 @@ export default function Page() {
                 We use a point accumulation system where everyone starts at zero and moves upward based on demonstrated effort. Points are earned only for correct answers. Incorrect answers remain the learning opportunity that they are.
               </p>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
-                Reach the threshold for a chapter and download a personalized 5-hour continuing education certificate with your name and date. Complete the full volume and earn a single 20-hour certificate instead. Complete both volumes for a total of 40 hours of professional development.
+                Reach the threshold for a chapter and download a personalized 5-hour continuing education certificate with your name and date. Complete all eight chapters to earn a total of 40 hours of professional development.
               </p>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)" }}>
-                Along with the certificate, you'll finish with a much deeper understanding of the nature of AI and how to work with it effectively.
+                Along with the certificate, you&apos;ll finish with a much deeper understanding of the nature of AI and how to work with it effectively.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
@@ -220,7 +306,7 @@ export default function Page() {
           </div>
 
           {/* Bottom: point breakdown cards full width */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 16 }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 180px), 1fr))", gap: 16 }}>
             <div style={{ background: "rgba(255,255,255,0.08)", borderRadius: 12, padding: 24 }}>
               <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Video Quizzes</h3>
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>5 points per correct answer</p>
@@ -234,12 +320,12 @@ export default function Page() {
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>10 points per correct answer</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Certificate</h3>
+              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Chapter Certificate</h3>
               <p style={{ color: "#0f172a", margin: 0 }}>5 hours CE — complete the chapter</p>
             </div>
             <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Volume Certificate</h3>
-              <p style={{ color: "#0f172a", margin: 0 }}>20 hours CE — complete the volume</p>
+              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Program Certificate</h3>
+              <p style={{ color: "#0f172a", margin: 0 }}>40 hours CE — complete all chapters</p>
             </div>
           </div>
 
@@ -248,7 +334,7 @@ export default function Page() {
 
       {/* A NOTE ABOUT POCKETLAB */}
       <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 56, alignItems: "center" }}>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <img
               src="/images/FrankBulbClear.png"
@@ -262,42 +348,48 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>A Note For Teachers</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              CEU's and PD hours are only available through the self-guided AI program on the Conceptual Academy platform.
+              CEUs and PD hours are only available through the self-guided AI program on the Conceptual Academy platform.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              If you are also interested in teaching this program to your high school students, we encourage you to open a teacher's account on PocketLab's Notebook platform.
+              If you are also interested in teaching this program to your high school students, we encourage you to open a teacher&apos;s account on PocketLab&apos;s Notebook platform — the classroom version includes built-in teacher notes and pedagogy.
             </p>
           </div>
         </div>
       </section>
 
       {/* ENROLL */}
-      <section style={{ background: "#fdf2f8", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: 56, alignItems: "center" }}>
+      <section id="enroll" style={{ background: "#fdf2f8", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 56, alignItems: "center" }}>
           <div>
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899", marginBottom: 16 }}>
               Enroll Today
             </p>
             <h2 style={{ fontSize: 40, margin: "0 0 24px" }}>Start Anytime. Go at Your Own Pace.</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 24 }}>
-              To enroll, go to Conceptual Academy and sign up. When prompted for a Course ID, use the ones below. Payment is accepted via PayPal or credit card.
+              To enroll, go to Conceptual Academy and sign up. When prompted for a Course ID, enter one of the codes below. Payment for the full program is accepted via PayPal or credit card.
             </p>
 
             <div style={{ display: "grid", gap: 16, marginBottom: 32 }}>
               <div style={{ background: "#ffffff", borderRadius: 12, padding: 20, border: "2px solid #ec4899" }}>
                 <p style={{ margin: 0, fontSize: 16 }}>
-                  <strong>Volume 1: Foundations and Practice</strong><br />
+                  <strong>Try It Free — Chapter 1</strong><br />
                   <span style={{ color: "#6b7280" }}>Course ID: </span>
-                  <strong style={{ color: "#ec4899", fontSize: 18 }}>UAIVolume1</strong>
-                  <span style={{ color: "#6b7280", marginLeft: 16 }}>$195</span>
+                  <strong style={{ color: "#ec4899", fontSize: 18 }}>UAI01Free</strong>
+                  <span style={{ color: "#6b7280", marginLeft: 16 }}>Free · 5 CE hours</span>
+                </p>
+                <p style={{ margin: "8px 0 0", fontSize: 14, color: "#6b7280" }}>
+                  Experience Alia and the platform with no commitment.
                 </p>
               </div>
               <div style={{ background: "#ffffff", borderRadius: 12, padding: 20, border: "2px solid #ec4899" }}>
                 <p style={{ margin: 0, fontSize: 16 }}>
-                  <strong>Volume 2: Society and the Future</strong><br />
+                  <strong>The Full Program — All 8 Chapters</strong><br />
                   <span style={{ color: "#6b7280" }}>Course ID: </span>
-                  <strong style={{ color: "#ec4899", fontSize: 18 }}>UAIVolume2</strong>
-                  <span style={{ color: "#6b7280", marginLeft: 16 }}>$195</span>
+                  <strong style={{ color: "#ec4899", fontSize: 18 }}>UAIHome</strong>
+                  <span style={{ color: "#6b7280", marginLeft: 16 }}>$195 · up to 40 CE hours</span>
+                </p>
+                <p style={{ margin: "8px 0 0", fontSize: 14, color: "#6b7280" }}>
+                  Full Alia access, every quiz type and your gradebook, the podcast library, and your certificate.
                 </p>
               </div>
             </div>
@@ -325,11 +417,21 @@ export default function Page() {
             </a>
           </div>
           <div>
-            <img
-              src="/images/CASignUp.jpg"
-              alt="Conceptual Academy sign up"
-              style={{ width: "100%", borderRadius: 12, boxShadow: "0 8px 24px rgba(0,0,0,0.15)" }}
-            />
+            <div style={{ borderRadius: 12, overflow: "hidden", boxShadow: "0 12px 36px rgba(0,0,0,0.16)", border: "1px solid #e5e7eb", background: "white" }}>
+              <div style={{ background: "#e5e7eb", padding: "10px 14px", display: "flex", gap: 7 }}>
+                <span style={{ width: 11, height: 11, borderRadius: 100, background: "#f87171" }} />
+                <span style={{ width: 11, height: 11, borderRadius: 100, background: "#fbbf24" }} />
+                <span style={{ width: 11, height: 11, borderRadius: 100, background: "#34d399" }} />
+              </div>
+              <img
+                src="/images/UAI01Free.jpg"
+                alt="Conceptual Academy sign-up page showing the Course ID field"
+                style={{ display: "block", width: "100%" }}
+              />
+            </div>
+            <p style={{ fontSize: 14, color: "#6b7280", marginTop: 14, lineHeight: 1.6 }}>
+              Enter your Course ID where it says <strong>Course ID</strong> — <strong style={{ color: "#be185d" }}>UAI01Free</strong> for the free chapter, or <strong style={{ color: "#be185d" }}>UAIHome</strong> for the full program. You can leave the &ldquo;vendor code&rdquo; box unchecked.
+            </p>
           </div>
         </div>
       </section>
