@@ -124,7 +124,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 0" }}>The Core Curriculum</h2>
             <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-              An accessible and inviting program for AI literacy. At its core are two textbook volumes that provide a conceptual and experiential approach from which anyone can learn.
+              An accessible and inviting program for AI fluency, which means being able to work with AI both safely and creatively. At its core are two textbook volumes that provide a conceptual and experiential approach from which anyone can learn.
             </p>
             <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
               <div style={{ border: "1px solid #e5e7eb", borderRadius: 12, padding: 18, background: "#f8fafc" }}>
@@ -163,7 +163,7 @@ export default function Page() {
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
             The Stakes
           </p>
-          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Why AI Literacy Matters</h2>
+          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Why AI Fluency Matters</h2>
           <p style={{ marginTop: 24, fontSize: 21, color: "rgba(255,255,255,0.8)" }}>
             AI is quickly reshaping work, education, creativity, and society. People from all walks of life need to understand how it works and what it means for the world of today and tomorrow.
           </p>
