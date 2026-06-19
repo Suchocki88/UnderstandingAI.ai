@@ -22,13 +22,13 @@ export default function Page() {
         <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.65)" }} />
         <div style={{ maxWidth: 860, margin: "0 auto", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", marginBottom: 16 }}>
-            Professional Development & Independent Learners
+            Independent Learners
           </p>
           <h1 style={{ fontSize: 48, lineHeight: 1.1, margin: "0 0 24px" }}>
             AI Literacy Credential
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 700, margin: "0 auto 32px" }}>
-            An online program designed for professionals, educators, and students looking to develop essential skills for navigating an AI-driven modern world without needing deep technical programming expertise. Start anytime. No expiration.
+            An online program designed for everyone, from independent to adult learners, providing essential skills for navigating an AI-driven modern world without needing deep technical programming expertise. Start anytime. No expiration.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
@@ -67,52 +67,15 @@ export default function Page() {
         </div>
       </section>
 
-      {/* WHO IT'S FOR */}
-      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
-              Users of
-            </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>Conceptual Academy</h2>
-            <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              One program, many kinds of learners.
-            </p>
-          </div>
-
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 220px), 1fr))", gap: 24 }}>
-            <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
-              <div style={{ fontSize: 32, marginBottom: 12 }}>👩‍🏫</div>
-              <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>Teachers</h3>
-              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Earn summer CEUs and PD hours. Arrive in the fall ready to teach this program to your students through PocketLab.</p>
-            </div>
-            <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
-              <div style={{ fontSize: 32, marginBottom: 12 }}>💼</div>
-              <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>Professionals</h3>
-              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Therapists, counselors, HR professionals, and anyone whose field is being shaped by AI.</p>
-            </div>
-            <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
-              <div style={{ fontSize: 32, marginBottom: 12 }}>🎓</div>
-              <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>College Courses</h3>
-              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Our platform supports an instructor-plus-students model. Many of our adoptions are colleges.</p>
-            </div>
-            <div style={{ background: "#fdf2f8", borderRadius: 16, padding: 24, border: "2px solid #ec4899", textAlign: "center" }}>
-              <div style={{ fontSize: 32, marginBottom: 12 }}>🏠</div>
-              <h3 style={{ fontSize: 18, margin: "0 0 8px" }}>Independent Learners</h3>
-              <p style={{ color: "#4b5563", margin: 0, fontSize: 15 }}>Homeschool families, life-long learners, and anyone who wants a structured path through this material.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FOR INDEPENDENT LEARNERS */}
-      <section id="start" style={{ background: "#fdf2f8", padding: "80px 24px" }}>
+      {/* FOR ALL LEARNERS */}
+      <section id="start" style={{ background: "#e0f2fe", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899" }}>
+            <img src="/images/FrankBulbClear.png" alt="Frank our mascot" style={{ width: 150, marginBottom: 4 }} />
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0284c7" }}>
               Start Here
             </p>
-            <h2 style={{ fontSize: 40, marginTop: 12 }}>For Homeschoolers &amp; Independent Learners</h2>
+            <h2 style={{ fontSize: 40, marginTop: 12 }}>For All Learners</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
               Two ways in, depending on how far you want to go. Begin with the books — then add the full platform when you&apos;re ready for Alia, assessments, and more.
             </p>
@@ -132,13 +95,13 @@ export default function Page() {
             </div>
 
             {/* Step 2: Full Program */}
-            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "2px solid #ec4899", borderTop: "4px solid #ec4899", display: "flex", flexDirection: "column" }}>
-              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#be185d", margin: 0 }}>Step 2 · The Full Experience</p>
+            <div style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "2px solid #0284c7", borderTop: "4px solid #0284c7", display: "flex", flexDirection: "column" }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#0369a1", margin: 0 }}>Step 2 · The Full Experience</p>
               <h3 style={{ fontSize: 24, margin: "8px 0 12px" }}>Add the Full Program</h3>
               <p style={{ fontSize: 16, color: "#4b5563", margin: "0 0 20px", flexGrow: 1 }}>
                 To work with <strong>Alia</strong> — our customized AI learning assistant — and to unlock the assessment system, with its quiz types, a running gradebook, and your CE certificate, plus our podcast library, enroll in the full program. Not sure yet? You can try Chapter 1 free first.
               </p>
-              <a href="#enroll" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
+              <a href="#enroll" style={{ color: "#0369a1", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
                 See Enrollment Options →
               </a>
             </div>
@@ -329,31 +292,6 @@ export default function Page() {
             </div>
           </div>
 
-        </div>
-      </section>
-
-      {/* A NOTE ABOUT POCKETLAB */}
-      <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 56, alignItems: "center" }}>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <img
-              src="/images/FrankBulbClear.png"
-              alt="Frank with a lightbulb idea"
-              style={{ width: 240 }}
-            />
-          </div>
-          <div>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#ec4899", marginBottom: 16 }}>
-              To Keep in Mind
-            </p>
-            <h2 style={{ fontSize: 36, margin: "0 0 20px" }}>A Note For Teachers</h2>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              CEUs and PD hours are only available through the self-guided AI program on the Conceptual Academy platform.
-            </p>
-            <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              If you are also interested in teaching this program to your high school students, we encourage you to open a teacher&apos;s account on PocketLab&apos;s Notebook platform — the classroom version includes built-in teacher notes and pedagogy.
-            </p>
-          </div>
         </div>
       </section>
 
