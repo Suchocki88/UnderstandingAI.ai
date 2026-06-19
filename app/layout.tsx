@@ -77,17 +77,20 @@ export default function RootLayout({
                     cursor: "pointer",
                     fontWeight:
                       pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/humanities")
+                      pathname.startsWith("/humanities") ||
+                      pathname.startsWith("/academy")
                         ? 700
                         : 500,
                     color:
                       pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/humanities")
+                      pathname.startsWith("/humanities") ||
+                      pathname.startsWith("/academy")
                         ? "white"
                         : "rgba(255,255,255,0.85)",
                     borderBottom:
                       pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/humanities")
+                      pathname.startsWith("/humanities") ||
+                      pathname.startsWith("/academy")
                         ? "2px solid #f59e0b"
                         : "2px solid transparent",
                     paddingBottom: 4,
@@ -101,6 +104,9 @@ export default function RootLayout({
                   </Link>
                   <Link href="/humanities" style={dropdownItem}>
                     Humanities — English &amp; Interdisciplinary
+                  </Link>
+                  <Link href="/academy" style={dropdownItem}>
+                    Conceptual Academy — Self-Paced PD &amp; CEUs
                   </Link>
                 </div>
               </div>
@@ -172,6 +178,7 @@ export default function RootLayout({
               <Link href="/curriculum" onClick={closeMenu} style={mobileItem}>Curriculum</Link>
               <Link href="/pocketlab" onClick={closeMenu} style={mobileItem}>PocketLab — K–12 STEM &amp; Social Studies</Link>
               <Link href="/humanities" onClick={closeMenu} style={mobileItem}>Humanities — English &amp; Interdisciplinary</Link>
+              <Link href="/academy" onClick={closeMenu} style={mobileItem}>Conceptual Academy — Self-Paced PD &amp; CEUs</Link>
               <Link href="/professionals" onClick={closeMenu} style={mobileItem}>Professionals</Link>
               <Link href="/novels" onClick={closeMenu} style={mobileItem}>Novels</Link>
               <Link href="/about" onClick={closeMenu} style={mobileItem}>About</Link>
@@ -209,6 +216,8 @@ export default function RootLayout({
             <Link href="/about" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>About</Link>
             {" · "}
             <Link href="/curriculum" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Curriculum</Link>
+            {" · "}
+            <Link href="/academy" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Conceptual Academy</Link>
             {" · "}
             <Link href="/professionals" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none" }}>Professionals</Link>
             {" · "}
