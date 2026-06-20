@@ -219,7 +219,7 @@ export default function Page() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
               <img
-                src="/images/UAICertificateFZ.png"
+                src="/images/AICertificateBlank_2.jpg"
                 alt="Certificate of Completion — Understanding and Working with AI"
                 style={{ width: "100%", maxWidth: 460, borderRadius: 12, boxShadow: "0 12px 40px rgba(0,0,0,0.5)" }}
               />
@@ -254,6 +254,12 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Adopt the Course</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
+            Conceptual Academy is well-known for Conceptual Physics, Chemistry, Biology, and our other
+            widely-used college science programs. We have applied our experience in building high-quality
+            science programs to this rapidly emerging technology arena. The result is this conceptually
+            oriented introductory AI-Ed program for all.
+          </p>
+          <p style={{ marginTop: 16, fontSize: 20, color: "#4b5563" }}>
             We&apos;re standing by to answer your questions and to set up your customized course.
           </p>
           <div style={{ marginTop: 32, display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
