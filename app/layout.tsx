@@ -103,16 +103,16 @@ export default function RootLayout({
                 </span>
                 <div className="dropdown-menu">
                   <Link href="/pocketlab" style={dropdownItem}>
-                    PocketLab — K–12 STEM &amp; Social Studies
+                    High Schools — CTE, STEM, Social Studies
                   </Link>
                   <Link href="/colleges" style={dropdownItem}>
-                    Colleges — Higher Ed &amp; Community Colleges
+                    Colleges — Liberal Arts &amp; General Studies
                   </Link>
                   <Link href="/humanities" style={dropdownItem}>
                     Humanities — English &amp; Interdisciplinary
                   </Link>
                   <Link href="/academy" style={dropdownItem}>
-                    Conceptual Academy — Self-Paced AI Program
+                    Independent — Self-Paced AI Program
                   </Link>
                 </div>
               </div>
@@ -182,10 +182,10 @@ export default function RootLayout({
           {menuOpen && (
             <div className="nav-mobile-panel" style={{ margin: "0 -24px", borderTop: "1px solid rgba(255,255,255,0.1)", paddingBottom: 8 }}>
               <Link href="/curriculum" onClick={closeMenu} style={mobileItem}>Curriculum</Link>
-              <Link href="/pocketlab" onClick={closeMenu} style={mobileItem}>PocketLab — K–12 STEM &amp; Social Studies</Link>
-              <Link href="/colleges" onClick={closeMenu} style={mobileItem}>Colleges — Higher Ed &amp; Community Colleges</Link>
+              <Link href="/pocketlab" onClick={closeMenu} style={mobileItem}>High Schools — CTE, STEM, Social Studies</Link>
+              <Link href="/colleges" onClick={closeMenu} style={mobileItem}>Colleges — Liberal Arts &amp; General Studies</Link>
               <Link href="/humanities" onClick={closeMenu} style={mobileItem}>Humanities — English &amp; Interdisciplinary</Link>
-              <Link href="/academy" onClick={closeMenu} style={mobileItem}>Conceptual Academy — Self-Paced AI Program</Link>
+              <Link href="/academy" onClick={closeMenu} style={mobileItem}>Independent — Self-Paced AI Program</Link>
               <Link href="/professionals" onClick={closeMenu} style={mobileItem}>Professionals</Link>
               <Link href="/novels" onClick={closeMenu} style={mobileItem}>Novels</Link>
               <Link href="/about" onClick={closeMenu} style={mobileItem}>About</Link>
