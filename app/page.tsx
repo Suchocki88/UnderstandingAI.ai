@@ -84,23 +84,28 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 160px), 1fr))" }}>
 
           <Link href="/pocketlab" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Teachers / Admin</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>K–12 classroom programs →</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>High Schools</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>CTE, STEM, Social Studies →</span>
+          </Link>
+
+          <Link href="/colleges" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Colleges</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Liberal Arts &amp; General Studies →</span>
+          </Link>
+
+          <Link href="/humanities" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Humanities</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>English &amp; Interdisciplinary →</span>
           </Link>
 
           <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Professional</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>PD credential →</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Independent</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-Paced AI Program →</span>
           </Link>
 
-          <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Independent Learner</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-paced online program →</span>
-          </Link>
-
-          <Link href="/humanities" style={{ textDecoration: "none", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Language Arts</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>AI-authored novels for class →</span>
+          <Link href="/professionals" style={{ textDecoration: "none", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Professionals</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>AI in your workflow →</span>
           </Link>
 
         </div>
@@ -200,9 +205,9 @@ export default function Page() {
             {/* Conceptual Academy */}
             <div style={{ border: "2px solid #ec4899", borderRadius: 16, padding: 28, background: "#fdf2f8", display: "flex", flexDirection: "column", gap: 12 }}>
               <img src="/images/CALogo590.png" alt="Conceptual Academy" style={{ width: "100%", borderRadius: 8, marginBottom: 4 }} />
-              <h3 style={{ margin: 0, fontSize: 20 }}>Professional Development</h3>
+              <h3 style={{ margin: 0, fontSize: 20 }}>Colleges &amp; Professionals</h3>
               <p style={{ color: "#4b5563", margin: 0, flexGrow: 1 }}>
-                A teacher, professional, or independent learner? Conceptual Academy offers a structured online program with PD hours available in 5-hour increments. Includes automated assessment, video lessons, interactive labs, and AI experiments. Start anytime. Follow your own pace.
+                An instructor, professional, or independent learner? Conceptual Academy offers a variety of structured online programs to meet your needs. This includes the full AI program featuring core lessons, the video library, automated assessment, podcast previews, interactive labs, AI experiments, and teaching tips. For professionals, we also offer shorter continuing-education programs, starting with real estate.
               </p>
               <Link href="/academy" style={{ color: "#be185d", fontWeight: 700, textDecoration: "none", marginTop: 8 }}>
                 Learn more about Conceptual Academy →
@@ -255,7 +260,7 @@ export default function Page() {
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)" }}>About the Program</h2>
           <p style={{ marginTop: 24, fontSize: 20, color: "#6b7280" }}>
-            Understanding AI Learning Pathways is designed to help people across disciplines explore artificial intelligence — its foundations, its implications, and its creative possibilities. Whether you&apos;re a teacher, student, or professional, there&apos;s a pathway designed for you.
+            Understanding AI Learning Pathways is designed to help people across disciplines explore artificial intelligence — its foundations, its implications, and its creative possibilities. Whether you&apos;re an instructor, student, or professional, there&apos;s a pathway designed for you.
           </p>
           <div style={{ marginTop: 28 }}>
             <Link
