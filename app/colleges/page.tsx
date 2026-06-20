@@ -33,13 +33,13 @@ export default function Page() {
             For Colleges &amp; Universities
           </p>
           <h1 style={{ fontSize: "clamp(32px, 6vw, 50px)", lineHeight: 1.1, margin: "0 0 24px" }}>
-            A Ready-to-Teach AI Literacy Course
+            A Ready-to-Teach AI Literacy to Fluency Course
           </h1>
           <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", maxWidth: 720, margin: "0 auto 32px" }}>
             Bring <em>Understanding and Working with AI</em> to your students on the Conceptual Academy platform.
             You teach the course; the platform delivers the curriculum, the AI tools, the assessment, and a
-            gradebook that keeps your whole class in view. Built with community colleges in mind — no deep
-            computer-science background required.
+            gradebook that keeps your whole class in view. Built with community and four-year colleges in mind —
+            perfect for a liberal-arts elective, with no deep computer-science background required.
           </p>
           <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
@@ -48,7 +48,7 @@ export default function Page() {
               rel="noopener noreferrer"
               style={{ background: "#f59e0b", color: "#0f172a", padding: "14px 28px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}
             >
-              Request Adoption Info →
+              Yes, I&apos;m Interested →
             </a>
             <a
               href={MANUAL}
@@ -68,12 +68,12 @@ export default function Page() {
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#204aab" }}>
             Why It Belongs in Your Catalog
           </p>
-          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>AI Fluency Is Becoming a Core Competency</h2>
+          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>AI Fluency Is Now a Core Competency</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            AI is already reshaping every field your students are heading into — business, healthcare, the
-            trades, the arts, public service. They need more than passing familiarity. They need fluency: the
-            judgment to work with AI well, and the skepticism to question it. This course gives any department a
-            turnkey way to teach that, without building it from scratch.
+            AI and AI ethics are already reshaping every field your students are heading into — business,
+            healthcare, the trades, the arts, public service. They need more than passing familiarity. They need
+            fluency: the judgment to work with AI effectively and creatively, and the skepticism to question it.
+            This course gives any department a turnkey way to teach that, without building it from scratch.
           </p>
         </div>
 
@@ -109,16 +109,16 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>How It Works for Your Course</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              The Conceptual Academy platform is built for an instructor teaching a class — not only solo learners.
+              The Conceptual Academy platform is built for an instructor teaching a class of students.
               Here&apos;s the shape of it.
             </p>
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 24, marginBottom: 48 }}>
             {[
-              ["1", "Adopt and set up your section", "We help you stand up a course section for your students. Group and department pricing is available for adoptions."],
-              ["2", "Students learn through the platform", "Each student works through the full curriculum with Alia, the AI learning assistant, plus video lessons, interactive labs, and hands-on AI experiments."],
-              ["3", "You track progress in a gradebook", "Automated assessment feeds a live gradebook, so you can see how every student is doing at a glance and step in exactly where it helps."],
+              ["1", "Adopt", "We customize the course to your needs. Student and site licenses are available."],
+              ["2", "Students Enroll", "Each student enrolls in your customized program — text, videos, interactive labs, project-based learning, automated assessment, unit exams, a test bank, and access to Alia, our trained AI learning assistant."],
+              ["3", "Class Gradebook", "Tracks student scores on the automated quizzes. You port those scores to your LMS at the end of the semester. Easy."],
             ].map(([n, title, body], i) => (
               <div key={i} style={{ background: "#ffffff", borderRadius: 16, padding: 32, border: "1px solid #e5e7eb", borderTop: "4px solid #204aab", display: "flex", flexDirection: "column" }}>
                 <span style={{ width: 36, height: 36, borderRadius: 100, background: "#204aab", color: "white", fontWeight: 800, fontSize: 17, display: "flex", alignItems: "center", justifyContent: "center" }}>{n}</span>
@@ -154,14 +154,14 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>Meet Alia</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              Alia is the AI learning assistant built into the platform — and she&apos;s no generic chatbot. She&apos;s
-              trained specifically on this curriculum, so she guides each student Socratically through the very
+              Alia is the AI learning assistant built into the platform — and it&apos;s no generic chatbot. It&apos;s
+              trained specifically on this curriculum, so it guides each student Socratically through the very
               material they&apos;re studying.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              She takes three specialized forms — a tutor, a lab partner, and a creative collaborator. For an
+              It takes three specialized forms — a tutor, a lab partner, and a creative collaborator. For an
               instructor, that means every student has on-demand, curriculum-aware help, without adding to your
-              office hours.
+              office hours. Plus, you can track each student&apos;s use of Alia through your instructor&apos;s panel.
             </p>
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>What Your Students Get</h2>
             <p style={{ marginTop: 16, fontSize: 20, color: "#6b7280" }}>
-              Everything lives in one place — no separate textbook purchase required.
+              Everything lives in one place — textbook pages are embedded, but printed textbooks are also available.
             </p>
           </div>
 
@@ -186,6 +186,8 @@ export default function Page() {
               ["Embedded Video Lessons", "Every core lesson includes a video from the author, embedded right alongside the reading — the same videos reachable by QR code in the printed books. Commercial-free and always in context."],
               ["Three Alia AI Instances", "Alia-Tutor guides students Socratically. Alia-Lab supports hands-on AI experiments. Alia-Creative assists with their writing project. Three specialized tools, not one generic chatbot."],
               ["Interactive Labs & AI Experiments", "Guided, methodical experiments with AI — using Claude or the model of your choice — so students discover how AI behaves, including its biases and its limits, for themselves."],
+              ["Automated Assessment", "Three quiz types. The reading and video quizzes give students a chance to reflect on what they just learned. The more challenging \u201cHomework Practice Sessions\u201d feature mastery questions that help students apply and consolidate their understanding."],
+              ["Podcast Previews", "Each chapter includes a 20-minute podcast preview — a perfect solution for the student on the go."],
             ].map(([title, body], i) => (
               <div key={i} style={{ background: "#ffffff", borderRadius: 16, padding: 28, border: "1px solid #e5e7eb", borderTop: "4px solid #204aab" }}>
                 <h3 style={{ fontSize: 20, margin: "0 0 12px" }}>{title}</h3>
@@ -207,13 +209,12 @@ export default function Page() {
               <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "0 0 24px" }}>A Gradebook Built In</h2>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)", marginBottom: 16 }}>
                 Assessment is automated and low-stakes — points-based quizzes that accumulate rather than penalize.
-                Everyone starts at zero and builds upward, with no percentage and no failure for a wrong answer.
-                Every result feeds a gradebook, so you can monitor your whole class in real time.
+                Everyone starts at zero and builds upward to a threshold number of points that you set. It works as
+                a robust participation grade, combining with the unit exams, the field-journal rubric, and the
+                literary work toward each student&apos;s complete grade.
               </p>
               <p style={{ fontSize: 18, color: "rgba(255,255,255,0.85)" }}>
-                And as students complete chapters, they earn a personalized certificate — 5 hours of continuing
-                education per chapter, up to 40 hours for the full program — a tangible credential alongside the
-                learning.
+                Upon successful completion of the program, students can download a dated certificate in their name.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
@@ -223,7 +224,7 @@ export default function Page() {
                 style={{ width: "100%", maxWidth: 460, borderRadius: 12, boxShadow: "0 12px 40px rgba(0,0,0,0.5)" }}
               />
               <p style={{ fontSize: 14, color: "rgba(255,255,255,0.55)", fontStyle: "italic", textAlign: "center", margin: 0 }}>
-                Each student&apos;s personalized certificate — earned as they reach each threshold
+                Each student&apos;s dated certificate — downloadable on completion
               </p>
             </div>
           </div>
@@ -241,14 +242,6 @@ export default function Page() {
               <h3 style={{ color: "#f59e0b", margin: "0 0 8px", fontSize: 18 }}>Homework</h3>
               <p style={{ color: "rgba(255,255,255,0.75)", margin: 0 }}>10 points per correct answer</p>
             </div>
-            <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Chapter Certificate</h3>
-              <p style={{ color: "#0f172a", margin: 0 }}>5 hours CE — complete the chapter</p>
-            </div>
-            <div style={{ background: "#f59e0b", borderRadius: 12, padding: 24 }}>
-              <h3 style={{ color: "#0f172a", margin: "0 0 8px", fontSize: 18 }}>Program Certificate</h3>
-              <p style={{ color: "#0f172a", margin: 0 }}>40 hours CE — complete all chapters</p>
-            </div>
           </div>
         </div>
       </section>
@@ -261,9 +254,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Adopt the Course</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            Ready to offer this to your students, or want to look closer first? Reach out and we&apos;ll help you set
-            up a section, walk through group and department pricing, and answer any questions. Discounts are
-            available for departments and multi-section adoptions.
+            We&apos;re standing by to answer your questions and to set up your customized course.
           </p>
           <div style={{ marginTop: 32, display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a
@@ -272,7 +263,7 @@ export default function Page() {
               rel="noopener noreferrer"
               style={{ background: "#204aab", color: "white", padding: "16px 32px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 18, display: "inline-block" }}
             >
-              Request Adoption Info →
+              Yes, I&apos;m Interested →
             </a>
             <Link
               href="/curriculum"
