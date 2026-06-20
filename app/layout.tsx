@@ -77,18 +77,21 @@ export default function RootLayout({
                     cursor: "pointer",
                     fontWeight:
                       pathname.startsWith("/pocketlab") ||
+                      pathname.startsWith("/colleges") ||
                       pathname.startsWith("/humanities") ||
                       pathname.startsWith("/academy")
                         ? 700
                         : 500,
                     color:
                       pathname.startsWith("/pocketlab") ||
+                      pathname.startsWith("/colleges") ||
                       pathname.startsWith("/humanities") ||
                       pathname.startsWith("/academy")
                         ? "white"
                         : "rgba(255,255,255,0.85)",
                     borderBottom:
                       pathname.startsWith("/pocketlab") ||
+                      pathname.startsWith("/colleges") ||
                       pathname.startsWith("/humanities") ||
                       pathname.startsWith("/academy")
                         ? "2px solid #f59e0b"
@@ -101,6 +104,9 @@ export default function RootLayout({
                 <div className="dropdown-menu">
                   <Link href="/pocketlab" style={dropdownItem}>
                     PocketLab — K–12 STEM &amp; Social Studies
+                  </Link>
+                  <Link href="/colleges" style={dropdownItem}>
+                    Colleges — Higher Ed &amp; Community Colleges
                   </Link>
                   <Link href="/humanities" style={dropdownItem}>
                     Humanities — English &amp; Interdisciplinary
@@ -177,6 +183,7 @@ export default function RootLayout({
             <div className="nav-mobile-panel" style={{ margin: "0 -24px", borderTop: "1px solid rgba(255,255,255,0.1)", paddingBottom: 8 }}>
               <Link href="/curriculum" onClick={closeMenu} style={mobileItem}>Curriculum</Link>
               <Link href="/pocketlab" onClick={closeMenu} style={mobileItem}>PocketLab — K–12 STEM &amp; Social Studies</Link>
+              <Link href="/colleges" onClick={closeMenu} style={mobileItem}>Colleges — Higher Ed &amp; Community Colleges</Link>
               <Link href="/humanities" onClick={closeMenu} style={mobileItem}>Humanities — English &amp; Interdisciplinary</Link>
               <Link href="/academy" onClick={closeMenu} style={mobileItem}>Conceptual Academy — Self-Paced AI Program</Link>
               <Link href="/professionals" onClick={closeMenu} style={mobileItem}>Professionals</Link>
