@@ -683,7 +683,7 @@ export default function Page() {
             </a>
           </p>
           <p className="movement-line">
-            This isn&apos;t just PD. It&apos;s the beginning of AI literacy in your school.
+            This isn&apos;t just PD. It&apos;s the beginning of AI fluency in your school.
           </p>
         </div>
 
