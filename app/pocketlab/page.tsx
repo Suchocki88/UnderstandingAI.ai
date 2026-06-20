@@ -540,7 +540,7 @@ export default function Page() {
         <div className="aied-inner">
           <p className="eyebrow">The Analogy Everyone Gets</p>
           <h2 className="aied-headline">
-            Every school teaches Driver&apos;s Ed.<br />
+            Most every student takes Driver&apos;s Ed.<br />
             It&apos;s time for <span>AI-Ed</span>.
           </h2>
           <p className="aied-body">
