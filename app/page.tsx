@@ -37,33 +37,6 @@ export default function Page() {
           <p style={{ marginTop: 16, fontSize: "clamp(16px, 3vw, 22px)", maxWidth: 760, opacity: 0.9 }}>
             From AI literacy to fluency — engaging, cross-disciplinary, and meaningful.
           </p>
-          <div style={{ marginTop: 28, display: "flex", gap: 12, flexWrap: "wrap" }}>
-            <Link href="/pocketlab" style={{
-              background: "#f59e0b",
-              color: "#000",
-              padding: "14px 24px",
-              borderRadius: 10,
-              textDecoration: "none",
-              fontWeight: 700,
-              fontSize: 16,
-              display: "inline-block",
-            }}>
-              For K–12 Classrooms →
-            </Link>
-            <Link href="/professionals" style={{
-              background: "rgba(255,255,255,0.15)",
-              color: "white",
-              border: "2px solid rgba(255,255,255,0.6)",
-              padding: "14px 24px",
-              borderRadius: 10,
-              textDecoration: "none",
-              fontWeight: 700,
-              fontSize: 16,
-              display: "inline-block",
-            }}>
-              For Professionals →
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -85,22 +58,22 @@ export default function Page() {
 
           <Link href="/pocketlab" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>High Schools</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>CTE, STEM, Social Studies →</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>All Departments →</span>
           </Link>
 
           <Link href="/colleges" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Colleges</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Liberal Arts &amp; General Studies →</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>General Studies →</span>
           </Link>
 
           <Link href="/humanities" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
-            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Humanities</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>English &amp; Interdisciplinary →</span>
+            <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Language Arts</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Creative Writing →</span>
           </Link>
 
           <Link href="/academy" style={{ textDecoration: "none", borderRight: "1px solid rgba(255,255,255,0.1)", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
             <span style={{ fontSize: 17, fontWeight: 700, color: "white" }}>Independent</span>
-            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-Paced AI Program →</span>
+            <span style={{ fontSize: 14, color: "rgba(255,255,255,0.55)" }}>Self-Paced →</span>
           </Link>
 
           <Link href="/professionals" style={{ textDecoration: "none", padding: "28px 24px", display: "flex", flexDirection: "column", gap: 6 }}>
