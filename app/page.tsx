@@ -10,6 +10,8 @@ export default function Page() {
     textDecoration: "none",
     fontSize: 14,
   };
+  // Podcast series link — Libsyn show page for now; swap to Apple/Spotify when live:
+  const PODCAST_SERIES = "https://sites.libsyn.com/622985";
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.5 }}>
 
@@ -131,6 +133,47 @@ export default function Page() {
               <img src="/images/volume2.jpg" alt="Volume 2" style={{ width: "clamp(140px, 40%, 220px)", borderRadius: 12, boxShadow: "0 10px 25px rgba(0,0,0,0.25)" }} />
             </div>
             <img src="/images/FrankCoffee.png" alt="Frank our mascot" style={{ width: "clamp(200px, 80%, 390px)" }} />
+          </div>
+        </div>
+      </section>
+
+      {/* PODCAST TEASER */}
+      <section style={{ background: "#eff6ff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b" }}>
+            From the Podcast
+          </p>
+          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>
+            If AI Can Write for You, Why Learn to Write at All?
+          </h2>
+          <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
+            That&apos;s the question at the heart of <strong>Episode 3 — Prompt Engineering</strong>. If AI is a powerful tool, this episode is about learning to drive it: how clear, structured communication transforms what AI gives back, and why your own writing and editorial judgment are what make the difference. It also turns toward the human side — the real, often invisible labor behind these systems — and a reminder that you stay the author. AI brings speed and iteration; you bring vision and taste.
+          </p>
+
+          <div style={{ maxWidth: 700, margin: "32px auto 0" }}>
+            <iframe
+              title="Episode 3 — Prompt Engineering"
+              style={{ border: "none", borderRadius: 12, boxShadow: "0 8px 24px rgba(0,0,0,0.12)" }}
+              src="https://play.libsyn.com/embed/episode/id/41719265/height/192/theme/modern/size/large/thumbnail/yes/custom-color/073d6c/time-start/00:00:00/hide-playlist/yes/download/yes/font-color/ffffff"
+              height="192"
+              width="100%"
+              scrolling="no"
+              allowFullScreen
+            />
+          </div>
+
+          <p style={{ marginTop: 20, fontSize: 15, color: "#6b7280" }}>
+            One of eight — a companion episode for every chapter.{" "}
+            <a href={PODCAST_SERIES} target="_blank" rel="noopener noreferrer" style={{ color: "#073d6c", fontWeight: 600, textDecoration: "none" }}>Listen to the full series →</a>
+          </p>
+
+          <div style={{ marginTop: 28, display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
+            <Link href="/academy" style={{ background: "#f59e0b", color: "#000", padding: "14px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
+              Sign Up for the Program →
+            </Link>
+            <Link href="/curriculum" style={{ border: "2px solid #f59e0b", color: "#92400e", padding: "14px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
+              Get the Books →
+            </Link>
           </div>
         </div>
       </section>
