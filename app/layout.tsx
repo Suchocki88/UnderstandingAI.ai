@@ -10,6 +10,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const isLandingPage = pathname === "/ai-driver-ed";
   const [menuOpen, setMenuOpen] = useState(false);
   const closeMenu = () => setMenuOpen(false);
 
@@ -55,131 +56,135 @@ export default function RootLayout({
               Home
             </Link>
 
-            {/* Desktop links */}
-            <div className="nav-desktop" style={{ display: "flex", gap: 32, alignItems: "center" }}>
-              <Link
-                href="/curriculum"
-                style={{
-                  ...navLink,
-                  fontWeight: pathname === "/curriculum" ? 700 : 500,
-                  color: pathname === "/curriculum" ? "white" : "rgba(255,255,255,0.85)",
-                  borderBottom: pathname === "/curriculum" ? "2px solid #f59e0b" : "2px solid transparent",
-                  paddingBottom: 4,
-                }}
-              >
-                Curriculum
-              </Link>
+            {!isLandingPage && (
+              <>
+                {/* Desktop links */}
+                <div className="nav-desktop" style={{ display: "flex", gap: 32, alignItems: "center" }}>
+                  <Link
+                    href="/curriculum"
+                    style={{
+                      ...navLink,
+                      fontWeight: pathname === "/curriculum" ? 700 : 500,
+                      color: pathname === "/curriculum" ? "white" : "rgba(255,255,255,0.85)",
+                      borderBottom: pathname === "/curriculum" ? "2px solid #f59e0b" : "2px solid transparent",
+                      paddingBottom: 4,
+                    }}
+                  >
+                    Curriculum
+                  </Link>
 
-              <div style={{ position: "relative" }} className="nav-dropdown">
-                <span
-                  style={{
-                    ...navLink,
-                    cursor: "pointer",
-                    fontWeight:
-                      pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/colleges") ||
-                      pathname.startsWith("/humanities") ||
-                      pathname.startsWith("/academy")
-                        ? 700
-                        : 500,
-                    color:
-                      pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/colleges") ||
-                      pathname.startsWith("/humanities") ||
-                      pathname.startsWith("/academy")
-                        ? "white"
-                        : "rgba(255,255,255,0.85)",
-                    borderBottom:
-                      pathname.startsWith("/pocketlab") ||
-                      pathname.startsWith("/colleges") ||
-                      pathname.startsWith("/humanities") ||
-                      pathname.startsWith("/academy")
-                        ? "2px solid #f59e0b"
-                        : "2px solid transparent",
-                    paddingBottom: 4,
-                  }}
-                >
-                  Pathways ▾
-                </span>
-                <div className="dropdown-menu">
-                  <Link href="/pocketlab" style={dropdownItem}>
-                    High Schools — All Departments
+                  <div style={{ position: "relative" }} className="nav-dropdown">
+                    <span
+                      style={{
+                        ...navLink,
+                        cursor: "pointer",
+                        fontWeight:
+                          pathname.startsWith("/pocketlab") ||
+                          pathname.startsWith("/colleges") ||
+                          pathname.startsWith("/humanities") ||
+                          pathname.startsWith("/academy")
+                            ? 700
+                            : 500,
+                        color:
+                          pathname.startsWith("/pocketlab") ||
+                          pathname.startsWith("/colleges") ||
+                          pathname.startsWith("/humanities") ||
+                          pathname.startsWith("/academy")
+                            ? "white"
+                            : "rgba(255,255,255,0.85)",
+                        borderBottom:
+                          pathname.startsWith("/pocketlab") ||
+                          pathname.startsWith("/colleges") ||
+                          pathname.startsWith("/humanities") ||
+                          pathname.startsWith("/academy")
+                            ? "2px solid #f59e0b"
+                            : "2px solid transparent",
+                        paddingBottom: 4,
+                      }}
+                    >
+                      Pathways ▾
+                    </span>
+                    <div className="dropdown-menu">
+                      <Link href="/pocketlab" style={dropdownItem}>
+                        High Schools — All Departments
+                      </Link>
+                      <Link href="/colleges" style={dropdownItem}>
+                        Colleges — General Studies
+                      </Link>
+                      <Link href="/humanities" style={dropdownItem}>
+                        Language Arts — Creative Writing
+                      </Link>
+                      <Link href="/academy" style={dropdownItem}>
+                        Independent — Self-Paced
+                      </Link>
+                    </div>
+                  </div>
+
+                  <Link
+                    href="/professionals"
+                    style={{
+                      ...navLink,
+                      fontWeight: pathname.startsWith("/professionals") ? 700 : 500,
+                      color: pathname.startsWith("/professionals") ? "white" : "rgba(255,255,255,0.85)",
+                      borderBottom: pathname.startsWith("/professionals") ? "2px solid #f59e0b" : "2px solid transparent",
+                      paddingBottom: 4,
+                    }}
+                  >
+                    Professionals
                   </Link>
-                  <Link href="/colleges" style={dropdownItem}>
-                    Colleges — General Studies
+
+                  <Link
+                    href="/novels"
+                    style={{
+                      ...navLink,
+                      fontWeight: pathname === "/novels" ? 700 : 500,
+                      color: pathname === "/novels" ? "white" : "rgba(255,255,255,0.85)",
+                      borderBottom: pathname === "/novels" ? "2px solid #f59e0b" : "2px solid transparent",
+                      paddingBottom: 4,
+                    }}
+                  >
+                    Novels
                   </Link>
-                  <Link href="/humanities" style={dropdownItem}>
-                    Language Arts — Creative Writing
-                  </Link>
-                  <Link href="/academy" style={dropdownItem}>
-                    Independent — Self-Paced
+
+                  <Link
+                    href="/about"
+                    style={{
+                      ...navLink,
+                      fontWeight: pathname === "/about" ? 700 : 500,
+                      color: pathname === "/about" ? "white" : "rgba(255,255,255,0.85)",
+                      borderBottom: pathname === "/about" ? "2px solid #f59e0b" : "2px solid transparent",
+                      paddingBottom: 4,
+                    }}
+                  >
+                    About
                   </Link>
                 </div>
-              </div>
 
-              <Link
-                href="/professionals"
-                style={{
-                  ...navLink,
-                  fontWeight: pathname.startsWith("/professionals") ? 700 : 500,
-                  color: pathname.startsWith("/professionals") ? "white" : "rgba(255,255,255,0.85)",
-                  borderBottom: pathname.startsWith("/professionals") ? "2px solid #f59e0b" : "2px solid transparent",
-                  paddingBottom: 4,
-                }}
-              >
-                Professionals
-              </Link>
-
-              <Link
-                href="/novels"
-                style={{
-                  ...navLink,
-                  fontWeight: pathname === "/novels" ? 700 : 500,
-                  color: pathname === "/novels" ? "white" : "rgba(255,255,255,0.85)",
-                  borderBottom: pathname === "/novels" ? "2px solid #f59e0b" : "2px solid transparent",
-                  paddingBottom: 4,
-                }}
-              >
-                Novels
-              </Link>
-
-              <Link
-                href="/about"
-                style={{
-                  ...navLink,
-                  fontWeight: pathname === "/about" ? 700 : 500,
-                  color: pathname === "/about" ? "white" : "rgba(255,255,255,0.85)",
-                  borderBottom: pathname === "/about" ? "2px solid #f59e0b" : "2px solid transparent",
-                  paddingBottom: 4,
-                }}
-              >
-                About
-              </Link>
-            </div>
-
-            {/* Mobile hamburger */}
-            <button
-              className="nav-burger"
-              onClick={() => setMenuOpen((o) => !o)}
-              aria-label="Toggle menu"
-              aria-expanded={menuOpen}
-              style={{
-                background: "transparent",
-                border: "none",
-                color: "white",
-                fontSize: 24,
-                lineHeight: 1,
-                cursor: "pointer",
-                padding: 6,
-                fontFamily: "Arial, sans-serif",
-              }}
-            >
-              {menuOpen ? "✕" : "☰"}
-            </button>
+                {/* Mobile hamburger */}
+                <button
+                  className="nav-burger"
+                  onClick={() => setMenuOpen((o) => !o)}
+                  aria-label="Toggle menu"
+                  aria-expanded={menuOpen}
+                  style={{
+                    background: "transparent",
+                    border: "none",
+                    color: "white",
+                    fontSize: 24,
+                    lineHeight: 1,
+                    cursor: "pointer",
+                    padding: 6,
+                    fontFamily: "Arial, sans-serif",
+                  }}
+                >
+                  {menuOpen ? "✕" : "☰"}
+                </button>
+              </>
+            )}
           </div>
 
           {/* Mobile menu panel */}
-          {menuOpen && (
+          {!isLandingPage && menuOpen && (
             <div className="nav-mobile-panel" style={{ margin: "0 -24px", borderTop: "1px solid rgba(255,255,255,0.1)", paddingBottom: 8 }}>
               <Link href="/curriculum" onClick={closeMenu} style={mobileItem}>Curriculum</Link>
               <Link href="/pocketlab" onClick={closeMenu} style={mobileItem}>High Schools — All Departments</Link>
