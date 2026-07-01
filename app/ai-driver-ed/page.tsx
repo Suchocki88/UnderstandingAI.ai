@@ -16,7 +16,7 @@ export default function Page() {
       <section
         style={{
           backgroundImage:
-            "linear-gradient(rgba(15,23,42,.72), rgba(15,23,42,.82)), url('/images/TimeWeirdThumb.jpg')",
+            "linear-gradient(rgba(15,23,42,.72), rgba(15,23,42,.84)), url('/images/TimeWeirdThumb.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           color: "white",
@@ -33,12 +33,15 @@ export default function Page() {
           </h1>
 
           <p style={heroLead}>
-            Students are already using AI. Most have never been taught how.
+            Students are already using AI every day.
           </p>
 
           <p style={heroText}>
-            <strong>AI Driver’s Ed</strong> is a classroom-ready pathway that helps students
-            understand what AI is, how it works, when to trust it, and when to put it down.
+            The question isn’t whether they’ll use it. It’s whether they’ll understand it.
+            <br />
+            <strong>AI Driver’s Ed</strong> is a complete, semester-ready AI literacy pathway
+            that helps students understand how AI works, when to trust it, and how to use it
+            responsibly and creatively.
           </p>
 
           <div style={buttonRow}>
@@ -52,28 +55,36 @@ export default function Page() {
         </div>
       </section>
 
-      {/* CONTINUITY STRIP */}
-      <section style={{ background: "#451a03", padding: "26px 24px", borderLeft: "5px solid #f59e0b" }}>
-        <div style={{ maxWidth: 1080, margin: "0 auto" }}>
-          <p style={{ margin: 0, color: "rgba(255,255,255,.88)", fontSize: 19, fontStyle: "italic" }}>
-            “AI is designed to agree with you. That’s a problem. If you don’t actively ask for the opposing view,
-            you won’t get it — otherwise you’re sitting in an echo chamber with a very articulate mirror.”
+      {/* TEACHER IDENTIFICATION */}
+      <section style={sectionWhite}>
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <p style={eyebrow}>Teachers tell us</p>
+          <h2 style={h2}>“My students are using AI. What am I supposed to teach?”</h2>
+          <p style={lead}>
+            Many teachers are trying to catch up while their students are already experimenting
+            every day. They don’t need another round of AI hype. They need something practical,
+            coherent, and classroom-ready.
+          </p>
+          <p style={lead}>
+            That’s why we built AI Driver’s Ed: a way to help students think clearly about AI,
+            use it responsibly, and remain deeply human while working with increasingly powerful tools.
           </p>
         </div>
       </section>
 
-      {/* PROBLEM */}
-      <section style={sectionWhite}>
+      {/* CLASSROOM REALITY */}
+      <section style={sectionSoft}>
         <div style={split}>
           <div>
             <p style={eyebrow}>The classroom reality</p>
             <h2 style={h2}>AI is already shaping how students learn, write, and think.</h2>
             <p style={lead}>
-              Students are using AI for homework, essays, coding, research, brainstorming, studying,
-              and even personal advice. The question is no longer whether students will use AI.
+              Students are using AI for homework, essays, coding, research, brainstorming,
+              studying, and personal advice.
             </p>
             <p style={lead}>
-              The question is whether they will learn to use it with judgment, creativity, and care.
+              The question isn’t whether students will use AI. The question is whether they’ll
+              learn to use it with judgment, creativity, and integrity.
             </p>
           </div>
 
@@ -90,15 +101,21 @@ export default function Page() {
         </div>
       </section>
 
-      {/* DRIVER'S ED ANALOGY */}
-      <section style={{ background: "#0f172a", color: "white", padding: "78px 24px" }}>
+      {/* WHY DRIVER'S ED */}
+      <section style={{ background: "#0f172a", color: "white", padding: "84px 24px" }}>
         <div style={{ maxWidth: 940, margin: "0 auto", textAlign: "center" }}>
-          <p style={eyebrowYellow}>The analogy</p>
+          <p style={eyebrowYellow}>Why Driver’s Ed?</p>
           <h2 style={{ ...h2, color: "white" }}>We don’t hand teenagers car keys without instruction.</h2>
-          <p style={{ ...lead, color: "rgba(255,255,255,.78)", marginLeft: "auto", marginRight: "auto" }}>
-            AI is a powerful tool. It can amplify learning, creativity, and productivity. It can also amplify
-            confusion, shortcut thinking, and misplaced confidence. That is why students need something more
-            than access. They need AI literacy.
+          <p style={{ ...lead, color: "rgba(255,255,255,.80)", marginLeft: "auto", marginRight: "auto" }}>
+            Cars aren’t dangerous because they exist. They become dangerous when people don’t
+            understand how to use them.
+          </p>
+          <p style={{ ...lead, color: "rgba(255,255,255,.80)", marginLeft: "auto", marginRight: "auto" }}>
+            AI deserves the same respect. Students don’t need fear. They don’t need hype.
+            They need fluency, judgment, practice, and guidance.
+          </p>
+          <p style={{ ...lead, color: "rgba(255,255,255,.92)", marginLeft: "auto", marginRight: "auto", fontWeight: 700 }}>
+            They need AI Driver’s Ed.
           </p>
           <div style={{ marginTop: 30 }}>
             <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={primaryButton}>
@@ -108,7 +125,37 @@ export default function Page() {
         </div>
       </section>
 
-      {/* SOLUTION */}
+      {/* CREDIBILITY */}
+      <section style={sectionWhite}>
+        <div style={split}>
+          <div>
+            <p style={eyebrow}>Built by educators</p>
+            <h2 style={h2}>Not another AI workshop. A real curriculum.</h2>
+            <p style={lead}>
+              This pathway was developed by experienced science educators who specialize in
+              conceptual learning: helping students understand big ideas clearly before asking
+              them to apply those ideas.
+            </p>
+            <p style={lead}>
+              The goal is not simply to teach students how to prompt. The goal is to help them
+              understand AI well enough to use it wisely.
+            </p>
+          </div>
+
+          <div style={card}>
+            <h3 style={cardTitle}>What makes it classroom-ready</h3>
+            <div style={checkList}>
+              <Check text="Two published textbook volumes" />
+              <Check text="Eight-chapter conceptual framework" />
+              <Check text="Video lessons and podcast companions" />
+              <Check text="Classroom activities and AI experiments" />
+              <Check text="Flexible implementation for individual teachers, departments, or districts" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PROGRAM */}
       <section style={sectionSoft}>
         <div style={{ maxWidth: 1080, margin: "0 auto" }}>
           <p style={eyebrow}>The program</p>
@@ -201,14 +248,42 @@ export default function Page() {
         </div>
       </section>
 
-      {/* FUNNEL CTA */}
+      {/* PULL QUOTE */}
+      <section style={{ background: "#451a03", color: "white", padding: "54px 24px" }}>
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <p style={{ margin: 0, fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.25, fontStyle: "italic" }}>
+            “AI is designed to agree with you. That’s a problem. If you don’t actively ask for the opposing view,
+            you won’t get it.”
+          </p>
+        </div>
+      </section>
+
+      {/* WHAT HAPPENS NEXT */}
+      <section style={sectionSoft}>
+        <div style={{ maxWidth: 960, margin: "0 auto", textAlign: "center" }}>
+          <p style={eyebrow}>What happens next?</p>
+          <h2 style={h2}>Requesting information does not commit you to anything.</h2>
+          <p style={{ ...lead, marginLeft: "auto", marginRight: "auto" }}>
+            Tell us a little about your teaching context, and we’ll point you toward the most useful
+            next step for your classroom, department, or school.
+          </p>
+
+          <div style={grid3}>
+            <Feature title="Preview materials" text="See sample lessons, structure, and curriculum options." />
+            <Feature title="Explore pathways" text="Find the right fit for a unit, course, or school initiative." />
+            <Feature title="Ask questions" text="Get information without pressure or obligation." />
+          </div>
+        </div>
+      </section>
+
+      {/* FINAL CTA */}
       <section style={sectionWhite}>
         <div style={{ maxWidth: 920, margin: "0 auto", textAlign: "center" }}>
           <p style={eyebrow}>Next step</p>
-          <h2 style={h2}>Want to explore this for your school?</h2>
+          <h2 style={h2}>Ready to start the conversation?</h2>
           <p style={{ ...lead, marginLeft: "auto", marginRight: "auto" }}>
-            Tell us a little about your teaching context, and we’ll point you toward the best next step:
-            preview materials, teacher resources, PocketLab pathway, or curriculum information.
+            Whether you’re exploring a single classroom, a department, or a district-wide initiative,
+            we’d love to help.
           </p>
 
           <div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap", marginTop: 30 }}>
@@ -216,7 +291,7 @@ export default function Page() {
               Request Curriculum Information →
             </a>
             <Link href="/pocketlab" style={outlineButton}>
-              Go to the Teacher Page
+              Visit the Teacher Pathway
             </Link>
           </div>
         </div>
@@ -271,10 +346,10 @@ const heroLead: React.CSSProperties = {
 };
 
 const heroText: React.CSSProperties = {
-  maxWidth: 780,
+  maxWidth: 800,
   fontSize: 20,
   marginTop: 18,
-  color: "rgba(255,255,255,.82)",
+  color: "rgba(255,255,255,.84)",
 };
 
 const eyebrow: React.CSSProperties = {
