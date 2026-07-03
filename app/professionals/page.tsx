@@ -147,7 +147,7 @@ export default function Page() {
       {/* HERO ART */}
       <section style={{ background: "#0b0b0f" }}>
         <img
-          src="/images/HorizontalCover.jpg"
+          src="/images/HorizontalCoverB.jpg"
           alt="AI in Real Estate — From AI Literacy to Fluency, by Conceptual Academy"
           style={{ width: "100%", height: "auto", display: "block" }}
         />
