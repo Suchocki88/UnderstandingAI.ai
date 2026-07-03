@@ -148,7 +148,7 @@ export default function Page() {
       <section style={{ background: "#0b0b0f" }}>
         <img
           src="/images/HorizontalCoverB.jpg"
-          alt="AI in Real Estate — From AI Literacy to Fluency, by Conceptual Academy"
+          alt="AI in Real Estate — Stay the Professional, by Conceptual Academy"
           style={{ width: "100%", height: "auto", display: "block" }}
         />
       </section>
@@ -523,10 +523,11 @@ export default function Page() {
       {/* FINAL CTA */}
       <section style={{ background: "#0f172a", color: "white", padding: "80px 24px", textAlign: "center" }}>
         <div style={{ maxWidth: 700, margin: "0 auto" }}>
-          <h2 style={{ fontSize: "clamp(26px, 4vw, 36px)", margin: "0 0 20px" }}>From AI Literacy to Fluency</h2>
+          <h2 style={{ fontSize: "clamp(26px, 4vw, 36px)", margin: "0 0 20px" }}>Stay the Professional</h2>
           <p style={{ fontSize: 19, color: "rgba(255,255,255,0.78)", lineHeight: 1.7, marginBottom: 36 }}>
-            Most agents can &ldquo;get&rdquo; AI in an afternoon. Fluency — using it safely, effectively, and
-            without quiet risk to your clients or your license — is what this program is for.
+            Most agents can &ldquo;get&rdquo; AI in an afternoon. Using it safely, effectively, and without quiet
+            risk to your clients or your license — while staying the professional you already are — is what this
+            program is for.
           </p>
           <div style={{ display: "flex", gap: 14, justifyContent: "center", flexWrap: "wrap" }}>
             <a
