@@ -149,7 +149,7 @@ export default function Page() {
         <img
           src="/images/HorizontalCover.jpg"
           alt="AI in Real Estate — From AI Literacy to Fluency, by Conceptual Academy"
-          style={{ width: "100%", display: "block", maxHeight: "70vh", objectFit: "cover" }}
+          style={{ width: "100%", height: "auto", display: "block" }}
         />
       </section>
 
