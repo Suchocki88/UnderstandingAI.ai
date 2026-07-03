@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "AI in Real Estate | Professional Continuing Education — Conceptual Academy",
   description:
-    "AI continuing education for real estate professionals — five programs that take agents from AI literacy to fluency, with a certificate aligned to NAR standards for Ethics and Fair Housing.",
+    "AI continuing education for real estate professionals — five programs that take agents from AI literacy to fluency, built around NAR's Code of Ethics and Fair Housing standards.",
 };
 
 const REGISTER_URL = "https://conceptualacademy.com/user/register";
@@ -162,13 +162,22 @@ export default function Page() {
           <h1 style={{ fontSize: "clamp(30px, 5vw, 44px)", lineHeight: 1.15, margin: "16px 0 0" }}>
             Continuing Education for Real Estate Professionals
           </h1>
-          <p style={{ marginTop: 20, fontSize: 19, color: "rgba(255,255,255,0.82)", lineHeight: 1.7 }}>
+
+          {/* Differentiator — the lead thesis */}
+          <p style={{ marginTop: 22, fontSize: 17, color: "rgba(255,255,255,0.62)", lineHeight: 1.6, margin: "22px 0 0" }}>
+            Most AI courses teach how to use the tools.
+          </p>
+          <p style={{ marginTop: 6, fontSize: "clamp(20px, 3vw, 26px)", color: "white", lineHeight: 1.4, fontWeight: 700 }}>
+            We teach how to stay an effective and responsible human in an age of ever-more-powerful AI.
+          </p>
+
+          <p style={{ marginTop: 22, fontSize: 18, color: "rgba(255,255,255,0.82)", lineHeight: 1.7 }}>
             AI is already in your clients&apos; hands, your MLS, your listings, and your paperwork. This program
-            takes agents from AI literacy to fluency — and toward a certificate aligned with NAR standards for
-            Ethics and Fair Housing.
+            takes agents from AI literacy to fluency — built around NAR&apos;s Code of Ethics and Fair Housing
+            standards, examined where AI actually touches the work.
           </p>
           <p style={{ marginTop: 16, fontSize: 18, color: "#fde68a", lineHeight: 1.7, fontWeight: 600 }}>
-            Right now, while the program is in review, all five courses are open free.
+            Right now, while the program is open for agent review, all five courses are free.
           </p>
 
           <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "12px 32px", margin: "32px 0 0" }}>
@@ -176,7 +185,7 @@ export default function Page() {
               ["5", "Programs"],
               ["19", "Lessons"],
               ["9.5", "Hours"],
-              ["NAR", "Aligned Cert."],
+              ["Ethics + FH", "Certificate"],
             ].map(([num, label]) => (
               <div key={label} style={{ textAlign: "center" }}>
                 <div style={{ fontSize: 22, fontWeight: 800, color: "#f59e0b", lineHeight: 1 }}>{num}</div>
@@ -213,15 +222,15 @@ export default function Page() {
         <div style={{ maxWidth: 1080, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
             <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#92400e", background: "#fef3c7", display: "inline-block", padding: "5px 14px", borderRadius: 100, margin: 0 }}>
-              Now in Review · Open Free
+              Open for Agent Review · Free
             </p>
             <h2 style={{ fontSize: "clamp(26px, 4vw, 38px)", margin: "18px 0 0", color: "#111827" }}>
               Take All Five Programs — Free, Right Now
             </h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
-              While <em>AI in Real Estate</em> is in review, we&apos;re opening the entire curriculum — all five
-              programs — at no cost. In return, we&apos;d love your honest feedback and suggestions as a working agent. No
-              commitment, no credit card.
+              While we&apos;re gathering feedback from working agents, we&apos;re opening the entire curriculum — all
+              five programs — at no cost. In return, we&apos;d love your honest reactions and suggestions from the
+              field. No commitment, no credit card.
             </p>
           </div>
 
@@ -343,9 +352,9 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(26px, 4vw, 36px)", marginTop: 12 }}>Five Programs, Two Tracks</h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280", lineHeight: 1.7 }}>
-              Two certification programs build toward a certificate aligned with NAR&apos;s Ethics and Fair Housing
-              standards. Three enrichment programs deepen your fluency, your craft, and your judgment. Take one,
-              take all five.
+              Two certification programs build toward a certificate covering NAR&apos;s Ethics and Fair Housing
+              content. Three enrichment programs deepen your fluency, your craft, and your judgment — including two
+              on AI risks almost no other program teaches. Take one, take all five.
             </p>
           </div>
 
@@ -366,12 +375,17 @@ export default function Page() {
 
           {/* Enrichment track */}
           <div>
-            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 20 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8, flexWrap: "wrap" }}>
               <span style={{ fontSize: 13, fontWeight: 800, textTransform: "uppercase", letterSpacing: 1.5, color: "#3730a3", background: "#e0e7ff", padding: "5px 14px", borderRadius: 100 }}>
                 Enrichment Programs
               </span>
               <span style={{ fontSize: 14, color: "#6b7280" }}>Go deeper on fluency, craft, and judgment</span>
             </div>
+            <p style={{ fontSize: 15, color: "#4b5563", lineHeight: 1.6, margin: "0 0 20px", maxWidth: 760 }}>
+              <strong style={{ color: "#3730a3" }}>The Quiet Failures</strong> and <strong style={{ color: "#3730a3" }}>Dark Patterns</strong> are
+              our rarest material — the AI risks that most courses never name, from failures you can&apos;t see to
+              systems designed to nudge you off course.
+            </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24 }}>
               {enrichPrograms.map((p) => (
                 <ProgramCard key={p.n} p={p} accent="#6366f1" />
@@ -416,7 +430,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* NAR CERTIFICATE */}
+      {/* CERTIFICATE */}
       <section style={{ background: "#111827", color: "white", padding: "80px 24px" }}>
         <div style={{ maxWidth: 960, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", margin: 0 }}>
@@ -424,8 +438,8 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(26px, 4vw, 36px)", marginTop: 12 }}>Ethics &amp; Fair Housing, Through the Lens of AI</h2>
           <p style={{ marginTop: 20, fontSize: 19, color: "rgba(255,255,255,0.82)", lineHeight: 1.7, maxWidth: 720, marginLeft: "auto", marginRight: "auto" }}>
-            Complete Programs 1 and 2 to earn a Conceptual Academy certificate aligned with NAR&apos;s standards for
-            Ethics and Fair Housing — the two areas every agent is accountable for, now examined where AI actually
+            Complete Programs 1 and 2 to earn a Conceptual Academy certificate built around NAR&apos;s Code of Ethics
+            and Fair Housing standards — the two areas every agent is accountable for, now examined where AI actually
             touches your work: in your listings, your disclosures, your valuations, and the data you hand off.
           </p>
 
@@ -436,9 +450,10 @@ export default function Page() {
           />
 
           <p style={{ marginTop: 24, fontSize: 13, color: "rgba(255,255,255,0.45)", lineHeight: 1.6, maxWidth: 640, marginLeft: "auto", marginRight: "auto" }}>
-            Certificate issued by Conceptual Academy. &ldquo;Aligned&rdquo; refers to NAR&apos;s published Code of
-            Ethics and Fair Housing standards; it does not imply NAR endorsement. Confirm continuing-education
-            credit requirements with your state or local board.
+            This is a certificate of completion issued by Conceptual Academy. Its content is built around NAR&apos;s
+            published Code of Ethics and Fair Housing standards; it is not issued or endorsed by NAR and does not by
+            itself satisfy any continuing-education or Code of Ethics requirement. Whether it counts toward a specific
+            requirement is determined by your state or local board or association — please confirm with them directly.
           </p>
         </div>
       </section>
@@ -460,12 +475,13 @@ export default function Page() {
                 must stay in your hands, and where does it quietly create risk? No technical background required.
               </p>
             </div>
-            <div style={{ background: "#f8fafc", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28 }}>
+            <div style={{ background: "#f8fafc", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderLeft: "4px solid #f59e0b" }}>
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>For managing brokers</h3>
               <p style={{ margin: 0, color: "#4b5563", lineHeight: 1.7 }}>
-                A consistent, ready-to-assign program for your whole office — so every agent works from the same
-                understanding of AI ethics, fair housing, and responsible use. A simple way to raise the floor across
-                your team.
+                When an agent trusts a hallucinated figure or lets AI steer a client toward a fair-housing problem,
+                the liability lands on the office. This is a consistent, ready-to-assign program that puts your whole
+                team on the same footing for AI ethics, fair housing, and responsible use — a straightforward way to
+                lower risk across the brokerage.
               </p>
             </div>
           </div>
@@ -491,12 +507,12 @@ export default function Page() {
               <p style={{ margin: 0, color: "#6b7280", fontSize: 15 }}>Five programs, in review with agents today.</p>
             </div>
             <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #cbd5e1" }}>
-              <span style={{ fontSize: 12, fontWeight: 700, color: "#9ca3af", textTransform: "uppercase", letterSpacing: 1 }}>Targeted for September</span>
+              <span style={{ fontSize: 12, fontWeight: 700, color: "#9ca3af", textTransform: "uppercase", letterSpacing: 1 }}>Coming This Fall</span>
               <h3 style={{ margin: "8px 0 6px", fontSize: 20 }}>AI in Law Practices</h3>
               <p style={{ margin: 0, color: "#6b7280", fontSize: 15 }}>Ethics, confidentiality, and AI for legal professionals.</p>
             </div>
             <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #cbd5e1" }}>
-              <span style={{ fontSize: 12, fontWeight: 700, color: "#9ca3af", textTransform: "uppercase", letterSpacing: 1 }}>Targeted for October</span>
+              <span style={{ fontSize: 12, fontWeight: 700, color: "#9ca3af", textTransform: "uppercase", letterSpacing: 1 }}>Coming This Fall</span>
               <h3 style={{ margin: "8px 0 6px", fontSize: 20 }}>AI for the Professional</h3>
               <p style={{ margin: 0, color: "#6b7280", fontSize: 15 }}>A broader curriculum for any working professional.</p>
             </div>
