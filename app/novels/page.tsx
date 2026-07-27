@@ -290,5 +290,50 @@ export default function Page() {
       </section>
 
     </main>
+    {/* FLUENT VOICES — paste directly after the WHY FICTION section,
+    immediately before the closing </main> tag. */}
+<section style={{ background: "#23352f", padding: "80px 24px", color: "#fffaf1" }}>
+  <div style={{ maxWidth: 860, margin: "0 auto", textAlign: "center" }}>
+    <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#c89b52", marginBottom: 16 }}>
+      After the Last Page
+    </p>
+
+    <h2 style={{ fontSize: 40, margin: "0 0 10px" }}>Fluent Voices</h2>
+
+    <p style={{ fontSize: 18, fontStyle: "italic", color: "rgba(255,250,241,0.68)", margin: "0 0 32px" }}>
+      Writing Circles for a Changing Craft
+    </p>
+
+    <p style={{ fontSize: 20, color: "rgba(255,250,241,0.85)", maxWidth: 720, margin: "0 auto 24px" }}>
+      The creative project in this program asks you to finish something. Fluent Voices is where the work continues afterward — small writing circles for adults with questions, suggestions, and hard-won opinions about writing in the age of modern tools.
+    </p>
+
+    <p style={{ fontSize: 20, color: "rgba(255,250,241,0.85)", maxWidth: 720, margin: "0 auto 36px" }}>
+      Six writers, once a month, online. Everyone brings one thing they are stuck on, and for a few minutes the whole room thinks about it. No pages required.
+    </p>
+
+    <a
+      href="https://fluentvoices.org"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        background: "#b96548",
+        color: "#fffaf1",
+        padding: "14px 28px",
+        borderRadius: 10,
+        textDecoration: "none",
+        fontWeight: 700,
+        fontSize: 16,
+        display: "inline-block",
+      }}
+    >
+      Visit FluentVoices.org →
+    </a>
+
+    <p style={{ fontSize: 15, color: "rgba(255,250,241,0.6)", maxWidth: 620, margin: "28px auto 0" }}>
+      Circles are for members eighteen and older. Fluent Voices is being built now; the first circles convene in 2026.
+    </p>
+  </div>
+</section>
   );
 }
