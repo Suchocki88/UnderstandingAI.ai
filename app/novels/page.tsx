@@ -289,7 +289,7 @@ export default function Page() {
         </div>
       </section>
 
-    </main>
+ 
     {/* FLUENT VOICES — paste directly after the WHY FICTION section,
     immediately before the closing </main> tag. */}
 <section style={{ background: "#23352f", padding: "80px 24px", color: "#fffaf1" }}>
@@ -335,5 +335,6 @@ export default function Page() {
     </p>
   </div>
 </section>
+         </main>
   );
 }
