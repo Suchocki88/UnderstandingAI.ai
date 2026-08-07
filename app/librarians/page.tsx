@@ -111,11 +111,10 @@ export default function Page() {
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>You convene. You don&apos;t have to be the expert.</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s own AI, and 22
-              short videos where the author teaches every core lesson. A facilitator guide — with a two-week and a
-              full-semester schedule — lets you run it without being an AI expert.
+              short videos where the author teaches every core lesson. A facilitator guide lets you run it without being an AI expert. Teach the program as a short course or full semester experience.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              At the end, you hand out certificates. Students who complete the program can buy their own copy to take
+              At the end, you hand out certificates. Student will also leave with their own literary work, which you can enter into your library's catalogue. This works well when the program is taught in tandem with creating writing courses.
               home — the artifact of what they built.
             </p>
           </div>
@@ -134,7 +133,7 @@ export default function Page() {
           <h2 style={{ fontSize: "clamp(26px, 5vw, 38px)", marginTop: 12 }}>On school computers. Under your supervision. In structured labs.</h2>
           <p style={{ marginTop: 22, fontSize: 20, color: "rgba(255,255,255,0.85)" }}>
             When it&apos;s time to work with AI, students do it in the library, on school machines, under your
-            oversight — using whatever base model they like. That&apos;s the sentence that gets permission slips
+            supervision — using whatever base model you find available and appropriate. That&apos;s the sentence that gets permission slips
             signed. It also solves equity, since not every student has a device and an account at home, and it keeps
             the program vendor-neutral.
           </p>
@@ -191,7 +190,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
             {[
               ["No sign-off required", "Books are the one thing a librarian can buy unilaterally — no edtech review, no data-privacy agreement, no IT approval. They flow through your usual acquisition budget."],
-              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels. The field journal is separate, so a lending set works cleanly."],
+              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels, such as Follett. The field journal is separate, so a lending set works cleanly."],
               ["Fund it with a cohort", "If the budget is tight, a DonorsChoose project can fund a class set — and rallies parents behind the program before it even begins."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "#f0fdfa", border: "1px solid #99f6e4", borderRadius: 14, padding: 24 }}>
