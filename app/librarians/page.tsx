@@ -48,18 +48,17 @@ export default function Page() {
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e" }}>
             Why the library
           </p>
-          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>The library belongs to every department.</h2>
+          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>The library reaches all departments.</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            No one is quite sure which department should teach AI — but the library belongs to all of them, so the
-            question stops needing an answer. School librarians are certified teachers who lead information literacy
-            every day. What they rarely get is a program of their own. And in the most print-centered room in the
-            building, a print-first program is natural.
+            No one is quite sure which department should teach AI — but the library works to support to all of them. School librarians are certified teachers. They lead information literacy
+            every day, which makes AI literacy to fluency a natural fit. In the most print-centered place in the
+            building, a print-first AI-Ed program is a homecoming.
           </p>
         </div>
 
         <div style={{ maxWidth: 980, margin: "44px auto 0", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
           {[
-            ["Belongs to every department", "No turf war over who owns AI — the library already serves the whole school."],
+            ["Belongs to every department", "No turf issues over who teaches AI-Ed — the school library serves the whole school."],
             ["No curriculum commmittee required", "It runs as enrichment: a librarian's initiative and a principal's approval with everyone wanting to know how it goes."],
             ["Print-first, screens in small doses", "Pen, field journal, and the student's own AI used deliberately — a fit for your room, not another app."],
           ].map(([t, b], i) => (
