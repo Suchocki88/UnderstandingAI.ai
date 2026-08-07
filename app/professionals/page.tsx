@@ -491,6 +491,39 @@ export default function Page() {
         </div>
       </section>
 
+      {/* THE FULL AI-ED PROGRAM */}
+      <section style={{ background: "#f8fafc", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#f59e0b", margin: 0 }}>
+            Not a Sample — Its Own Program
+          </p>
+          <h2 style={{ fontSize: "clamp(26px, 4vw, 36px)", marginTop: 12, color: "#111827" }}>
+            Built only for real estate — held to the standard of everything we make.
+          </h2>
+          <p style={{ marginTop: 20, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
+            Every one of this program&apos;s 9.5 hours was written for real estate — the ethics, fair housing, client
+            data, and valuations you work with. None of it is borrowed or scaled down from our program for schools.
+            This is its own thing, start to finish.
+          </p>
+          <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
+            What it shares with the rest of our work is a standard. Our flagship is <em>Understanding and Working
+            with AI</em> — the full AI-Ed program, a two-volume course of 262 and 292 pages. It&apos;s written as a
+            full semester for upper-level high school students, though a motivated adult can read straight through in
+            about two weeks. The best way to see it is to get the books.
+          </p>
+          <p style={{ marginTop: 16, fontSize: 18, color: "#1f2937", lineHeight: 1.7 }}>
+            <strong>Take this program and you&apos;ll know exactly how we build.</strong> That&apos;s the quality you
+            can vouch for when the parents, teachers, and school leaders in your community start asking what to do
+            about AI — because the full AI-Ed program is the one you&apos;ll want to point them to.
+          </p>
+          <div style={{ marginTop: 28 }}>
+            <Link href="/" style={{ display: "inline-block", background: "#0f172a", color: "white", padding: "14px 28px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}>
+              See the Full AI-Ed Program →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* REFER YOUR COMMUNITY */}
       <section style={{ background: "#fff7ed", padding: "80px 24px" }}>
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
@@ -511,8 +544,8 @@ export default function Page() {
               <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>Share it with families</h3>
               <p style={{ margin: 0, color: "#4b5563", lineHeight: 1.7 }}>
                 The families you work with are navigating AI with their kids right now, often with no idea where to
-                start. Point them to UnderstandingAI.ai — the books, the program, and the same literacy-to-fluency
-                path you&apos;re taking.
+                start. Point them to the full AI-Ed program at UnderstandingAI.ai — the two volumes and the
+                literacy-to-fluency path built for students and families.
               </p>
             </div>
             <div style={{ background: "white", border: "1px solid #fed7aa", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b" }}>
