@@ -21,7 +21,7 @@ export default function Page() {
               For School &amp; Public Librarians
             </p>
             <h1 style={{ fontSize: "clamp(34px, 6vw, 52px)", lineHeight: 1.08, margin: "0 0 22px" }}>
-              The AI question landed on your desk. Here&apos;s a program of your own.
+              The AI question surrounds us. The answer is AI-Ed. Rhymes with Driver Ed.
             </h1>
             <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", marginBottom: 30 }}>
               <em>Understanding and Working with AI</em> is a print-first AI-Ed program — two
