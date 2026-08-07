@@ -60,7 +60,7 @@ export default function Page() {
           {[
             ["Belongs to every department", "No turf issues over who teaches AI-Ed — the school library serves the whole school."],
             ["No curriculum commmittee", "It runs as enrichment: a librarian's initiative and a principal's approval with everyone wanting to know how it goes."],
-            ["Print-first, screens as needed", "Pen, field journal, and the student uses AI only as directed. Everyone working with a book, not an app."],
+            ["Print-first, screens as needed", "Pen, field journal, and the student uses AI only as directed. Everyone is working with a book, not an app."],
           ].map(([t, b], i) => (
             <div key={i} style={{ background: "#f8fafc", border: "1px solid #e5e7eb", borderRadius: 14, borderTop: "4px solid #0f766e", padding: 24 }}>
               <h3 style={{ margin: "0 0 8px", fontSize: 18 }}>{t}</h3>
