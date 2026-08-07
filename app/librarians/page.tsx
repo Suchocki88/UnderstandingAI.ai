@@ -24,7 +24,7 @@ export default function Page() {
               The AI question landed on your desk. Here&apos;s a program of your own.
             </h1>
             <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", marginBottom: 30 }}>
-              <em>Understanding and Working with AI</em> is a print-first program built for your room — the two
+              <em>Understanding and Working with AI</em> is a print-first AI-Ed program — two
               volumes, a pen, a field journal, and the student&apos;s own AI in small, deliberate doses. Put it on the
               shelf, share it with a teacher, or run it yourself as an enrichment program. No AI expertise required.
             </p>
