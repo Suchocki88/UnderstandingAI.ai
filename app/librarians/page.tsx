@@ -50,7 +50,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>The library reaches all departments.</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            No one is quite sure which department should teach AI — but the library works to support to all of them. School librarians are certified teachers. They lead information literacy
+            No one is quite sure which department should teach AI-Ed — but the library works to support to all departments. School librarians are certified teachers. They lead information literacy
             every day, which makes AI literacy to fluency a natural fit. In the most print-centered place in the
             building, a print-first AI-Ed program is a homecoming.
           </p>
