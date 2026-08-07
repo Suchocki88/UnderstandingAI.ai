@@ -114,8 +114,9 @@ export default function Page() {
               short videos where the author teaches every core lesson. A facilitator guide lets you run it without being an AI expert. Teach the program as a short course or full semester experience.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              At the end, you hand out certificates. Student will also leave with their own literary work, which you can enter into your library's catalogue. This works well when the program is taught in tandem with creating writing courses.
-              home — the artifact of what they built.
+              At the end, you hand out certificates. Students also leave with an original literary work of their own —
+              and taught alongside a creative-writing course, those finished pieces can even be added to your
+              library&apos;s catalogue.
             </p>
           </div>
           <div style={{ textAlign: "center" }}>
@@ -132,7 +133,7 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(26px, 5vw, 38px)", marginTop: 12 }}>On school computers. Under your supervision. In structured labs.</h2>
           <p style={{ marginTop: 22, fontSize: 20, color: "rgba(255,255,255,0.85)" }}>
-            When it&apos;s time to work with AI, students do it in the library, on school machines, under your
+            When it&apos;s time to work with AI, students do it in the library, on library computers, under your
             supervision — using whatever base model you find available and appropriate. That&apos;s the sentence that gets permission slips
             signed. It also solves equity, since not every student has a device and an account at home, and it keeps
             the program vendor-neutral.
@@ -177,6 +178,36 @@ export default function Page() {
         </div>
       </section>
 
+      {/* FOR PUBLIC LIBRARIES */}
+      <section style={{ background: "#0f766e", color: "white", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#99f6e4" }}>
+              For public libraries
+            </p>
+            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12, color: "white" }}>Not just the school day — the whole community.</h2>
+            <p style={{ marginTop: 16, fontSize: 19, color: "rgba(255,255,255,0.88)" }}>
+              Everything here works just as well outside a school. In a public library you already convene the
+              community — and the same run-it model turns the program into something your patrons come back for,
+              week after week.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 20 }}>
+            {[
+              ["Teen programming", "Run it after school or over the summer. The field journal and the creative project make it a series teens return to — not a one-off event."],
+              ["Adult & lifelong learning", "Adults are navigating AI at work and at home with nowhere to start. The same program makes a natural community workshop or lifelong-learning series."],
+              ["A home for writers", "The creative project — an original novella or screenplay — pairs naturally with the writing groups and book clubs your library already hosts."],
+            ].map(([t, b], i) => (
+              <div key={i} style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: 14, padding: 24 }}>
+                <h3 style={{ margin: "0 0 8px", fontSize: 18, color: "white" }}>{t}</h3>
+                <p style={{ margin: 0, color: "rgba(255,255,255,0.82)", fontSize: 15 }}>{b}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* HOW TO GET IT */}
       <section style={{ background: "#ffffff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
@@ -190,7 +221,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
             {[
               ["No sign-off required", "Books are the one thing a librarian can buy unilaterally — no edtech review, no data-privacy agreement, no IT approval. They flow through your usual acquisition budget."],
-              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels, such as Follett. The field journal is separate, so a lending set works cleanly."],
+              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels — Follett for schools, or Ingram and Baker & Taylor for public libraries. The field journal is separate, so a lending set works cleanly."],
               ["Fund it with a cohort", "If the budget is tight, a DonorsChoose project can fund a class set — and rallies parents behind the program before it even begins."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "#f0fdfa", border: "1px solid #99f6e4", borderRadius: 14, padding: 24 }}>
@@ -210,8 +241,8 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Start with a copy in your hands.</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            Request your copies and the facilitator guide, ask about a free spring pilot for a teacher in your
-            building, or just tell us you&apos;d like to run it. We&apos;ll take it from there.
+            Request your copies and the facilitator guide, ask about a pilot for a teacher in your building or a
+            program in your own library, or just tell us you&apos;d like to run it. We&apos;ll take it from there.
           </p>
           <div style={{ marginTop: 30, display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={{ background: "#0f766e", color: "white", padding: "16px 32px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 18, display: "inline-block" }}>
@@ -221,9 +252,6 @@ export default function Page() {
               See the Full Curriculum →
             </Link>
           </div>
-          <p style={{ marginTop: 28, fontSize: 15, color: "#6b7280" }}>
-            Public librarian? The same enrichment model fits year-round teen programming — reach out and let&apos;s talk.
-          </p>
         </div>
       </section>
 
