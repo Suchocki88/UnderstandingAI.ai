@@ -89,7 +89,7 @@ export default function Page() {
             {[
               ["1", "Display it", "You're being asked about AI literacy — here's the print-first answer for your shelf. Handsome, timely, and built for students to pick up on their own.", false],
               ["2", "Share it", "Any teacher in your building can request a free classroom pilot. The copy in your library becomes the whole school's on-ramp.", false],
-              ["3", "Run it", "Host it yourself as a study-hall or after-school enrichment program — facilitator guide included", true],
+              ["3", "Run it", "Host it yourself as a study-hall or after-school enrichment program — facilitator guide included.", true],
             ].map(([n, t, b, feature], i) => (
               <div key={i} style={{ background: feature ? "#0f766e" : "#ffffff", color: feature ? "white" : "#1f2937", borderRadius: 16, padding: 30, border: feature ? "none" : "1px solid #d1d5db", boxShadow: feature ? "0 16px 40px rgba(15,118,110,0.28)" : "none", display: "flex", flexDirection: "column" }}>
                 <span style={{ width: 34, height: 34, borderRadius: 100, background: feature ? "#f59e0b" : "#0f766e", color: feature ? "#111827" : "white", fontWeight: 800, display: "flex", alignItems: "center", justifyContent: "center" }}>{n}</span>
@@ -108,7 +108,7 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e" }}>
               The enrichment model
             </p>
-            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>You convene. Your expertise in linguistics at play.</h2>
+            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>Your expertise in linguistics</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
               The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s own AI, and 22
               short videos where the author teaches every core lesson. A facilitator guide provides the support you need. Teach the program as a short course or full semester experience.
