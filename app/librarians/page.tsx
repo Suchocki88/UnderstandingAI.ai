@@ -108,13 +108,13 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>Your expertise in linguistics</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s own AI, and 22
+              The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s designated AI, and 22
               short videos where the author teaches every core lesson. A facilitator guide provides the support you need. Teach the program as a short course or full semester experience.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
               At the end, you hand out certificates. Students also leave with an original literary work of their own —
-              and taught alongside a creative-writing course, those finished pieces can even be added to your
-              library&apos;s catalogue.
+              and taught alongside a creative-writing course, those finished pieces can be added to your
+              library&apos;s catalogue. Students view the library differently when they see themselves within it.
             </p>
           </div>
           <div style={{ textAlign: "center" }}>
