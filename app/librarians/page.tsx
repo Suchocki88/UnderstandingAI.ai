@@ -25,8 +25,7 @@ export default function Page() {
             </h1>
             <p style={{ fontSize: 20, color: "rgba(255,255,255,0.85)", marginBottom: 30 }}>
               <em>Understanding and Working with AI</em> is a print-first AI-Ed program — two
-              volumes, a pen, a field journal, and the student&apos;s own AI in small, deliberate doses. Put it on the
-              shelf, share it with a teacher, or run it yourself as an enrichment program. No AI expertise required.
+              volumes, a pen, a field journal, and the student&apos;s own AI in small, deliberate doses. Put it on display, share it with a teacher, or run it yourself as an enrichment program.
             </p>
             <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
               <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={{ background: "#f59e0b", color: "#111827", padding: "15px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
