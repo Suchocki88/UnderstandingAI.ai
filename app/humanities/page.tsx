@@ -395,7 +395,59 @@ export default function Page() {
 
         </div>
       </section>
+{/* WHERE THE WRITING GOES */}
+      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#8b5cf6", marginBottom: 16 }}>
+              Where the Writing Goes
+            </p>
+            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: 0 }}>The project ends with a real book. Here&apos;s where it lives.</h2>
+            <p style={{ marginTop: 16, fontSize: 18, color: "#6b7280" }}>
+              Every student develops a literary work of their own, in collaboration with AI. When it&apos;s finished,
+              it doesn&apos;t just earn a grade — it finds a home. Two homes, in fact, depending on who wrote it.
+            </p>
+          </div>
 
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24 }}>
+
+            <div style={{ background: "#f5f3ff", border: "1px solid #e9e5fb", borderTop: "4px solid #8b5cf6", borderRadius: 16, padding: 28 }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#6d28d9", margin: "0 0 10px" }}>For your students</p>
+              <h3 style={{ margin: "0 0 12px", fontSize: 22 }}>Published in the school library.</h3>
+              <p style={{ margin: "0 0 14px", color: "#4b5563", lineHeight: 1.7 }}>
+                With your school librarian, each finished work can be catalogued into the library&apos;s collection,
+                available to other students. Cohort after cohort, the shelf grows into a living collection of
+                student-authored books — and your students become published authors in their own school.
+              </p>
+              <p style={{ margin: "0 0 16px", color: "#4b5563", lineHeight: 1.7 }}>
+                It&apos;s also the natural partnership: your librarian may run this very program as enrichment, and
+                some of your students may be in both.
+              </p>
+              <Link href="/librarians" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
+                See the librarian&apos;s program →
+              </Link>
+            </div>
+
+            <div style={{ background: "#f5f3ff", border: "1px solid #e9e5fb", borderTop: "4px solid #8b5cf6", borderRadius: 16, padding: 28 }}>
+              <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#6d28d9", margin: "0 0 10px" }}>For you, the teacher</p>
+              <h3 style={{ margin: "0 0 12px", fontSize: 22 }}>Keep writing, at Fluent Voices.</h3>
+              <p style={{ margin: "0 0 14px", color: "#4b5563", lineHeight: 1.7 }}>
+                The practice doesn&apos;t have to end with the class. <em>Fluent Voices</em> is Conceptual
+                Academy&apos;s free, online writing circle for adult writers — six writers, once a month, working
+                through what each is stuck on. When you&apos;ve taken the program yourself, it&apos;s where your own
+                writing keeps going.
+              </p>
+              <p style={{ margin: "0 0 16px", fontSize: 14, color: "#9ca3af", fontStyle: "italic" }}>
+                For adult writers — the grown-up continuation, kept separate from the classroom by design.
+              </p>
+              <a href="https://fluentvoices.org" target="_blank" rel="noopener noreferrer" style={{ color: "#6d28d9", fontWeight: 700, textDecoration: "none", fontSize: 16 }}>
+                Visit FluentVoices.org →
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
       {/* CTA FOR LANGUAGE ARTS TEACHERS */}
       <section style={{ background: "#f5f3ff", padding: "80px 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: 40, alignItems: "center" }}>
