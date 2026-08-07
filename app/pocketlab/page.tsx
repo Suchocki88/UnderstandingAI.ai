@@ -90,8 +90,8 @@ export default function Page() {
           </h2>
           <p style={{ fontSize: 19, color: "#374151", maxWidth: 680, margin: "0 auto 18px" }}>
             We don&apos;t hand a teenager the keys to a car and wish them luck. We teach the rules, the risks, and the
-            responsibility first — then we let them drive. AI is a far more powerful machine, and we&apos;ve handed it
-            to students with no instruction at all.
+            responsibility first. AI is a far more powerful machine. We can&apos;t hand AI
+            to students without proper training.
           </p>
           <p style={{ fontSize: 19, color: "#374151", maxWidth: 680, margin: "0 auto 24px" }}>
             AI-Ed is the course that&apos;s missing. It teaches students to drive the AI — before the AI starts
