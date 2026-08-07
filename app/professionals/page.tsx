@@ -7,6 +7,8 @@ export const metadata = {
 };
 
 const REGISTER_URL = "https://conceptualacademy.com/user/register";
+const CONTACT_FORM =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfmC3t1awl9T0Ed1JZhtW24XEvp0znPoIITpbwcY7WvqYm12Q/viewform?usp=header";
 const COURSE_ID = "AllFive";
 
 type Lesson = { code: string; name: string; sub?: string };
@@ -177,7 +179,7 @@ export default function Page() {
             standards, examined where AI actually touches the work.
           </p>
           <p style={{ marginTop: 16, fontSize: 18, color: "#fde68a", lineHeight: 1.7, fontWeight: 600 }}>
-            Right now, while the program is open for agent review, all five courses are free.
+            Right now, during our launch, all five programs are complimentary for real estate professionals.
           </p>
 
           <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap", gap: "12px 32px", margin: "32px 0 0" }}>
@@ -217,20 +219,21 @@ export default function Page() {
         </div>
       </section>
 
-      {/* FREE ACCESS / REVIEW OFFER */}
+      {/* FREE ACCESS / LAUNCH OFFER */}
       <section style={{ background: "#fff7ed", padding: "76px 24px" }}>
         <div style={{ maxWidth: 1080, margin: "0 auto" }}>
           <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 48px" }}>
             <p style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#92400e", background: "#fef3c7", display: "inline-block", padding: "5px 14px", borderRadius: 100, margin: 0 }}>
-              Open for Agent Review · Free
+              Complimentary Launch Access · Free
             </p>
             <h2 style={{ fontSize: "clamp(26px, 4vw, 38px)", margin: "18px 0 0", color: "#111827" }}>
               Take All Five Programs — Free, Right Now
             </h2>
             <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
-              While we&apos;re gathering feedback from working agents, we&apos;re opening the entire curriculum — all
-              five programs — at no cost. In return, we&apos;d love your honest reactions and suggestions from the
-              field. No commitment, no credit card.
+              AI is already reshaping how your clients think about their homes, their work, and their kids&apos;
+              education. During our launch, we&apos;re opening the entire curriculum — all five programs — free to
+              real estate professionals, because you&apos;re exactly the trusted local voice who should understand it
+              first. No commitment, no credit card.
             </p>
           </div>
 
@@ -272,8 +275,8 @@ export default function Page() {
                 Register Free →
               </a>
               <p style={{ marginTop: 14, fontSize: 14, color: "#6b7280", lineHeight: 1.6 }}>
-                Registering creates your free account — that&apos;s all we need to stay in touch about the review.
-                You can leave the &ldquo;vendor code&rdquo; box unchecked.
+                Registering creates your free account — that&apos;s all we need to keep you posted as the program
+                grows. You can leave the &ldquo;vendor code&rdquo; box unchecked.
               </p>
             </div>
 
@@ -488,6 +491,53 @@ export default function Page() {
         </div>
       </section>
 
+      {/* REFER YOUR COMMUNITY */}
+      <section style={{ background: "#fff7ed", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 40px" }}>
+            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#92400e", margin: 0 }}>
+              Your Local Reach
+            </p>
+            <h2 style={{ fontSize: "clamp(26px, 4vw, 36px)", marginTop: 12, color: "#111827" }}>Nobody knows a neighborhood like its agents.</h2>
+            <p style={{ marginTop: 16, fontSize: 18, color: "#4b5563", lineHeight: 1.7 }}>
+              Once AI clicks for you, you&apos;re positioned to help the people around you make sense of it too — the
+              families you serve, and the local schools trying to figure out what to teach. If the program serves
+              you, pass it on.
+            </p>
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 300px), 1fr))", gap: 24 }}>
+            <div style={{ background: "white", border: "1px solid #fed7aa", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b" }}>
+              <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>Share it with families</h3>
+              <p style={{ margin: 0, color: "#4b5563", lineHeight: 1.7 }}>
+                The families you work with are navigating AI with their kids right now, often with no idea where to
+                start. Point them to UnderstandingAI.ai — the books, the program, and the same literacy-to-fluency
+                path you&apos;re taking.
+              </p>
+            </div>
+            <div style={{ background: "white", border: "1px solid #fed7aa", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b" }}>
+              <h3 style={{ margin: "0 0 12px", fontSize: 20 }}>Introduce a local school</h3>
+              <p style={{ margin: 0, color: "#4b5563", lineHeight: 1.7 }}>
+                Know a principal, PTA, or school board wrestling with AI literacy? A warm introduction from a trusted
+                local professional opens doors a cold email never will. Tell us who to talk to and we&apos;ll take it
+                from there.
+              </p>
+            </div>
+          </div>
+
+          <div style={{ textAlign: "center", marginTop: 36 }}>
+            <a
+              href={CONTACT_FORM}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: "inline-block", background: "#0f172a", color: "white", padding: "15px 30px", borderRadius: 8, textDecoration: "none", fontWeight: 700, fontSize: 16 }}
+            >
+              Make a Local Introduction →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* COMING SOON */}
       <section style={{ background: "#f8fafc", padding: "72px 24px" }}>
         <div style={{ maxWidth: 1000, margin: "0 auto" }}>
@@ -504,7 +554,7 @@ export default function Page() {
             <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #f59e0b" }}>
               <span style={{ fontSize: 12, fontWeight: 700, color: "#16a34a", textTransform: "uppercase", letterSpacing: 1 }}>Available Now</span>
               <h3 style={{ margin: "8px 0 6px", fontSize: 20 }}>AI in Real Estate</h3>
-              <p style={{ margin: 0, color: "#6b7280", fontSize: 15 }}>Five programs, in review with agents today.</p>
+              <p style={{ margin: 0, color: "#6b7280", fontSize: 15 }}>Five programs, free for real estate agents today.</p>
             </div>
             <div style={{ background: "white", border: "1px solid #e5e7eb", borderRadius: 16, padding: 28, borderTop: "4px solid #cbd5e1" }}>
               <span style={{ fontSize: 12, fontWeight: 700, color: "#9ca3af", textTransform: "uppercase", letterSpacing: 1 }}>Coming This Fall</span>
