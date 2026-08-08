@@ -193,7 +193,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 20 }}>
             {[
               ["Teen programming", "Run it after school or over the summer. The field journal and the creative project make it a series teens return to — not a one-off event."],
-              ["Adult & lifelong learning", "Adults are navigating AI at work and at home with nowhere to start. The same program makes a natural community workshop or lifelong-learning series."],
+              ["Families & lifelong learning", "Adults are navigating AI at work and at home with nowhere to start. The same program makes a natural community workshop or lifelong-learning series."],
               ["A home for writers", "The creative project — an original novella or screenplay — pairs naturally with the writing groups and book clubs your library already hosts."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: 14, padding: 24 }}>
