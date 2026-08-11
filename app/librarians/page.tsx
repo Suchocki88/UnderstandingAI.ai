@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "For Librarians | Understanding and Working with AI",
   description:
-    "A print-first AI literacy program built for the library. Display it, share it with a teacher, or run it yourself as an enrichment program — no AI expertise required.",
+    "A print-first AI literacy program built for the library. Display it, share it with a teacher, or run it yourself — the authors teach every lesson on video.",
 };
 
 const FORM_URL =
@@ -20,11 +20,11 @@ export default function Page() {
             For School &amp; Public Librarians
           </p>
           <h1 style={{ fontSize: "clamp(32px, 5.5vw, 50px)", lineHeight: 1.08, margin: "0 0 18px" }}>
-            The AI question landed on your desk. Here&apos;s a program of your own.
+            The AI question surrounds us. The answer is AI-Ed.
           </h1>
           <p style={{ fontSize: 19, color: "rgba(255,255,255,0.82)", maxWidth: 680, margin: "0 auto 32px" }}>
-            <em>Understanding and Working with AI</em> is a print-first program you can put on the shelf, share with a
-            teacher, or run yourself — no AI expertise required. Here&apos;s what that can look like.
+            <em>Understanding and Working with AI</em> is a print-first AI-Ed program you can put on display, share with a
+            teacher, or run yourself. Here&apos;s what that can look like.
           </p>
 
           <div style={{ maxWidth: 820, margin: "0 auto", borderRadius: 14, overflow: "hidden", boxShadow: "0 20px 50px rgba(0,0,0,0.45)", border: "1px solid rgba(255,255,255,0.1)" }}>
@@ -54,20 +54,20 @@ export default function Page() {
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e" }}>
             Why the library
           </p>
-          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>The library belongs to every department.</h2>
+          <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>The library reaches all departments.</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            No one is quite sure which department should teach AI — but the library belongs to all of them, so the
-            question stops needing an answer. School librarians are certified teachers who lead information literacy
-            every day. What they rarely get is a program of their own. And in the most print-centered room in the
-            building, a print-first program is a homecoming.
+            No one is quite sure which department should teach AI-Ed — but the library works to support all
+            departments. School librarians are certified teachers. They lead information literacy every day, which
+            makes AI literacy to fluency a natural fit. In the most print-centered place in the
+            building, a print-first AI-Ed program is a homecoming.
           </p>
         </div>
 
         <div style={{ maxWidth: 980, margin: "44px auto 0", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
           {[
-            ["Belongs to every department", "No turf war over who owns AI — the library already serves the whole school."],
-            ["No course code required", "It runs as enrichment: a librarian's initiative and a principal's nod, not a curriculum committee."],
-            ["Print-first, screens in small doses", "Pen, field journal, and the student's own AI used deliberately — a fit for your room, not another app."],
+            ["Belongs to every department", "No turf issues over who teaches AI-Ed — the school library serves the whole school."],
+            ["No curriculum committee", "It runs as enrichment: a librarian's initiative and a principal's approval, with everyone wanting to know how it goes."],
+            ["Print-first, screens as needed", "Pen, field journal, and the student uses AI only as directed. Everyone is working with a book, not an app."],
           ].map(([t, b], i) => (
             <div key={i} style={{ background: "#f8fafc", border: "1px solid #e5e7eb", borderRadius: 14, borderTop: "4px solid #0f766e", padding: 24 }}>
               <h3 style={{ margin: "0 0 8px", fontSize: 18 }}>{t}</h3>
@@ -86,7 +86,7 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Display it. Share it. Run it.</h2>
             <p style={{ marginTop: 16, fontSize: 19, color: "#4b5563" }}>
-              Take it as far as you like — from a book on the shelf to a program with your name on the door.
+              Take it as far as you like — from a book on the shelf to a program you teach.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export default function Page() {
             {[
               ["1", "Display it", "You're being asked about AI literacy — here's the print-first answer for your shelf. Handsome, timely, and built for students to pick up on their own.", false],
               ["2", "Share it", "Any teacher in your building can request a free classroom pilot. The copy in your library becomes the whole school's on-ramp.", false],
-              ["3", "Run it", "Host it yourself as a study-hall or after-school enrichment program — facilitator guide included, no AI expertise required, your name on the door.", true],
+              ["3", "Run it", "Host it yourself as a study-hall or after-school enrichment program — facilitator guide included.", true],
             ].map(([n, t, b, feature], i) => (
               <div key={i} style={{ background: feature ? "#0f766e" : "#ffffff", color: feature ? "white" : "#1f2937", borderRadius: 16, padding: 30, border: feature ? "none" : "1px solid #d1d5db", boxShadow: feature ? "0 16px 40px rgba(15,118,110,0.28)" : "none", display: "flex", flexDirection: "column" }}>
                 <span style={{ width: 34, height: 34, borderRadius: 100, background: feature ? "#f59e0b" : "#0f766e", color: feature ? "#111827" : "white", fontWeight: 800, display: "flex", alignItems: "center", justifyContent: "center" }}>{n}</span>
@@ -113,15 +113,15 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e" }}>
               The enrichment model
             </p>
-            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>You convene. You don&apos;t have to be the expert.</h2>
+            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>From information literacy to AI literacy.</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s own AI, and 22
-              short videos where the author teaches every core lesson. A facilitator guide lets you run it without being an AI expert. Teach the program as a short course or full semester experience.
+              The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s designated AI, and 22
+              short videos where the author teaches every core lesson. A facilitator guide provides the support you need. Teach the program as a short course or full-semester experience.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
               At the end, you hand out certificates. Students also leave with an original literary work of their own —
-              and taught alongside a creative-writing course, those finished pieces can even be added to your
-              library&apos;s catalogue.
+              and taught alongside a creative-writing course, those finished pieces can be added to your
+              library&apos;s catalogue. Students view the library differently when they see themselves within it.
             </p>
           </div>
           <div style={{ textAlign: "center" }}>
@@ -139,8 +139,7 @@ export default function Page() {
           <h2 style={{ fontSize: "clamp(26px, 5vw, 38px)", marginTop: 12 }}>On school computers. Under your supervision. In structured labs.</h2>
           <p style={{ marginTop: 22, fontSize: 20, color: "rgba(255,255,255,0.85)" }}>
             When it&apos;s time to work with AI, students do it in the library, on library computers, under your
-            supervision — using whatever base model you find available and appropriate. That&apos;s the sentence that gets permission slips
-            signed. It also solves equity, since not every student has a device and an account at home, and it keeps
+            supervision — using whatever base model you find available and appropriate. It also solves equity, since not every student has a device and an account at home, and it keeps
             the program vendor-neutral.
           </p>
         </div>
@@ -162,7 +161,7 @@ export default function Page() {
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 200px), 1fr))", gap: 18 }}>
             {[
-              ["Core Lessons", "The conceptual backbone, in plain language — no math, no jargon."],
+              ["Core Lessons", "The conceptual backbone, in plain language — no math, minimal jargon."],
               ["AI Labs", "Structured experiments students run on their own AI — finding its boundaries, catching its confabulations."],
               ["Projects", "A sustained creative work — an original novella or screenplay — with the student directing the AI."],
               ["Reflections", "Guided sessions connecting the material to the student's own life and judgment."],
@@ -201,7 +200,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 20 }}>
             {[
               ["Teen programming", "Run it after school or over the summer. The field journal and the creative project make it a series teens return to — not a one-off event."],
-              ["Adult & lifelong learning", "Adults are navigating AI at work and at home with nowhere to start. The same program makes a natural community workshop or lifelong-learning series."],
+              ["Families & lifelong learning", "Adults are navigating AI at work and at home with nowhere to start. The same program makes a natural community workshop or lifelong-learning series."],
               ["A home for writers", "The creative project — an original novella or screenplay — pairs naturally with the writing groups and book clubs your library already hosts."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: 14, padding: 24 }}>
@@ -226,7 +225,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
             {[
               ["No sign-off required", "Books are the one thing a librarian can buy unilaterally — no edtech review, no data-privacy agreement, no IT approval. They flow through your usual acquisition budget."],
-              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels — Follett for schools, or Ingram and Baker & Taylor for public libraries. The field journal is separate, so a lending set works cleanly."],
+              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels — Follett for schools, or Ingram and Baker & Taylor for public libraries. The field journal is a composition notebook."],
               ["Fund it with a cohort", "If the budget is tight, a DonorsChoose project can fund a class set — and rallies parents behind the program before it even begins."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "#f0fdfa", border: "1px solid #99f6e4", borderRadius: 14, padding: 24 }}>
