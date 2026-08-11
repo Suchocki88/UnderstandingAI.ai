@@ -133,18 +133,35 @@ export default function RootLayout({
                     Professionals
                   </Link>
 
-                  <Link
-                    href="/librarians"
-                    style={{
-                      ...navLink,
-                      fontWeight: pathname.startsWith("/librarians") ? 700 : 500,
-                      color: pathname.startsWith("/librarians") ? "white" : "rgba(255,255,255,0.85)",
-                      borderBottom: pathname.startsWith("/librarians") ? "2px solid #f59e0b" : "2px solid transparent",
-                      paddingBottom: 4,
-                    }}
-                  >
-                    Librarians
-                  </Link>
+                  <div style={{ position: "relative" }} className="nav-dropdown">
+                    <span
+                      style={{
+                        ...navLink,
+                        cursor: "pointer",
+                        fontWeight:
+                          pathname.startsWith("/librarians") || pathname.startsWith("/public-libraries") ? 700 : 500,
+                        color:
+                          pathname.startsWith("/librarians") || pathname.startsWith("/public-libraries")
+                            ? "white"
+                            : "rgba(255,255,255,0.85)",
+                        borderBottom:
+                          pathname.startsWith("/librarians") || pathname.startsWith("/public-libraries")
+                            ? "2px solid #f59e0b"
+                            : "2px solid transparent",
+                        paddingBottom: 4,
+                      }}
+                    >
+                      Libraries ▾
+                    </span>
+                    <div className="dropdown-menu">
+                      <Link href="/librarians" style={dropdownItem}>
+                        School Libraries
+                      </Link>
+                      <Link href="/public-libraries" style={dropdownItem}>
+                        Public Libraries
+                      </Link>
+                    </div>
+                  </div>
 
                   <Link
                     href="/novels"
@@ -205,7 +222,8 @@ export default function RootLayout({
               <Link href="/humanities" onClick={closeMenu} style={mobileItem}>Language Arts — Creative Writing</Link>
               <Link href="/academy" onClick={closeMenu} style={mobileItem}>Independent — Self-Paced</Link>
               <Link href="/professionals" onClick={closeMenu} style={mobileItem}>Professionals</Link>
-              <Link href="/librarians" onClick={closeMenu} style={mobileItem}>Librarians</Link>
+              <Link href="/librarians" onClick={closeMenu} style={mobileItem}>School Libraries</Link>
+              <Link href="/public-libraries" onClick={closeMenu} style={mobileItem}>Public Libraries</Link>
               <Link href="/novels" onClick={closeMenu} style={mobileItem}>Novels</Link>
               <Link href="/about" onClick={closeMenu} style={mobileItem}>About</Link>
             </div>
