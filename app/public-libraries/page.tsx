@@ -112,7 +112,7 @@ export default function Page() {
       </section>
 
       <Figure
-        src="/images/Public03.jpg"
+        src="/images/Public02.jpg"
         alt="Rich leading the first evening of the community learning series, a group of adult learners gathered around a library table beneath a screen reading Understanding and Working with AI: A community learning series."
         caption="Week one: strangers around a table."
       />
@@ -171,7 +171,7 @@ export default function Page() {
       </section>
 
       <Figure
-        src="/images/Public04.jpg"
+        src="/images/Public03.jpg"
         alt="The final night — a participant standing to read from her work to the group, beneath a screen reading Understanding and Working with AI: The Final Night, Readings and Reflections."
         caption="The final night: readings and reflections."
       />
@@ -199,7 +199,7 @@ export default function Page() {
       </section>
 
       <Figure
-        src="/images/Public02.jpg"
+        src="/images/Public04.jpg"
         alt="Rich alone at night, writing in his field journal after the last session, beside a whiteboard that reads: Real people plus real conversations plus the power of AI equals a more connected community."
         caption="After everyone had gone."
       />
@@ -241,7 +241,7 @@ export default function Page() {
               If the outro video isn't ready yet, you can delete this <div> and the page still reads cleanly. */}
           <div style={{ maxWidth: 760, margin: "0 auto", borderRadius: 14, overflow: "hidden", boxShadow: "0 20px 50px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.15)" }}>
             <iframe
-              src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=VIDEO_ID"
+              src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=6403237298112"
               allowFullScreen
               allow="encrypted-media"
               title="A word from the author — public libraries"
