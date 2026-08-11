@@ -17,7 +17,7 @@ export default function Page() {
       <section style={{ background: "#0f172a", color: "white", padding: "clamp(52px, 8vw, 76px) 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#5eead4", marginBottom: 16 }}>
-            For School &amp; Public Librarians
+            For School Librarians
           </p>
           <h1 style={{ fontSize: "clamp(32px, 5.5vw, 50px)", lineHeight: 1.08, margin: "0 0 18px" }}>
             The AI question surrounds us. The answer is AI-Ed.
@@ -45,6 +45,28 @@ export default function Page() {
               See How It Works
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* THE CASE FOR AI-ED */}
+      <section style={{ background: "#f0fdfa", padding: "clamp(56px, 9vw, 80px) 24px", borderTop: "1px solid #ccfbf1", borderBottom: "1px solid #ccfbf1" }}>
+        <div style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e", margin: 0 }}>
+            The case for AI-Ed
+          </p>
+          <h2 style={{ fontSize: "clamp(28px, 4.5vw, 42px)", margin: "16px 0 22px", color: "#111827", lineHeight: 1.15 }}>
+            Most every student takes Driver&apos;s Ed. It&apos;s time for <span style={{ color: "#0f766e" }}>AI-Ed</span>.
+          </h2>
+          <p style={{ fontSize: 19, color: "#374151", lineHeight: 1.7, maxWidth: 700, margin: "0 auto 16px" }}>
+            We don&apos;t hand a teenager the keys and hope they figure it out. We teach the rules, the risks, and the
+            responsibility first — then we let them drive. AI is a far more powerful machine, and we&apos;ve handed it
+            to students with no instruction at all.
+          </p>
+          <p style={{ fontSize: 19, color: "#374151", lineHeight: 1.7, maxWidth: 700, margin: "0 auto" }}>
+            AI-Ed is the course that&apos;s missing — it teaches students to drive the AI, safely, effectively, and
+            creatively, before the AI starts driving them. And the library, the one room that belongs to every
+            department, is where that course can begin.
+          </p>
         </div>
       </section>
 
@@ -182,33 +204,22 @@ export default function Page() {
         </div>
       </section>
 
-      {/* FOR PUBLIC LIBRARIES */}
-      <section style={{ background: "#0f766e", color: "white", padding: "80px 24px" }}>
-        <div style={{ maxWidth: 1000, margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: 760, margin: "0 auto 44px" }}>
-            <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#99f6e4" }}>
-              For public libraries
-            </p>
-            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12, color: "white" }}>Not just the school day — the whole community.</h2>
-            <p style={{ marginTop: 16, fontSize: 19, color: "rgba(255,255,255,0.88)" }}>
-              Everything here works just as well outside a school. In a public library you already convene the
-              community — and the same run-it model turns the program into something your patrons come back for,
-              week after week.
-            </p>
-          </div>
-
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 20 }}>
-            {[
-              ["Teen programming", "Run it after school or over the summer. The field journal and the creative project make it a series teens return to — not a one-off event."],
-              ["Families & lifelong learning", "Adults are navigating AI at work and at home with nowhere to start. The same program makes a natural community workshop or lifelong-learning series."],
-              ["A home for writers", "The creative project — an original novella or screenplay — pairs naturally with the writing groups and book clubs your library already hosts."],
-            ].map(([t, b], i) => (
-              <div key={i} style={{ background: "rgba(255,255,255,0.10)", border: "1px solid rgba(255,255,255,0.18)", borderRadius: 14, padding: 24 }}>
-                <h3 style={{ margin: "0 0 8px", fontSize: 18, color: "white" }}>{t}</h3>
-                <p style={{ margin: 0, color: "rgba(255,255,255,0.82)", fontSize: 15 }}>{b}</p>
-              </div>
-            ))}
-          </div>
+      {/* CROSS-LINK TO PUBLIC LIBRARIES */}
+      <section style={{ background: "#0f766e", color: "white", padding: "clamp(48px, 7vw, 64px) 24px" }}>
+        <div style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#99f6e4", margin: "0 0 12px" }}>
+            Serving a public library?
+          </p>
+          <h2 style={{ fontSize: "clamp(24px, 4vw, 34px)", margin: "0 0 16px", color: "white" }}>
+            The same model works beyond the school day.
+          </h2>
+          <p style={{ fontSize: 18, color: "rgba(255,255,255,0.9)", lineHeight: 1.7, maxWidth: 640, margin: "0 auto 26px" }}>
+            Independent reading plus a weekly gathering fits a public library just as naturally — for teens, adults,
+            and community learners. We&apos;ve told that story on its own page.
+          </p>
+          <Link href="/public-libraries" style={{ display: "inline-block", background: "white", color: "#0f766e", padding: "13px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16 }}>
+            See the Public Library Page →
+          </Link>
         </div>
       </section>
 
