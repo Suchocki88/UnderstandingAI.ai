@@ -14,20 +14,20 @@ export default function Page() {
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
 
       {/* HERO */}
-      <section style={{ background: "#0f172a", color: "white", padding: "clamp(52px, 8vw, 76px) 24px" }}>
+      <section style={{ background: "#ffffff", color: "#111827", padding: "clamp(52px, 8vw, 76px) 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
-          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#5eead4", marginBottom: 16 }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e", marginBottom: 16 }}>
             For School Librarians
           </p>
-          <h1 style={{ fontSize: "clamp(32px, 5.5vw, 50px)", lineHeight: 1.08, margin: "0 0 18px" }}>
+          <h1 style={{ fontSize: "clamp(32px, 5.5vw, 50px)", lineHeight: 1.08, margin: "0 0 18px", color: "#111827" }}>
             The AI question surrounds us. The answer is AI-Ed.
           </h1>
-          <p style={{ fontSize: 19, color: "rgba(255,255,255,0.82)", maxWidth: 680, margin: "0 auto 32px" }}>
+          <p style={{ fontSize: 19, color: "#4b5563", maxWidth: 680, margin: "0 auto 32px" }}>
             <em>Understanding and Working with AI</em> is a print-first AI-Ed program you can put on display, share with a
             teacher, or run yourself. Here&apos;s what that can look like.
           </p>
 
-          <div style={{ maxWidth: 820, margin: "0 auto", borderRadius: 14, overflow: "hidden", boxShadow: "0 20px 50px rgba(0,0,0,0.45)", border: "1px solid rgba(255,255,255,0.1)" }}>
+          <div style={{ maxWidth: 820, margin: "0 auto", borderRadius: 14, overflow: "hidden", boxShadow: "0 18px 44px rgba(15,23,42,0.18)", border: "1px solid #e5e7eb" }}>
             <iframe
               src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=6403227803112"
               allowFullScreen
@@ -38,10 +38,10 @@ export default function Page() {
           </div>
 
           <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center", marginTop: 32 }}>
-            <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={{ background: "#f59e0b", color: "#111827", padding: "15px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
+            <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={{ background: "#0f766e", color: "white", padding: "15px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
               Request Your Copies →
             </a>
-            <Link href="/curriculum" style={{ border: "2px solid rgba(255,255,255,0.45)", color: "white", padding: "13px 26px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
+            <Link href="/curriculum" style={{ border: "2px solid #0f766e", color: "#0f766e", background: "white", padding: "13px 26px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
               See How It Works
             </Link>
           </div>
