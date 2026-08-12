@@ -177,6 +177,19 @@ export default function RootLayout({
                   </Link>
 
                   <Link
+                    href="/faq"
+                    style={{
+                      ...navLink,
+                      fontWeight: pathname === "/faq" ? 700 : 500,
+                      color: pathname === "/faq" ? "white" : "rgba(255,255,255,0.85)",
+                      borderBottom: pathname === "/faq" ? "2px solid #f59e0b" : "2px solid transparent",
+                      paddingBottom: 4,
+                    }}
+                  >
+                    FAQ
+                  </Link>
+
+                  <Link
                     href="/about"
                     style={{
                       ...navLink,
@@ -225,6 +238,7 @@ export default function RootLayout({
               <Link href="/librarians" onClick={closeMenu} style={mobileItem}>School Libraries</Link>
               <Link href="/public-libraries" onClick={closeMenu} style={mobileItem}>Public Libraries</Link>
               <Link href="/novels" onClick={closeMenu} style={mobileItem}>Novels</Link>
+              <Link href="/faq" onClick={closeMenu} style={mobileItem}>FAQ</Link>
               <Link href="/about" onClick={closeMenu} style={mobileItem}>About</Link>
             </div>
           )}
