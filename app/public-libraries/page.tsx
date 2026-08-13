@@ -65,7 +65,7 @@ export default function Page() {
             Come to the library to write a novel.
           </h1>
           <p style={{ fontFamily: SERIF, fontSize: "clamp(19px, 2.6vw, 22px)", lineHeight: 1.6, color: "#5c5347", margin: 0, fontStyle: "italic" }}>
-            How one assistant librarian turned a shelf of books into a community — and found that AI, of all things,
+            A hypothetical story of how one assistant librarian turned a shelf of books into a community — and found that AI, of all things,
             could bring people together rather than pull them apart.
           </p>
         </div>
