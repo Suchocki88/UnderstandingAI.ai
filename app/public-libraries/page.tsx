@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "A Public Library Story | Understanding and Working with AI",
   description:
-    "How one assistant librarian helped his town understand AI — an illustrated case study of the public library as a place to learn the technology reshaping our world, and to belong.",
+    "A hypothetical story of how one assistant librarian helped his town understand AI — an illustrated case study of the public library as a place to learn the technology reshaping our world, and to belong.",
 };
 
 const FORM_URL =
