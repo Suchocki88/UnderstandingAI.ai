@@ -65,7 +65,7 @@ export default function Page() {
             Understanding AI, together.
           </h1>
           <p style={{ fontFamily: SERIF, fontSize: "clamp(19px, 2.6vw, 22px)", lineHeight: 1.6, color: "#5c5347", margin: 0, fontStyle: "italic" }}>
-            How one assistant librarian used a shelf of books to help his town make sense of AI — and found that the
+            A hypothetical story of how one assistant librarian used a shelf of books to help his town make sense of AI — and found that the
             very technology people feared would isolate them could bring them together instead.
           </p>
         </div>
