@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "A Public Library Story | Understanding and Working with AI",
   description:
-    "How one assistant librarian turned a shelf of books into a community — an illustrated case study of the library as a third place for AI education and human connection.",
+    "How one assistant librarian helped his town understand AI — an illustrated case study of the public library as a place to learn the technology reshaping our world, and to belong.",
 };
 
 const FORM_URL =
@@ -62,11 +62,11 @@ export default function Page() {
             For Public Libraries · A Case Study
           </p>
           <h1 style={{ fontFamily: SERIF, fontSize: "clamp(34px, 6vw, 58px)", lineHeight: 1.08, margin: "0 0 22px", color: INK, fontWeight: 700 }}>
-            Come to the library to write a novel.
+            Understanding AI, together.
           </h1>
           <p style={{ fontFamily: SERIF, fontSize: "clamp(19px, 2.6vw, 22px)", lineHeight: 1.6, color: "#5c5347", margin: 0, fontStyle: "italic" }}>
-            A hypothetical story of how one assistant librarian turned a shelf of books into a community — and found that AI, of all things,
-            could bring people together rather than pull them apart.
+            How one assistant librarian used a shelf of books to help his town make sense of AI — and found that the
+            very technology people feared would isolate them could bring them together instead.
           </p>
         </div>
       </section>
@@ -83,30 +83,39 @@ export default function Page() {
           <p style={para}>
             Rich Richards is an assistant librarian at the Oakwood Public Library, a position he took after finishing a
             bachelor&apos;s degree in English. He&apos;s making slow but steady progress toward his MLIS, one graduate
-            course at a time — and the course he&apos;s in now, computational linguistics, is the one that introduced
-            him to a book. It was called <em>Understanding and Working with AI</em>, and what struck Rich was that it
-            didn&apos;t stop at AI literacy; it offered an ordinary reader a genuine pathway to AI fluency. Studying how
-            language models are built by day, he could see exactly why the book worked. And he had an idea: what if he
-            led people through it, together?
+            course at a time — and the course he&apos;s in now, computational linguistics, is what introduced him to a
+            book. It was called <em>Understanding and Working with AI</em>, and what struck Rich was how far it went:
+            not a manual for using a chatbot, but a real education in what AI is and isn&apos;t — how it works, where it
+            fails, what it&apos;s doing to media and politics and the way we come to know things — and how a person keeps
+            their own judgment in charge of it. Studying how language models are built by day, he could see exactly why
+            the book worked. And he had an idea: what if he led people through it, together?
           </p>
           <p style={para}>
-            The program was designed for precisely that — independent reading, supported by a weekly gathering. Rich
-            sketched out eight weeks for the eight chapters, with two bookends: a first night for introductions, and a
-            final night for a celebration where people would read from the creative work the book had guided them to
-            write. Nine sessions in all.
+            The book was built for exactly that — independent reading, supported by a weekly gathering. Rich sketched
+            out eight weeks for the eight chapters, with two bookends: a first night for introductions and a final night
+            to share what people had made. For the book asks every reader to carry a project through to the end — a
+            piece of creative work of their own, shaped with the AI but steered by their own voice and judgment — so the
+            last night would be a kind of celebration. Nine sessions in all.
           </p>
           <p style={para}>
-            For this first cohort, Rich decided to keep things simple and open registration to adults eighteen and
-            older. A public library serves everyone, but for this first experiment Rich thought the program would be
-            cleaner — and frankly richer — if he kept the cohort to adults.
+            He brought the idea to the head librarian. Her first response was the honest one: &ldquo;You know we already
+            have a writers&apos; group — the Thursday cafe.&rdquo; And that was the moment Rich understood what he was
+            really proposing. &ldquo;It&apos;s not a writing group,&rdquo; he said. &ldquo;It&apos;s a course in
+            understanding AI — what it is, how it works, why it matters. The creative project at the end is just how
+            people make the learning their own. The cafe is for people who already write. This is for everyone
+            who&apos;s been uneasy or curious about AI and has had nowhere to actually learn it.&rdquo; She thought about
+            the AI panel the library had hosted a few months back — packed to the walls, and every question left
+            half-answered. She gave him a room.
           </p>
           <p style={para}>
-            He brought the idea to the head librarian, who liked it and assigned him a room. Then Rich did something
-            rather simple. He hung a banner at the checkout desk and another in the entryway:{" "}
-            <em>Learn to Write a Novel — and More — Using AI.</em> He left a sign-up sheet at the front desk with a
-            Thursday evening slot and a note that he&apos;d call once eight people had signed up. Within a week he was
-            leaving voice messages that the program would begin the following Thursday. Friends told friends, a few
-            more names appeared, and he eventually closed the list at fourteen.
+            Then Rich did something simple. He hung a banner at the checkout desk and another in the entryway:{" "}
+            <em>Understanding AI — a community learning series. No experience required.</em> He left a sign-up sheet with
+            a Thursday-evening slot and a note that he&apos;d call once eight people had signed up. The names that came
+            weren&apos;t the ones he&apos;d expected. A retired accountant who kept reading about AI in the news and felt
+            he was falling behind. A high-school teacher unsure what to tell her students. A nurse. A small-business
+            owner. One novelist, yes — but mostly people who had never once thought of themselves as writers, and who
+            had every intention of understanding this thing before it understood them. Friends told friends, and he
+            closed the list at fourteen.
           </p>
         </Prose>
       </section>
@@ -121,51 +130,51 @@ export default function Page() {
       <section style={{ padding: "8px 0" }}>
         <Prose>
           <p style={para}>
-            Rich explained the format that first evening. There were eight chapters in the program and eight weeks of
-            study. Participants would read approximately one chapter each week on their own, conduct the AI labs, make
-            entries in their field journals, and work on their creative projects. They would meet nine times
-            altogether: that night&apos;s orientation, seven more weekly meetings as they progressed through the books,
-            and a final evening devoted largely to sharing what they had created.
+            Rich explained the format that first evening. One chapter a week, read on your own. Each chapter came with
+            AI labs — structured experiments you ran on a real chatbot to see for yourself where it was brilliant and
+            where it quietly fell apart — a field journal to record what you found, and a running project of your own.
+            They would meet nine times: that night&apos;s orientation, seven weekly sessions, and a final evening to
+            share what they had made.
           </p>
           <p style={para}>
-            &ldquo;And one request,&rdquo; Rich added. &ldquo;Some of you are going to move faster than others. If you
-            finish a chapter early, please resist the temptation to race ahead. Instead, put that extra energy into
-            your literary project. That way we&apos;ll stay reasonably close together and have more to talk about when
-            we meet.&rdquo;
+            &ldquo;And one request,&rdquo; Rich added. &ldquo;Some of you will move faster than others. If you finish a
+            chapter early, resist the urge to race ahead — put that energy into your project instead. That way we stay
+            close enough together to actually talk when we meet.&rdquo;
           </p>
           <p style={para}>
-            Over the course of the program, people overwhelmingly wanted to talk about their writing projects — but
-            they were happy to warm up first with the book&apos;s reflection questions. Rich broke the group into teams
-            of three or four so the conversation stayed intimate, and reshuffled the teams every week, so that by the
-            end everyone had worked with everyone. The reflection questions were the icebreaker; teams talked, then the
-            whole room talked.
+            The talking was the point, and it surprised him how much of it there was. They compared what their chatbots
+            had told them — the confident answers that turned out to be wrong, the flattery, the moments the machine
+            handed their own assumptions back to them as fact. Rich broke the group into teams of three or four so the
+            conversation stayed intimate, and reshuffled the teams every week, so that by the end everyone had worked
+            with everyone. The book&apos;s reflection questions were the icebreaker; the teams talked, then the whole
+            room talked.
           </p>
           <p style={para}>
             After every two chapters there was an informal unit exam. The week before, he&apos;d hand it out to take
-            home — on your own, and please, no AI on this one. Then class would open with each team taking that same
-            exam together, followed by discussion. The individual attempt showed them what they knew; the team attempt
+            home — on your own, and please, no AI on this one. Then the session would open with each team taking that
+            same exam together, followed by discussion. The solo attempt showed them what they knew; the team attempt
             gave them a reason to talk through what they didn&apos;t.
           </p>
           <p style={para}>
-            Most of his participants had computers with good internet at home. A few didn&apos;t, and came in to use
-            the library&apos;s — and during the day Rich would spot them there, utterly ensconced, hours vanishing. He
-            assumed research, until he realized they were deep inside their own novels. It made him smile at the quiet
-            inversion of it: people once came to the library to find a novel to read. Now they were coming to the
-            library to write one.
+            Most of them had computers at home; a few didn&apos;t, and came in to use the library&apos;s. Rich would
+            spot them during the day, utterly absorbed, hours vanishing — running one more lab, or deep in the creative
+            project the book had led them to. It made him smile at the quiet inversion of it: people once came to the
+            library to borrow a story. These came to make sense of the strangest new thing in their lives — and stayed
+            to write one of their own.
           </p>
         </Prose>
       </section>
 
-      <Pull>People once came to the library to find a novel to read. Now they came to write one.</Pull>
+      <Pull>They came to understand AI. They stayed because of one another.</Pull>
 
       <section style={{ padding: "0 0 8px" }}>
         <Prose>
           <p style={para}>
-            By the fourth or fifth week, Rich noticed something else. People weren&apos;t coming because they had to.
-            There were no grades, no attendance requirements, no credits at stake. They came because Thursday night had
-            become something they looked forward to. They wanted to hear other people&apos;s perspectives and share
-            their own. Learning together was proving more engaging — and often more effective — than working alone.
-            They wanted to hear how the literary works of others were progressing. They had started to become a group.
+            By the fourth or fifth week, Rich noticed something else. People weren&apos;t coming because they had to —
+            no grades, no credits, nothing at stake. They came because Thursday night had become something they looked
+            forward to. They wanted to hear how others were making sense of it all, and to be heard in return. Learning
+            together was proving more engaging — and more honest — than puzzling it out alone. They had started to
+            become a group.
           </p>
         </Prose>
       </section>
@@ -180,20 +189,20 @@ export default function Page() {
       <section style={{ padding: "8px 0" }}>
         <Prose>
           <p style={para}>
-            On the last night, the teams reviewed their final exam and then, almost impatiently, turned to the
-            readings. One by one, people stood, described what they&apos;d made, and read a passage aloud. Included
-            were novels, autobiographies, screenplays, and poetry collections. The room leaned in. The applause after
-            each presentation was sincere, heartfelt, and earned. Rich&apos;s only regret was arithmetic — twelve had
-            made it all the way through, and ninety minutes left them each barely enough time. They went later into the
-            evening and few cared. But he noted it in the margin: next time, smaller.
+            On the last night, the teams reviewed their final exam and then, almost impatiently, turned to the sharing.
+            One by one, people described what they&apos;d made and read a passage aloud. Some had written short fiction,
+            some memoir, one a set of poems, one an essay on what AI might mean for her own profession. The room leaned
+            in. The applause after each was sincere, heartfelt, and earned. Rich&apos;s only regret was arithmetic —
+            twelve had made it all the way through, and ninety minutes left them barely enough time. They ran late into
+            the evening, and few minded. But he noted it in the margin: next time, smaller.
           </p>
           <p style={para}>
-            What everyone understood by then was that they didn&apos;t have finished literary works. They had
-            beginnings — first drafts that still needed to cure, needed human judgment, needed the AI&apos;s idioms
-            sanded away by a real hand. A few had become genuine friends and decided to keep meeting on their own, in
-            what they&apos;d taken to calling a writing circle. Rich pointed the rest toward FluentVoices.org, where
-            adult writers form online circles around exactly this — the community continuing well past the last
-            session.
+            What everyone understood by then was that they didn&apos;t have finished works. They had beginnings — first
+            drafts that still needed to cure, still needed human judgment, still needed the AI&apos;s borrowed idioms
+            sanded away by a real hand. That was the lesson in miniature: the tool could lift what they made, but only
+            they could make it theirs. A few had become genuine friends and decided to keep meeting on their own. Rich
+            pointed the rest toward FluentVoices.org, where people form online circles to keep learning and creating
+            together — the community continuing well past the last session.
           </p>
         </Prose>
       </section>
@@ -208,20 +217,20 @@ export default function Page() {
       <section style={{ padding: "8px 0 24px" }}>
         <Prose>
           <p style={para}>
-            After they&apos;d gone, Rich sat alone in the library&apos;s classroom with his own field journal — the
-            same kind he&apos;d asked all of them to keep — and tried to name what had happened. So much of our
-            technology, he wrote, seems to be isolating us even as it promises to connect us. And here was AI, the very
-            technology many feared would deepen that isolation, doing something like the opposite: not only lifting
-            what these people could make, but drawing them together to make it. With the library as the third place and
-            the writing as the reason to come, they&apos;d built a small community out of the very thing that was
-            supposed to pull them apart.
+            After they&apos;d gone, Rich sat alone in the library&apos;s classroom with his own field journal — the same
+            kind he&apos;d asked all of them to keep — and tried to name what had happened. So much of our technology, he
+            wrote, seems to isolate us even as it promises to connect us. And here was AI — the very thing many feared
+            would deepen that isolation — doing something like the opposite: not only sharpening what these people
+            understood and lifting what they could make, but drawing them together to do it. With the library as the
+            third place and the wish to understand as the reason to come, they&apos;d built a small community out of the
+            very technology that was supposed to pull them apart.
           </p>
           <p style={{ ...para, fontStyle: "italic" }}>This is not what I expected, he wrote.</p>
           <p style={para}>
-            Then he added one more thought. None of it had happened automatically. The books had provided the pathway.
-            AI had provided the catalyst. But someone still had to put up the sign, open the room, welcome the
-            strangers, and help them become a group. That had been his part. And the library had done what libraries do
-            at their best: provided a third place where people could learn, create, and belong.
+            Then he added one more thought. None of it had happened automatically. The book had provided the pathway. AI
+            had provided the occasion. But someone still had to put up the sign, open the room, welcome the strangers,
+            and help them become a group. That had been his part. And the library had done what libraries do at their
+            best: given people a place to learn, to create, and to belong.
           </p>
         </Prose>
       </section>
@@ -237,8 +246,6 @@ export default function Page() {
           <h2 style={{ fontFamily: SERIF, fontSize: "clamp(26px, 4vw, 38px)", margin: "0 0 28px", color: "white" }}>
             Could this happen at your library?
           </h2>
-          {/* Replace VIDEO_ID below with your public-library outro Brightcove video ID.
-              If the outro video isn't ready yet, you can delete this <div> and the page still reads cleanly. */}
           <div style={{ maxWidth: 760, margin: "0 auto", borderRadius: 14, overflow: "hidden", boxShadow: "0 20px 50px rgba(0,0,0,0.35)", border: "1px solid rgba(255,255,255,0.15)" }}>
             <iframe
               src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=6403237298112"
