@@ -107,7 +107,7 @@ export default function Page() {
             these systems were actually doing when they seemed to think. Along with this graduate-level training, Rich used
             the books as his framework. He showcased an interesting AI experiment: he told the machine to forget their
             discussion until he used the word &ldquo;pickle&rdquo; — and then tried, question after question, to get it
-            to remember early. He was sure to leave plenty of time for questions.
+            to remember early. Without revealing the results, he told the crowd that it told him more than he expected. He was also sure to leave plenty of time at the end for questions.
           </p>
           <p style={para}>
             Near the end, a woman in the audience raised her hand. &ldquo;Could we do something like a book club?&rdquo; she
