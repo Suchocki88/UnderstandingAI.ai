@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "A Public Library Story | Understanding and Working with AI",
   description:
-    "A hypothetical story of how one assistant librarian helped his town understand AI — an illustrated case study of the public library as a place to learn the technology reshaping our world, and to belong.",
+    "How one assistant librarian helped his town understand AI — an illustrated case study of the public library as a place to learn the technology reshaping our world, and to belong.",
 };
 
 const FORM_URL =
@@ -104,14 +104,17 @@ export default function Page() {
             that was where Rich started. The library scheduled an evening talk: <em>Understanding AI — What&apos;s Under
             the Hood, Why It Matters, and How to Work with It Well.</em> He expected a respectable crowd. Instead, the
             room filled. People came with questions about jobs, school, misinformation, creativity, privacy, and what
-            these systems were actually doing when they seemed to think. Along with this graduate level training, Rich used the books as his framework. He showcased an interesting AI experiment where you tell the machine to forget your discussion until you use the word "pickle". But before saying "pickle" you try to get the AI to remember. But he was sure to leave plenty of time for questions.
+            these systems were actually doing when they seemed to think. Along with this graduate-level training, Rich used
+            the books as his framework. He showcased an interesting AI experiment: he told the machine to forget their
+            discussion until he used the word &ldquo;pickle&rdquo; — and then tried, question after question, to get it
+            to remember early. He was sure to leave plenty of time for questions.
           </p>
           <p style={para}>
             Near the end, a woman in the audience raised her hand. &ldquo;Could we do something like a book club?&rdquo; she
             asked. &ldquo;Not another lecture — a group that actually works through these books and meets to talk about
             them?&rdquo; Rich had not planned for that question. He looked toward the head librarian, who gave him the
             smallest of shrugs. &ldquo;Maybe,&rdquo; he said. &ldquo;If you&apos;d seriously be interested, write down your name and
-            contact information before you leave. Let me see what we can put together.&rdquo;
+            contact information before you leave. Let me see what I can put together.&rdquo;
           </p>
           <p style={para}>
             After the room emptied, Rich counted eight names. That was enough to try. The library ordered a lending
@@ -149,7 +152,7 @@ export default function Page() {
             put the ideas into practice. The writers could naturally push deeper into authorship and craft; others might
             write memoir, explore a professional question, or create something they had never tried before. No one had
             to use the program in exactly the same way. The shared chapters simply gave them enough common ground to
-            meet every Tuesday evening and have a real conversation.
+            meet every Tuesday and have a real conversation.
           </p>
           <p style={para}>
             &ldquo;And one request,&rdquo; Rich added. &ldquo;Some of you will move faster than others. If you finish a chapter
@@ -159,9 +162,9 @@ export default function Page() {
           <p style={para}>
             The talking was the point, and it surprised him how much of it there was. They compared what their chatbots
             had told them — the confident answers that turned out to be wrong, the flattery, the moments the machine
-            handed their own assumptions back to them as fact. The writers were especially interested in the science of why the model
-            produced the language it did and in the huge difference between using AI as a subordinate collaborator and letting it become
-            the author. Others brought questions from medicine, teaching, business, and everyday life. Rich broke the
+            handed their own assumptions back to them as fact. The writers were especially interested in the science of why
+            the model produced the language it did, and in the huge difference between using AI as a subordinate
+            collaborator and letting it become the author. Others brought questions from medicine, teaching, business, and everyday life. Rich broke the
             group into smaller teams so the conversation stayed intimate, and reshuffled the teams every week,
             so that by the end everyone had worked with everyone. The book&apos;s reflection questions were the icebreaker;
             the teams talked, then the whole room talked.
@@ -206,7 +209,8 @@ export default function Page() {
         <Prose>
           <p style={para}>
             On the last night, the teams reviewed their final exam and then, almost impatiently, turned to the sharing.
-            One by one, people described what they&apos;d made and read a passage aloud — each passage now free of any tell tale AI idioms and rich with the author's own voice and vision. Some had written short fiction,
+            One by one, people described what they&apos;d made and read a passage aloud — each passage now free of any
+            telltale AI idioms, rich with the author&apos;s own voice and vision. Some had written short fiction,
             some memoir, one a set of poems, one a screenplay scene, and one an essay on what AI might mean for her own profession. The room leaned
             in. The applause after each was sincere, heartfelt, and earned. Seven of the eight had made it all the way
             through, and on most Tuesdays six or so had filled the room — one or two always away for the evening.
@@ -223,7 +227,7 @@ export default function Page() {
             What everyone understood by then was that they didn&apos;t have finished works. They had beginnings — first
             drafts that still needed to cure, still needed human judgment. That was the lesson in miniature: the tool could lift what they made, but only
             they could make it theirs. A few had become genuine friends and decided to keep meeting on their own. Rich
-            pointed the rest toward the libraries own writing circle as well as FluentVoices.org, where people form online circles to keep learning and creating
+            pointed the rest toward the library&apos;s own writing circle as well as FluentVoices.org, where people form online circles to keep learning and creating
             together — the community continuing well past the last session.
           </p>
         </Prose>
