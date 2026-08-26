@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "For Librarians | Understanding and Working with AI",
   description:
-    "A print-first AI literacy program built for the library. Display it, share it with a teacher, or run it yourself — the authors teach every lesson on video.",
+    "A print-first AI-Ed program built for the library — teaching students to use AI with judgment. Display it, share it with a teacher, or run it yourself; the authors teach every lesson on video.",
 };
 
 const FORM_URL =
@@ -12,7 +12,6 @@ const FORM_URL =
 export default function Page() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", color: "#1f2937", lineHeight: 1.6 }}>
-
       {/* HERO */}
       <section style={{ background: "#ffffff", color: "#111827", padding: "clamp(52px, 8vw, 76px) 24px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
@@ -20,13 +19,12 @@ export default function Page() {
             For School Librarians
           </p>
           <h1 style={{ fontSize: "clamp(32px, 5.5vw, 50px)", lineHeight: 1.08, margin: "0 0 18px", color: "#111827" }}>
-            The AI question surrounds us. The answer is AI-Ed.
+            Students already use AI. The question is whether they learn to use it with judgment.
           </h1>
-          <p style={{ fontSize: 19, color: "#4b5563", maxWidth: 680, margin: "0 auto 32px" }}>
-            <em>Understanding and Working with AI</em> is a print-first AI-Ed program you can put on display, share with a
-            teacher, or run yourself. Here&apos;s what that can look like.
+          <p style={{ fontSize: 19, color: "#4b5563", maxWidth: 700, margin: "0 auto 32px" }}>
+            <em>Understanding and Working with AI</em> is a print-first AI-Ed program that helps students understand what
+            AI is, where it fails, when to lean on it, when not to, and how to stay responsible for their own thinking.
           </p>
-
           <div style={{ maxWidth: 820, margin: "0 auto", borderRadius: 14, overflow: "hidden", boxShadow: "0 18px 44px rgba(15,23,42,0.18)", border: "1px solid #e5e7eb" }}>
             <iframe
               src="https://players.brightcove.net/2505476419001/ocOFOM0IrR_default/index.html?videoId=6403227803112"
@@ -36,10 +34,9 @@ export default function Page() {
               style={{ width: "100%", aspectRatio: "16 / 9", border: "none", display: "block" }}
             />
           </div>
-
           <div style={{ display: "flex", gap: 16, flexWrap: "wrap", justifyContent: "center", marginTop: 32 }}>
             <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={{ background: "#0f766e", color: "white", padding: "15px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
-              Request Your Copies →
+              Request Your Copies
             </a>
             <Link href="/curriculum" style={{ border: "2px solid #0f766e", color: "#0f766e", background: "white", padding: "13px 26px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16, display: "inline-block" }}>
               See How It Works
@@ -48,8 +45,16 @@ export default function Page() {
         </div>
       </section>
 
+      {/* PROOF — A-G (understated band) */}
+      <section style={{ background: "#f0fdfa", borderTop: "1px solid #ccfbf1", borderBottom: "1px solid #ccfbf1", padding: "16px 24px" }}>
+        <p style={{ maxWidth: 900, margin: "0 auto", textAlign: "center", fontSize: 15, lineHeight: 1.6, color: "#0f766e", fontWeight: 600 }}>
+          An A-G approved course — the University of California and Cal State college-preparatory standard — now being
+          taught at a high school in the San Diego area.
+        </p>
+      </section>
+
       {/* THE CASE FOR AI-ED */}
-      <section style={{ background: "#f0fdfa", padding: "clamp(56px, 9vw, 80px) 24px", borderTop: "1px solid #ccfbf1", borderBottom: "1px solid #ccfbf1" }}>
+      <section style={{ background: "#f0fdfa", padding: "clamp(56px, 9vw, 80px) 24px", borderBottom: "1px solid #ccfbf1" }}>
         <div style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e", margin: 0 }}>
             The case for AI-Ed
@@ -59,13 +64,14 @@ export default function Page() {
           </h2>
           <p style={{ fontSize: 19, color: "#374151", lineHeight: 1.7, maxWidth: 700, margin: "0 auto 16px" }}>
             We don&apos;t hand a teenager the keys and hope they figure it out. We teach the rules, the risks, and the
-            responsibility first — then we let them drive. AI is a far more powerful machine, and we&apos;ve handed it
-            to students with no instruction at all.
+            responsibility first — then we let them drive. AI is a far more powerful machine, and we&apos;ve handed it to
+            students with no instruction at all.
           </p>
           <p style={{ fontSize: 19, color: "#374151", lineHeight: 1.7, maxWidth: 700, margin: "0 auto" }}>
-            AI-Ed is the course that&apos;s missing — it teaches students to drive the AI, safely, effectively, and
-            creatively, before the AI starts driving them. And the library, the one room that belongs to every
-            department, is where that course can begin.
+            AI-Ed is the course that&apos;s missing — it teaches students to drive the AI safely, effectively, and
+            creatively, and to know which roads to travel on their own and which to travel with help, before the AI
+            starts driving them. And the library, the one room that belongs to every department, is where that course can
+            begin.
           </p>
         </div>
       </section>
@@ -78,17 +84,17 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>The library reaches all departments.</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            No one is quite sure which department should teach AI-Ed — but the library works to support all
-            departments. School librarians are certified teachers. They lead information literacy every day, which
-            makes AI literacy to fluency a natural fit. In the most print-centered place in the
-            building, a print-first AI-Ed program is a homecoming.
+            No one is quite sure which department should teach AI-Ed — but the library works to support all departments.
+            School librarians are certified teachers who lead information literacy every day, which makes AI literacy a
+            natural fit. And libraries are one of the few places in a school devoted not just to information, but to
+            judgment: what to trust, what to question, what to use, and what to reject. In the most print-centered place
+            in the building, a print-first AI-Ed program is a homecoming.
           </p>
         </div>
-
         <div style={{ maxWidth: 980, margin: "44px auto 0", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
           {[
             ["Belongs to every department", "No turf issues over who teaches AI-Ed — the school library serves the whole school."],
-            ["No curriculum committee", "It runs as enrichment: a librarian's initiative and a principal's approval, with everyone wanting to know how it goes."],
+            ["Low-friction to pilot", "Because it's print-first and vendor-neutral, many libraries can introduce it as enrichment — often a librarian's initiative and a principal's approval — without a full edtech adoption process."],
             ["Print-first, screens as needed", "Pen, field journal, and the student uses AI only as directed. Everyone is working with a book, not an app."],
           ].map(([t, b], i) => (
             <div key={i} style={{ background: "#f8fafc", border: "1px solid #e5e7eb", borderRadius: 14, borderTop: "4px solid #0f766e", padding: 24 }}>
@@ -111,7 +117,6 @@ export default function Page() {
               Take it as far as you like — from a book on the shelf to a program you teach.
             </p>
           </div>
-
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))", gap: 24 }}>
             {[
               ["1", "Display it", "You're being asked about AI literacy — here's the print-first answer for your shelf. Handsome, timely, and built for students to pick up on their own.", false],
@@ -137,13 +142,14 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", margin: "12px 0 20px" }}>From information literacy to AI literacy.</h2>
             <p style={{ fontSize: 18, color: "#4b5563", marginBottom: 16 }}>
-              The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s designated AI, and 22
-              short videos where the author teaches every core lesson. A facilitator guide provides the support you need. Teach the program as a short course or full-semester experience.
+              The program is self-contained: the two volumes, a pen, a field journal, the student&apos;s designated AI, and
+              22 short videos where the author teaches every core lesson. A facilitator guide provides the support you
+              need. Teach the program as a short course or full-semester experience.
             </p>
             <p style={{ fontSize: 18, color: "#4b5563" }}>
-              At the end, you hand out certificates. Students also leave with an original literary work of their own —
-              and taught alongside a creative-writing course, those finished pieces can be added to your
-              library&apos;s catalogue. Students view the library differently when they see themselves within it.
+              At the end, you hand out certificates. Students also leave with an original creative work of their own —
+              and taught alongside a creative-writing course, those finished pieces can be added to your library&apos;s
+              catalogue. Students view the library differently when they see themselves within it.
             </p>
           </div>
           <div style={{ textAlign: "center" }}>
@@ -161,9 +167,27 @@ export default function Page() {
           <h2 style={{ fontSize: "clamp(26px, 5vw, 38px)", marginTop: 12 }}>On school computers. Under your supervision. In structured labs.</h2>
           <p style={{ marginTop: 22, fontSize: 20, color: "rgba(255,255,255,0.85)" }}>
             When it&apos;s time to work with AI, students do it in the library, on library computers, under your
-            supervision — using whatever base model you find available and appropriate. It also solves equity, since not every student has a device and an account at home, and it keeps
-            the program vendor-neutral.
+            supervision — using whatever base model you find available and appropriate. It also solves equity, since not
+            every student has a device and an account at home, and it keeps the program vendor-neutral.
           </p>
+        </div>
+      </section>
+
+      {/* THE GUIDING PRINCIPLE */}
+      <section style={{ background: "#ffffff", padding: "80px 24px" }}>
+        <div style={{ maxWidth: 820, margin: "0 auto", textAlign: "center" }}>
+          <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e" }}>
+            The guiding principle
+          </p>
+          <blockquote style={{ fontSize: "clamp(24px, 3.8vw, 34px)", fontStyle: "italic", color: "#111827", lineHeight: 1.3, margin: "20px auto 24px", maxWidth: 760 }}>
+            &ldquo;Don&apos;t use AI to avoid the road that builds you. Use it to reach roads you couldn&apos;t travel
+            before.&rdquo;
+          </blockquote>
+          <p style={{ fontSize: 19, color: "#4b5563", lineHeight: 1.7, maxWidth: 700, margin: "0 auto 14px" }}>
+            AI-Ed does not teach students to hand their thinking to a machine. It teaches them to recognize what thinking
+            they need to do themselves, what AI can appropriately assist with, and how to make that choice deliberately.
+          </p>
+          <p style={{ fontSize: 18, fontWeight: 700, color: "#0f766e", margin: 0 }}>Make it an informed choice.</p>
         </div>
       </section>
 
@@ -176,18 +200,17 @@ export default function Page() {
             </p>
             <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>From AI literacy to fluency.</h2>
             <p style={{ marginTop: 16, fontSize: 19, color: "#4b5563" }}>
-              Every chapter interleaves five recurring lesson forms, anchored by a running field journal — the spine
-              that turns reading into practice and practice into fluency.
+              Every chapter interleaves five recurring lesson forms, anchored by a running field journal — the spine that
+              turns reading into practice, and practice into judgment.
             </p>
           </div>
-
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 200px), 1fr))", gap: 18 }}>
             {[
-              ["Core Lessons", "The conceptual backbone, in plain language — no math, minimal jargon."],
-              ["AI Labs", "Structured experiments students run on their own AI — finding its boundaries, catching its confabulations."],
-              ["Projects", "A sustained creative work — an original novella or screenplay — with the student directing the AI."],
-              ["Reflections", "Guided sessions connecting the material to the student's own life and judgment."],
-              ["Spotlights", "Case studies and essays, from Clever Hans to deep-fakes that failed — kept current each revision."],
+              ["Core Lessons", "Understand what AI is, how it works, and where it fails — in plain language, no math, minimal jargon."],
+              ["AI Labs", "Test the technology directly: find its limits, catch its confabulations, and compare what it says with what you already know."],
+              ["Projects", "A sustained creative work, paired with a field journal: what the student did, what AI did, and whether the collaboration built their capabilities or bypassed them."],
+              ["Reflections", "The harder questions: What thinking did I hand over? What did I keep? Did AI make me more capable — or merely faster?"],
+              ["Spotlights", "Real-world cases — from Clever Hans to deep-fakes that failed — connecting AI to school, work, creativity, bias, and society. Kept current each revision."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "#ffffff", border: "1px solid #e5e7eb", borderRadius: 14, padding: 22 }}>
                 <h3 style={{ margin: "0 0 8px", fontSize: 17, color: "#0f766e" }}>{t}</h3>
@@ -195,10 +218,9 @@ export default function Page() {
               </div>
             ))}
           </div>
-
           <div style={{ textAlign: "center", marginTop: 36 }}>
             <Link href="/curriculum" style={{ color: "#0f766e", fontWeight: 700, textDecoration: "none", fontSize: 17 }}>
-              See the full curriculum →
+              See the full curriculum
             </Link>
           </div>
         </div>
@@ -214,11 +236,11 @@ export default function Page() {
             The same model works beyond the school day.
           </h2>
           <p style={{ fontSize: 18, color: "rgba(255,255,255,0.9)", lineHeight: 1.7, maxWidth: 640, margin: "0 auto 26px" }}>
-            Independent reading plus a weekly gathering fits a public library just as naturally — for teens, adults,
-            and community learners. We&apos;ve told that story on its own page.
+            Independent reading plus a weekly gathering fits a public library just as naturally — for teens, adults, and
+            community learners. We&apos;ve told that story on its own page.
           </p>
           <Link href="/public-libraries" style={{ display: "inline-block", background: "white", color: "#0f766e", padding: "13px 28px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 16 }}>
-            See the Public Library Page →
+            See the Public Library Page
           </Link>
         </div>
       </section>
@@ -230,12 +252,11 @@ export default function Page() {
             <p style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 2, color: "#0f766e" }}>
               How to get it
             </p>
-            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>A purchase you can make yourself.</h2>
+            <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>A purchase you can usually make yourself.</h2>
           </div>
-
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
             {[
-              ["No sign-off required", "Books are the one thing a librarian can buy unilaterally — no edtech review, no data-privacy agreement, no IT approval. They flow through your usual acquisition budget."],
+              ["Fits normal acquisition channels", "Because it's print-first and vendor-neutral, schools can often purchase the books through existing library or instructional-material budgets — without a new software platform, data-privacy agreement, or IT review."],
               ["Order a class set", "When you're ready to run it, order a lending set through your usual channels — Follett for schools, or Ingram and Baker & Taylor for public libraries. The field journal is a composition notebook."],
               ["Fund it with a cohort", "If the budget is tight, a DonorsChoose project can fund a class set — and rallies parents behind the program before it even begins."],
             ].map(([t, b], i) => (
@@ -256,20 +277,19 @@ export default function Page() {
           </p>
           <h2 style={{ fontSize: "clamp(28px, 5vw, 40px)", marginTop: 12 }}>Start with a copy in your hands.</h2>
           <p style={{ marginTop: 20, fontSize: 20, color: "#4b5563" }}>
-            Request your copies and the facilitator guide, ask about a pilot for a teacher in your building or a
-            program in your own library, or just tell us you&apos;d like to run it. We&apos;ll take it from there.
+            Request your copies and the facilitator guide, ask about a pilot for a teacher in your building or a program
+            in your own library, or just tell us you&apos;d like to run it. We&apos;ll take it from there.
           </p>
           <div style={{ marginTop: 30, display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
             <a href={FORM_URL} target="_blank" rel="noopener noreferrer" style={{ background: "#0f766e", color: "white", padding: "16px 32px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 18, display: "inline-block" }}>
-              Request Your Copies →
+              Request Your Copies
             </a>
             <Link href="/curriculum" style={{ background: "white", border: "2px solid #0f766e", color: "#0f766e", padding: "16px 32px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 18, display: "inline-block" }}>
-              See the Full Curriculum →
+              See the Full Curriculum
             </Link>
           </div>
         </div>
       </section>
-
     </main>
   );
 }
