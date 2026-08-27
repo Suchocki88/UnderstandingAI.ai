@@ -257,7 +257,7 @@ export default function Page() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))", gap: 20 }}>
             {[
               ["Fits normal acquisition channels", "Because it's print-first and vendor-neutral, schools can often purchase the books through existing library or instructional-material budgets — without a new software platform, data-privacy agreement, or IT review."],
-              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels — Follett for schools, or Ingram and Baker & Taylor for public libraries. The field journal is a composition notebook."],
+              ["Order a class set", "When you're ready to run it, order a lending set through your usual channels — Follett or Mackin for schools, Ingram Library Services or Brodart for public libraries. The field journal is a composition notebook."],
               ["Fund it with a cohort", "If the budget is tight, a DonorsChoose project can fund a class set — and rallies parents behind the program before it even begins."],
             ].map(([t, b], i) => (
               <div key={i} style={{ background: "#f0fdfa", border: "1px solid #99f6e4", borderRadius: 14, padding: 24 }}>
