@@ -225,8 +225,8 @@ export default function Page() {
           </p>
           <p style={para}>
             What everyone understood by then was that they didn&apos;t have finished works. They had beginnings — first
-            drafts that still needed to cure, still needed human judgment. That was the lesson in miniature: the tool could lift what they made, but only
-            they could make it theirs. A few had become genuine friends and decided to keep meeting on their own. Rich
+            drafts that still needed to cure, still needed human judgment. That was the lesson in miniature: AI could open roads they couldn&apos;t have traveled alone, but it
+            couldn&apos;t walk them for them; the tool could lift what they made, but only they could make it theirs. A few had become genuine friends and decided to keep meeting on their own. Rich
             pointed the rest toward the library&apos;s own writing circle as well as FluentVoices.org, where people form online circles to keep learning and creating
             together — the community continuing well past the last session.
           </p>
@@ -284,8 +284,31 @@ export default function Page() {
         </div>
       </section>
 
-      {/* CTA + CROSS-LINK */}
-      <section style={{ padding: "clamp(52px, 8vw, 76px) 24px", textAlign: "center" }}>
+      {/* CREDO + GO DEEPER */}
+      <section style={{ padding: "clamp(44px, 7vw, 60px) 24px 0" }}>
+        <div style={{ maxWidth: 780, margin: "0 auto" }}>
+          <div style={{ borderTop: "2px solid #0f766e", borderBottom: "2px solid #0f766e", padding: "30px 24px", textAlign: "center" }}>
+            <p style={{ fontFamily: SERIF, fontStyle: "italic", fontSize: "clamp(20px, 3vw, 27px)", lineHeight: 1.45, color: "#0f766e", margin: "0 0 18px" }}>
+              &ldquo;Don&apos;t use AI to avoid the road that builds you. Use it to reach roads you couldn&apos;t
+              travel before.&rdquo;
+            </p>
+            <p style={{ fontFamily: "Arial, sans-serif", fontSize: 15, color: "#5c5347", margin: "0 0 18px" }}>
+              The idea at the heart of the program — and of the reflection students read before they begin.
+            </p>
+            <a
+              href="https://conceptualacademy.com/sites/default/files/2026-08/WhyWriteWithAI.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontFamily: "Arial, sans-serif", color: "#0f766e", fontWeight: 700, textDecoration: "none", fontSize: 16 }}
+            >
+              Read &ldquo;Why Write With AI&rdquo; &rarr;
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA + ORDERING + CROSS-LINK */}
+      <section style={{ padding: "clamp(44px, 7vw, 68px) 24px", textAlign: "center" }}>
         <div style={{ maxWidth: 680, margin: "0 auto" }}>
           <h2 style={{ fontFamily: SERIF, fontSize: "clamp(26px, 4vw, 36px)", margin: "0 0 18px", color: INK }}>
             We&apos;re looking for people to explore this with us.
@@ -300,12 +323,61 @@ export default function Page() {
             rel="noopener noreferrer"
             style={{ display: "inline-block", background: "#0f766e", color: "white", padding: "15px 32px", borderRadius: 10, textDecoration: "none", fontWeight: 700, fontSize: 17, fontFamily: "Arial, sans-serif" }}
           >
-            Get in Touch →
+            Get in Touch &rarr;
           </a>
-          <p style={{ fontFamily: "Arial, sans-serif", fontSize: 15, color: "#8a7f73", marginTop: 34 }}>
+
+          {/* ORDERING */}
+          <div style={{ marginTop: 46, borderTop: "1px solid #e3d9c9", paddingTop: 38 }}>
+            <h3 style={{ fontFamily: SERIF, fontSize: "clamp(20px, 3vw, 25px)", color: INK, margin: "0 0 24px" }}>
+              Getting the books
+            </h3>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))", gap: 20, textAlign: "left" }}>
+              <div style={{ background: "#ffffff", border: "1px solid #e3d9c9", borderRadius: 12, padding: 24 }}>
+                <p style={{ fontFamily: "Arial, sans-serif", fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#0f766e", margin: "0 0 10px" }}>
+                  For a library
+                </p>
+                <p style={{ fontFamily: "Arial, sans-serif", fontSize: 15, lineHeight: 1.6, color: "#5c5347", margin: "0 0 12px" }}>
+                  Order a lending set through Ingram Library Services (ipage) — the channel you already use — by ISBN:
+                </p>
+                <p style={{ fontFamily: "Arial, sans-serif", fontSize: 15, lineHeight: 1.9, color: INK, margin: 0 }}>
+                  Vol. 1 &mdash; <strong>979-8-9998297-6-4</strong>
+                  <br />
+                  Vol. 2 &mdash; <strong>979-8-9998297-7-1</strong>
+                </p>
+              </div>
+              <div style={{ background: "#ffffff", border: "1px solid #e3d9c9", borderRadius: 12, padding: 24 }}>
+                <p style={{ fontFamily: "Arial, sans-serif", fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "#0f766e", margin: "0 0 10px" }}>
+                  For your own copy
+                </p>
+                <p style={{ fontFamily: "Arial, sans-serif", fontSize: 15, lineHeight: 1.6, color: "#5c5347", margin: "0 0 14px" }}>
+                  Prefer a copy of your own? Order either volume directly:
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                  <a
+                    href="https://shop.ingramspark.com/b/084?params=HYIdgSCn0BEBG6sdzaDavNmzKwzbKq2iEm0iVf7Bvzc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ fontFamily: "Arial, sans-serif", color: "#0f766e", fontWeight: 700, textDecoration: "none", fontSize: 15 }}
+                  >
+                    Buy Volume 1 &rarr;
+                  </a>
+                  <a
+                    href="https://shop.ingramspark.com/b/084?params=KvE5ozT0IsH3MPDfWbMyP3M9EvvOKU5PVrFySqsSJT7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ fontFamily: "Arial, sans-serif", color: "#0f766e", fontWeight: 700, textDecoration: "none", fontSize: 15 }}
+                  >
+                    Buy Volume 2 &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p style={{ fontFamily: "Arial, sans-serif", fontSize: 15, color: "#8a7f73", marginTop: 42 }}>
             This story is set in a public library — but much of it applies to school libraries too.{" "}
             <Link href="/librarians" style={{ color: "#0f766e", fontWeight: 700, textDecoration: "none" }}>
-              See the school library page →
+              See the school library page &rarr;
             </Link>
           </p>
         </div>
